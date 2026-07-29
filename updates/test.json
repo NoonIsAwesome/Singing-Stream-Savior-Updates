@@ -9,7 +9,7 @@
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://noonisawesome.github.io/Singing-Stream-Savior-Updates/releases/v2.0.1.0-test/Singing-Stream-Savior.exe",
+      "url": "https://raw.githubusercontent.com/NoonIsAwesome/Singing-Stream-Savior-Updates/master/releases/v2.0.1.0-test/Singing-Stream-Savior.exe",
       "sha256": "2ed517cd64415858d22cd62be00daeaefd61efe7887db1f598b96dedc3c65c0a",
       "size": 4685312
     }

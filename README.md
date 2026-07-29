@@ -4,7 +4,7 @@ This public repository distributes compiled updates for **Singing Stream
 Savior**. It does not contain the application's source code.
 
 - `updates/stable.json` is the stable-channel update manifest read by the
-  launcher.
+  launcher through `raw.githubusercontent.com`.
 - Full installation ZIP files, compiled application updates, and changed theme
   packages are published as GitHub Release assets.
 - The official download page links to the appropriate release asset.
