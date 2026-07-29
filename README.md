@@ -5,10 +5,9 @@ Savior**. It does not contain the application's source code.
 
 - `updates/stable.json` is the stable-channel update manifest read by the
   launcher.
-- Compiled application and theme updates are published as GitHub Release
-  assets.
-- Full installation packages are distributed separately through the official
-  download page.
+- Full installation ZIP files, compiled application updates, and changed theme
+  packages are published as GitHub Release assets.
+- The official download page links to the appropriate release asset.
 
 ## Publishing order
 
