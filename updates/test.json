@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "channel": "test",
+  "version": "2.0.1.0",
+  "minimumLauncherVersion": "1.0.0.0",
+  "publishedAt": "2026-07-29T06:56:12.5905712+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/tree/master/releases/v2.0.1.0-test",
+  "files": [
+    {
+      "component": "application",
+      "path": "Singing Stream Savior/Singing Stream Savior.exe",
+      "url": "https://noonisawesome.github.io/Singing-Stream-Savior-Updates/releases/v2.0.1.0-test/Singing-Stream-Savior.exe",
+      "sha256": "2ed517cd64415858d22cd62be00daeaefd61efe7887db1f598b96dedc3c65c0a",
+      "size": 4685312
+    }
+  ]
+}
