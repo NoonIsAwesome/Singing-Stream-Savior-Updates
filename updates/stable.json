@@ -1,9 +1,199 @@
 {
-  "schemaVersion": 1,
-  "channel": "stable",
-  "version": "2.0.0.0",
-  "minimumLauncherVersion": "1.0.0.0",
-  "publishedAt": "2026-07-29T00:00:00Z",
-  "releaseNotesUrl": "https://noonisawesome.github.io/Singing-Stream-Savior-Manual/",
-  "files": []
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "version":  "2.0.1.0",
+    "minimumLauncherVersion":  "1.0.0.0",
+    "publishedAt":  "2026-07-29T08:50:45.4250053+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.1.0",
+    "files":  [
+                  {
+                      "component":  "application",
+                      "path":  "Singing Stream Savior/Singing Stream Savior.exe",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/Singing-Stream-Savior.exe",
+                      "sha256":  "2ed517cd64415858d22cd62be00daeaefd61efe7887db1f598b96dedc3c65c0a",
+                      "size":  4685312
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-aurora-console.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-aurora-console.s3stheme",
+                      "sha256":  "5119e2642babe14e40e201feac2711d0d5c6f174b2df14487c71765225c5e144",
+                      "size":  1758457
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-capsule-chorus.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-capsule-chorus.s3stheme",
+                      "sha256":  "2a10060db290b432b52407021b488bb18ed9cc990f33d1291ce650f9f12826f6",
+                      "size":  3405643
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-cassette-now.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-cassette-now.s3stheme",
+                      "sha256":  "c6a538d5ab65effe39050e997a0c3c8fcd1e10003bf20433fa44ccaa0f86805e",
+                      "size":  1282324
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-cloud-mobile.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-cloud-mobile.s3stheme",
+                      "sha256":  "1f75778829bda1f23ffab73b049ea78f8902587f764fbea1f50b613cc09c9b3d",
+                      "size":  2490547
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-firefly-reed.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-firefly-reed.s3stheme",
+                      "sha256":  "042c6f3255095b03a62b3ba3631d5234c9a6a5fe8b57c7bdb162fa31402f12b8",
+                      "size":  3159760
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-frost-lantern.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-frost-lantern.s3stheme",
+                      "sha256":  "dfa49c08eaa4a177ba6dbd7ec66ea4930850309672fe4a4a20e24de1f943bf32",
+                      "size":  709724
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-kintsugi-night.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-kintsugi-night.s3stheme",
+                      "sha256":  "734897d2c8f3906ee9482df9dbd4c9bd256b9f413cd164d668d34173519da592",
+                      "size":  958626
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-moon-dial.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-moon-dial.s3stheme",
+                      "sha256":  "13b2872bc8ac11e4a71dd7439dda861b3e7593bdcc0f4f4ebb7af49faee732ba",
+                      "size":  4020690
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-pocket-singer.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-pocket-singer.s3stheme",
+                      "sha256":  "f6b276b1371a037e3bd929567682b4d95268c193011bcf163eb09c1809fbad84",
+                      "size":  113005
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-porcelain-signal.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-porcelain-signal.s3stheme",
+                      "sha256":  "b9e75fd9399eb1b9b2c27ed6735462e6a510babc3dcf50e43f39c5cb26bbaada",
+                      "size":  924834
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-pressed-garden.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-pressed-garden.s3stheme",
+                      "sha256":  "2422a0a4e607e69ae77b7513b4a731d3449b83072be4b371279d06140dc50430",
+                      "size":  3112441
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-quiet-ledger-left.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-quiet-ledger-left.s3stheme",
+                      "sha256":  "bbc715da043f02c711fb1b4859316bdd2561792bb3e0f70796019ec738e96fcc",
+                      "size":  20878
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-quiet-ledger-right.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-quiet-ledger-right.s3stheme",
+                      "sha256":  "5f840a731b79801f4530603e83b8810904e3a862516515926e1d3d1e8bfcdeba",
+                      "size":  21210
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-rain-glass.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-rain-glass.s3stheme",
+                      "sha256":  "693a15406dc19a1348d4bbc90c438d8cafe8d01951480e617480a029b8102a48",
+                      "size":  592273
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-shell-nocturne.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-shell-nocturne.s3stheme",
+                      "sha256":  "bc0cb9eb7b6379c5f729cd57fd12c3cda97b6025cb2caf7d68777305d4ed2b54",
+                      "size":  941134
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-signal-line.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-signal-line.s3stheme",
+                      "sha256":  "e453bb1d209e85af712c3a6cbac93e16f0c495b85bf855be3c5c617ec09c6081",
+                      "size":  11545
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-singing-familiar.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-singing-familiar.s3stheme",
+                      "sha256":  "92d6595eb8f8e7a9231e43ccce789612bdfdbaf35580476729ebe51f43cc534d",
+                      "size":  237981
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-stage-caption.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-stage-caption.s3stheme",
+                      "sha256":  "690eb2e11e7442d75f86fc5112656c4d9efb57ec7bda8d88c46090fa2d1df321",
+                      "size":  11399
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-stained-twilight.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-stained-twilight.s3stheme",
+                      "sha256":  "562fd7ca48bc09c437cc8ff9da16e42afad48027f85c4e97d235fbe69e7e57a6",
+                      "size":  829335
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/builtin-summer-chime.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/builtin-summer-chime.s3stheme",
+                      "sha256":  "6b559126d95c0cc2fc1b3e203cc25cc4fa586d0cb8f5223e0bbcb0b7984c8af4",
+                      "size":  1099799
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/Card.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/Card.s3stheme",
+                      "sha256":  "93a94ddf162c29a024a67201e0603a163c2494efb9f8b212f9d811d24b999581",
+                      "size":  6881
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/CD.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/CD.s3stheme",
+                      "sha256":  "9a4e2be3cc27041be7f46ab2723ae9a68c7c2725a414cc4e340b65684b25f4e9",
+                      "size":  32080
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/TransparentBlack.s3stheme",
+                      "sha256":  "b9ef9d85db2196e554dc3fb68bd862dfad71494d3c725469aaa75573a022bf6b",
+                      "size":  5776
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/TransparentBlackV2.s3stheme",
+                      "sha256":  "8cb0bca51048fee6105013f6f38373c22c4462e683204b70db2f43a198fbd52c",
+                      "size":  5807
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/TransparentWhite.s3stheme",
+                      "sha256":  "73e8b68913ddd3ee0691f6dde870e9fff8236996e3254b24a5f0f9235673f4a3",
+                      "size":  5352
+                  },
+                  {
+                      "component":  "theme",
+                      "path":  "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.0/TransparentWhiteV2.s3stheme",
+                      "sha256":  "fe96cba6dd104cb9e59d4541eaff8dcb13be769fd545522e48bc2dd533d88e06",
+                      "size":  5307
+                  }
+              ]
 }
