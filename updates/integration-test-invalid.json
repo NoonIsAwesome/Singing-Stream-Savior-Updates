@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "channel": "integration-test",
+  "version": "9.9.9.9",
+  "minimumLauncherVersion": "1.0.0.0",
+  "publishedAt": "2026-07-29T00:00:00Z",
+  "releaseNotesUrl": "",
+  "files": [
+    {
+      "component": "application",
+      "path": "Singing Stream Savior/Singing Stream Savior.exe",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/updater-integration-20260729/Singing-Stream-Savior-integration-test.exe",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "size": 66
+    }
+  ]
+}
