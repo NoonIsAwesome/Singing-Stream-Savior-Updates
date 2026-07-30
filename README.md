@@ -7,6 +7,10 @@ Current stable release: **[2.0.1.0](https://github.com/NoonIsAwesome/Singing-Str
 
 Official guide and download page: **[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/)**
 
+- The 2.0.1.0 full installation ZIP includes launcher **1.0.0.1**. Existing
+  launchers update the inner application and themes, but cannot replace their
+  own running executable; users with the earlier launcher must download the
+  refreshed full ZIP once.
 - `updates/stable.json` is the stable-channel update manifest read by the
   launcher through `raw.githubusercontent.com`.
 - Full installation ZIP files, compiled application updates, and changed theme
