@@ -3,6 +3,10 @@
 This public repository distributes compiled updates for **Singing Stream
 Savior**. It does not contain the application's source code.
 
+Current stable release: **[2.0.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.1.0)**
+
+Official guide and download page: **[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/)**
+
 - `updates/stable.json` is the stable-channel update manifest read by the
   launcher through `raw.githubusercontent.com`.
 - Full installation ZIP files, compiled application updates, and changed theme
