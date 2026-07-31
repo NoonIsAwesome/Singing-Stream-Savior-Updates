@@ -1,23 +1,23 @@
 {
-    "schemaVersion": 1,
-    "channel": "stable",
-    "version": "2.0.1.1",
-    "minimumLauncherVersion": "1.0.0.0",
-    "publishedAt": "2026-07-30T16:12:34.4823775+00:00",
-    "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.1.1",
-    "launcher": {
-        "version": "1.0.0.2",
-        "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.1/Singing-Stream-Savior-Launcher.exe",
-        "sha256": "271ab5affcd2608d50d808a544460409d90ab073115588f9e4ab33f3273c978d",
-        "size": 397312
-    },
-    "files": [
-        {
-            "component": "application",
-            "path": "Singing Stream Savior/Singing Stream Savior.exe",
-            "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.1/Singing-Stream-Savior.exe",
-            "sha256": "6fc4e653d1c1f10df3975a8e41a56ae921885c1c6752d8aae680235c84c533fc",
-            "size": 4883456
-        }
-    ]
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "version":  "2.0.1.2",
+    "minimumLauncherVersion":  "1.0.0.0",
+    "publishedAt":  "2026-07-31T06:07:54.5671808+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.1.2",
+    "launcher":  {
+                     "version":  "1.0.0.2",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.2/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "271ab5affcd2608d50d808a544460409d90ab073115588f9e4ab33f3273c978d",
+                     "size":  397312
+                 },
+    "files":  [
+                  {
+                      "component":  "application",
+                      "path":  "Singing Stream Savior/Singing Stream Savior.exe",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.1.2/Singing-Stream-Savior.exe",
+                      "sha256":  "27cc64d8da7fb840ea3a4e44472fc3be8f62f5b436d4e4f9f6a4ee418d17be67",
+                      "size":  4957696
+                  }
+              ]
 }
