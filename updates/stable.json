@@ -18,34 +18,6 @@
                       "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/Singing-Stream-Savior.exe",
                       "sha256":  "52348edaf99837b78b19ff7d9d3f1ef94a609024c55e3c3d9db5bb3fe9a81820",
                       "size":  5167616
-                  },
-                  {
-                      "component":  "reading-runtime",
-                      "path":  "Singing Stream Savior/JapaneseReading/aromanize.js",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-aromanize.js",
-                      "sha256":  "d99fa5ddeed034b55e5d409eedd7ed7fa07ab9e9b76dd15b015651a96caf5347",
-                      "size":  24606
-                  },
-                  {
-                      "component":  "reading-runtime",
-                      "path":  "Singing Stream Savior/JapaneseReading/LICENSE-aromanize.txt",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-LICENSE-aromanize.txt",
-                      "sha256":  "b25e0d528ac7defbcaaa75fcbab290e86443b0ef9347a49467eb3a17aeb63d99",
-                      "size":  1072
-                  },
-                  {
-                      "component":  "reading-runtime",
-                      "path":  "Singing Stream Savior/JapaneseReading/lyrics-reading-engine.js",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-lyrics-reading-engine.js",
-                      "sha256":  "ebab6b69ddd4dfc13bd45e6938ede83ebe7643b25bba64a893f844cf4510efad",
-                      "size":  10139
-                  },
-                  {
-                      "component":  "reading-runtime",
-                      "path":  "Singing Stream Savior/JapaneseReading/runtime-version.txt",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-runtime-version.txt",
-                      "sha256":  "57f26d4fe4c97dc27b49b72f81b6c66066f95cfc5af12a646c66875b21a499e0",
-                      "size":  31
                   }
               ]
 }
