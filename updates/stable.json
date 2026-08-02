@@ -1,13 +1,13 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.0.2.0",
+    "version":  "2.0.3.0",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-07-31T14:05:32.5913821+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.2.0",
+    "publishedAt":  "2026-08-02T08:49:23.9926087+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.3.0",
     "launcher":  {
                      "version":  "1.0.0.3",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.2.0/Singing-Stream-Savior-Launcher.exe",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.0/Singing-Stream-Savior-Launcher.exe",
                      "sha256":  "22d9a522c09f3191ecca551f1ac3d66e2f766ea86f532dcdb6376c01cabfcf60",
                      "size":  406528
                  },
@@ -15,9 +15,9 @@
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.2.0/Singing-Stream-Savior.exe",
-                      "sha256":  "3d4ed4c3a3664cf589d7fac80558314f7d2c5c53b7d9cf8d7518aaab13bfd6ac",
-                      "size":  5048320
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.0/Singing-Stream-Savior.exe",
+                      "sha256":  "1a5b1dbfbd2640a4000ae5cfdc9fb80016fe32c7535f98e8945908ef9ccebc9b",
+                      "size":  5167104
                   }
               ]
 }
