@@ -3,21 +3,49 @@
     "channel":  "stable",
     "version":  "2.0.3.1",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-08-02T09:59:28.2140352+00:00",
+    "publishedAt":  "2026-08-02T10:55:50.3740672+00:00",
     "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.3.1",
     "launcher":  {
-                     "version":  "1.0.0.4",
+                     "version":  "1.0.0.5",
                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "0aa169a205b98bb14e95ced2f3713a241bca3b336ea29c40c364da4dd7ca50f6",
-                     "size":  407040
+                     "sha256":  "389d675703afd3943e4883b00d2f97b8a06fac4bb0e924a679a234a856ffdbd4",
+                     "size":  411136
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
                       "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/Singing-Stream-Savior.exe",
-                      "sha256":  "ef70ebb067f56f1ebd636168c0901ebc442f32856a97bfb5795e319eb873fd76",
+                      "sha256":  "52348edaf99837b78b19ff7d9d3f1ef94a609024c55e3c3d9db5bb3fe9a81820",
                       "size":  5167616
+                  },
+                  {
+                      "component":  "reading-runtime",
+                      "path":  "Singing Stream Savior/JapaneseReading/aromanize.js",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-aromanize.js",
+                      "sha256":  "d99fa5ddeed034b55e5d409eedd7ed7fa07ab9e9b76dd15b015651a96caf5347",
+                      "size":  24606
+                  },
+                  {
+                      "component":  "reading-runtime",
+                      "path":  "Singing Stream Savior/JapaneseReading/LICENSE-aromanize.txt",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-LICENSE-aromanize.txt",
+                      "sha256":  "b25e0d528ac7defbcaaa75fcbab290e86443b0ef9347a49467eb3a17aeb63d99",
+                      "size":  1072
+                  },
+                  {
+                      "component":  "reading-runtime",
+                      "path":  "Singing Stream Savior/JapaneseReading/lyrics-reading-engine.js",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-lyrics-reading-engine.js",
+                      "sha256":  "ebab6b69ddd4dfc13bd45e6938ede83ebe7643b25bba64a893f844cf4510efad",
+                      "size":  10139
+                  },
+                  {
+                      "component":  "reading-runtime",
+                      "path":  "Singing Stream Savior/JapaneseReading/runtime-version.txt",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/JapaneseReading-runtime-version.txt",
+                      "sha256":  "57f26d4fe4c97dc27b49b72f81b6c66066f95cfc5af12a646c66875b21a499e0",
+                      "size":  31
                   }
               ]
 }
