@@ -1,23 +1,29 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.0.3.1",
+    "version":  "2.0.4.0",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-08-02T13:25:10.2739914+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.3.1",
+    "publishedAt":  "2026-08-02T15:04:14.5760464+00:00",
+    "releaseNotesUrl":  "https://noonisawesome.github.io/Singing-Stream-Savior-Manual/changelog.html",
     "launcher":  {
                      "version":  "1.0.0.5",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/Singing-Stream-Savior-Launcher.exe",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.4.0/Singing-Stream-Savior-Launcher.exe",
                      "sha256":  "389d675703afd3943e4883b00d2f97b8a06fac4bb0e924a679a234a856ffdbd4",
                      "size":  411136
                  },
+    "runtimePack":  {
+                        "version":  "1.0.0.0",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.4.0/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "001ba9a2a9a9b219f29bf010208c4a7401c15083e9fa48c12ce0c9544b29eb0b",
+                        "size":  99621191
+                    },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.3.1/Singing-Stream-Savior.exe",
-                      "sha256":  "80ad535f0233bf3063a3f0dcc39b9f356a0dfa6d705a057fc8f262f5f7bf06ed",
-                      "size":  5171200
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.4.0/Singing-Stream-Savior.exe",
+                      "sha256":  "562afef3e65aebfd092b77bc8b71c2e319601453fec3858e0cbd31704dbda715",
+                      "size":  5228544
                   }
               ]
 }
