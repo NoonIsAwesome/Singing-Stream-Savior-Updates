@@ -1,37 +1,37 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.0.5.1",
+    "version":  "2.0.5.2",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-08-05T09:52:20.2485605+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.5.1",
+    "publishedAt":  "2026-08-05T18:08:00.1528015+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.5.2",
     "launcher":  {
-                     "version":  "1.0.1.1",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.1/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "c283f20068844619ee3eb0ecaf9d820f13dd87c9074388035d1a2050f587db5e",
-                     "size":  547840
+                     "version":  "1.0.1.2",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.2/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "971c2b98c208b8bd77f7422d0e904987a1722cf20affe24b3c66acfa29cc976f",
+                     "size":  548864
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.1/Singing-Stream-Savior.exe",
-                      "sha256":  "a96aef80321688d4eeaf3abf2fe226aed53f9bece3b42c4cae2523bc10034600",
-                      "size":  5498368
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.2/Singing-Stream-Savior.exe",
+                      "sha256":  "39e454f9cac367d10a87928c214051de25968898392737b64f105b044500316e",
+                      "size":  5517312
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.0",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.1/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "73512c4fc41482d03c9386ddafc778f827b167867fd5656ff4cb38f107dde77e",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.2/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "a63e6d7ef8c58ee0199e09292049cfa63d4e59c2913b5d984a1189ec756e31c8",
                         "size":  99621191
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.1/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "2a5175f476f2180e6f72131b258d94c292758c7e162038ea96eede4525ec3105",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "b174cc318a2b1f5419ffd47bed49a7539b8df096324d9aa75b56b5549f646e7b",
                            "size":  99616497,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
