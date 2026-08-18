@@ -1,73 +1,73 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.0.5.3",
+    "version":  "2.0.5.4",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-08-09T12:30:48.4009644+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.5.3",
+    "publishedAt":  "2026-08-19T01:13:45.2908714+08:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.0.5.4",
     "launcher":  {
-                     "version":  "1.0.1.3",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "6f5f71e1cec0456f5b6c8787757303ce5f523c940652a49d04edffe13af9a5e6",
-                     "size":  560640
+                     "version":  "1.1.0.0",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "35838f122f604efe456434cacf2a763bc7fe9e3bbd9d20f5ee0a971f6f8ff87c",
+                     "size":  582656
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/Singing-Stream-Savior.exe",
-                      "sha256":  "34a334d76d0a68e750571411a20068a0eb53de303095c3136c70e71a69cee7c9",
-                      "size":  5564928
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/Singing-Stream-Savior.exe",
+                      "sha256":  "f15670c3a637d901b68d7fd36d9f41f048fcdc97691e0c02b9bdacaf80fb96e6",
+                      "size":  5824512
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/Card.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/Card.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/Card.s3stheme",
                       "sha256":  "8f1fc00104945d77ae391260e7850cdf69c9a28583880d7cb41917b0f88788e2",
                       "size":  7342
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/TransparentBlack.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/TransparentBlack.s3stheme",
                       "sha256":  "7f907b06b0397d07200629aced6f24619a0b108bf9decd654306b1f677e3eb8b",
                       "size":  7204
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/TransparentBlackV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/TransparentBlackV2.s3stheme",
                       "sha256":  "f32029f4935c348525fae81d07f101993a91804867589dd9c824a5d7d3b35e8e",
                       "size":  6862
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/TransparentWhite.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/TransparentWhite.s3stheme",
                       "sha256":  "87111ca4126a323197698671129b7287f31b5d5bf8fcac24355f399dad7b4da9",
                       "size":  6784
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/TransparentWhiteV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/TransparentWhiteV2.s3stheme",
                       "sha256":  "34bef64c1356098f183fe58052d51c85ab7e9184709f7cf3ab72865ea40d9938",
                       "size":  6445
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.0",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "714d09d0693b44f6c395233226b478811ab213baaf3f83c7ebdee756ffcb31c3",
-                        "size":  99626376
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "bca369d3019941527daed457f4fe50adf1b6d984e8e0eab2412b543ca714b2e2",
+                        "size":  99637193
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.3/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "1c6c46d45d409df8d6195aa956399694b00a762366338acd7e181b263293b946",
-                           "size":  99621681,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.0.5.4/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "a0730b9fe8540329cfc07c72c188b7d78590e3297893909e4eb5be0d5df349bd",
+                           "size":  99632500,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -168,8 +168,8 @@
                                          },
                                          {
                                              "path":  "JapaneseReading/aromanize.js",
-                                             "size":  24606,
-                                             "sha256":  "d99fa5ddeed034b55e5d409eedd7ed7fa07ab9e9b76dd15b015651a96caf5347"
+                                             "size":  25304,
+                                             "sha256":  "2f2210ee6680404da3e424eba4e62210e473a1167621eb7b2b9b3ceb45dcc7b3"
                                          },
                                          {
                                              "path":  "JapaneseReading/dict/base.dat.gz",
@@ -263,13 +263,13 @@
                                          },
                                          {
                                              "path":  "JapaneseReading/lyrics-reading-engine.js",
-                                             "size":  10139,
-                                             "sha256":  "ebab6b69ddd4dfc13bd45e6938ede83ebe7643b25bba64a893f844cf4510efad"
+                                             "size":  10436,
+                                             "sha256":  "ca1edd5457c3f3610d0d6a4ce852e2d56f2399d16355fef225bad83920434d60"
                                          },
                                          {
                                              "path":  "JapaneseReading/runtime-version.txt",
-                                             "size":  31,
-                                             "sha256":  "57f26d4fe4c97dc27b49b72f81b6c66066f95cfc5af12a646c66875b21a499e0"
+                                             "size":  32,
+                                             "sha256":  "30591eecb5c4c7295ae8677dad448e9f6be6073ec8119312243ec81cb0df079b"
                                          },
                                          {
                                              "path":  "SharedThemeAssets/fonts/0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6/NotoSerifTC-Variable.ttf",
@@ -448,8 +448,8 @@
                                          },
                                          {
                                              "path":  "yt-dlp/ytdlp_helper.exe",
-                                             "size":  16600832,
-                                             "sha256":  "9517bc5888820b2062cd2f9a33d7aa81e69ec567e4ec2620db4a986709c9c86c"
+                                             "size":  16612420,
+                                             "sha256":  "2963d891fe0c6974c7ff264756342ff636f94dbce6edcc7dc8ce1f9e41809cff"
                                          }
                                      ]
                        }
