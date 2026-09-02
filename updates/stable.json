@@ -1,310 +1,93 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.1.0.0",
+  "version": "2.1.0.1",
   "minimumLauncherVersion": "1.0.0.0",
-  "publishedAt": "2026-09-02T10:13:00.9197144+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.0.0",
+  "publishedAt": "2026-09-02T12:31:55.4702537+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.0.1",
   "releaseNotes": {
     "defaultLocale": "en",
     "localizations": [
       {
         "locale": "en",
-        "summary": "Adds advanced audio routing that can mix BGM/accompaniment with microphone audio and send the mix directly to OBS. Supports ASIO or Windows Audio, virtual audio output, and a dedicated Singing Stream Savior audio source for OBS 29–32.",
+        "summary": "Hotfixes audio-device startup and Windows Audio microphone channel routing after the 2.1 update, and improves the display of long device names.",
         "highlights": [
-          "This update is not expected to cause problems, but the author is using his own setup as the first test environment for the new features. If you have concerns, you can postpone the update.",
-          "Adds song tags. When accompaniment starts playing, the microphone-effects Profile can switch automatically according to the song's tag.",
-          "Includes a Noise Gate, background-noise reduction, Compressor, EQ, Reverb, Delay, Shimmer, Doubler, experimental Harmony, and other effects, with VST3 Plugin support. You can create or edit your own microphone-effects Profile.",
-          "Includes ready-to-use Profiles for general singing, traditional-style vocals, rock, KTV, airy vocals, doubling, different vocal ranges, livestream chat, and more. You can also duplicate a Profile and fine-tune it for your microphone and singing style.",
-          "Can analyze the song Key of local audio files or YouTube accompaniment in the background. The Pitch button Tooltip shows the original Key, confidence level, and resulting Key after transposition; the result can also be corrected manually. If the song's assigned Profile includes Harmony, the analysis runs once automatically.",
-          "Shimmer, Doubler, and Harmony share the Profile effect Switch. You can save whether each effect is enabled by default, then use a global hotkey to toggle it for the current song without changing the saved default for next time.",
-          "Adds a YouTube playback fallback to reduce the risk of playback failures when YouTube changes its playback mechanism.",
-          "Adjusts the player volume algorithm to use a perceived-loudness curve. Local files and YouTube playback now share the same mapping. Saved slider positions are preserved, although loudness at the same number may differ from earlier versions. The Final Limiter defaults to off in Standard Player Mode and on in Advanced Streaming Mode, preserving ordinary playback loudness while protecting the livestream mix from peaks.",
-          "Adds the option to minimize to the Windows notification area. Its right-click menu can play a queued song, mute or restore the microphone, or switch Profiles.",
-          "BGM, dry vocal, and processed vocal can be monitored or recorded. Accompaniment + dry vocal uses a separate low-latency Cue, while Final Mix, OBS, and recording retain their stable, aligned production paths. The Cue path is isolated by design so reworking it should not affect livestream or recording timing. Direct Monitor on the audio interface is still recommended for primary vocal monitoring while singing.",
-          "Adds a five-track Meter showing Peak, LUFS, Buffer, latency, and dropouts. It can warn when vocal and accompaniment levels remain imbalanced for an extended period, but it does not adjust gain automatically."
+          "Fixes ASIO and related audio helpers sometimes appearing unavailable on the first launch after upgrading from 2.0.5.4. The application now loads verified helpers directly from the active Runtime package, without requiring a second launch to repair the legacy location.",
+          "Fixes a mono microphone connected to Input 1 being recorded mainly in the left channel when using Windows Audio. Input 1 is now duplicated equally to left and right for centered Dry, Wet, Final Mix, OBS, and recording output.",
+          "Improves device selection on the Audio Routing page. When Stream Output or Monitor Device is opened, its list expands to fit the longest device name while remaining within the available screen area; the closed field and card layout keep their existing width.",
+          "Yesterday I got a spoiled clam while eating hot pot, so I probably will not dare eat hot pot again for about a month."
         ]
       },
       {
         "locale": "zh-TW",
-        "summary": "新增進階音訊路由，可將 BGM／伴奏與麥克風聲音直接混音後送入 OBS；支援 ASIO 或 Windows Audio、虛擬音訊輸出，以及 OBS 29–32 專用的 Singing Stream Savior 音訊來源。",
+        "summary": "修正 2.1 更新後的音訊裝置啟動與 Windows Audio 麥克風聲道，並改善長裝置名稱的顯示。",
         "highlights": [
-          "理論上更新不會造成問題，不過作者正在拿自己當白老鼠測試新功能，如果有疑慮可以先不要更新",
-          "新增歌曲標籤功能，播放伴奏時可依歌曲標籤自動切換麥克風效果 Profile。",
-          "軟體內建噪音閥、背景噪音衰減、壓縮器、EQ、Reverb、Delay、Shimmer、疊聲器與實驗性合音器等效果器，也支援 VST3 Plugin；可自行設計或編輯麥克風效果 Profile。",
-          "內建通用歌唱、古風、搖滾、KTV、空靈、疊聲、不同音域與直播聊天等多種 Profiles，可直接使用，也能複製後依自己的麥克風與唱法微調。",
-          "可在背景辨識本機音檔或 YouTube 伴奏的歌曲 Key，並在 Pitch 按鈕 Tooltip 查看原調、信心程度與升降 Key 後的調性；也能手動修正。歌曲指定的 Profile 含合音器時會自動分析一次。",
-          "Shimmer、疊聲器與合音器共用 Profile 效果器 Switch：可保存預設開啟或關閉，演唱途中再用全域快捷鍵切換當下歌曲，不會改寫下次使用的預設。",
-          "新增 YouTube 播放備援，降低 YouTube 播放機制改動時無法播放的風險。",
-          "調整播放器音量演算法，改用較符合聽感的音量曲線；本機音檔與 YouTube 播放現在共用相同映射。既有專案的滑桿位置會保留，但相同數值的實際響度可能與舊版不同。Final Limiter 在一般播放器模式預設關閉、進階直播模式預設開啟，兼顧原本播放器響度與直播 Mix 的峰值保護。",
-          "新增縮小至 Windows 通知區域功能；右鍵選單可播放待播歌曲、靜音／恢復麥克風，或切換 Profile。",
-          "可監聽或錄製 BGM、乾聲與處理後人聲。「伴奏＋乾聲」使用獨立低延遲 Cue；Final Mix、OBS 與錄音保留穩定且對齊的正式路徑。Cue 路徑在設計上與正式輸出隔離，因此重整時不應影響直播或錄音的時間對齊。演唱主監聽仍建議使用錄音介面的 Direct Monitor。",
-          "新增五軌 Meter，顯示 Peak、LUFS、Buffer、延遲與斷訊；並可在長時間人聲／伴奏失衡時提示，但不會自動調整增益。"
+          "修正從 2.0.5.4 升級後，第一次開啟時 ASIO 與相關音訊輔助元件偶爾顯示無法使用的問題。主程式現在會直接從作用中的 Runtime 套件載入已驗證元件，不必重新啟動一次等待舊位置修復。",
+          "修正使用 Windows Audio 時，接在 Input 1 的單聲道麥克風錄製後偏在左聲道的問題。Input 1 現在會等量送至左右聲道，使 Dry、Wet、Final Mix、OBS 與錄音的人聲保持置中。",
+          "改善音訊路由頁面的裝置選擇。展開「直播輸出」或「監聽裝置」清單時，清單會依最長裝置名稱自動加寬並限制在螢幕範圍內；原本卡片與欄位寬度不變。",
+          "昨天吃火鍋吃到臭掉的蛤仔，大概一個月不敢吃火鍋了。"
         ]
       },
       {
         "locale": "zh-CN",
-        "summary": "新增高级音频路由，可将 BGM／伴奏与麦克风声音直接混音后发送至 OBS；支持 ASIO 或 Windows Audio、虚拟音频输出，以及适用于 OBS 29–32 的 Singing Stream Savior 专用音频源。",
+        "summary": "修复 2.1 更新后的音频设备启动与 Windows Audio 麦克风声道问题，并改善长设备名称的显示。",
         "highlights": [
-          "理论上本次更新不会造成问题，不过作者正在拿自己当小白鼠测试新功能。如果有所顾虑，可以暂缓更新。",
-          "新增歌曲标签功能；播放伴奏时，可根据歌曲标签自动切换麦克风效果 Profile。",
-          "软件内置噪声门、背景噪声衰减、压缩器、EQ、Reverb、Delay、Shimmer、叠声器、实验性和声器等效果器，并支持 VST3 Plugin；可自行设计或编辑麦克风效果 Profile。",
-          "内置通用演唱、古风、摇滚、KTV、空灵、叠声、不同音域和直播聊天等多种 Profile，可直接使用，也可复制后根据自己的麦克风与唱法进行微调。",
-          "可在后台分析本地音频文件或 YouTube 伴奏的歌曲 Key，并在 Pitch 按钮 Tooltip 中查看原调、置信度和升降 Key 后的调性；分析结果也可手动修正。歌曲指定的 Profile 含和声器时，会自动分析一次。",
-          "Shimmer、叠声器与和声器共用 Profile 效果器 Switch；可保存默认开启或关闭状态，并在演唱时通过全局快捷键切换当前歌曲的状态，而不会改写下次使用时的默认设置。",
-          "新增 YouTube 播放备用机制，降低 YouTube 播放机制发生变更时无法播放的风险。",
-          "调整播放器音量算法，改用更符合听感的音量曲线；本地音频文件与 YouTube 播放现在共用相同映射。已有项目的滑块位置会保留，但相同数值的实际响度可能与旧版本不同。Final Limiter 在标准播放器模式下默认关闭、在高级直播模式下默认开启，兼顾原有播放器响度与直播 Mix 的峰值保护。",
-          "新增最小化至 Windows 通知区域的功能；可通过右键菜单播放待播歌曲、静音／恢复麦克风，或切换 Profile。",
-          "可监听或录制 BGM、干声与处理后人声。“伴奏＋干声”使用独立的低延迟 Cue；Final Mix、OBS 与录音继续使用稳定且保持对齐的正式路径。Cue 路径在设计上与正式输出隔离，因此重整时不应影响直播或录音的时间对齐。演唱时的主要监听仍建议使用音频接口的 Direct Monitor。",
-          "新增五轨 Meter，显示 Peak、LUFS、Buffer、延迟与音频中断；当人声与伴奏长时间失衡时可发出提示，但不会自动调整增益。"
+          "修复从 2.0.5.4 升级后，首次启动时 ASIO 与相关音频辅助组件偶尔显示无法使用的问题。主程序现在会直接从当前 Runtime 包加载已经验证的组件，无需再次启动来修复旧位置。",
+          "修复使用 Windows Audio 时，连接至 Input 1 的单声道麦克风在录制后主要出现在左声道的问题。Input 1 现在会等量发送到左右声道，使 Dry、Wet、Final Mix、OBS 与录音中的人声保持居中。",
+          "改善音频路由页面的设备选择。展开“直播输出”或“监听设备”列表时，列表会根据最长设备名称自动加宽，并保持在可用屏幕范围内；原有卡片与字段宽度不变。",
+          "昨天吃火锅吃到了坏掉的蛤蜊，大概一个月不敢再吃火锅了。"
         ]
       },
       {
         "locale": "ja",
-        "summary": "高度なオーディオルーティングを追加しました。BGM／伴奏とマイク音声を直接ミックスして OBS に送出できます。ASIO または Windows Audio、仮想オーディオ出力、OBS 29–32 専用の Singing Stream Savior オーディオソースに対応します。",
+        "summary": "2.1 更新後のオーディオデバイス起動と Windows Audio のマイクチャンネル経路を修正し、長いデバイス名の表示を改善しました。",
         "highlights": [
-          "理論上、このアップデートで問題は起きない見込みですが、作者自身を実験台にして新機能をテストしています。不安がある場合は、更新を見送ってください。",
-          "曲タグ機能を追加しました。伴奏の再生時に、曲タグに応じてマイクエフェクトの Profile を自動で切り替えられます。",
-          "ノイズゲート、バックグラウンドノイズ低減、コンプレッサー、EQ、Reverb、Delay、Shimmer、ダブラー、実験的ハーモナイザーなどのエフェクトを内蔵し、VST3 Plugin にも対応しました。マイクエフェクトの Profile は自由に作成・編集できます。",
-          "汎用ボーカル、古風、ロック、KTV、エアリー、ダブリング、各種音域、配信トークなど、すぐに使える複数の Profile を内蔵しました。複製して、自分のマイクや歌い方に合わせて微調整することもできます。",
-          "ローカル音源または YouTube 伴奏の曲の Key をバックグラウンドで解析できます。Pitch ボタンの Tooltip には、原曲の Key、信頼度、Key 変更後の調性が表示され、結果は手動でも修正できます。曲に指定した Profile にハーモナイザーが含まれている場合は、自動で一度解析します。",
-          "Shimmer、ダブラー、ハーモナイザーは Profile のエフェクト Switch を共有します。既定のオン／オフ状態を保存し、歌唱中はグローバルショートカットで現在の曲だけ切り替えられます。次回使用時の既定値は変更されません。",
-          "YouTube の再生方式が変更された際に再生できなくなるリスクを抑えるため、YouTube 再生のフォールバックを追加しました。",
-          "プレイヤーの音量アルゴリズムを、聴感に沿った音量カーブへ調整しました。ローカル音源と YouTube 再生は同じマッピングを使用します。保存済みのスライダー位置は維持されますが、同じ数値でも従来版と実際の音量が異なる場合があります。Final Limiter は標準プレイヤーモードでは既定でオフ、高度な配信モードでは既定でオンになり、通常再生の音量を保ちながら配信 Mix のピークを保護します。",
-          "Windows の通知領域へ最小化できるようになりました。右クリックメニューから、再生待ちの曲の開始、マイクのミュート／解除、Profile の切り替えを行えます。",
-          "BGM、ドライボーカル、処理後ボーカルをモニターまたは録音できます。「伴奏＋ドライボーカル」には独立した低遅延 Cue を使用し、Final Mix、OBS、録音は安定性と同期を保つ本番用経路を維持します。Cue 経路は本番用出力から分離して設計されているため、再構成しても配信や録音のタイミングには影響しない想定です。歌唱時のメインモニターには、引き続きオーディオインターフェースの Direct Monitor を推奨します。",
-          "Peak、LUFS、Buffer、レイテンシー、ドロップアウトを表示する 5 トラック Meter を追加しました。ボーカルと伴奏のバランスが長時間崩れている場合は通知できますが、ゲインを自動調整することはありません。"
+          "2.0.5.4 から更新した直後の初回起動で、ASIO と関連オーディオヘルパーが使用不可と表示される場合がある問題を修正しました。検証済みヘルパーを有効な Runtime パッケージから直接読み込むため、旧配置を修復するための再起動は不要です。",
+          "Windows Audio 使用時に、Input 1 に接続したモノラルマイクが録音で主に左チャンネルへ偏る問題を修正しました。Input 1 を左右へ同じ音量で送り、Dry、Wet、Final Mix、OBS、録音のボーカルを中央に配置します。",
+          "オーディオルーティング画面のデバイス選択を改善しました。「配信出力」または「モニターデバイス」のリストを開くと、画面内に収まる範囲で最も長いデバイス名に合わせて自動的に横幅が広がります。閉じた状態のフィールドとカードの幅は変わりません。",
+          "昨日、火鍋で傷んだアサリを食べてしまったので、たぶん1か月くらい火鍋を食べる勇気が出ません。"
         ]
       },
       {
         "locale": "ko",
-        "summary": "고급 오디오 라우팅을 추가했습니다. BGM/반주와 마이크 오디오를 직접 믹스하여 OBS로 보낼 수 있습니다. ASIO 또는 Windows Audio, 가상 오디오 출력, OBS 29–32 전용 Singing Stream Savior 오디오 소스를 지원합니다.",
+        "summary": "2.1 업데이트 후 오디오 장치 시작 문제와 Windows Audio 마이크 채널 라우팅을 수정하고 긴 장치 이름 표시를 개선했습니다.",
         "highlights": [
-          "이론상 이번 업데이트로 문제가 발생하지 않을 것으로 예상되지만, 제작자가 직접 자신을 실험 대상으로 삼아 새 기능을 테스트하고 있습니다. 우려되는 점이 있다면 업데이트를 미뤄도 됩니다.",
-          "곡 태그 기능을 추가했습니다. 반주 재생 시 곡 태그에 따라 마이크 이펙트 Profile을 자동으로 전환할 수 있습니다.",
-          "노이즈 게이트, 배경 소음 감쇠, 컴프레서, EQ, Reverb, Delay, Shimmer, 더블러, 실험적 하모나이저 등의 이펙트를 내장했으며 VST3 Plugin도 지원합니다. 마이크 이펙트 Profile을 직접 설계하거나 편집할 수 있습니다.",
-          "일반 보컬, 고풍 스타일, 록, KTV, 에어리, 더블링, 다양한 음역대, 라이브 채팅 등 바로 사용할 수 있는 여러 Profile을 제공합니다. Profile을 복제한 뒤 자신의 마이크와 창법에 맞게 세부 조정할 수도 있습니다.",
-          "로컬 오디오 파일 또는 YouTube 반주의 곡 Key를 백그라운드에서 분석할 수 있습니다. Pitch 버튼 Tooltip에서 원곡 Key, 신뢰도, Key 조정 후의 조성을 확인할 수 있으며 결과를 직접 수정할 수도 있습니다. 곡에 지정된 Profile에 하모나이저가 포함되어 있으면 분석을 한 번 자동으로 실행합니다.",
-          "Shimmer, 더블러, 하모나이저는 Profile의 이펙트 Switch를 공유합니다. 기본 활성화 여부를 저장한 뒤, 노래 중에는 전역 단축키로 현재 곡의 상태만 전환할 수 있으며 다음 사용 시의 기본값은 변경되지 않습니다.",
-          "YouTube의 재생 방식이 변경될 때 재생할 수 없게 될 위험을 줄이기 위해 YouTube 재생 대체 경로를 추가했습니다.",
-          "플레이어 음량 알고리즘을 청감에 맞는 음량 곡선으로 조정했습니다. 로컬 오디오와 YouTube 재생은 이제 동일한 매핑을 사용합니다. 저장된 슬라이더 위치는 유지되지만 같은 숫자의 실제 음량은 이전 버전과 다를 수 있습니다. Final Limiter는 표준 플레이어 모드에서 기본적으로 꺼지고 고급 방송 모드에서는 켜져, 일반 재생 음량을 유지하면서 방송 Mix의 피크를 보호합니다.",
-          "Windows 알림 영역으로 최소화하는 기능을 추가했습니다. 오른쪽 클릭 메뉴에서 대기 중인 곡 재생, 마이크 음소거/복원 또는 Profile 전환을 실행할 수 있습니다.",
-          "BGM, 드라이 보컬, 처리된 보컬을 모니터링하거나 녹음할 수 있습니다. ‘반주＋드라이 보컬’은 별도의 저지연 Cue를 사용하며, Final Mix, OBS 및 녹음은 안정적이고 동기화된 정식 경로를 유지합니다. Cue 경로는 정식 출력과 분리되도록 설계되어 있어 재구성해도 방송이나 녹음의 타이밍에는 영향을 주지 않도록 되어 있습니다. 노래할 때의 주 모니터링에는 오디오 인터페이스의 Direct Monitor를 계속 권장합니다.",
-          "Peak, LUFS, Buffer, 지연 및 오디오 끊김을 표시하는 5트랙 Meter를 추가했습니다. 보컬과 반주의 균형이 장시간 맞지 않을 때 알림을 표시할 수 있지만 게인을 자동으로 조정하지는 않습니다."
+          "2.0.5.4에서 업데이트한 뒤 처음 실행할 때 ASIO 및 관련 오디오 도우미를 사용할 수 없다고 표시될 수 있는 문제를 수정했습니다. 이제 검증된 도우미를 활성 Runtime 패키지에서 직접 불러오므로 기존 위치를 복구하기 위해 한 번 더 실행할 필요가 없습니다.",
+          "Windows Audio 사용 시 Input 1에 연결한 모노 마이크가 녹음에서 주로 왼쪽 채널에 들리는 문제를 수정했습니다. Input 1을 왼쪽과 오른쪽에 동일하게 보내 Dry, Wet, Final Mix, OBS 및 녹음의 보컬이 중앙에 위치하도록 했습니다.",
+          "오디오 라우팅 화면의 장치 선택 표시를 개선했습니다. ‘방송 출력’ 또는 ‘모니터 장치’ 목록을 열면 화면 안에 들어오는 범위에서 가장 긴 장치 이름에 맞춰 목록 너비가 자동으로 확장됩니다. 닫힌 필드와 카드의 너비는 그대로 유지됩니다.",
+          "어제 훠궈를 먹다가 상한 조개를 먹어서, 아마 한 달 정도는 훠궈를 못 먹을 것 같습니다."
         ]
       }
     ]
   },
   "launcher": {
     "version": "1.2.0.0",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "1a2b60614e005ed85189ab71e1626c5c47a04702f6ec359cc27e787248a69fa1",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Launcher.exe",
+    "sha256": "cd2d175d28a4f87b3337a0ed9d75202cbda39faddb648ed7b806346432b05b3d",
     "size": 666112
   },
   "files": [
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/Singing-Stream-Savior.exe",
-      "sha256": "7793528dd20d793c320590eea5992bf6d00e4d13fda6b75cbb2539dfa44ed54e",
-      "size": 20501504
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-aurora-console.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-aurora-console.s3stheme",
-      "sha256": "e2707a09db46b86978fadd67742d7abc5b4fa67286dfd48b8367b338484b5dc3",
-      "size": 1758440
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-capsule-chorus.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-capsule-chorus.s3stheme",
-      "sha256": "32f48628cde065bad024da746ee1dd736610d4760bdab8e0c0dec4dda1b41b1e",
-      "size": 3405629
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-cassette-now.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-cassette-now.s3stheme",
-      "sha256": "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53",
-      "size": 1282317
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-cloud-mobile.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-cloud-mobile.s3stheme",
-      "sha256": "3e5178064899a6ce37c3d2ba528878ca0133e61bd2ef93229312c65ef43da2b1",
-      "size": 2490532
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-firefly-reed.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-firefly-reed.s3stheme",
-      "sha256": "af665458e3651895f32e8ad31bda5ef487e1593b48c8f091f453834177b9f360",
-      "size": 3159744
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-frost-lantern.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-frost-lantern.s3stheme",
-      "sha256": "531a392d60071922a308e03b7799631ad850ba564a4608185a68754e870ee807",
-      "size": 709718
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-kintsugi-night.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-kintsugi-night.s3stheme",
-      "sha256": "6baca2cdf433c18e746ffdfb555cb8effa79ff84ffe1c598a1310b63eeb8412b",
-      "size": 958617
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-moon-dial.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-moon-dial.s3stheme",
-      "sha256": "b48ab862d9ce62cf319f70becbeff751916b16688da6d1f54461e8faeb9f9c4d",
-      "size": 4020684
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-pocket-singer.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-pocket-singer.s3stheme",
-      "sha256": "8875774f3572e0aabed5296b40aa3d2d5684f105c65f603f09c0bef8f89cd50b",
-      "size": 112995
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-porcelain-signal.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-porcelain-signal.s3stheme",
-      "sha256": "8046512eaaa78d88b73cab94c3b3a660b5efd2f1a2d7deb0eb150a015102715e",
-      "size": 924830
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-pressed-garden.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-pressed-garden.s3stheme",
-      "sha256": "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e",
-      "size": 3112438
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-quiet-ledger-left.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-quiet-ledger-left.s3stheme",
-      "sha256": "e999c64841195e51af40be53f065f94879feacb75cf4d9d2189f7a165a440913",
-      "size": 20872
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-quiet-ledger-right.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-quiet-ledger-right.s3stheme",
-      "sha256": "6a756c826f20df666a228f2300661cffe4df47e2d0714c8664880387566c577d",
-      "size": 21207
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-rain-glass.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-rain-glass.s3stheme",
-      "sha256": "2c39847437d21266924b038663959bb13ade8329d65cb2a44201df6906c890c2",
-      "size": 592266
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-shell-nocturne.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-shell-nocturne.s3stheme",
-      "sha256": "906f951aba07b1fbef932847ac560229b56369f71e9d948d539af81e746e5a9f",
-      "size": 941127
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-signal-line.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-signal-line.s3stheme",
-      "sha256": "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203",
-      "size": 11539
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-singing-familiar.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-singing-familiar.s3stheme",
-      "sha256": "bf859fd30c7ba7fabf31556ea80eea215f9336efe97f179bbbc2a07bc67fae12",
-      "size": 237973
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-stage-caption.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-stage-caption.s3stheme",
-      "sha256": "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555",
-      "size": 11386
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-stained-twilight.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-stained-twilight.s3stheme",
-      "sha256": "4b1abf61a5df2ce8e1440024fd8907ba1b56adbff498fb44ecfeb55a2406fd83",
-      "size": 829330
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/builtin-summer-chime.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/builtin-summer-chime.s3stheme",
-      "sha256": "333c4da6a18c98093b6e395f91e35c66d5f7bee0b312c491183e30c2fffac9fe",
-      "size": 1099802
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/Card.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/Card.s3stheme",
-      "sha256": "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9",
-      "size": 7315
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/CD.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/CD.s3stheme",
-      "sha256": "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f",
-      "size": 32045
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/TransparentBlack.s3stheme",
-      "sha256": "7f907b06b0397d07200629aced6f24619a0b108bf9decd654306b1f677e3eb8b",
-      "size": 7204
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/TransparentBlackV2.s3stheme",
-      "sha256": "f32029f4935c348525fae81d07f101993a91804867589dd9c824a5d7d3b35e8e",
-      "size": 6862
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/TransparentWhite.s3stheme",
-      "sha256": "87111ca4126a323197698671129b7287f31b5d5bf8fcac24355f399dad7b4da9",
-      "size": 6784
-    },
-    {
-      "component": "theme",
-      "path": "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/TransparentWhiteV2.s3stheme",
-      "sha256": "34bef64c1356098f183fe58052d51c85ab7e9184709f7cf3ab72865ea40d9938",
-      "size": 6445
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior.exe",
+      "sha256": "e05c3802033d55556abe85c77036bab252ec4c4338d60b46745c958c61473138",
+      "size": 20517376
     }
   ],
   "runtimePack": {
     "version": "1.0.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/Singing-Stream-Savior-Runtime.s3spack",
-    "sha256": "1e0b38db0de703df734dad3b50a64b3c18ef2ebcaa036b941570decca94bde0a",
-    "size": 99968761
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Runtime.s3spack",
+    "sha256": "f359156c8a7c1966615865f638298336e8df2468bc671dd724582c3096c2a47e",
+    "size": 99968759
   },
   "packagesV2": [
     {
       "id": "application-runtime",
       "version": "1.0.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.0/Singing-Stream-Savior-Application-Runtime.s3spack",
-      "sha256": "4d8d329c3bc84ba69676d67e1e2d876bcc119612e413f2b120179a0b6b03bd56",
-      "size": 100592741,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Application-Runtime.s3spack",
+      "sha256": "2cd5cb74d2f21d51a4a8ab59c9c7fd78b218ebdf3817b2e01f749390eb197ddc",
+      "size": 100592745,
       "requiredForStartup": false,
       "capability": "application-runtime",
       "files": [
@@ -676,7 +459,7 @@
         {
           "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "size": 404992,
-          "sha256": "b665f655f9f38b44344542dc8f010e3d141c52e863f01f84f3b37f866cde0752"
+          "sha256": "64443a5d9d15bc2f7545104a15df5778390e6ba145f13cde69020da59d053c04"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
@@ -721,22 +504,22 @@
         {
           "path": "S3SAsioBridge.exe",
           "size": 50688,
-          "sha256": "ce89909d8e0acd2d9e78c49439be7b115bf954ff5027700eb6368b30b813ed16"
+          "sha256": "dae43f0ace19dfa4157abd17ca19e1179cbffa17fd0ebdda7d38809259b50588"
         },
         {
           "path": "S3SAsioProbe.exe",
           "size": 45056,
-          "sha256": "e1db7dbeec59407ddcd184765bbb45024947b62ac25adb274e6921cbd64b8b38"
+          "sha256": "4f60905df0a4c07217a0ac7cbe763a81cd14852395f3e0b24fe58d1885e32cb4"
         },
         {
           "path": "S3SAudioDeviceScanner.exe",
           "size": 838656,
-          "sha256": "0483b8fda6b18c4785734ae8d2f6ee41620328fd23f8256162ea4b03369a4cba"
+          "sha256": "b38be3e0bf133b1cc4bd7a9a0b46365437446d0bfbb9bf82be239318aa8a965e"
         },
         {
           "path": "Vst3ScannerHelper.exe",
           "size": 600064,
-          "sha256": "684dfa5ad2bb86f042d1b19ef70ea3724fa808af73231797e44b4fc698dafb5f"
+          "sha256": "071d982c318184e0fb8de55aeb9adbe3ce5c2af2d00f4f92692c5cdcaa2042ec"
         }
       ]
     }
