@@ -1,93 +1,108 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.1.0.1",
+  "version": "2.1.0.2",
   "minimumLauncherVersion": "1.0.0.0",
-  "publishedAt": "2026-09-02T12:31:55.4702537+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.0.1",
+  "publishedAt": "2026-09-02T18:41:14.0374712+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.0.2",
   "releaseNotes": {
     "defaultLocale": "en",
     "localizations": [
       {
         "locale": "en",
-        "summary": "Hotfixes audio-device startup and Windows Audio microphone channel routing after the 2.1 update, and improves the display of long device names.",
+        "summary": "Makes audio routing and Profile editing clearer, safer, and easier to verify.",
         "highlights": [
-          "Fixes ASIO and related audio helpers sometimes appearing unavailable on the first launch after upgrading from 2.0.5.4. The application now loads verified helpers directly from the active Runtime package, without requiring a second launch to repair the legacy location.",
-          "Fixes a mono microphone connected to Input 1 being recorded mainly in the left channel when using Windows Audio. Input 1 is now duplicated equally to left and right for centered Dry, Wet, Final Mix, OBS, and recording output.",
-          "Improves device selection on the Audio Routing page. When Stream Output or Monitor Device is opened, its list expands to fit the longest device name while remaining within the available screen area; the closed field and card layout keep their existing width.",
-          "Yesterday I got a spoiled clam while eating hot pot, so I probably will not dare eat hot pot again for about a month."
+          "Improves Audio Routing in Standard Player Mode. It now always uses Windows Audio and the system default output, while hiding driver and output-device choices that do not apply to this mode.",
+          "Fixes Advanced-only Buffer, latency, and stability information remaining visible in Standard Player Mode.",
+          "Improves the first Advanced Streaming Mode setup by preferring an installed OBS plugin or detected virtual output, and preserves existing OBS plugin, Monitor device, and ASIO settings across repeated mode switches.",
+          "I ate a spoiled clam at hot pot yesterday, so I probably will not dare eat hot pot again for about a month.",
+          "Makes the App Buffer health check easier to read with complete text, clear pass indicators, and a plain-language recommendation below the table.",
+          "Warns before leaving Voice Profiles with unsaved changes and clearly explains that changes take effect only after saving. Effect editors now place Cancel at the bottom left and Confirm at the bottom right; Confirm and the window close button keep the current parameters.",
+          "Reduces the overly strong reverb in the built-in Ancient Style singing Profile without changing the Singing Universal Profile."
         ]
       },
       {
         "locale": "zh-TW",
-        "summary": "修正 2.1 更新後的音訊裝置啟動與 Windows Audio 麥克風聲道，並改善長裝置名稱的顯示。",
+        "summary": "讓音訊路由與人聲 Profile 編輯更清楚、安全，也更容易確認設定是否正確。",
         "highlights": [
-          "修正從 2.0.5.4 升級後，第一次開啟時 ASIO 與相關音訊輔助元件偶爾顯示無法使用的問題。主程式現在會直接從作用中的 Runtime 套件載入已驗證元件，不必重新啟動一次等待舊位置修復。",
-          "修正使用 Windows Audio 時，接在 Input 1 的單聲道麥克風錄製後偏在左聲道的問題。Input 1 現在會等量送至左右聲道，使 Dry、Wet、Final Mix、OBS 與錄音的人聲保持置中。",
-          "改善音訊路由頁面的裝置選擇。展開「直播輸出」或「監聽裝置」清單時，清單會依最長裝置名稱自動加寬並限制在螢幕範圍內；原本卡片與欄位寬度不變。",
-          "昨天吃火鍋吃到臭掉的蛤仔，大概一個月不敢吃火鍋了。"
+          "改善音訊路由「一般播放器模式」的設定方式：固定使用 Windows Audio 與系統預設輸出，隱藏不適用的驅動與輸出裝置選項，降低設定錯誤的機會。",
+          "修正「一般播放器模式」下仍會顯示 Buffer、延遲與穩定度等進階音訊資訊的問題。",
+          "改善首次切換「進階直播模式」時的直播輸出預選；系統會優先選擇已安裝的 OBS 外掛或偵測到的虛擬音源，並確保重複切換模式後仍保留原本的 OBS 外掛、監聽裝置與 ASIO 設定。",
+          "昨天吃火鍋吃到臭掉的蛤仔，大概一個月不敢吃火鍋了。",
+          "改善 App Buffer 健檢畫面：完整顯示文字、用明確的通過標記指出穩定的 Buffer，並在表格下方提供白話建議。",
+          "離開人聲 Profiles 前若有未儲存變更會主動提醒，並清楚告知只有儲存後設定才會生效。效果器視窗的「取消」移至左下角，「確定」位於右下角；按下「確定」或右上角叉叉都會保留目前參數。",
+          "降低內建「唱歌・古風」Profile 過強的殘響，同時維持「唱歌・通用」原本的設定。"
         ]
       },
       {
         "locale": "zh-CN",
-        "summary": "修复 2.1 更新后的音频设备启动与 Windows Audio 麦克风声道问题，并改善长设备名称的显示。",
+        "summary": "让音频路由与人声 Profile 编辑更清楚、安全，也更容易确认设置是否正确。",
         "highlights": [
-          "修复从 2.0.5.4 升级后，首次启动时 ASIO 与相关音频辅助组件偶尔显示无法使用的问题。主程序现在会直接从当前 Runtime 包加载已经验证的组件，无需再次启动来修复旧位置。",
-          "修复使用 Windows Audio 时，连接至 Input 1 的单声道麦克风在录制后主要出现在左声道的问题。Input 1 现在会等量发送到左右声道，使 Dry、Wet、Final Mix、OBS 与录音中的人声保持居中。",
-          "改善音频路由页面的设备选择。展开“直播输出”或“监听设备”列表时，列表会根据最长设备名称自动加宽，并保持在可用屏幕范围内；原有卡片与字段宽度不变。",
-          "昨天吃火锅吃到了坏掉的蛤蜊，大概一个月不敢再吃火锅了。"
+          "改善音频路由“一般播放器模式”的设置方式：固定使用 Windows Audio 与系统默认输出，隐藏不适用于此模式的驱动与输出设备选项，降低设置错误的机会。",
+          "修复“一般播放器模式”下仍会显示 Buffer、延迟与稳定度等进阶音频信息的问题。",
+          "改善首次切换“进阶直播模式”时的直播输出预选；系统会优先选择已安装的 OBS 插件或检测到的虚拟音频设备，并确保重复切换模式后仍保留原有的 OBS 插件、监听设备与 ASIO 设置。",
+          "昨天吃火锅吃到坏掉的蛤蜊，大概一个月不敢吃火锅了。",
+          "改善 App Buffer 健检画面：完整显示文字、用明确的通过标记指出稳定的 Buffer，并在表格下方提供通俗建议。",
+          "离开人声 Profiles 前若有未保存更改会主动提醒，并清楚告知只有保存后设置才会生效。效果器窗口的“取消”移至左下角，“确定”位于右下角；按下“确定”或右上角关闭按钮都会保留当前参数。",
+          "降低内置“唱歌・古风”Profile 过强的混响，同时保持“唱歌・通用”原有设置不变。"
         ]
       },
       {
         "locale": "ja",
-        "summary": "2.1 更新後のオーディオデバイス起動と Windows Audio のマイクチャンネル経路を修正し、長いデバイス名の表示を改善しました。",
+        "summary": "オーディオルーティングとボイス Profile の編集を、より分かりやすく安全にし、設定結果も確認しやすくしました。",
         "highlights": [
-          "2.0.5.4 から更新した直後の初回起動で、ASIO と関連オーディオヘルパーが使用不可と表示される場合がある問題を修正しました。検証済みヘルパーを有効な Runtime パッケージから直接読み込むため、旧配置を修復するための再起動は不要です。",
-          "Windows Audio 使用時に、Input 1 に接続したモノラルマイクが録音で主に左チャンネルへ偏る問題を修正しました。Input 1 を左右へ同じ音量で送り、Dry、Wet、Final Mix、OBS、録音のボーカルを中央に配置します。",
-          "オーディオルーティング画面のデバイス選択を改善しました。「配信出力」または「モニターデバイス」のリストを開くと、画面内に収まる範囲で最も長いデバイス名に合わせて自動的に横幅が広がります。閉じた状態のフィールドとカードの幅は変わりません。",
-          "昨日、火鍋で傷んだアサリを食べてしまったので、たぶん1か月くらい火鍋を食べる勇気が出ません。"
+          "標準プレイヤーモードのオーディオルーティング設定を改善しました。Windows Audio とシステムの既定の出力を固定で使用し、このモードに不要なドライバーと出力デバイスの選択肢を非表示にします。",
+          "標準プレイヤーモードでも Buffer、レイテンシー、安定性などの高度なオーディオ情報が表示される問題を修正しました。",
+          "高度な配信モードを初めて使用するとき、インストール済みの OBS プラグインまたは検出済みの仮想出力を優先します。また、モードを繰り返し切り替えても OBS プラグイン、モニターデバイス、ASIO 設定を保持します。",
+          "昨日、火鍋で傷んだハマグリを食べてしまったので、たぶん1か月くらい火鍋を食べる勇気がありません。",
+          "App Buffer の健全性チェックを改善し、文章を省略せず表示するほか、合格した Buffer を明確なマークで示し、表の下に分かりやすい推奨内容を表示します。",
+          "未保存の変更がある状態でボイス Profiles を離れるときに警告し、保存後にのみ設定が反映されることを明示します。エフェクト画面では「キャンセル」を左下、「確定」を右下に配置し、「確定」または右上の閉じるボタンで現在のパラメーターを保持します。",
+          "内蔵の「歌唱・古風」Profile の強すぎるリバーブを抑え、「歌唱・汎用」Profile の設定は変更していません。"
         ]
       },
       {
         "locale": "ko",
-        "summary": "2.1 업데이트 후 오디오 장치 시작 문제와 Windows Audio 마이크 채널 라우팅을 수정하고 긴 장치 이름 표시를 개선했습니다.",
+        "summary": "오디오 라우팅과 보컬 Profile 편집을 더 명확하고 안전하게 만들고, 설정 결과도 쉽게 확인할 수 있도록 개선했습니다.",
         "highlights": [
-          "2.0.5.4에서 업데이트한 뒤 처음 실행할 때 ASIO 및 관련 오디오 도우미를 사용할 수 없다고 표시될 수 있는 문제를 수정했습니다. 이제 검증된 도우미를 활성 Runtime 패키지에서 직접 불러오므로 기존 위치를 복구하기 위해 한 번 더 실행할 필요가 없습니다.",
-          "Windows Audio 사용 시 Input 1에 연결한 모노 마이크가 녹음에서 주로 왼쪽 채널에 들리는 문제를 수정했습니다. Input 1을 왼쪽과 오른쪽에 동일하게 보내 Dry, Wet, Final Mix, OBS 및 녹음의 보컬이 중앙에 위치하도록 했습니다.",
-          "오디오 라우팅 화면의 장치 선택 표시를 개선했습니다. ‘방송 출력’ 또는 ‘모니터 장치’ 목록을 열면 화면 안에 들어오는 범위에서 가장 긴 장치 이름에 맞춰 목록 너비가 자동으로 확장됩니다. 닫힌 필드와 카드의 너비는 그대로 유지됩니다.",
-          "어제 훠궈를 먹다가 상한 조개를 먹어서, 아마 한 달 정도는 훠궈를 못 먹을 것 같습니다."
+          "표준 플레이어 모드의 오디오 라우팅 설정을 개선했습니다. Windows Audio와 시스템 기본 출력을 고정으로 사용하고 이 모드에 필요하지 않은 드라이버 및 출력 장치 선택 항목을 숨깁니다.",
+          "표준 플레이어 모드에서도 Buffer, 지연 시간 및 안정성과 같은 고급 오디오 정보가 표시되던 문제를 수정했습니다.",
+          "고급 방송 모드를 처음 사용할 때 설치된 OBS 플러그인 또는 감지된 가상 출력을 우선 선택합니다. 또한 모드를 반복해서 전환해도 기존 OBS 플러그인, 모니터 장치 및 ASIO 설정을 유지합니다.",
+          "어제 훠궈에서 상한 조개를 먹어서 아마 한 달 정도는 훠궈를 먹을 엄두가 나지 않을 것 같습니다.",
+          "App Buffer 상태 검사를 개선해 문장을 잘리지 않게 표시하고, 통과한 Buffer를 명확한 표시로 알려 주며, 표 아래에 쉬운 권장 사항을 제공합니다.",
+          "저장하지 않은 변경 사항이 있는 상태로 보컬 Profiles를 나가면 경고하고, 저장해야 설정이 적용된다는 점을 명확히 안내합니다. 이펙트 창에서는 ‘취소’를 왼쪽 아래, ‘확인’을 오른쪽 아래에 배치하며, ‘확인’ 또는 오른쪽 위 닫기 버튼을 누르면 현재 파라미터를 유지합니다.",
+          "내장 ‘노래・고풍’ Profile의 지나치게 강한 리버브를 줄였으며 ‘노래・범용’ Profile 설정은 그대로 유지했습니다."
         ]
       }
     ]
   },
   "launcher": {
     "version": "1.2.0.0",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "cd2d175d28a4f87b3337a0ed9d75202cbda39faddb648ed7b806346432b05b3d",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.2/Singing-Stream-Savior-Launcher.exe",
+    "sha256": "de55a03b581d316cd2b7edf2569224f5c4f6f2af53362caa4e545356d547ef10",
     "size": 666112
   },
   "files": [
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior.exe",
-      "sha256": "e05c3802033d55556abe85c77036bab252ec4c4338d60b46745c958c61473138",
-      "size": 20517376
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.2/Singing-Stream-Savior.exe",
+      "sha256": "7a02c85c92e7a339ee1d00ffaa98161e2c0946c0f680cb4d80fcc7d4b59889d6",
+      "size": 20635136
     }
   ],
   "runtimePack": {
     "version": "1.0.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Runtime.s3spack",
-    "sha256": "f359156c8a7c1966615865f638298336e8df2468bc671dd724582c3096c2a47e",
-    "size": 99968759
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.2/Singing-Stream-Savior-Runtime.s3spack",
+    "sha256": "a3ce2fcf2388c91e88a23e9f0fb026ba35c251ef13ac49c3628793d31e612dd0",
+    "size": 99968761
   },
   "packagesV2": [
     {
       "id": "application-runtime",
       "version": "1.0.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.1/Singing-Stream-Savior-Application-Runtime.s3spack",
-      "sha256": "2cd5cb74d2f21d51a4a8ab59c9c7fd78b218ebdf3817b2e01f749390eb197ddc",
-      "size": 100592745,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+      "sha256": "9571e7e281118951ad7767a458f52cbd8335638cc9cff82f2050d0981bed1b7b",
+      "size": 100592744,
       "requiredForStartup": false,
       "capability": "application-runtime",
       "files": [
@@ -459,7 +474,7 @@
         {
           "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "size": 404992,
-          "sha256": "64443a5d9d15bc2f7545104a15df5778390e6ba145f13cde69020da59d053c04"
+          "sha256": "35aec78d25452034389a5b3386746a47f2f1c4816f33382de043127a4b987a2b"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
@@ -504,22 +519,22 @@
         {
           "path": "S3SAsioBridge.exe",
           "size": 50688,
-          "sha256": "dae43f0ace19dfa4157abd17ca19e1179cbffa17fd0ebdda7d38809259b50588"
+          "sha256": "b0e33e64d74191c5fe0567e180e95c6aa1cb90af4aa9951b35707df394290f73"
         },
         {
           "path": "S3SAsioProbe.exe",
           "size": 45056,
-          "sha256": "4f60905df0a4c07217a0ac7cbe763a81cd14852395f3e0b24fe58d1885e32cb4"
+          "sha256": "5c05a543ac152dceab4fb277abc82846ddab9eb12fd0cf5c428b8982f3a520a8"
         },
         {
           "path": "S3SAudioDeviceScanner.exe",
           "size": 838656,
-          "sha256": "b38be3e0bf133b1cc4bd7a9a0b46365437446d0bfbb9bf82be239318aa8a965e"
+          "sha256": "39ba19eba22b9b037c500697b49449d0d3932d622449a277c61ea6ec881d3764"
         },
         {
           "path": "Vst3ScannerHelper.exe",
           "size": 600064,
-          "sha256": "071d982c318184e0fb8de55aeb9adbe3ce5c2af2d00f4f92692c5cdcaa2042ec"
+          "sha256": "de7d5f6e167b7ff41f230701165f497e8f78ef4fe847acbf5bad4f2cab978ee6"
         }
       ]
     }
