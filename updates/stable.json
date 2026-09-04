@@ -1,598 +1,527 @@
 {
-  "schemaVersion": 1,
-  "channel": "stable",
-  "version": "2.1.1.0",
-  "minimumLauncherVersion": "1.0.0.0",
-  "publishedAt": "2026-09-03T19:33:18.7602986+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.1.0",
-  "releaseNotes": {
-    "defaultLocale": "en",
-    "localizations": [
-      {
-        "locale": "en",
-        "summary": "Adds integrated MDX vocal removal, visual range selection for long YouTube videos, new Reserve playback modes, and safer Output Bus updates.",
-        "highlights": [
-          "Adds a dedicated UVR Vocal Removal workspace between Playlist Appearance and Profile Editor. Drop audio files or YouTube links into its queue, edit titles, monitor each item and the whole batch, stop processing, and import completed instrumentals directly to the song list.",
-          "Includes two MDX choices with Preserve backing vocals as the default. Each queued item can instead remove all vocals, and the chosen setting is snapshotted when a batch starts so later edits cannot change work already queued in that batch.",
-          "Writes paired (Instrumental) and (Vocal) files as 48 kHz FLAC or WAV. The UVR output folder is managed centrally in Settings > Files & Project, while the UVR page links directly to that setting.",
-          "YouTube videos longer than 15 minutes can open a video-preview range selector with a timeline and Capture start/end controls. The selected segment is also available when importing accompaniment, persists in the project, and plays from 00:00 for the selected duration after reopening.",
-          "Opening the YouTube range selector pauses accompaniment and BGM. If BGM was playing beforehand, both Apply and Cancel restore that original BGM state.",
-          "Adds Play once, Repeat current, Play Reserve in order, and Shuffle Reserve modes. The same synchronized choices are available from the Windows notification-area menu, while direct song-list playback safely returns to Play once.",
-          "Publishes Output Bus Mix, Compressor, and Limiter settings as one coherent fixed-memory snapshot, preventing a realtime audio callback from combining old and new parameter values during an update.",
-          "Because finding an audio file, removing its vocals, and then dragging it into the song list every time felt too cumbersome, I stayed up late and built vocal removal with YouTube support too."
-        ]
-      },
-      {
-        "locale": "zh-TW",
-        "summary": "新增整合式 MDX 人聲消除、長 YouTube 影片視覺化範圍選取、待播清單播放模式，以及更安全的 Output Bus 參數更新。",
-        "highlights": [
-          "在「歌單樣式」與「Profile 編輯」之間新增獨立的 UVR 人聲消除分頁。可直接把音檔或 YouTube 連結拖入待處理清單、編輯標題、查看單曲與整批進度、停止處理，並將完成的伴奏直接匯入歌曲列表。",
-          "內建兩種 MDX 選擇，預設為「保留合音」，每首也可改為「完全消除人聲」。開始整批處理時會固定各項目的設定，之後編輯尚未處理的列也不會改變本批已排定的工作。",
-          "以 48 kHz FLAC 或 WAV 輸出成對的「(Instrumental)」與「(Vocal)」檔案。UVR 輸出資料夾統一由「設定 > 檔案與專案」管理，UVR 分頁可直接連到該設定。",
-          "超過 15 分鐘的 YouTube 影片可開啟含影片預覽、時間軸及「紀錄起點／終點」的範圍選取視窗。匯入伴奏也能使用所選段落；儲存並重開專案後仍會保留，播放器會以所選段落的 00:00 起算。",
-          "開啟 YouTube 範圍選取視窗時會暫停伴奏與 BGM；如果原本正在播放 BGM，無論套用或取消都會恢復原本的 BGM 狀態。",
-          "新增「單次播放」、「單曲循環」、「待播清單依序播放」與「待播清單隨機播放」。Windows 通知區域右鍵選單也提供同步選項；直接從歌曲列表播放時會安全地回到單次播放。",
-          "Output Bus 的 Mix、Compressor 與 Limiter 設定改用一份完整且固定記憶體的參數快照，避免即時音訊 callback 在更新期間同時讀到部分新值與部分舊值。",
-          "因為我覺得每次要自己找音檔，還要消除人聲再把檔案拉到歌單裡有點太麻煩，所以熬夜做了人聲消除的功能，並且也支援YouTube"
-        ]
-      },
-      {
-        "locale": "zh-CN",
-        "summary": "新增集成式 MDX 人声消除、长 YouTube 视频可视化范围选择、待播列表播放模式，以及更安全的 Output Bus 参数更新。",
-        "highlights": [
-          "在“歌单样式”与“Profile 编辑”之间新增独立的 UVR 人声消除页面。可直接将音频文件或 YouTube 链接拖入待处理列表、编辑标题、查看单曲与整批进度、停止处理，并将完成的伴奏直接导入歌曲列表。",
-          "内置两种 MDX 选择，默认为“保留和声”，每首也可改为“完全消除人声”。开始整批处理时会固定各项目的设置，之后编辑尚未处理的行也不会改变本批已排定的任务。",
-          "以 48 kHz FLAC 或 WAV 输出成对的“(Instrumental)”与“(Vocal)”文件。UVR 输出文件夹统一由“设置 > 文件与项目”管理，UVR 页面可直接跳转到该设置。",
-          "超过 15 分钟的 YouTube 视频可打开包含视频预览、时间轴及“记录起点／终点”的范围选择窗口。导入伴奏也能使用所选片段；保存并重新打开项目后仍会保留，播放器会从所选片段的 00:00 开始计时。",
-          "打开 YouTube 范围选择窗口时会暂停伴奏与 BGM；如果原本正在播放 BGM，无论应用还是取消都会恢复原来的 BGM 状态。",
-          "新增“单次播放”、“单曲循环”、“待播列表顺序播放”与“待播列表随机播放”。Windows 通知区域右键菜单也提供同步选项；直接从歌曲列表播放时会安全地回到单次播放。",
-          "Output Bus 的 Mix、Compressor 与 Limiter 设置改用一份完整且固定内存的参数快照，避免实时音频 callback 在更新期间同时读取部分新值与部分旧值。",
-          "因为我觉得每次都要自己找音频文件、消除人声，再把文件拖进歌单实在太麻烦，所以熬夜做了人声消除功能，并且也支持 YouTube。"
-        ]
-      },
-      {
-        "locale": "ja",
-        "summary": "MDX ボーカル除去、長い YouTube 動画の視覚的な範囲選択、Reserve の再生モード、安全な Output Bus 更新を追加しました。",
-        "highlights": [
-          "「プレイリスト表示」と「Profile 編集」の間に、独立した UVR ボーカル除去ページを追加しました。音声ファイルや YouTube リンクを処理リストへ直接ドロップし、タイトル編集、曲別・全体進捗の確認、処理停止、完成した伴奏の曲リストへの直接取り込みができます。",
-          "2 種類の MDX を収録し、初期値は「コーラスを残す」です。曲ごとに「ボーカルをすべて除去」へ変更でき、バッチ開始時に各項目の設定を固定するため、その後の編集が開始済みバッチへ混在することはありません。",
-          "48 kHz の FLAC または WAV で「(Instrumental)」と「(Vocal)」のペアを出力します。UVR の出力先は「設定 > ファイルとプロジェクト」で一元管理し、UVR ページからその設定へ直接移動できます。",
-          "15 分を超える YouTube 動画では、動画プレビュー、タイムライン、「開始点／終了点を記録」を備えた範囲選択画面を使用できます。伴奏の取り込みにも適用でき、プロジェクト保存後も保持され、再度開いたときは選択範囲を 00:00 から再生します。",
-          "YouTube の範囲選択画面を開くと伴奏と BGM を一時停止します。事前に BGM が再生中だった場合は、適用でもキャンセルでも元の BGM 状態を復元します。",
-          "「1 回再生」「1 曲リピート」「Reserve を順番に再生」「Reserve をシャッフル再生」を追加しました。Windows 通知領域の右クリックメニューにも同期した選択肢を用意し、曲リストから直接再生した場合は安全に 1 回再生へ戻ります。",
-          "Output Bus の Mix、Compressor、Limiter 設定を、固定メモリ上の一貫した単一スナップショットとして公開するようにし、更新中のリアルタイム音声 callback が新旧パラメーターを混在させないようにしました。",
-          "毎回音声ファイルを探してボーカルを消し、それを歌リストへドラッグするのが面倒だと感じたので、徹夜で YouTube にも対応したボーカル除去機能を作りました。"
-        ]
-      },
-      {
-        "locale": "ko",
-        "summary": "통합 MDX 보컬 제거, 긴 YouTube 영상의 시각적 구간 선택, 대기 목록 재생 모드, 더 안전한 Output Bus 업데이트를 추가했습니다.",
-        "highlights": [
-          "‘재생 목록 스타일’과 ‘Profile 편집’ 사이에 독립된 UVR 보컬 제거 페이지를 추가했습니다. 오디오 파일이나 YouTube 링크를 처리 목록에 바로 놓고, 제목을 편집하고, 곡별 및 전체 진행률을 확인하고, 처리를 중지하고, 완성된 반주를 곡 목록으로 바로 가져올 수 있습니다.",
-          "두 가지 MDX 선택지를 포함하며 기본값은 ‘코러스 보존’입니다. 곡마다 ‘모든 보컬 제거’로 바꿀 수 있고, 일괄 처리를 시작할 때 각 항목의 설정을 고정하므로 이후 편집이 이미 예약된 작업에 섞이지 않습니다.",
-          "48 kHz FLAC 또는 WAV 형식으로 ‘(Instrumental)’과 ‘(Vocal)’ 파일을 한 쌍으로 출력합니다. UVR 출력 폴더는 ‘설정 > 파일 및 프로젝트’에서 통합 관리하며 UVR 페이지에서 해당 설정으로 바로 이동할 수 있습니다.",
-          "15분이 넘는 YouTube 영상은 영상 미리보기, 타임라인, ‘시작／종료 지점 기록’ 기능이 있는 구간 선택 창을 열 수 있습니다. 반주 가져오기에도 선택 구간을 적용하며, 프로젝트를 저장하고 다시 열어도 유지되고 선택한 구간을 00:00부터 재생합니다.",
-          "YouTube 구간 선택 창을 열면 반주와 BGM을 일시 정지합니다. 이전에 BGM이 재생 중이었다면 적용하거나 취소할 때 모두 원래 BGM 상태를 복원합니다.",
-          "‘한 번 재생’, ‘현재 곡 반복’, ‘대기 목록 순서 재생’, ‘대기 목록 무작위 재생’을 추가했습니다. Windows 알림 영역의 오른쪽 클릭 메뉴에서도 동기화된 선택지를 제공하며, 곡 목록에서 직접 재생하면 안전하게 한 번 재생으로 돌아갑니다.",
-          "Output Bus의 Mix, Compressor, Limiter 설정을 고정 메모리의 일관된 단일 스냅샷으로 게시하여, 업데이트 중 실시간 오디오 callback이 새 값과 이전 값을 섞어 읽지 않도록 했습니다.",
-          "매번 오디오 파일을 직접 찾고 보컬을 제거한 뒤 다시 곡 목록으로 끌어오는 과정이 너무 번거로워서, 밤을 새워 YouTube까지 지원하는 보컬 제거 기능을 만들었습니다."
-        ]
-      }
-    ]
-  },
-  "launcher": {
-    "version": "1.2.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.0/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "dd60e700cf05de3273aabdd09ab1ff6044674473880530a0e053d26553e6780e",
-    "size": 666624
-  },
-  "files": [
-    {
-      "component": "application",
-      "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.0/Singing-Stream-Savior.exe",
-      "sha256": "5e32c26f8a63aef41a6516b714e2de24527c63ee621a5356884a116088c7c228",
-      "size": 21167104
-    }
-  ],
-  "runtimePack": {
-    "version": "1.0.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.0/Singing-Stream-Savior-Runtime.s3spack",
-    "sha256": "c5d78301693e05a769353f12164e49fbc9622f304fbd2b5c7d329e4fe39bc7d8",
-    "size": 99968759
-  },
-  "packagesV2": [
-    {
-      "id": "application-runtime",
-      "version": "1.0.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.0/Singing-Stream-Savior-Application-Runtime.s3spack",
-      "sha256": "4a453253f3ab9ffa06e9b81a04d2e5ddbe57c09e972e887524e579632cdeb3fd",
-      "size": 100592744,
-      "requiredForStartup": false,
-      "capability": "application-runtime",
-      "files": [
-        {
-          "path": "OpenCC/bin/opencc.exe",
-          "size": 572928,
-          "sha256": "89fee21ca7a40b2879efa3ed946a36398b37d119b627d7b1246ece020a6da005"
-        },
-        {
-          "path": "OpenCC/share/opencc/CJK_Compatibility_Ideographs.ocd2",
-          "size": 13843,
-          "sha256": "4b1faa6649012f524068ec18c0fb520ead343c11cbe0a8e4c8853ca61369d666"
-        },
-        {
-          "path": "OpenCC/share/opencc/s2twp.json",
-          "size": 1408,
-          "sha256": "4f7cb76a49655fcab3e1963ada81ae88406b7758a1af8667263be74cb13e3cd3"
-        },
-        {
-          "path": "OpenCC/share/opencc/S3SLyricsPhrases.txt",
-          "size": 3981,
-          "sha256": "0150cbcc59a489d2d53b94810f8e849182e19636da0d65f15011c1ca618c81a5"
-        },
-        {
-          "path": "OpenCC/share/opencc/STCharacters.ocd2",
-          "size": 45873,
-          "sha256": "49b4f15e9b161eb66b961a17a2105c7c57da12d85dd872037b827e09aa5ee4c3"
-        },
-        {
-          "path": "OpenCC/share/opencc/STPhrases_GeneratedFromRegionalPhrases.ocd2",
-          "size": 17861,
-          "sha256": "4d4a6f369af0da758b63f4a0474f348fbcb4b00173574fca8f361cd603eddd3e"
-        },
-        {
-          "path": "OpenCC/share/opencc/STPhrases.ocd2",
-          "size": 925258,
-          "sha256": "f28fca11a3813071a628e2c897e4462908c3e890d335ea247da1f1be8953fec8"
-        },
-        {
-          "path": "OpenCC/share/opencc/TSCharacters.ocd2",
-          "size": 52410,
-          "sha256": "7a994de7900707925fac9c68728a6bb9cf3059870426f661cf31b601efbf5f2f"
-        },
-        {
-          "path": "OpenCC/share/opencc/TSCharactersExt.ocd2",
-          "size": 14362,
-          "sha256": "e2b0286801dcd1d26119d19ba8b8a35cde021ec173468255d117c4c0951b2906"
-        },
-        {
-          "path": "OpenCC/share/opencc/TSPhrases.ocd2",
-          "size": 13465,
-          "sha256": "6f351ef4c905e6ce225f65895bab3bf4d89b39b7d701fce44459c4b8c7ed33d5"
-        },
-        {
-          "path": "OpenCC/share/opencc/tw2sp.json",
-          "size": 1034,
-          "sha256": "f8cf900c1b456a7d2e8477f5bf146814071d28ad64ef37fbc0ae757930c167d5"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWPhrases.ocd2",
-          "size": 22360,
-          "sha256": "109bb27fc318f48d9c5001b74dea12fe2b3c54250efbdb52c919f518e1591de6"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWPhrasesRev.ocd2",
-          "size": 22282,
-          "sha256": "6cb8ce51b3d9015414e84d8abff0a91a1bbfad23b886740d0952a720388f545b"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWVariants.ocd2",
-          "size": 4587,
-          "sha256": "f8a6e00b7b03b406a74fed43a7293aa12c4646cc7fd38a8d2ecf8da88267bef6"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWVariantsPhrases.ocd2",
-          "size": 4215,
-          "sha256": "549d7025f70caf89381d396f5d9555b57c17cee8e604915dd6a7315cc7cc6a68"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWVariantsRev.ocd2",
-          "size": 4611,
-          "sha256": "94e6f06b1b762a4ee01bb3cb2f7252e6ff0862c0f05c9aaeeef6047c29ced9c1"
-        },
-        {
-          "path": "OpenCC/share/opencc/TWVariantsRevPhrases.ocd2",
-          "size": 24353,
-          "sha256": "2f7d73c3f34e3a67f93949ad296e59391911fc57048a489e86a8d0092347036d"
-        },
-        {
-          "path": "JapaneseReading/aromanize.js",
-          "size": 24606,
-          "sha256": "d99fa5ddeed034b55e5d409eedd7ed7fa07ab9e9b76dd15b015651a96caf5347"
-        },
-        {
-          "path": "JapaneseReading/dict/base.dat.gz",
-          "size": 3956825,
-          "sha256": "0803327762e1c93ca731e4319ab8343340f2806bb84941207782cde9d2d5a8eb"
-        },
-        {
-          "path": "JapaneseReading/dict/cc.dat.gz",
-          "size": 1692067,
-          "sha256": "02b7631be0d4de3a1a75cd9f9cc51536e4f94c9e6b389b813e06ba0f6e7de765"
-        },
-        {
-          "path": "JapaneseReading/dict/check.dat.gz",
-          "size": 3111633,
-          "sha256": "193ae0035fff6fe812b58d9ee730e7a7d7ee601d918481ce51075c58114f6cc9"
-        },
-        {
-          "path": "JapaneseReading/dict/tid_map.dat.gz",
-          "size": 1485576,
-          "sha256": "33efd5ffd87a70f669add093fa39dee44341d58f940844ef107c8fd98bb795b2"
-        },
-        {
-          "path": "JapaneseReading/dict/tid_pos.dat.gz",
-          "size": 5916009,
-          "sha256": "60dbfc99a6ab993f30c5dab648bec6ad7f9aaefa5c14e1843837d95e509f8895"
-        },
-        {
-          "path": "JapaneseReading/dict/tid.dat.gz",
-          "size": 1605820,
-          "sha256": "d43d831cb6fb0f0a411739cd287a6d5e998e121a8daca614df14a81a0dcac586"
-        },
-        {
-          "path": "JapaneseReading/dict/unk_char.dat.gz",
-          "size": 306,
-          "sha256": "9a8e86fd9aff32d323fbb59f5a7006f05927a11f8173c90712cc56293aeb3225"
-        },
-        {
-          "path": "JapaneseReading/dict/unk_compat.dat.gz",
-          "size": 338,
-          "sha256": "50f60aa29bc2e86c2903ab8c825bb6fa604d2b294d96941c1d3924259791899d"
-        },
-        {
-          "path": "JapaneseReading/dict/unk_invoke.dat.gz",
-          "size": 1140,
-          "sha256": "6b210889548457c3006913afd12c8b525562255f2709e404604be9614a25e94c"
-        },
-        {
-          "path": "JapaneseReading/dict/unk_map.dat.gz",
-          "size": 1190,
-          "sha256": "6df12460e5477230bb6fd9641def918b699fc0a8868016b6c9f794488630509b"
-        },
-        {
-          "path": "JapaneseReading/dict/unk_pos.dat.gz",
-          "size": 10540,
-          "sha256": "5b183a29f281acc7e0542beca47b83f7985047c0a2d27e78a66f32276be5ad11"
-        },
-        {
-          "path": "JapaneseReading/dict/unk.dat.gz",
-          "size": 10512,
-          "sha256": "f7f991cdeb9bfd3e9c0e4577cc50ee0815a11c508cccd444a9d3ab3c81521100"
-        },
-        {
-          "path": "JapaneseReading/kuroshiro-analyzer-kuromoji.min.js",
-          "size": 78021,
-          "sha256": "bf894edfb6908a5598e6e7e8ff8c70c5ef95a63d1235c252736b5aa838cbfed1"
-        },
-        {
-          "path": "JapaneseReading/kuroshiro.min.js",
-          "size": 33929,
-          "sha256": "e3e609355449b1ddb4f56253402aa7fc544743df3346028e56a121f03d0717e6"
-        },
-        {
-          "path": "JapaneseReading/LICENSE-aromanize.txt",
-          "size": 1072,
-          "sha256": "b25e0d528ac7defbcaaa75fcbab290e86443b0ef9347a49467eb3a17aeb63d99"
-        },
-        {
-          "path": "JapaneseReading/LICENSE-kuromoji.txt",
-          "size": 11358,
-          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-        },
-        {
-          "path": "JapaneseReading/LICENSE-kuroshiro-analyzer-kuromoji.txt",
-          "size": 1098,
-          "sha256": "b7d558f1039acceefeb9656e5704f585e6b0efde36a740b8cb6f698f4cf61909"
-        },
-        {
-          "path": "JapaneseReading/LICENSE-kuroshiro.txt",
-          "size": 1098,
-          "sha256": "3b4f6214d2e1e0c6e7b2906a1522552ad3968836d7191f76dd27867c6ac0ffbc"
-        },
-        {
-          "path": "JapaneseReading/lyrics-reading-engine.js",
-          "size": 10139,
-          "sha256": "ebab6b69ddd4dfc13bd45e6938ede83ebe7643b25bba64a893f844cf4510efad"
-        },
-        {
-          "path": "JapaneseReading/runtime-version.txt",
-          "size": 31,
-          "sha256": "57f26d4fe4c97dc27b49b72f81b6c66066f95cfc5af12a646c66875b21a499e0"
-        },
-        {
-          "path": "SharedThemeAssets/fonts/0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6/NotoSerifTC-Variable.ttf",
-          "size": 16851596,
-          "sha256": "0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6"
-        },
-        {
-          "path": "SharedThemeAssets/fonts/550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf/BodoniModa-Variable.ttf",
-          "size": 162104,
-          "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
-        },
-        {
-          "path": "SharedThemeAssets/fonts/99999f906b3793c7c97661a05ef9d53488d488604683b308c756d084b71df7d1/NotoSerifJP-Variable.ttf",
-          "size": 13574104,
-          "sha256": "99999f906b3793c7c97661a05ef9d53488d488604683b308c756d084b71df7d1"
-        },
-        {
-          "path": "SharedThemeAssets/fonts/b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731/LXGWWenKaiTC-Regular.ttf",
-          "size": 15267616,
-          "sha256": "b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731"
-        },
-        {
-          "path": "SharedThemeAssets/fonts/dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4/NotoSansCJKtc-Regular.otf",
-          "size": 16435884,
-          "sha256": "dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4"
-        },
-        {
-          "path": "SharedThemeAssets/licenses/OFL-BodoniModa.txt",
-          "size": 4400,
-          "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
-        },
-        {
-          "path": "SharedThemeAssets/licenses/OFL-LXGW-WenKai.txt",
-          "size": 4395,
-          "sha256": "1a13783bf4337242834b60309cdcdbeb566ae3f923576fdbba8b78db9d174def"
-        },
-        {
-          "path": "SharedThemeAssets/licenses/OFL-Noto-CJK.txt",
-          "size": 4301,
-          "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
-        },
-        {
-          "path": "SharedThemeAssets/licenses/OFL-NotoSerifTC.txt",
-          "size": 4350,
-          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
-        },
-        {
-          "path": "Themes/builtin-aurora-console.s3stheme",
-          "size": 1758440,
-          "sha256": "e2707a09db46b86978fadd67742d7abc5b4fa67286dfd48b8367b338484b5dc3"
-        },
-        {
-          "path": "Themes/builtin-capsule-chorus.s3stheme",
-          "size": 3405629,
-          "sha256": "32f48628cde065bad024da746ee1dd736610d4760bdab8e0c0dec4dda1b41b1e"
-        },
-        {
-          "path": "Themes/builtin-cassette-now.s3stheme",
-          "size": 1282317,
-          "sha256": "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53"
-        },
-        {
-          "path": "Themes/builtin-cloud-mobile.s3stheme",
-          "size": 2490532,
-          "sha256": "3e5178064899a6ce37c3d2ba528878ca0133e61bd2ef93229312c65ef43da2b1"
-        },
-        {
-          "path": "Themes/builtin-firefly-reed.s3stheme",
-          "size": 3159744,
-          "sha256": "af665458e3651895f32e8ad31bda5ef487e1593b48c8f091f453834177b9f360"
-        },
-        {
-          "path": "Themes/builtin-frost-lantern.s3stheme",
-          "size": 709718,
-          "sha256": "531a392d60071922a308e03b7799631ad850ba564a4608185a68754e870ee807"
-        },
-        {
-          "path": "Themes/builtin-kintsugi-night.s3stheme",
-          "size": 958617,
-          "sha256": "6baca2cdf433c18e746ffdfb555cb8effa79ff84ffe1c598a1310b63eeb8412b"
-        },
-        {
-          "path": "Themes/builtin-moon-dial.s3stheme",
-          "size": 4020684,
-          "sha256": "b48ab862d9ce62cf319f70becbeff751916b16688da6d1f54461e8faeb9f9c4d"
-        },
-        {
-          "path": "Themes/builtin-pocket-singer.s3stheme",
-          "size": 112995,
-          "sha256": "8875774f3572e0aabed5296b40aa3d2d5684f105c65f603f09c0bef8f89cd50b"
-        },
-        {
-          "path": "Themes/builtin-porcelain-signal.s3stheme",
-          "size": 924830,
-          "sha256": "8046512eaaa78d88b73cab94c3b3a660b5efd2f1a2d7deb0eb150a015102715e"
-        },
-        {
-          "path": "Themes/builtin-pressed-garden.s3stheme",
-          "size": 3112438,
-          "sha256": "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e"
-        },
-        {
-          "path": "Themes/builtin-quiet-ledger-left.s3stheme",
-          "size": 20872,
-          "sha256": "e999c64841195e51af40be53f065f94879feacb75cf4d9d2189f7a165a440913"
-        },
-        {
-          "path": "Themes/builtin-quiet-ledger-right.s3stheme",
-          "size": 21207,
-          "sha256": "6a756c826f20df666a228f2300661cffe4df47e2d0714c8664880387566c577d"
-        },
-        {
-          "path": "Themes/builtin-rain-glass.s3stheme",
-          "size": 592266,
-          "sha256": "2c39847437d21266924b038663959bb13ade8329d65cb2a44201df6906c890c2"
-        },
-        {
-          "path": "Themes/builtin-shell-nocturne.s3stheme",
-          "size": 941127,
-          "sha256": "906f951aba07b1fbef932847ac560229b56369f71e9d948d539af81e746e5a9f"
-        },
-        {
-          "path": "Themes/builtin-signal-line.s3stheme",
-          "size": 11539,
-          "sha256": "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203"
-        },
-        {
-          "path": "Themes/builtin-singing-familiar.s3stheme",
-          "size": 237973,
-          "sha256": "bf859fd30c7ba7fabf31556ea80eea215f9336efe97f179bbbc2a07bc67fae12"
-        },
-        {
-          "path": "Themes/builtin-stage-caption.s3stheme",
-          "size": 11386,
-          "sha256": "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555"
-        },
-        {
-          "path": "Themes/builtin-stained-twilight.s3stheme",
-          "size": 829330,
-          "sha256": "4b1abf61a5df2ce8e1440024fd8907ba1b56adbff498fb44ecfeb55a2406fd83"
-        },
-        {
-          "path": "Themes/builtin-summer-chime.s3stheme",
-          "size": 1099802,
-          "sha256": "333c4da6a18c98093b6e395f91e35c66d5f7bee0b312c491183e30c2fffac9fe"
-        },
-        {
-          "path": "Themes/Card.s3stheme",
-          "size": 7315,
-          "sha256": "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9"
-        },
-        {
-          "path": "Themes/CD.s3stheme",
-          "size": 32045,
-          "sha256": "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f"
-        },
-        {
-          "path": "Themes/TransparentBlack.s3stheme",
-          "size": 7204,
-          "sha256": "7f907b06b0397d07200629aced6f24619a0b108bf9decd654306b1f677e3eb8b"
-        },
-        {
-          "path": "Themes/TransparentBlackV2.s3stheme",
-          "size": 6862,
-          "sha256": "f32029f4935c348525fae81d07f101993a91804867589dd9c824a5d7d3b35e8e"
-        },
-        {
-          "path": "Themes/TransparentWhite.s3stheme",
-          "size": 6784,
-          "sha256": "87111ca4126a323197698671129b7287f31b5d5bf8fcac24355f399dad7b4da9"
-        },
-        {
-          "path": "Themes/TransparentWhiteV2.s3stheme",
-          "size": 6445,
-          "sha256": "34bef64c1356098f183fe58052d51c85ab7e9184709f7cf3ab72865ea40d9938"
-        },
-        {
-          "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-          "size": 404992,
-          "sha256": "e0c8361bc9bd957c8d459062ce396f3799d743ad466c30334a6c9eb023219eb6"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
-          "size": 40448,
-          "sha256": "33b01e9bf42a2d1cb922410cb2ce3ac9a9fedf28ed430407316c3c28bd23e1e5"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
-          "size": 43,
-          "sha256": "b50259f35ed1e13295612970dc69dff30522323e7c238d41734ed5dea6ccace2"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/ja-JP.ini",
-          "size": 53,
-          "sha256": "1756ff258b0b524621851ff537fcb9fbc97c20c676db1646c59ee3636827e563"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/ko-KR.ini",
-          "size": 47,
-          "sha256": "dcea58fbee67c1356bbcf14cf05368911cf43f87ae978f125277082c66599bd2"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/zh-CN.ini",
-          "size": 44,
-          "sha256": "64d93a57e1432877a0db5d89004b0d7502e0db0ea5b80a37b7e75d90121106b3"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/zh-TW.ini",
-          "size": 44,
-          "sha256": "cb62fcda46c584a939097fb996ea2c034c23918d75318d44c57ed471b5c9d978"
-        },
-        {
-          "path": "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
-          "size": 631,
-          "sha256": "3fe3ae4cf19b8844d85aa5f7a5ad908c2d511d94b9e051213f165265a4b166c2"
-        },
-        {
-          "path": "yt-dlp/ytdlp_helper.exe",
-          "size": 16611812,
-          "sha256": "fe5f62dc0df602fae2b8dbbc1381a92d1b75f8c88bfdb37a0288a07bb66f794d"
-        },
-        {
-          "path": "S3SAsioBridge.exe",
-          "size": 50688,
-          "sha256": "9725981524b471897d802fa936d7d471b013204a99764a11d081c34c39da1285"
-        },
-        {
-          "path": "S3SAsioProbe.exe",
-          "size": 45056,
-          "sha256": "060138d340602b23968458f0255f4e55e875dcb3e012e38fb61d1bfcc1c1b751"
-        },
-        {
-          "path": "S3SAudioDeviceScanner.exe",
-          "size": 838656,
-          "sha256": "18e5381cac5047f5a451323b288ed6459b7f87164604f16338856919db5c0995"
-        },
-        {
-          "path": "Vst3ScannerHelper.exe",
-          "size": 600064,
-          "sha256": "a3c909dfa8185b011c75a0328d52750b95424f446c893e738112b84e2086b61c"
-        }
-      ]
-    },
-    {
-      "id": "uvr-mdx",
-      "version": "1.0.0.0",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-      "sha256": "5ef374edca9d6f7d36a1221b54b97e5a2c4c1bd450658ac9e6e2ac6a8d31d197",
-      "size": 117106922,
-      "requiredForStartup": false,
-      "capability": "uvr-mdx",
-      "files": [
-        {
-          "path": "bin/cpu/sherpa-onnx-offline-source-separation.exe",
-          "size": 15915008,
-          "sha256": "d61a1b928bba6ef4ca30e22bab351bc221aadc50b59165abfa21fa5ceebd3a84"
-        },
-        {
-          "path": "models/UVR-MDX-NET-Inst_HQ_3.onnx",
-          "size": 66759522,
-          "sha256": "c207b845d51dc1303c543503f6f5a8b596da5d7de97bead77b3e16ec38e8d5b3"
-        },
-        {
-          "path": "models/UVR_MDXNET_KARA_2.onnx",
-          "size": 52787030,
-          "sha256": "c05b3b7a3ab73362c85511dd0386ad173f28570e23ce1d8d3f87391396a85c08"
-        },
-        {
-          "path": "licenses/sherpa-onnx-Apache-2.0.txt",
-          "size": 9221,
-          "sha256": "d4d265b6ef2cfd0fb645acee9d9092103d5fadbdae887eb87c58a5d9b0780e19"
-        },
-        {
-          "path": "licenses/UVR-MDX-Models-NOTICE.txt",
-          "size": 2070,
-          "sha256": "b6902c25972383c7b13c24554accb7dc62cacd0b6d637936c44cd1aafdefc366"
-        },
-        {
-          "path": "licenses/Ultimate-Vocal-Remover-MIT.txt",
-          "size": 1079,
-          "sha256": "1938bb56260d897e0f10be7d2efa27034cf2f31b849ad4ab876972a39ea8a886"
-        },
-        {
-          "path": "licenses/ONNX-Runtime-MIT.txt",
-          "size": 1073,
-          "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
-        },
-        {
-          "path": "licenses/ONNX-Runtime-ThirdPartyNotices-1.27.1.txt",
-          "size": 325054,
-          "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
-        }
-      ]
-    }
-  ]
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "version":  "2.1.0.3",
+    "minimumLauncherVersion":  "1.0.0.0",
+    "publishedAt":  "2026-09-03T07:45:20.4476966+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.0.3",
+    "releaseNotes":  {
+                         "defaultLocale":  "en",
+                         "localizations":  [
+                                               {
+                                                   "locale":  "en",
+                                                   "summary":  "Hotfixes playlist reordering and status visibility, and includes Launcher 1.2.0.1 with steadier update rendering.",
+                                                   "highlights":  [
+                                                                      "Fixes the playlist drag indicator and the actual dropped position disagreeing when a song is moved between other songs.",
+                                                                      "Moves YouTube loading and playback messages to the main window\u0027s lower-left status area instead of showing a loading label below the player, and restores other playback status messages there.",
+                                                                      "Adds a one-way, start-to-end marquee for long status messages in Mini mode. The Monitor source selector now uses the same reset-to-start behavior instead of bouncing backward.",
+                                                                      "Launcher 1.2.0.1 reduces icon flicker while update data is processed and card-area flicker while release notes are scrolled."
+                                                                  ]
+                                               },
+                                               {
+                                                   "locale":  "zh-TW",
+                                                   "summary":  "修正歌單拖曳與狀態訊息顯示問題，並隨附更新畫面更穩定的啟動器 1.2.0.1。",
+                                                   "highlights":  [
+                                                                      "修正歌曲列表拖曳時，藍色插入線與放開後實際落點不一致的問題。",
+                                                                      "將 YouTube 載入與播放訊息移至主畫面左下角的狀態區，不再於播放器進度條下方顯示載入文字，並恢復其他播放狀態訊息。",
+                                                                      "迷你模式的長狀態訊息新增由頭到尾、回到開頭再重播的單向跑馬燈；監聽來源選單也改用相同行為，不再反向回彈。",
+                                                                      "啟動器 1.2.0.1 減少處理更新資料時的 icon 閃爍，以及滑動更新資訊時的卡片區域閃爍。"
+                                                                  ]
+                                               },
+                                               {
+                                                   "locale":  "zh-CN",
+                                                   "summary":  "修复歌单拖动与状态消息显示问题，并附带更新画面更稳定的启动器 1.2.0.1。",
+                                                   "highlights":  [
+                                                                      "修复歌曲列表拖动时，蓝色插入线与松开后实际落点不一致的问题。",
+                                                                      "将 YouTube 加载与播放消息移至主界面左下角的状态区，不再于播放器进度条下方显示加载文字，并恢复其他播放状态消息。",
+                                                                      "迷你模式的长状态消息新增从头到尾、回到开头后重新播放的单向跑马灯；监听来源选择框也改用相同行为，不再反向回弹。",
+                                                                      "启动器 1.2.0.1 减少处理更新数据时的图标闪烁，以及滚动更新信息时的卡片区域闪烁。"
+                                                                  ]
+                                               },
+                                               {
+                                                   "locale":  "ja",
+                                                   "summary":  "プレイリストの並べ替えとステータス表示を修正し、更新画面の描画を安定させた Launcher 1.2.0.1 を同梱します。",
+                                                   "highlights":  [
+                                                                      "曲をドラッグして並べ替えるとき、青い挿入ラインとドロップ後の実際の位置が一致しない問題を修正しました。",
+                                                                      "YouTube の読み込み・再生メッセージをプレイヤー下部ではなくメイン画面左下のステータス領域に移動し、その他の再生ステータスも再び表示されるようにしました。",
+                                                                      "ミニモードの長いステータスメッセージに、先頭から末尾へ進み、先頭に戻って繰り返す一方向マーキーを追加しました。モニターソース選択欄も、逆方向へ戻らない同じ動作に変更しました。",
+                                                                      "Launcher 1.2.0.1 では、更新データ処理中のアイコンのちらつきと、更新情報をスクロールしたときのカード領域のちらつきを軽減しました。"
+                                                                  ]
+                                               },
+                                               {
+                                                   "locale":  "ko",
+                                                   "summary":  "재생 목록 순서 변경과 상태 메시지 표시 문제를 수정하고, 업데이트 화면 렌더링이 더 안정적인 Launcher 1.2.0.1을 포함합니다.",
+                                                   "highlights":  [
+                                                                      "곡을 끌어 순서를 바꿀 때 파란색 삽입선과 놓은 뒤의 실제 위치가 일치하지 않던 문제를 수정했습니다.",
+                                                                      "YouTube 로딩 및 재생 메시지를 플레이어 아래가 아닌 메인 화면 왼쪽 아래 상태 영역으로 옮기고, 다른 재생 상태 메시지도 다시 표시되도록 했습니다.",
+                                                                      "미니 모드의 긴 상태 메시지에 처음부터 끝까지 이동한 뒤 처음으로 돌아가 반복하는 단방향 마키를 추가했습니다. 모니터 소스 선택 상자도 뒤로 되돌아가지 않는 같은 방식으로 변경했습니다.",
+                                                                      "Launcher 1.2.0.1은 업데이트 데이터를 처리할 때의 아이콘 깜박임과 업데이트 정보를 스크롤할 때의 카드 영역 깜박임을 줄였습니다."
+                                                                  ]
+                                               }
+                                           ]
+                     },
+    "launcher":  {
+                     "version":  "1.2.0.1",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.3/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "b7063ff5c924b4e1341543fcc3276837d7e972f283df9fd315d3e48d007228ab",
+                     "size":  666624
+                 },
+    "files":  [
+                  {
+                      "component":  "application",
+                      "path":  "Singing Stream Savior/Singing Stream Savior.exe",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.3/Singing-Stream-Savior.exe",
+                      "sha256":  "dc5729a4adcd49b1eb2176839fde7624528ededd6c6c02cfe29ee5bd5eb3e951",
+                      "size":  20660736
+                  }
+              ],
+    "runtimePack":  {
+                        "version":  "1.0.0.1",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.3/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "4be6cd2152522245a6ad6858ddb212dd5c581857cb1db16ab692d70fa86efc21",
+                        "size":  99804589
+                    },
+    "packagesV2":  [
+                       {
+                           "id":  "application-runtime",
+                           "version":  "1.0.0.1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.0.3/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "033cae17b9f293dc565912eca513da342473431c6de946c76a19e7559a973064",
+                           "size":  100405057,
+                           "requiredForStartup":  false,
+                           "capability":  "application-runtime",
+                           "files":  [
+                                         {
+                                             "path":  "OpenCC/bin/opencc.exe",
+                                             "size":  572928,
+                                             "sha256":  "89fee21ca7a40b2879efa3ed946a36398b37d119b627d7b1246ece020a6da005"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/CJK_Compatibility_Ideographs.ocd2",
+                                             "size":  13843,
+                                             "sha256":  "4b1faa6649012f524068ec18c0fb520ead343c11cbe0a8e4c8853ca61369d666"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/s2twp.json",
+                                             "size":  1408,
+                                             "sha256":  "4f7cb76a49655fcab3e1963ada81ae88406b7758a1af8667263be74cb13e3cd3"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/S3SLyricsPhrases.txt",
+                                             "size":  3981,
+                                             "sha256":  "0150cbcc59a489d2d53b94810f8e849182e19636da0d65f15011c1ca618c81a5"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/STCharacters.ocd2",
+                                             "size":  45873,
+                                             "sha256":  "49b4f15e9b161eb66b961a17a2105c7c57da12d85dd872037b827e09aa5ee4c3"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/STPhrases.ocd2",
+                                             "size":  925258,
+                                             "sha256":  "f28fca11a3813071a628e2c897e4462908c3e890d335ea247da1f1be8953fec8"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/STPhrases_GeneratedFromRegionalPhrases.ocd2",
+                                             "size":  17861,
+                                             "sha256":  "4d4a6f369af0da758b63f4a0474f348fbcb4b00173574fca8f361cd603eddd3e"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TSCharacters.ocd2",
+                                             "size":  52410,
+                                             "sha256":  "7a994de7900707925fac9c68728a6bb9cf3059870426f661cf31b601efbf5f2f"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TSCharactersExt.ocd2",
+                                             "size":  14362,
+                                             "sha256":  "e2b0286801dcd1d26119d19ba8b8a35cde021ec173468255d117c4c0951b2906"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TSPhrases.ocd2",
+                                             "size":  13465,
+                                             "sha256":  "6f351ef4c905e6ce225f65895bab3bf4d89b39b7d701fce44459c4b8c7ed33d5"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/tw2sp.json",
+                                             "size":  1034,
+                                             "sha256":  "f8cf900c1b456a7d2e8477f5bf146814071d28ad64ef37fbc0ae757930c167d5"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWPhrases.ocd2",
+                                             "size":  22360,
+                                             "sha256":  "109bb27fc318f48d9c5001b74dea12fe2b3c54250efbdb52c919f518e1591de6"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWPhrasesRev.ocd2",
+                                             "size":  22282,
+                                             "sha256":  "6cb8ce51b3d9015414e84d8abff0a91a1bbfad23b886740d0952a720388f545b"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWVariants.ocd2",
+                                             "size":  4587,
+                                             "sha256":  "f8a6e00b7b03b406a74fed43a7293aa12c4646cc7fd38a8d2ecf8da88267bef6"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWVariantsPhrases.ocd2",
+                                             "size":  4215,
+                                             "sha256":  "549d7025f70caf89381d396f5d9555b57c17cee8e604915dd6a7315cc7cc6a68"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWVariantsRev.ocd2",
+                                             "size":  4611,
+                                             "sha256":  "94e6f06b1b762a4ee01bb3cb2f7252e6ff0862c0f05c9aaeeef6047c29ced9c1"
+                                         },
+                                         {
+                                             "path":  "OpenCC/share/opencc/TWVariantsRevPhrases.ocd2",
+                                             "size":  24353,
+                                             "sha256":  "2f7d73c3f34e3a67f93949ad296e59391911fc57048a489e86a8d0092347036d"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/aromanize.js",
+                                             "size":  24606,
+                                             "sha256":  "d99fa5ddeed034b55e5d409eedd7ed7fa07ab9e9b76dd15b015651a96caf5347"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/base.dat.gz",
+                                             "size":  3956825,
+                                             "sha256":  "0803327762e1c93ca731e4319ab8343340f2806bb84941207782cde9d2d5a8eb"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/cc.dat.gz",
+                                             "size":  1692067,
+                                             "sha256":  "02b7631be0d4de3a1a75cd9f9cc51536e4f94c9e6b389b813e06ba0f6e7de765"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/check.dat.gz",
+                                             "size":  3111633,
+                                             "sha256":  "193ae0035fff6fe812b58d9ee730e7a7d7ee601d918481ce51075c58114f6cc9"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/tid.dat.gz",
+                                             "size":  1605820,
+                                             "sha256":  "d43d831cb6fb0f0a411739cd287a6d5e998e121a8daca614df14a81a0dcac586"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/tid_map.dat.gz",
+                                             "size":  1485576,
+                                             "sha256":  "33efd5ffd87a70f669add093fa39dee44341d58f940844ef107c8fd98bb795b2"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/tid_pos.dat.gz",
+                                             "size":  5916009,
+                                             "sha256":  "60dbfc99a6ab993f30c5dab648bec6ad7f9aaefa5c14e1843837d95e509f8895"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk.dat.gz",
+                                             "size":  10512,
+                                             "sha256":  "f7f991cdeb9bfd3e9c0e4577cc50ee0815a11c508cccd444a9d3ab3c81521100"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk_char.dat.gz",
+                                             "size":  306,
+                                             "sha256":  "9a8e86fd9aff32d323fbb59f5a7006f05927a11f8173c90712cc56293aeb3225"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk_compat.dat.gz",
+                                             "size":  338,
+                                             "sha256":  "50f60aa29bc2e86c2903ab8c825bb6fa604d2b294d96941c1d3924259791899d"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk_invoke.dat.gz",
+                                             "size":  1140,
+                                             "sha256":  "6b210889548457c3006913afd12c8b525562255f2709e404604be9614a25e94c"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk_map.dat.gz",
+                                             "size":  1190,
+                                             "sha256":  "6df12460e5477230bb6fd9641def918b699fc0a8868016b6c9f794488630509b"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/dict/unk_pos.dat.gz",
+                                             "size":  10540,
+                                             "sha256":  "5b183a29f281acc7e0542beca47b83f7985047c0a2d27e78a66f32276be5ad11"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/kuroshiro.min.js",
+                                             "size":  33929,
+                                             "sha256":  "e3e609355449b1ddb4f56253402aa7fc544743df3346028e56a121f03d0717e6"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/kuroshiro-analyzer-kuromoji.min.js",
+                                             "size":  78021,
+                                             "sha256":  "bf894edfb6908a5598e6e7e8ff8c70c5ef95a63d1235c252736b5aa838cbfed1"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/LICENSE-aromanize.txt",
+                                             "size":  1072,
+                                             "sha256":  "b25e0d528ac7defbcaaa75fcbab290e86443b0ef9347a49467eb3a17aeb63d99"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/LICENSE-kuromoji.txt",
+                                             "size":  11358,
+                                             "sha256":  "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/LICENSE-kuroshiro.txt",
+                                             "size":  1098,
+                                             "sha256":  "3b4f6214d2e1e0c6e7b2906a1522552ad3968836d7191f76dd27867c6ac0ffbc"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/LICENSE-kuroshiro-analyzer-kuromoji.txt",
+                                             "size":  1098,
+                                             "sha256":  "b7d558f1039acceefeb9656e5704f585e6b0efde36a740b8cb6f698f4cf61909"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/lyrics-reading-engine.js",
+                                             "size":  10139,
+                                             "sha256":  "ebab6b69ddd4dfc13bd45e6938ede83ebe7643b25bba64a893f844cf4510efad"
+                                         },
+                                         {
+                                             "path":  "JapaneseReading/runtime-version.txt",
+                                             "size":  31,
+                                             "sha256":  "57f26d4fe4c97dc27b49b72f81b6c66066f95cfc5af12a646c66875b21a499e0"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/fonts/0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6/NotoSerifTC-Variable.ttf",
+                                             "size":  16851596,
+                                             "sha256":  "0077e18f57c6908f4a000969880940bdb0dad057c0e8d98b49dc364c3d1b09c6"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/fonts/550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf/BodoniModa-Variable.ttf",
+                                             "size":  162104,
+                                             "sha256":  "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/fonts/99999f906b3793c7c97661a05ef9d53488d488604683b308c756d084b71df7d1/NotoSerifJP-Variable.ttf",
+                                             "size":  13574104,
+                                             "sha256":  "99999f906b3793c7c97661a05ef9d53488d488604683b308c756d084b71df7d1"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/fonts/b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731/LXGWWenKaiTC-Regular.ttf",
+                                             "size":  15267616,
+                                             "sha256":  "b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/fonts/dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4/NotoSansCJKtc-Regular.otf",
+                                             "size":  16435884,
+                                             "sha256":  "dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/licenses/OFL-BodoniModa.txt",
+                                             "size":  4400,
+                                             "sha256":  "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/licenses/OFL-LXGW-WenKai.txt",
+                                             "size":  4395,
+                                             "sha256":  "1a13783bf4337242834b60309cdcdbeb566ae3f923576fdbba8b78db9d174def"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/licenses/OFL-Noto-CJK.txt",
+                                             "size":  4301,
+                                             "sha256":  "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+                                         },
+                                         {
+                                             "path":  "SharedThemeAssets/licenses/OFL-NotoSerifTC.txt",
+                                             "size":  4350,
+                                             "sha256":  "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-aurora-console.s3stheme",
+                                             "size":  1758440,
+                                             "sha256":  "e2707a09db46b86978fadd67742d7abc5b4fa67286dfd48b8367b338484b5dc3"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-capsule-chorus.s3stheme",
+                                             "size":  3405629,
+                                             "sha256":  "32f48628cde065bad024da746ee1dd736610d4760bdab8e0c0dec4dda1b41b1e"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-cassette-now.s3stheme",
+                                             "size":  1282317,
+                                             "sha256":  "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-cloud-mobile.s3stheme",
+                                             "size":  2490532,
+                                             "sha256":  "3e5178064899a6ce37c3d2ba528878ca0133e61bd2ef93229312c65ef43da2b1"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-firefly-reed.s3stheme",
+                                             "size":  3159744,
+                                             "sha256":  "af665458e3651895f32e8ad31bda5ef487e1593b48c8f091f453834177b9f360"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-frost-lantern.s3stheme",
+                                             "size":  709718,
+                                             "sha256":  "531a392d60071922a308e03b7799631ad850ba564a4608185a68754e870ee807"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-kintsugi-night.s3stheme",
+                                             "size":  958617,
+                                             "sha256":  "6baca2cdf433c18e746ffdfb555cb8effa79ff84ffe1c598a1310b63eeb8412b"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-moon-dial.s3stheme",
+                                             "size":  4020684,
+                                             "sha256":  "b48ab862d9ce62cf319f70becbeff751916b16688da6d1f54461e8faeb9f9c4d"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-pocket-singer.s3stheme",
+                                             "size":  112995,
+                                             "sha256":  "8875774f3572e0aabed5296b40aa3d2d5684f105c65f603f09c0bef8f89cd50b"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-porcelain-signal.s3stheme",
+                                             "size":  924830,
+                                             "sha256":  "8046512eaaa78d88b73cab94c3b3a660b5efd2f1a2d7deb0eb150a015102715e"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-pressed-garden.s3stheme",
+                                             "size":  3112438,
+                                             "sha256":  "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-quiet-ledger-left.s3stheme",
+                                             "size":  20872,
+                                             "sha256":  "e999c64841195e51af40be53f065f94879feacb75cf4d9d2189f7a165a440913"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-quiet-ledger-right.s3stheme",
+                                             "size":  21207,
+                                             "sha256":  "6a756c826f20df666a228f2300661cffe4df47e2d0714c8664880387566c577d"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-rain-glass.s3stheme",
+                                             "size":  592266,
+                                             "sha256":  "2c39847437d21266924b038663959bb13ade8329d65cb2a44201df6906c890c2"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-shell-nocturne.s3stheme",
+                                             "size":  941127,
+                                             "sha256":  "906f951aba07b1fbef932847ac560229b56369f71e9d948d539af81e746e5a9f"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-signal-line.s3stheme",
+                                             "size":  11539,
+                                             "sha256":  "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-singing-familiar.s3stheme",
+                                             "size":  237973,
+                                             "sha256":  "bf859fd30c7ba7fabf31556ea80eea215f9336efe97f179bbbc2a07bc67fae12"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-stage-caption.s3stheme",
+                                             "size":  11386,
+                                             "sha256":  "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-stained-twilight.s3stheme",
+                                             "size":  829330,
+                                             "sha256":  "4b1abf61a5df2ce8e1440024fd8907ba1b56adbff498fb44ecfeb55a2406fd83"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-summer-chime.s3stheme",
+                                             "size":  1099802,
+                                             "sha256":  "333c4da6a18c98093b6e395f91e35c66d5f7bee0b312c491183e30c2fffac9fe"
+                                         },
+                                         {
+                                             "path":  "Themes/Card.s3stheme",
+                                             "size":  7315,
+                                             "sha256":  "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9"
+                                         },
+                                         {
+                                             "path":  "Themes/CD.s3stheme",
+                                             "size":  32045,
+                                             "sha256":  "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f"
+                                         },
+                                         {
+                                             "path":  "Themes/TransparentBlack.s3stheme",
+                                             "size":  7204,
+                                             "sha256":  "7f907b06b0397d07200629aced6f24619a0b108bf9decd654306b1f677e3eb8b"
+                                         },
+                                         {
+                                             "path":  "Themes/TransparentBlackV2.s3stheme",
+                                             "size":  6862,
+                                             "sha256":  "f32029f4935c348525fae81d07f101993a91804867589dd9c824a5d7d3b35e8e"
+                                         },
+                                         {
+                                             "path":  "Themes/TransparentWhite.s3stheme",
+                                             "size":  6784,
+                                             "sha256":  "87111ca4126a323197698671129b7287f31b5d5bf8fcac24355f399dad7b4da9"
+                                         },
+                                         {
+                                             "path":  "Themes/TransparentWhiteV2.s3stheme",
+                                             "size":  6445,
+                                             "sha256":  "34bef64c1356098f183fe58052d51c85ab7e9184709f7cf3ab72865ea40d9938"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
+                                             "size":  404992,
+                                             "sha256":  "fb4d85b8bc68770f48e2e0d777a2377ad2923982d6a78ed897402fcf3126d53f"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
+                                             "size":  40448,
+                                             "sha256":  "33b01e9bf42a2d1cb922410cb2ce3ac9a9fedf28ed430407316c3c28bd23e1e5"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
+                                             "size":  43,
+                                             "sha256":  "b50259f35ed1e13295612970dc69dff30522323e7c238d41734ed5dea6ccace2"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/ja-JP.ini",
+                                             "size":  53,
+                                             "sha256":  "1756ff258b0b524621851ff537fcb9fbc97c20c676db1646c59ee3636827e563"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/ko-KR.ini",
+                                             "size":  47,
+                                             "sha256":  "dcea58fbee67c1356bbcf14cf05368911cf43f87ae978f125277082c66599bd2"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/zh-CN.ini",
+                                             "size":  44,
+                                             "sha256":  "64d93a57e1432877a0db5d89004b0d7502e0db0ea5b80a37b7e75d90121106b3"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/zh-TW.ini",
+                                             "size":  44,
+                                             "sha256":  "cb62fcda46c584a939097fb996ea2c034c23918d75318d44c57ed471b5c9d978"
+                                         },
+                                         {
+                                             "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
+                                             "size":  631,
+                                             "sha256":  "3fe3ae4cf19b8844d85aa5f7a5ad908c2d511d94b9e051213f165265a4b166c2"
+                                         },
+                                         {
+                                             "path":  "yt-dlp/ytdlp_helper.exe",
+                                             "size":  16611812,
+                                             "sha256":  "fe5f62dc0df602fae2b8dbbc1381a92d1b75f8c88bfdb37a0288a07bb66f794d"
+                                         },
+                                         {
+                                             "path":  "S3SAsioBridge.exe",
+                                             "size":  50688,
+                                             "sha256":  "679a097a1e7517ada35c626ca092d9ee5ba293c1f05cf6f0ac06ee4681561769"
+                                         },
+                                         {
+                                             "path":  "S3SAsioProbe.exe",
+                                             "size":  45056,
+                                             "sha256":  "dbfe36886a3758bfbfc9c249695d4d0d702a8f9f0055e800eb48e0b9439b6b0a"
+                                         },
+                                         {
+                                             "path":  "S3SAudioDeviceScanner.exe",
+                                             "size":  838656,
+                                             "sha256":  "3b11fd8185c512376bb42bcefb2f6793fa7032743da5b20f1328ba233cd336e0"
+                                         },
+                                         {
+                                             "path":  "Vst3ScannerHelper.exe",
+                                             "size":  600064,
+                                             "sha256":  "d4067186bad3d2e39d1f52b8656049b6ab5568c10f7256ff40a089ff8da37fb9"
+                                         }
+                                     ]
+                       }
+                   ]
 }
