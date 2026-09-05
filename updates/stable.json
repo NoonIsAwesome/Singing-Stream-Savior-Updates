@@ -1,113 +1,290 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.1.1.1",
+  "version": "2.1.1.2",
   "minimumLauncherVersion": "1.0.0.0",
-  "publishedAt": "2026-09-04T04:16:14.8763623+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.1.1",
+  "publishedAt": "2026-09-05T03:45:19.7421047+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.1.2",
   "releaseNotes": {
     "defaultLocale": "en",
     "localizations": [
       {
         "locale": "en",
-        "summary": "Adds DirectML GPU acceleration and fixes UVR output mapping plus long-YouTube preview playback.",
+        "summary": "Improves the reliability of Profile and VST3 effect changes, monitor-device switching, and audio startup.",
         "highlights": [
-          "The existing Preserve backing vocals and Remove all vocals models can now use DirectML GPU acceleration on supported Windows DirectX 12 hardware.",
-          "UVR output can now be selected as 48 kHz (default) or 44.1 kHz, and the selected rate is saved for future batches.",
-          "If the GPU runtime is incomplete or DirectML initialization fails, the current batch automatically retries with CPU processing instead of losing the job.",
-          "Corrects reversed (Instrumental) and (Vocal) outputs so importing a completed UVR result adds the actual instrumental track to the song list.",
-          "The long-YouTube range editor now keeps video playback, the play/pause button, and the timeline synchronized, including seeking. Its direct yt-dlp preview avoids embedded-player ads when available and clearly identifies the iframe fallback.",
-          "YouTube selection now prefers the video's original audio language instead of an automatically dubbed track.",
-          "UVR worker processes are included in the application's CPU reading, while GPU-to-CPU fallback and completed-batch notices appear in the main window's lower-left status area.",
-          "The mouse wheel now adjusts both BGM and accompaniment volume by 2 percentage points per notch for finer control."
+          "Profile and VST3 effect changes are prepared before the audible transition, reducing interruptions, clicks, and timing shifts when switching between effects with different latency.",
+          "Changing the monitor output no longer restarts the rest of the audio path. Streaming, OBS output, and recording can continue, and a failed device change safely restores the previous monitor output.",
+          "Monitor On or Off now remains consistent after temporary Profile or Block monitoring ends instead of unexpectedly returning to an older setting.",
+          "When a saved audio device is unavailable, the application falls back safely and shows a clear status message instead of leaving the controls and actual routing out of sync.",
+          "Audio startup and monitor activation are better protected against brief gaps or unstable sound while the buffers become ready.",
+          "VST3 scanning and editor windows are more resilient. A plug-in that crashes or stops responding is isolated from the main application, and effect windows close more reliably across display scaling and interface languages.",
+          "Hungry in the middle of the night and not sure what to eat—it felt like McDonald’s was the only option… Wait! I’ll cook some noodles and have them with scallop sauce. I love scallop sauce!"
         ]
       },
       {
         "locale": "zh-TW",
-        "summary": "新增 MDX DirectML GPU 加速，並修正 UVR 輸出對應與長 YouTube 影片預覽播放。",
+        "summary": "提升 Profile 與 VST3 效果切換、監聽裝置切換及音訊啟動時的穩定性。",
         "highlights": [
-          "現有的「保留合音」與「完全消除人聲」模型，現在可在支援 DirectX 12 的 Windows 顯示卡上使用 DirectML GPU 加速。",
-          "UVR 輸出取樣率新增 44.1 kHz 選項，預設仍為 48 kHz；選擇結果會保留供之後的批次使用。",
-          "若 GPU runtime 不完整或 DirectML 初始化失敗，目前批次會自動改用 CPU 重試，不會直接讓歌曲處理失敗。",
-          "修正「(Instrumental)」與「(Vocal)」輸出相反的問題，完成後匯入歌曲列表的會是正確伴奏。",
-          "長 YouTube 影片範圍視窗現在會同步影片播放、播放／暫停按鈕與時間軸，並支援正確跳轉。可使用 yt-dlp 直接預覽時不經嵌入式播放器；退回 iframe 備援時會明確提示可能顯示廣告。",
-          "YouTube 音訊會優先選擇影片的原始語言，避免誤用自動配音音軌。",
-          "UVR 子程序會納入軟體的 CPU 使用率；GPU 改用 CPU 與整批處理完成等通知，也會統一顯示於主視窗左下角的狀態區。",
-          "BGM 與伴奏音量使用滑鼠滾輪調整時，每格改為 2%，讓音量微調更精細。"
+          "切換 Profile 或 VST3 效果時，會先完成準備再進行實際聲音切換；使用不同延遲的效果時，可減少中斷、爆音與時間偏移。",
+          "切換監聽輸出裝置時，不再連帶重啟其他音訊流程；直播、OBS 輸出與錄音可以繼續運作，裝置切換失敗時也會安全恢復原本的監聽輸出。",
+          "暫時使用 Profile 或 Block 監聽結束後，會保留使用者目前選擇的監聽開關狀態，不會意外回到先前的設定。",
+          "已儲存的音訊裝置無法使用時，軟體會安全改用可用模式並顯示清楚的狀態訊息，避免畫面設定與實際音訊狀態不一致。",
+          "改善音訊啟動與監聽剛開啟時的緩衝準備，降低短暫斷音或聲音不穩定的機率。",
+          "提升 VST3 掃描及效果視窗的穩定性；遇到異常或無回應的外掛時會與主程式隔離，效果視窗在不同顯示縮放與介面語言下也能更可靠地關閉。",
+          "半夜肚子餓不知道要吃什麼，感覺只有麥當勞了…對了！煮個麵好了，配干貝醬吧！我愛干貝醬！"
         ]
       },
       {
         "locale": "zh-CN",
-        "summary": "新增 MDX DirectML GPU 加速，并修正 UVR 输出对应与长 YouTube 视频预览播放。",
+        "summary": "提升 Profile 与 VST3 效果切换、监听设备切换及音频启动时的稳定性。",
         "highlights": [
-          "现有的“保留和声”与“完全消除人声”模型，现在可在支持 DirectX 12 的 Windows 显卡上使用 DirectML GPU 加速。",
-          "UVR 输出采样率新增 44.1 kHz 选项，默认仍为 48 kHz；选择结果会保留供之后的批次使用。",
-          "如果 GPU runtime 不完整或 DirectML 初始化失败，当前批次会自动改用 CPU 重试，不会直接让歌曲处理失败。",
-          "修正“(Instrumental)”与“(Vocal)”输出相反的问题，完成后导入歌曲列表的会是正确伴奏。",
-          "长 YouTube 视频范围窗口现在会同步视频播放、播放／暂停按钮与时间轴，并支持正确跳转。可使用 yt-dlp 直接预览时不经过内嵌播放器；退回 iframe 备用方案时会明确提示可能显示广告。",
-          "YouTube 音频会优先选择视频的原始语言，避免误用自动配音音轨。",
-          "UVR 子进程会计入软件的 CPU 使用率；GPU 改用 CPU 与整批处理完成等通知，也会统一显示在主窗口左下角的状态区域。",
-          "使用鼠标滚轮调整 BGM 与伴奏音量时，每格改为 2%，让音量微调更加精细。"
+          "切换 Profile 或 VST3 效果时，会先完成准备再进行实际声音切换；使用不同延迟的效果时，可减少中断、爆音与时间偏移。",
+          "切换监听输出设备时，不再连带重启其他音频流程；直播、OBS 输出与录音可以继续运行，设备切换失败时也会安全恢复原来的监听输出。",
+          "临时使用 Profile 或 Block 监听结束后，会保留用户目前选择的监听开关状态，不会意外回到之前的设置。",
+          "已保存的音频设备无法使用时，软件会安全改用可用模式并显示清楚的状态消息，避免界面设置与实际音频状态不一致。",
+          "改善音频启动与监听刚开启时的缓冲准备，降低短暂断音或声音不稳定的概率。",
+          "提升 VST3 扫描及效果窗口的稳定性；遇到异常或无响应的插件时会与主程序隔离，效果窗口在不同显示缩放与界面语言下也能更可靠地关闭。",
+          "半夜肚子饿不知道要吃什么，感觉只有麦当劳了……对了！煮个面好了，配干贝酱吧！我爱干贝酱！"
         ]
       },
       {
         "locale": "ja",
-        "summary": "MDX の DirectML GPU アクセラレーションを追加し、UVR の出力対応と長い YouTube 動画のプレビュー再生を修正しました。",
+        "summary": "Profile と VST3 エフェクトの切り替え、モニター出力の変更、音声起動時の安定性を向上しました。",
         "highlights": [
-          "既存の「コーラスを残す」と「ボーカルをすべて除去」の両モデルで、対応する Windows DirectX 12 GPU の DirectML アクセラレーションを使用できます。",
-          "UVR の出力サンプリングレートに 44.1 kHz を追加しました。既定値は引き続き 48 kHz で、選択内容は次回以降のバッチにも保存されます。",
-          "GPU runtime が不完全な場合や DirectML の初期化に失敗した場合は、ジョブを失敗させずに現在のバッチを CPU で自動再試行します。",
-          "「(Instrumental)」と「(Vocal)」の出力が逆になる問題を修正し、完了後は正しい伴奏を曲リストへ取り込めるようにしました。",
-          "長い YouTube 動画の範囲選択画面で、動画再生、再生／一時停止ボタン、タイムライン、シークが同期するように修正しました。yt-dlp の直接プレビューが利用できる場合は埋め込みプレーヤーを経由せず、iframe へ切り替わる場合は広告が表示される可能性を明示します。",
-          "YouTube 音声は自動吹き替えではなく、動画の元の言語を優先して選択します。",
-          "UVR の子プロセスをアプリの CPU 使用率へ含め、GPU から CPU への切り替えとバッチ完了の通知もメイン画面左下へ表示します。",
-          "BGM と伴奏の音量をマウスホイールで調整する際、1 ノッチあたり 2% に変更し、細かな調整をしやすくしました。"
+          "Profile や VST3 エフェクトを切り替える際、音を切り替える前に準備を完了するようにしました。遅延の異なるエフェクト間でも、中断、クリックノイズ、タイミングのずれを抑えます。",
+          "モニター出力デバイスの変更時に、ほかの音声経路を再起動しないようにしました。配信、OBS 出力、録音を継続でき、変更に失敗した場合は元のモニター出力へ安全に戻ります。",
+          "一時的な Profile または Block のモニターが終了した後も、現在選択しているモニターのオン／オフ状態を維持し、以前の設定へ意図せず戻らないようにしました。",
+          "保存済みの音声デバイスが利用できない場合は、安全に利用可能なモードへ切り替えて明確な状態メッセージを表示し、画面と実際のルーティングが一致しない状態を防ぎます。",
+          "音声起動時とモニターを有効にした直後のバッファ準備を改善し、短い音切れや不安定な音が発生する可能性を減らしました。",
+          "VST3 のスキャンとエフェクト画面をより安定させました。異常終了または応答しないプラグインをメインアプリから隔離し、表示倍率や表示言語が異なる環境でも画面をより確実に閉じられます。",
+          "夜中にお腹が空いたけれど何を食べるか決まらず、もうマクドナルドしかない気がする……そうだ！麺を作って、ホタテソースを添えよう！ホタテソース大好き！"
         ]
       },
       {
         "locale": "ko",
-        "summary": "MDX DirectML GPU 가속을 추가하고 UVR 출력 대응과 긴 YouTube 영상 미리보기 재생을 수정했습니다.",
+        "summary": "Profile 및 VST3 효과 전환, 모니터 출력 장치 변경, 오디오 시작 안정성을 개선했습니다.",
         "highlights": [
-          "기존 ‘코러스 보존’ 및 ‘모든 보컬 제거’ 모델에서 지원되는 Windows DirectX 12 GPU의 DirectML 가속을 사용할 수 있습니다.",
-          "UVR 출력 샘플링 레이트에 44.1 kHz 옵션을 추가했습니다. 기본값은 계속 48 kHz이며 선택한 값은 이후 일괄 처리에도 저장됩니다.",
-          "GPU runtime이 불완전하거나 DirectML 초기화가 실패하면 작업을 실패시키지 않고 현재 일괄 처리를 CPU로 자동 재시도합니다.",
-          "‘(Instrumental)’과 ‘(Vocal)’ 출력이 뒤바뀌는 문제를 수정하여 완료 후 실제 반주 트랙이 곡 목록으로 가져와집니다.",
-          "긴 YouTube 영상 구간 선택 창에서 영상 재생, 재생／일시 정지 버튼, 타임라인과 탐색 위치가 동기화됩니다. yt-dlp 직접 미리보기를 사용할 수 있으면 내장 플레이어를 거치지 않으며, iframe 대체 방식으로 전환되면 광고가 표시될 수 있음을 안내합니다.",
-          "YouTube 오디오는 자동 더빙 트랙 대신 영상의 원래 언어를 우선 선택합니다.",
-          "UVR 하위 프로세스를 앱의 CPU 사용률에 포함하며, GPU에서 CPU로 전환되거나 일괄 처리가 완료된 알림도 메인 창 왼쪽 아래 상태 영역에 표시합니다.",
-          "마우스 휠로 BGM과 반주 음량을 조절할 때 한 칸당 2%씩 변경되어 더 세밀하게 조절할 수 있습니다."
+          "Profile 또는 VST3 효과를 전환할 때 실제 소리를 바꾸기 전에 준비를 완료하도록 개선했습니다. 지연 시간이 다른 효과 사이에서도 끊김, 클릭 잡음, 타이밍 어긋남을 줄입니다.",
+          "모니터 출력 장치를 변경해도 나머지 오디오 경로를 다시 시작하지 않습니다. 방송, OBS 출력 및 녹음을 계속할 수 있으며 장치 변경에 실패하면 이전 모니터 출력으로 안전하게 복원됩니다.",
+          "임시 Profile 또는 Block 모니터링이 끝난 뒤에도 사용자가 현재 선택한 모니터 켜짐／꺼짐 상태를 유지하며 이전 설정으로 갑자기 돌아가지 않습니다.",
+          "저장된 오디오 장치를 사용할 수 없으면 안전하게 사용 가능한 모드로 전환하고 명확한 상태 메시지를 표시하여 화면 설정과 실제 라우팅이 어긋나는 상황을 방지합니다.",
+          "오디오 시작 및 모니터를 처음 켤 때의 버퍼 준비를 개선하여 짧은 끊김이나 불안정한 소리가 발생할 가능성을 줄였습니다.",
+          "VST3 검색과 효과 창의 안정성을 높였습니다. 비정상 종료되거나 응답하지 않는 플러그인은 메인 프로그램과 격리되며, 화면 배율과 인터페이스 언어가 달라도 효과 창을 더 안정적으로 닫을 수 있습니다.",
+          "한밤중에 배가 고픈데 뭘 먹어야 할지 모르겠고, 맥도날드밖에 없는 것 같았어요… 아! 면을 끓여서 관자 소스와 같이 먹어야겠다! 관자 소스를 사랑해요!"
         ]
       }
     ]
   },
   "launcher": {
     "version": "1.2.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.1/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "1e82950e8dbb72546428039b44d42f703a42fe9a36971465f55c4a03de9d1979",
-    "size": 666624
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Singing-Stream-Savior-Launcher.exe",
+    "sha256": "765ec6cfc2128646688eb04331bcda7a91512d8f5c701780e80f61c983da6b22",
+    "size": 682496
   },
   "files": [
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.1/Singing-Stream-Savior.exe",
-      "sha256": "88afb8cad00255e5d5e6df52744775199295304a554cb9e79114a3cd16273ff0",
-      "size": 21298176
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Singing-Stream-Savior.exe",
+      "sha256": "3168e86c6749ad816217a1d14aced80964c86b2a4386020689a3d537984d5da2",
+      "size": 21925888
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-aurora-console.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-aurora-console.s3stheme",
+      "sha256": "e2707a09db46b86978fadd67742d7abc5b4fa67286dfd48b8367b338484b5dc3",
+      "size": 1758440
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-capsule-chorus.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-capsule-chorus.s3stheme",
+      "sha256": "32f48628cde065bad024da746ee1dd736610d4760bdab8e0c0dec4dda1b41b1e",
+      "size": 3405629
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-cassette-now.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-cassette-now.s3stheme",
+      "sha256": "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53",
+      "size": 1282317
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-cloud-mobile.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-cloud-mobile.s3stheme",
+      "sha256": "3e5178064899a6ce37c3d2ba528878ca0133e61bd2ef93229312c65ef43da2b1",
+      "size": 2490532
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-firefly-reed.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-firefly-reed.s3stheme",
+      "sha256": "af665458e3651895f32e8ad31bda5ef487e1593b48c8f091f453834177b9f360",
+      "size": 3159744
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-frost-lantern.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-frost-lantern.s3stheme",
+      "sha256": "531a392d60071922a308e03b7799631ad850ba564a4608185a68754e870ee807",
+      "size": 709718
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-kintsugi-night.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-kintsugi-night.s3stheme",
+      "sha256": "6baca2cdf433c18e746ffdfb555cb8effa79ff84ffe1c598a1310b63eeb8412b",
+      "size": 958617
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-moon-dial.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-moon-dial.s3stheme",
+      "sha256": "b48ab862d9ce62cf319f70becbeff751916b16688da6d1f54461e8faeb9f9c4d",
+      "size": 4020684
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-pocket-singer.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-pocket-singer.s3stheme",
+      "sha256": "8875774f3572e0aabed5296b40aa3d2d5684f105c65f603f09c0bef8f89cd50b",
+      "size": 112995
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-porcelain-signal.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-porcelain-signal.s3stheme",
+      "sha256": "8046512eaaa78d88b73cab94c3b3a660b5efd2f1a2d7deb0eb150a015102715e",
+      "size": 924830
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-pressed-garden.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-pressed-garden.s3stheme",
+      "sha256": "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e",
+      "size": 3112438
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-quiet-ledger-left.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-quiet-ledger-left.s3stheme",
+      "sha256": "e999c64841195e51af40be53f065f94879feacb75cf4d9d2189f7a165a440913",
+      "size": 20872
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-quiet-ledger-right.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-quiet-ledger-right.s3stheme",
+      "sha256": "6a756c826f20df666a228f2300661cffe4df47e2d0714c8664880387566c577d",
+      "size": 21207
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-rain-glass.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-rain-glass.s3stheme",
+      "sha256": "2c39847437d21266924b038663959bb13ade8329d65cb2a44201df6906c890c2",
+      "size": 592266
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-shell-nocturne.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-shell-nocturne.s3stheme",
+      "sha256": "906f951aba07b1fbef932847ac560229b56369f71e9d948d539af81e746e5a9f",
+      "size": 941127
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-signal-line.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-signal-line.s3stheme",
+      "sha256": "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203",
+      "size": 11539
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-singing-familiar.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-singing-familiar.s3stheme",
+      "sha256": "bf859fd30c7ba7fabf31556ea80eea215f9336efe97f179bbbc2a07bc67fae12",
+      "size": 237973
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-stage-caption.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-stage-caption.s3stheme",
+      "sha256": "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555",
+      "size": 11386
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-stained-twilight.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-stained-twilight.s3stheme",
+      "sha256": "4b1abf61a5df2ce8e1440024fd8907ba1b56adbff498fb44ecfeb55a2406fd83",
+      "size": 829330
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/builtin-summer-chime.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/builtin-summer-chime.s3stheme",
+      "sha256": "333c4da6a18c98093b6e395f91e35c66d5f7bee0b312c491183e30c2fffac9fe",
+      "size": 1099802
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/Card.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Card.s3stheme",
+      "sha256": "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9",
+      "size": 7315
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/CD.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/CD.s3stheme",
+      "sha256": "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f",
+      "size": 32045
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/TransparentBlack.s3stheme",
+      "sha256": "7f907b06b0397d07200629aced6f24619a0b108bf9decd654306b1f677e3eb8b",
+      "size": 7204
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/TransparentBlackV2.s3stheme",
+      "sha256": "f32029f4935c348525fae81d07f101993a91804867589dd9c824a5d7d3b35e8e",
+      "size": 6862
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/TransparentWhite.s3stheme",
+      "sha256": "87111ca4126a323197698671129b7287f31b5d5bf8fcac24355f399dad7b4da9",
+      "size": 6784
+    },
+    {
+      "component": "theme",
+      "path": "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/TransparentWhiteV2.s3stheme",
+      "sha256": "34bef64c1356098f183fe58052d51c85ab7e9184709f7cf3ab72865ea40d9938",
+      "size": 6445
     }
   ],
   "runtimePack": {
-    "version": "1.0.0.1",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.1/Singing-Stream-Savior-Runtime.s3spack",
-    "sha256": "7d8aea02c7bec3fc0daef0082a32cf94bd54ccb8ede7311247e08d8dfdf34065",
-    "size": 99890036
+    "version": "1.0.0.2",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Singing-Stream-Savior-Runtime.s3spack",
+    "sha256": "1697f125c922c62db8ca011252d55b83846cc9d27fe79fa8bc1f222da33a739a",
+    "size": 100710008
   },
   "packagesV2": [
     {
       "id": "application-runtime",
-      "version": "1.0.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.1/Singing-Stream-Savior-Application-Runtime.s3spack",
-      "sha256": "c5a3de8d9ff714c3866fbbcae020b70de10b7d955a0cd3b52b4aeee27830e651",
-      "size": 100514019,
+      "version": "1.0.0.2",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+      "sha256": "ab3cd92614facbad3c2636942104a046e2060c06fc9404c4ee0954eee4006675",
+      "size": 101331083,
       "requiredForStartup": false,
       "capability": "application-runtime",
       "files": [
@@ -260,6 +437,16 @@
           "path": "JapaneseReading/dict/unk.dat.gz",
           "size": 10512,
           "sha256": "f7f991cdeb9bfd3e9c0e4577cc50ee0815a11c508cccd444a9d3ab3c81521100"
+        },
+        {
+          "path": "JapaneseReading/Embedded-Dependencies-NOTICE.txt",
+          "size": 15801,
+          "sha256": "8221325fbf0219959479c45d137d894dc6628644e4a6ebda83eb46c94263bfcd"
+        },
+        {
+          "path": "JapaneseReading/Kuromoji-NOTICE.txt",
+          "size": 4263,
+          "sha256": "fab84e2471dada5afa7ea4226b629f3fda414f9b50b62b4f832f8b57fe9addd7"
         },
         {
           "path": "JapaneseReading/kuroshiro-analyzer-kuromoji.min.js",
@@ -479,7 +666,7 @@
         {
           "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "size": 404992,
-          "sha256": "4c8a99e86ad0a644a3257be8fc923e156c902a9f643f166146d997ce8d3e5c52"
+          "sha256": "ba84d9e2b4da129455b19a464645b17f2daac3d4c3e9c320cfd52f83fbd4df49"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
@@ -517,6 +704,351 @@
           "sha256": "3fe3ae4cf19b8844d85aa5f7a5ad908c2d511d94b9e051213f165265a4b166c2"
         },
         {
+          "path": "Licenses/Apache-2.0.txt",
+          "size": 9165,
+          "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+        },
+        {
+          "path": "Licenses/Aromanize-MIT.txt",
+          "size": 1072,
+          "sha256": "b25e0d528ac7defbcaaa75fcbab290e86443b0ef9347a49467eb3a17aeb63d99"
+        },
+        {
+          "path": "Licenses/Bodoni-Moda-OFL-1.1.txt",
+          "size": 4400,
+          "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+        },
+        {
+          "path": "Licenses/Core-Embedded-Dependencies-NOTICE.txt",
+          "size": 7736,
+          "sha256": "7e85d70ecfc2af81a97404b44862f4eb950f927050d621df3745d90cced145d4"
+        },
+        {
+          "path": "Licenses/CPython-3.13.9-LICENSE.txt",
+          "size": 33279,
+          "sha256": "59688d8633ce27b1d8220f223b9520c4e039e4ba6ccceb345793a74fd5c155b9"
+        },
+        {
+          "path": "Licenses/Distribution-Components-NOTICE.txt",
+          "size": 1234,
+          "sha256": "a44056b3916567e80b9d15cc76398b90f5dff25ba267821947798622ad82ce43"
+        },
+        {
+          "path": "Licenses/Expat-2.7.3-COPYING.txt",
+          "size": 1144,
+          "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+        },
+        {
+          "path": "Licenses/FFmpeg-Application-Embedded-Dependencies-NOTICE.txt",
+          "size": 5812,
+          "sha256": "b17313ca7cf44a55f1e48c3ae2a4a56621a98faa8e9468c96c3ea47219607ae1"
+        },
+        {
+          "path": "Licenses/FFmpeg-LGPL-2.1.txt",
+          "size": 26517,
+          "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+        },
+        {
+          "path": "Licenses/FFmpeg-LGPL-3.0.txt",
+          "size": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        },
+        {
+          "path": "Licenses/FFmpeg-N-121567-Build-Information.txt",
+          "size": 10396,
+          "sha256": "ce2045c0ad4c091430bcebdd0397d015f878df2f7cb385969151c620a17dac49"
+        },
+        {
+          "path": "Licenses/FFmpeg-Qt-7.1.1-SPDX.json",
+          "size": 731055,
+          "sha256": "4aa0e323d14337adf778361d7e578defe5337f007f8dd48b252aa8dcda7f8e04"
+        },
+        {
+          "path": "Licenses/FFmpeg-Source-Manifest.json",
+          "size": 3060,
+          "sha256": "374fb4ac1016c6a362a648c46ae97f4fd492542502c59ae2d46b7250e23aca93"
+        },
+        {
+          "path": "Licenses/GPL-3.0.txt",
+          "size": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "path": "Licenses/Japanese-Reading-Embedded-Dependencies-NOTICE.txt",
+          "size": 15801,
+          "sha256": "8221325fbf0219959479c45d137d894dc6628644e4a6ebda83eb46c94263bfcd"
+        },
+        {
+          "path": "Licenses/Kuromoji-Apache-2.0.txt",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "Licenses/Kuromoji-NOTICE.txt",
+          "size": 4263,
+          "sha256": "fab84e2471dada5afa7ea4226b629f3fda414f9b50b62b4f832f8b57fe9addd7"
+        },
+        {
+          "path": "Licenses/Kuroshiro-analyzer-kuromoji-MIT.txt",
+          "size": 1098,
+          "sha256": "b7d558f1039acceefeb9656e5704f585e6b0efde36a740b8cb6f698f4cf61909"
+        },
+        {
+          "path": "Licenses/Kuroshiro-MIT.txt",
+          "size": 1098,
+          "sha256": "3b4f6214d2e1e0c6e7b2906a1522552ad3968836d7191f76dd27867c6ac0ffbc"
+        },
+        {
+          "path": "Licenses/LGPL-Relink-Kit-NOTICE.txt",
+          "size": 1260,
+          "sha256": "fdd2ef9f7b12de1a5dc703a871026797e41183cee523e9ae30ecb23c6cfd2635"
+        },
+        {
+          "path": "Licenses/LGPL-Relink-Source-Manifest.json",
+          "size": 2821,
+          "sha256": "6fa99ea93b962cc628380b017b10f598e5c57d5ea023f7b9e6221889dacf5fbb"
+        },
+        {
+          "path": "Licenses/LXGW-WenKai-TC-OFL-1.1.txt",
+          "size": 4395,
+          "sha256": "1a13783bf4337242834b60309cdcdbeb566ae3f923576fdbba8b78db9d174def"
+        },
+        {
+          "path": "Licenses/Microsoft-DirectML-MIT.txt",
+          "size": 1073,
+          "sha256": "fd532481d828e13a0b13ccb598e02338a3617740675a862ee6bdc1541b68e93d"
+        },
+        {
+          "path": "Licenses/Microsoft-DirectML-ThirdPartyNotices.txt",
+          "size": 4474,
+          "sha256": "93fa06040ce5557126783ac6f3481a5472043f76dbfe213e1c6d17be3db643da"
+        },
+        {
+          "path": "Licenses/Microsoft-Windows-SDK-10.0.22621.0-License.rtf",
+          "size": 248573,
+          "sha256": "0f4a26ac9dc50066f8a1bfeaaf3f092d1b9e4791df5487b9f3c31e7c3dc4d7f5"
+        },
+        {
+          "path": "Licenses/mpdecimal-4.0.0-COPYRIGHT.txt",
+          "size": 1285,
+          "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2"
+        },
+        {
+          "path": "Licenses/Noto-CJK-OFL-1.1.txt",
+          "size": 4301,
+          "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+        },
+        {
+          "path": "Licenses/Noto-Serif-TC-OFL-1.1.txt",
+          "size": 4350,
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+        },
+        {
+          "path": "Licenses/ONNX-Runtime-MIT.txt",
+          "size": 1073,
+          "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+        },
+        {
+          "path": "Licenses/ONNX-Runtime-ThirdPartyNotices-1.24.4.txt",
+          "size": 325054,
+          "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
+        },
+        {
+          "path": "Licenses/ONNX-Runtime-ThirdPartyNotices-1.27.1.txt",
+          "size": 325054,
+          "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
+        },
+        {
+          "path": "Licenses/OpenCC-Apache-2.0.txt",
+          "size": 9165,
+          "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+        },
+        {
+          "path": "Licenses/OpenCC-Embedded-Dependencies-NOTICE.txt",
+          "size": 6832,
+          "sha256": "8e762731495bf742ff5d160162af60d44a002c02ec908a4cd3195ce4d341c232"
+        },
+        {
+          "path": "Licenses/OpenSSL-3.0.18-LICENSE.txt",
+          "size": 10175,
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "path": "Licenses/PyInstaller-6.21.0-COPYING.txt",
+          "size": 32138,
+          "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-Mesa-llvmpipe.html",
+          "size": 7350,
+          "sha256": "5530e7506c268e3027b432cbe37687a55bcededa5593999a32d3285ee883accb"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-NOTICE.txt",
+          "size": 2029,
+          "sha256": "880ac7f0ed298119540ad40e44d4593ccf67a62091651636c066ba4abd97137d"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-Open-Source-Licenses.txt",
+          "size": 44738,
+          "sha256": "2004ee3ef8282a85f7dbd035dfacf63cf03d569537bc08655ffeb140ea3671c5"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtbase-6.9.2.spdx.json",
+          "size": 3685199,
+          "sha256": "19acbb9df5367c9cb0a80d4ec96a63973b8d531551db6ef7e68157cf998489ab"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtdeclarative-6.9.2.spdx.json",
+          "size": 5248682,
+          "sha256": "3a47beb2dedef1dc456b5e898fe6478591394282b7e924a7202a21c57459000c"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtmultimedia-6.9.2.spdx.json",
+          "size": 731055,
+          "sha256": "4aa0e323d14337adf778361d7e578defe5337f007f8dd48b252aa8dcda7f8e04"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtpositioning-6.9.2.spdx.json",
+          "size": 187900,
+          "sha256": "eac6f0c85137b0fb85f05ae81b3acbb6b8c4e8660e6ccf4bd7a9ef3e4298b822"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtserialport-6.9.2.spdx.json",
+          "size": 32873,
+          "sha256": "9180d66281be537bb807fa80be8d3051b7f5a9de15b314df51ac7de503df3945"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtsvg-6.9.2.spdx.json",
+          "size": 97758,
+          "sha256": "273eefe7a333681bb625688cfb665c7bbb16472a3c809fda93c3d3e41cedb5e5"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qttranslations-6.9.2.spdx.json",
+          "size": 958246,
+          "sha256": "e873bc7a55971741294ca1387d5b335a931dc0f5265af342b36f4a9ffff72bbc"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtwebchannel-6.9.2.spdx.json",
+          "size": 57089,
+          "sha256": "ccc2586f14603b0bdd29b16a7e00ba4f337aa4801cb16c626ccafad5bfb48b4f"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtwebengine-6.9.2.spdx.json",
+          "size": 488694,
+          "sha256": "240a8ab5316cdfad4761107b7db1d4dcf96ebdeeac344c0e0a3339444a7b0f65"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtwebengine-chromium-pdf-6.9.2.spdx.json",
+          "size": 92949,
+          "sha256": "a9342927cbcc72f095c17dd8dc922e2008f9efb4aae4b39da038b6d71035a97a"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtwebengine-chromium-webengine-6.9.2.spdx.json",
+          "size": 921366,
+          "sha256": "e52590473ae9bad5f8a5a4cea2f1d6cac83b9166f3877c55de4e26d8dc5e6107"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-SBOM/qtwebsockets-6.9.2.spdx.json",
+          "size": 64353,
+          "sha256": "a7d1dd3fa2535a45ce62b1ff5f326eca6aed109db79e5d5b280c4b6accad2979"
+        },
+        {
+          "path": "Licenses/Qt-6.9.2-Source-Manifest.json",
+          "size": 3005,
+          "sha256": "c8efa13f05b27a27021a9793bd5e4b09fd0b1442e4be021352321a011dd6d681"
+        },
+        {
+          "path": "Licenses/Qt-GPL-Exception-1.0.txt",
+          "size": 36363,
+          "sha256": "0dbe024961f6ab5c52689cbd036c977975d0d0f6a67ff97762d96cb819dd5652"
+        },
+        {
+          "path": "Licenses/Sherpa-ONNX-Embedded-Dependencies-NOTICE.txt",
+          "size": 9221,
+          "sha256": "c59a9c719e8dd03406ee3abd16e5c828073d7f7ebf43363b5f67696d71a7de77"
+        },
+        {
+          "path": "Licenses/Signalsmith-Linear-MIT.txt",
+          "size": 1074,
+          "sha256": "072b5e9eb5b22880bdf6256324654cf3ce53dba828edb911921121e1be09d9c3"
+        },
+        {
+          "path": "Licenses/Signalsmith-Stretch-MIT.txt",
+          "size": 1093,
+          "sha256": "ee2ef82481ffb445ecdd4b3a4c1f82c0cddb2da8fe39d8e8dc384fffb3e7f06f"
+        },
+        {
+          "path": "Licenses/SoundTouch-2.4.0-S3S.patch",
+          "size": 1234,
+          "sha256": "d52e8b7564b2cd8f4ce09d71b3828d037feff983f9a87153c19a6b2205beef0c"
+        },
+        {
+          "path": "Licenses/SoundTouch-LGPL-2.1.txt",
+          "size": 24389,
+          "sha256": "84c6d82dc7de80f5b73f231edfd3ddc5b53513908117452bfa37ea36bb4b7e0a"
+        },
+        {
+          "path": "Licenses/Steinberg-ASIO-SDK-GPL-or-Proprietary.txt",
+          "size": 2639,
+          "sha256": "807397b738e95dc30428a7054f3d842c13d981979e1f7e78db9278d916201e25"
+        },
+        {
+          "path": "Licenses/Steinberg-VST3-SDK-MIT.txt",
+          "size": 1257,
+          "sha256": "d6115b263faa1cdf8c7372d70889c833dde1cec95252e7ee93e4f7d599ec96ca"
+        },
+        {
+          "path": "Licenses/TagLib-LGPL-2.1.txt",
+          "size": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "path": "Licenses/TagLib-MPL-1.1.txt",
+          "size": 25755,
+          "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f"
+        },
+        {
+          "path": "Licenses/THIRD_PARTY_NOTICES.txt",
+          "size": 11292,
+          "sha256": "69fef8a51e8fa689b05fcd5e461cd90179d31f391406e43ba275fee0755486c1"
+        },
+        {
+          "path": "Licenses/Ultimate-Vocal-Remover-MIT.txt",
+          "size": 1079,
+          "sha256": "1938bb56260d897e0f10be7d2efa27034cf2f31b849ad4ab876972a39ea8a886"
+        },
+        {
+          "path": "Licenses/UVR-MDX-Models-NOTICE.txt",
+          "size": 2238,
+          "sha256": "cf0474d3fcb5e34aeaf37fd8b73e90ccbcf9863e8655d3c13f53a54d8590ee27"
+        },
+        {
+          "path": "Licenses/XZ-5.2.5-COPYING.txt",
+          "size": 2775,
+          "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+        },
+        {
+          "path": "Licenses/yt-dlp-2026.7.4-Unlicense.txt",
+          "size": 1211,
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+        },
+        {
+          "path": "Licenses/YtDlp-Helper-Embedded-Dependencies-NOTICE.txt",
+          "size": 3415,
+          "sha256": "13b93f204dbc2cb57524994000bd8ca467f9374240dd48976bbc344b2689ff54"
+        },
+        {
+          "path": "Licenses/YtDlp-Helper-Runtime-Inventory.json",
+          "size": 53222,
+          "sha256": "76d5d279349588af7fa1719514def22af8e919db57d51a5cca8b0e178bd5ed08"
+        },
+        {
+          "path": "Licenses/zlib-1.3.1-LICENSE.txt",
+          "size": 1002,
+          "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+        },
+        {
           "path": "yt-dlp/ytdlp_helper.exe",
           "size": 16533939,
           "sha256": "0ebf5fb4ab121cc13a3caf813c79356af6f90c2643f1489829bed52f3c69ad5b"
@@ -524,31 +1056,31 @@
         {
           "path": "S3SAsioBridge.exe",
           "size": 50688,
-          "sha256": "e1a957e0f65f7f0df9d7db5b08ca124629618e0af64573286da6ebab929f0ca9"
+          "sha256": "5711400b6550baac1a80db10e6d2f5db4f019f94f5d1b3dff4adad65a8670769"
         },
         {
           "path": "S3SAsioProbe.exe",
           "size": 45056,
-          "sha256": "1720e8899e6efcf8f85bb2cfd8a1e82b153044e6bc187e3cc115acb621d37eae"
+          "sha256": "042254407153aed9abeb944ba86d376757ad82332890e79eff5b34b5435d0e54"
         },
         {
           "path": "S3SAudioDeviceScanner.exe",
           "size": 838656,
-          "sha256": "16727aa3219b9b887dbd740b260019bfd102de0d7d6bb9434f8fceaf1beb6ca7"
+          "sha256": "b8a34e6630d942516d37970eb0d89236dcbf9c8e6e2b62cfa6aee657742469fe"
         },
         {
           "path": "Vst3ScannerHelper.exe",
-          "size": 600064,
-          "sha256": "6c47ce5a4295eb9e9e3590c6ae6bbd9ec98bd69c010aada70fd36032f3880c6a"
+          "size": 602112,
+          "sha256": "12aece044bab99a44da2a8f6dec6c83a7b07fe926341fce55427044f9085cb22"
         }
       ]
     },
     {
       "id": "uvr-mdx",
       "version": "1.1.0.0",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.1/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-      "sha256": "7a8d233dfff68e116fe02c11e1f08df234406aaefffe69233a81429107e05f8f",
-      "size": 133005765,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.1.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+      "sha256": "75b05d39569ab652edd20af84d8761cb8d925734398bbd408a3bc78a447c93a2",
+      "size": 133007111,
       "requiredForStartup": false,
       "capability": "uvr-mdx",
       "files": [
@@ -583,14 +1115,19 @@
           "sha256": "c05b3b7a3ab73362c85511dd0386ad173f28570e23ce1d8d3f87391396a85c08"
         },
         {
-          "path": "licenses/sherpa-onnx-Apache-2.0.txt",
+          "path": "licenses/Apache-2.0.txt",
+          "size": 9165,
+          "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+        },
+        {
+          "path": "licenses/Sherpa-ONNX-Embedded-Dependencies-NOTICE.txt",
           "size": 9221,
-          "sha256": "d4d265b6ef2cfd0fb645acee9d9092103d5fadbdae887eb87c58a5d9b0780e19"
+          "sha256": "c59a9c719e8dd03406ee3abd16e5c828073d7f7ebf43363b5f67696d71a7de77"
         },
         {
           "path": "licenses/UVR-MDX-Models-NOTICE.txt",
-          "size": 2070,
-          "sha256": "b6902c25972383c7b13c24554accb7dc62cacd0b6d637936c44cd1aafdefc366"
+          "size": 2238,
+          "sha256": "cf0474d3fcb5e34aeaf37fd8b73e90ccbcf9863e8655d3c13f53a54d8590ee27"
         },
         {
           "path": "licenses/Ultimate-Vocal-Remover-MIT.txt",
@@ -609,18 +1146,18 @@
         },
         {
           "path": "licenses/ONNX-Runtime-ThirdPartyNotices-1.24.4.txt",
-          "size": 331175,
-          "sha256": "fb0af774b4d7cffc5b9d046f2aaeade2f37df2f80abf8033c95dfffcc77a8866"
+          "size": 325054,
+          "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
         },
         {
           "path": "licenses/Microsoft-DirectML-MIT.txt",
-          "size": 1093,
-          "sha256": "903df5512f7d02609fed0c780a9b704f5a3eeb6e4d84ebe42a29845c81899a3c"
+          "size": 1073,
+          "sha256": "fd532481d828e13a0b13ccb598e02338a3617740675a862ee6bdc1541b68e93d"
         },
         {
           "path": "licenses/Microsoft-DirectML-ThirdPartyNotices.txt",
-          "size": 4577,
-          "sha256": "2c95795c13ff48a58b6ed916f37901c23d964b5d9d601af422f17ad2172e7950"
+          "size": 4474,
+          "sha256": "93fa06040ce5557126783ac6f3481a5472043f76dbfe213e1c6d17be3db643da"
         }
       ]
     }
