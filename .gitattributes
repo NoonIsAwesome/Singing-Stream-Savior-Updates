@@ -1,0 +1,2 @@
+# Preserve the final manifest bytes bound to publication evidence.
+updates/stable.json -text
