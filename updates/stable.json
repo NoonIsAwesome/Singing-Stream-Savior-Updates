@@ -1,88 +1,98 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.2.1",
+    "version":  "2.1.3.0",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-09-05T22:13:46.0082125+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.2.1",
+    "publishedAt":  "2026-09-09T17:29:08.5082107+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.0",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Fixes unnecessary resource downloads when launching a fresh full installation of the current version.",
+                                                   "summary":  "Greatly reduces monitored vocal latency, improves lyric updates, and speeds up launcher checks while adding chat topics to the BGM area.",
                                                    "highlights":  [
-                                                                      "A complete, unchanged full ZIP now passes the launcher\u0027s file checks and starts directly, without downloading about 525 MB of resources again.",
-                                                                      "Missing or damaged files still trigger repair. The launcher shows a compact repair status instead of announcing a new version with empty update notes.",
-                                                                      "Mucheng is sleeping, so this version is being published by AI Mucheng."
+                                                                      "Greatly reduces monitored vocal latency (ASIO is recommended; its latency is lower than WASAPI)!",
+                                                                      "You can now set a chat topic in the BGM area and display it while BGM is playing.",
+                                                                      "Fixes lyric fill progress and some subtitle timing displays, and improves lyric updates when switching songs or changing Traditional/Simplified Chinese settings.",
+                                                                      "The launcher checks files faster and continuously shows verification progress, reducing the chance that its window appears stuck.",
+                                                                      "I went to the gym today, and I think I\u0027m great!"
                                                                   ]
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修正全新完整安裝在同版本啟動時，仍重複下載資源的問題。",
+                                                   "summary":  "大幅降低監聽的人聲延遲，改善歌詞更新並加快啟動器檢查，也在 BGM 區域加入聊天主題。",
                                                    "highlights":  [
-                                                                      "全新解壓縮的完整 ZIP 通過逐檔驗證後，會直接啟動，不再重複下載約 525 MB 的必要資源。",
-                                                                      "真正缺檔或檔案損壞時仍會修復；啟動器會顯示精簡的修復狀態，不再誤報新版本或顯示空白更新項目。",
-                                                                      "沐橙正在睡覺，所以這個版本是由 AI沐橙代發。"
+                                                                      "大幅降低監聽的人聲延遲（推薦使用ASIO驅動，延遲相較WASAPI更低）！",
+                                                                      "現在BGM區域可以設定「聊天主題」，播放BGM時會顯示。",
+                                                                      "修正歌詞填色進度與部分字幕時間顯示，並改善切換歌曲或繁簡設定時的歌詞更新。",
+                                                                      "啟動器檢查檔案更快速，驗證時會持續顯示進度，減少視窗看似卡住的情況。",
+                                                                      "今天去健身房了，我覺得我很棒！"
                                                                   ]
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修正全新完整安装在同版本启动时，仍重复下载资源的问题。",
+                                                   "summary":  "大幅降低监听的人声延迟，改善歌词更新并加快启动器检查，也在 BGM 区域加入聊天主题。",
                                                    "highlights":  [
-                                                                      "全新解压缩的完整 ZIP 通过逐个文件验证后，会直接启动，不再重复下载约 525 MB 的必要资源。",
-                                                                      "真正缺少文件或文件损坏时仍会修复；启动器会显示精简的修复状态，不再误报新版本或显示空白更新项目。",
-                                                                      "沐橙正在睡觉，所以这个版本是由 AI沐橙代发。"
+                                                                      "大幅降低监听的人声延迟（推荐使用 ASIO 驱动，延迟比 WASAPI 更低）！",
+                                                                      "现在可以在 BGM 区域设置“聊天主题”，播放 BGM 时会显示。",
+                                                                      "修正歌词填色进度与部分字幕时间显示，并改善切换歌曲或繁简设置时的歌词更新。",
+                                                                      "启动器检查文件更快速，验证时会持续显示进度，减少窗口看似卡住的情况。",
+                                                                      "今天去健身房了，我觉得我很棒！"
                                                                   ]
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "完全パッケージを新規展開した際、同じバージョンでもリソースを再ダウンロードしていた問題を修正しました。",
+                                                   "summary":  "モニターするボーカルの遅延を大幅に低減し、歌詞更新を改善してランチャーの検証を高速化し、BGMエリアにチャットの話題を追加しました。",
                                                    "highlights":  [
-                                                                      "完全 ZIP の各ファイルの検証に成功すると、そのまま起動します。約 525 MB のリソースを再ダウンロードしません。",
-                                                                      "ファイルの不足や破損は引き続き修復します。新バージョンの通知や空の更新内容の代わりに、簡潔な修復状況を表示します。",
-                                                                      "沐橙は睡眠中のため、このバージョンは AI沐橙が代理で公開しています。"
+                                                                      "モニターするボーカルの遅延を大幅に低減しました（ASIOドライバーの使用を推奨します。WASAPIより遅延が小さくなります）！",
+                                                                      "BGMエリアで「チャットの話題」を設定できるようになり、BGM再生中に表示されます。",
+                                                                      "歌詞の色付け進捗と一部の字幕時間表示を修正し、曲の切り替えや繁体字・簡体字設定の変更時に歌詞が更新されるよう改善しました。",
+                                                                      "ランチャーのファイルチェックを高速化し、検証中は進捗を継続表示して、ウィンドウが固まったように見える状況を減らしました。",
+                                                                      "今日はジムに行きました。自分はすごいと思います！"
                                                                   ]
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "전체 패키지를 새로 설치한 뒤 같은 버전으로 실행해도 리소스를 다시 다운로드하던 문제를 수정했습니다.",
+                                                   "summary":  "모니터링되는 보컬의 지연을 크게 줄이고 가사 업데이트를 개선하며 런처 검사를 빠르게 하고 BGM 영역에 채팅 주제를 추가했습니다.",
                                                    "highlights":  [
-                                                                      "전체 ZIP의 각 파일 검증을 통과하면 바로 시작합니다. 약 525 MB의 리소스를 다시 다운로드하지 않습니다.",
-                                                                      "누락되거나 손상된 파일은 계속 복구합니다. 새 버전 알림이나 빈 업데이트 내용 대신 간단한 복구 상태를 표시합니다.",
-                                                                      "沐橙은 자고 있어서 이번 버전은 AI沐橙이 대신 배포합니다."
+                                                                      "모니터링되는 보컬의 지연을 크게 줄였습니다(ASIO 드라이버 사용을 권장하며 WASAPI보다 지연이 낮습니다)!",
+                                                                      "BGM 영역에서 이제 \u0027채팅 주제\u0027를 설정할 수 있으며, BGM 재생 중에 표시됩니다.",
+                                                                      "가사 색상 표시 진행률과 일부 자막 시간 표시를 수정하고, 곡을 바꾸거나 번체/간체 설정을 변경할 때 가사가 업데이트되도록 개선했습니다.",
+                                                                      "런처의 파일 검사를 더 빠르게 하고 검증 중 진행률을 계속 표시하여 창이 멈춘 것처럼 보이는 상황을 줄였습니다.",
+                                                                      "오늘 헬스장에 갔어요. 저는 정말 잘한 것 같아요!"
                                                                   ]
                                                }
                                            ]
                      },
     "launcher":  {
                      "version":  "1.2.0.4",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/launcher-v1.2.0.4/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "e8dde142c4fc8bce6edd3243afd302b7bdfaabb14b3c21cffc83b8621036eee9",
-                     "size":  791552
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "db64ee552c3fc07feaced6a38a9f1331e32493640e0089d16a26d84a6a90ded1",
+                     "size":  792064
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.2.1/Singing-Stream-Savior.exe",
-                      "sha256":  "e60b112b34110ea7f84a7005cb4bee54870d820b709540442e256d2e8d240b85",
-                      "size":  22042624
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior.exe",
+                      "sha256":  "f2385432eb3ce501898fc75b36e2b66197405d100855df84ddb9d7f96e229376",
+                      "size":  24141312
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.3",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.2.1/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "2cdae60c2ad7528db1db6c518ae3f0736fdc54eee4ef00f38ec9d336f892a6a0",
-                        "size":  100588065
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "a17c694694a7c7d193b09b11cf43ab136702682109dc4cc06cb93e880beeda1d",
+                        "size":  100592295
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.3",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.2.1/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "78ff80a49b91019670ba5deec9272d2eb64c1f5ff5f0eda61f04e7ffc0b2a513",
-                           "size":  101184971,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "603e1dc34762063a75c12cda92319b0ace537ba2f89b297077320efa871fb15f",
+                           "size":  101206913,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -463,13 +473,13 @@
                                          },
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                             "size":  405504,
-                                             "sha256":  "fee7a307bbd6a0fde81e7f553dc808bab1cfe59520737e90b345e752a3c75969"
+                                             "size":  404992,
+                                             "sha256":  "45dd40de006753e696c6d46ea9c59500b13c747779c9aa8808ba95227b1eca61"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
-                                             "size":  40448,
-                                             "sha256":  "3e146329bb11b85c4df772a500427fd12eff1d1c1bcfe93b2da419d526d1855b"
+                                             "size":  48128,
+                                             "sha256":  "d3a59b4cf78c4c49e05bf7e634049844ebfdddc16bf59c03e4a85bd648898deb"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -499,7 +509,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "63a057890bf189ac079e458e3616b1ead59147d20b7b8aeff4ff9970a0cd280a"
+                                             "sha256":  "4af00ffb645cdac939d248b299d6f7141f070b0f5be4c09a35551a7e3d6a9ec5"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -948,31 +958,31 @@
                                          },
                                          {
                                              "path":  "S3SAsioBridge.exe",
-                                             "size":  50688,
-                                             "sha256":  "28e1bc653b4eeb82102e5a8d5e17b0361f4779bf7f35a2161da67fc63b26515c"
+                                             "size":  89600,
+                                             "sha256":  "6d888050683fe3f429d497d4925def869d3290a51ecc6f967176f452fee463dc"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "5bfe0d04368a6757a65ed99e3b62f582c363423d983b21d195b0a5c8619aa541"
+                                             "sha256":  "8709a920cf093d1df20ccf0055b9388b17557d9fb84025aa74b95d5d8cddbb13"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
-                                             "size":  838656,
-                                             "sha256":  "0a961ba895ddef0fcf91ba78a0e327e7bd4f2f19bc977b0ae981858e6500a308"
+                                             "size":  839168,
+                                             "sha256":  "55ce23952ec4921385cfc0240770e2b86b1ebcd43c42285a53c302b664346d56"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  602112,
-                                             "sha256":  "00a5bdade6942f32036aada2c1e62f84049004817e8d5b8675868121aa4af47c"
+                                             "sha256":  "fabab3447cd0882b3c749e686ee4d514a9ec568803651752a1569bc4da9baffe"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.2.1/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "25c3195d138e1bc05c81d2c6012ce7b7c55f88f0633486474dbb2251e45ce4db",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "38cf6a8e45019640d7761803519418767353794c50d864d631d812601bcc5276",
                            "size":  213746646,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2207,8 +2217,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.2.1/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "5b5ef7f5ce4f356ea3acca25e162ec93b6820aeff93296a18011cbd4ea4e166f",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.3.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "049120b32bcf094f9caaa5f4ff0d69164442f668a1d0c93ca83e4e3045151373",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
