@@ -3,16 +3,16 @@
 This public repository distributes compiled updates for **Singing Stream
 Savior**. It does not contain the application's source code.
 
-Current stable release: **[2.1.3.1](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.1)**
+Current stable release: **[2.1.3.2](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.2)**
 
 Official guide and download page: **[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/)**
 
-- The 2.1.3.1 full installation ZIP includes launcher **1.2.0.4**.
+- The 2.1.3.2 full installation ZIP includes launcher **1.2.0.5** and runtime **1.0.0.4**.
 - Existing launchers update the inner application; the application can then
   verify and replace the outer launcher in the background when needed.
 - `updates/stable.json` is the stable-channel update manifest read by the
   launcher through `raw.githubusercontent.com`.
-- The 2.1.3.1 hotfix improves YouTube accompaniment reliability during output switching, keeps the fallback video panel from appearing unnecessarily or remaining after playback stops, and avoids recording failed accompaniment starts as played.
+- The 2.1.3.2 release fixes BGM recovery after accompaniment ends, adds Classic Karaoke and Vertical Verse with adjustable fonts and text colors, improves preview editing and YouTube fallback playback, updates the launcher to 1.2.0.5, and includes a delicious mala chicken rice celebration.
 - The official download page links to the appropriate release asset.
 
 ## Publishing order
