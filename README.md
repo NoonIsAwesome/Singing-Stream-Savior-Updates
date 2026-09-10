@@ -3,16 +3,16 @@
 This public repository distributes compiled updates for **Singing Stream
 Savior**. It does not contain the application's source code.
 
-Current stable release: **[2.1.3.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.0)**
+Current stable release: **[2.1.3.1](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.1)**
 
 Official guide and download page: **[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/)**
 
-- The 2.1.3.0 full installation ZIP includes launcher **1.2.0.4**.
+- The 2.1.3.1 full installation ZIP includes launcher **1.2.0.4**.
 - Existing launchers update the inner application; the application can then
   verify and replace the outer launcher in the background when needed.
 - `updates/stable.json` is the stable-channel update manifest read by the
   launcher through `raw.githubusercontent.com`.
-- The 2.1.3.0 release greatly reduces monitored vocal latency (ASIO is recommended), adds a chat topic in the BGM area, fixes lyric timing and progress updates, and makes launcher file checks faster with visible progress.
+- The 2.1.3.1 hotfix improves YouTube accompaniment reliability during output switching, keeps the fallback video panel from appearing unnecessarily or remaining after playback stops, and avoids recording failed accompaniment starts as played.
 - The official download page links to the appropriate release asset.
 
 ## Publishing order
