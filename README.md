@@ -1,28 +1,53 @@
-# Singing Stream Savior Updates
+# Singing Stream Savior
 
-This public repository distributes compiled updates for **Singing Stream
-Savior**. It does not contain the application's source code.
+Singing Stream Savior is a Windows desktop tool for singing streams. It brings
+your song library, BGM, karaoke playback, queue, lyrics, audio processing, and
+OBS output into one workflow.
 
-Current stable release: **[2.1.3.2](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.3.2)**
+## Download
 
-Official guide and download page: **[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/)**
+Download the latest full installation ZIP from the official
+[Singing Stream Savior 2.1.4.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.1).
+The ZIP includes launcher **1.2.0.6** and runtime **1.0.0.6**. Extract the
+complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
+outermost folder.
 
-- The 2.1.3.2 full installation ZIP includes launcher **1.2.0.5** and runtime **1.0.0.4**.
-- Existing launchers update the inner application; the application can then
-  verify and replace the outer launcher in the background when needed.
-- `updates/stable.json` is the stable-channel update manifest read by the
-  launcher through `raw.githubusercontent.com`.
-- The 2.1.3.2 release fixes BGM recovery after accompaniment ends, adds Classic Karaoke and Vertical Verse with adjustable fonts and text colors, improves preview editing and YouTube fallback playback, updates the launcher to 1.2.0.5, and includes a delicious mala chicken rice celebration.
-- The official download page links to the appropriate release asset.
+For setup instructions and the complete feature guide, visit the
+[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
-## Publishing order
+## What you can do
 
-1. Build and validate the launcher and application.
-2. Create a GitHub Release and upload all binary assets.
-3. Verify every asset URL, byte size, and SHA-256 value.
-4. Publish `updates/stable.json` last.
+- **Dynamic synchronized lyrics:** Search or import lyrics, then choose from
+  seven animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
+  Silk Script, Verse Stack, and Glyph Motion. Each style card includes an
+  animation preview. The main preview and OBS share the display settings;
+  the independent Lyrics window keeps its own reading settings. Japanese and
+  Korean romanization in the OBS output is supported by **Basic Lyrics**.
+  [Read the lyrics guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-lyrics).
+- **Playlist Appearance with live preview:** Preview Now Singing, Set List,
+  Next On, and Reserve while choosing a theme. Theme cards preview their
+  motion. Edit the playlist position and proportional size on the fixed
+  1920 x 1080 canvas; an existing OBS source using that output updates while
+  you drag. [Read the preview and OBS guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-preview).
+- **Improved YouTube downloads:** The default format is MP3 at 320 kbps, with
+  MP3 and WAV available. **Download all YouTube files** processes the current
+  project song list, not the entire global library. Downloaded audio can be
+  converted locally while the original is preserved and same-name files are
+  not overwritten; project links change only after all operations succeed.
+  Right-click the button beside the song statistics row to choose a format,
+  open download settings, or open the download folder. [Read the download guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-download).
+- **Stream-ready playback:** Organize songs into playlists, prepare Reserve,
+  play local files or YouTube links, and send playlist and lyric overlays to
+  OBS with `Drag to OBS`.
 
-Publishing the manifest last prevents clients from discovering an update
-before all referenced files are available.
+## Updating
+
+Existing launchers update the inner application. The application can then
+verify and replace the outer launcher in the background when needed.
+
+`updates/stable.json` is the stable-channel manifest read by the launcher
+through `raw.githubusercontent.com`. It is published only after the GitHub
+Release assets have been uploaded and their URLs, sizes, and SHA-256 values
+have been checked.
 
 Copyright © 2026 Noon. All rights reserved.
