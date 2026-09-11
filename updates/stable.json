@@ -1,103 +1,149 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.4.0",
+    "version":  "2.1.4.1",
     "minimumLauncherVersion":  "1.0.0.0",
-    "publishedAt":  "2026-09-11T15:35:57.6562670+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.0",
+    "updatePriority":  "hotfix",
+    "publishedAt":  "2026-09-11T19:37:29.9801565+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.1",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Adds seven animated lyrics styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade, Silk Script, Verse Stack, and Glyph Motion, with different text compositions, entrances, and transitions.",
+                                                   "summary":  "Fixes missing new themes after updating from 2.1.3.2 to 2.1.4.0. Fixes enlarged playlist blocks getting stuck when dragged.",
                                                    "highlights":  [
-                                                                      "Improves lyrics synchronization and multilingual display: fixes occasional horizontal lyrics appearing in Vertical Verse\u0027s single-area layout, and limits romanization to Basic Lyrics.",
-                                                                      "Adds animation previews directly inside playlist theme and lyrics cards, and improves previews of Basic Lyrics scrolling and Classic Karaoke color fill.",
-                                                                      "Improves layout editing: lyrics can be moved and resized beyond canvas edges, resized from all four corners, and identified more clearly with playlist and animated lyrics area labels.",
-                                                                      "Adds five playlist themes: Signal Veil, Signal Tide, Cue Line, Margin Set, and Oblique Plate. Both Signal themes use actual playback audio to drive waveforms and light points. Removes some older themes, retaining more versatile ones. Quiet Ledger now combines left and right layouts in one theme.",
-                                                                      "Refines existing themes: removes the selected extra themes and fixes unnecessary scrolling of short titles in Transparent v2, backgrounds that fail to extend with custom layouts in Transparent, and default placement and dragging issues in some themes.",
-                                                                      "Other display fixes and asset improvements: fixes the blurry and partially clipped accompaniment playback button."
-                                                                  ]
+                                                                      "The spicy Weili fried sauce noodles are seriously delicious—the night owls working late are in for a treat!",
+                                                                      "Fixes missing new themes after updating from 2.1.3.2 to 2.1.4.0.",
+                                                                      "Fixes enlarged playlist blocks getting stuck when dragged.",
+                                                                      "Defaults YouTube downloads to MP3 320 kbps and keeps only MP3 and WAV. Downloaded audio can be converted locally while preserving originals and avoiding same-name overwrites.",
+                                                                      "Adds a Download all YouTube files entry beside song statistics; right-click to choose format, open download settings, or open the download folder. Library update messages now appear in the main status bar.",
+                                                                      "When returning to BGM or chat, Now Singing / Now Playing becomes Now. Chat themes are enabled by default while existing disabled preferences are preserved.",
+                                                                      "Clicking elsewhere clears the Meter knob highlight and commits and ends percentage editing.",
+                                                                      "Waits for audio output readiness before playing local BGM to avoid occasional autoplay failures.",
+                                                                      "Lyrics style cards now consistently show a clear style description below the name.",
+                                                                      "The new launcher supports normal, recommended, and emergency hotfix updates; recommended and emergency updates can prompt at next launch."
+                                                                  ],
+                                                   "emphasizedItems":  [
+                                                                           "The spicy Weili fried sauce noodles are seriously delicious—the night owls working late are in for a treat!",
+                                                                           "Fixes missing new themes after updating from 2.1.3.2 to 2.1.4.0.",
+                                                                           "Fixes enlarged playlist blocks getting stuck when dragged."
+                                                                       ]
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "新增七款動態歌詞樣式：Kinetic Type、Prism Cut、Lumen Drift、Ink Cascade、Silk Script、Verse Stack、Glyph Motion，提供不同的文字編排、進場與轉場效果。",
+                                                   "summary":  "修復從 2.1.3.2 更新至 2.1.4.0 後看不到新主題的問題。 修復歌單區塊放大後拖曳卡住的問題。",
                                                    "highlights":  [
-                                                                      "改善歌詞同步與多語顯示：修正 Vertical Verse 單區呈現偶爾混入橫向歌詞的問題，羅馬拼音限定於 Basic Lyrics。",
-                                                                      "卡片直接預覽效果：歌單主題與動態歌詞支援卡片內動畫預覽，並改善 Basic Lyrics 捲動與 Classic Karaoke 填色效果的展示。",
-                                                                      "改善版面配置操作：歌詞區域可拖曳、縮放至畫布邊緣之外，支援四角縮放，並改善歌單與動態歌詞區域的標示。",
-                                                                      "新增五款歌單主題：Signal Veil、Signal Tide、Cue Line、Margin Set、Oblique Plate。兩款 Signal 主題使用實際播放音訊驅動聲紋與光點；移除部分舊款主題，只保留較通用主題。完善主題自訂：Quiet Ledger 合併左右配置選項。",
-                                                                      "精簡與修正既有主題：移除指定的多餘主題，修正 Transparent v2 短歌名誤觸跑馬燈、Transparent 自訂版面底圖未延伸，以及部分主題預設位置與拖曳異常。",
-                                                                      "其他顯示修正與素材最佳化：改善伴奏播放按鈕模糊、裁切問題。"
-                                                                  ]
+                                                                      "辣味維利炸醬麵滿好吃的，熬夜工作的夜貓子快樂！",
+                                                                      "修復從 2.1.3.2 更新至 2.1.4.0 後看不到新主題的問題。",
+                                                                      "修復歌單區塊放大後拖曳卡住的問題。",
+                                                                      "YouTube 下載預設改為 MP3 320 kbps，格式只保留 MP3、WAV。已下載的音訊可在本機轉換格式，保留原始檔案並避免覆寫同名檔案。",
+                                                                      "歌曲統計列右側新增「下載所有 YouTube 檔案」入口；右鍵可選擇格式、開啟下載設定與下載資料夾。歌曲庫更新訊息改顯示於主畫面狀態列。",
+                                                                      "切回 BGM／聊天時，既有 Now Singing／Now Playing 標題改為 Now。聊天主題預設開啟，保留使用者已設定的關閉偏好。",
+                                                                      "Meter 點擊其他位置後會清除旋鈕的 highlight，並提交、結束百分比數值編輯。",
+                                                                      "本機 BGM 等待音訊輸出就緒後再播放，避免偶發性自動播放失敗。",
+                                                                      "歌詞樣式卡片統一在名稱下方顯示清楚的樣式說明。",
+                                                                      "新版啟動器支援一般、建議與緊急修正更新，建議與緊急更新可在下次啟動時提示。"
+                                                                  ],
+                                                   "emphasizedItems":  [
+                                                                           "辣味維利炸醬麵滿好吃的，熬夜工作的夜貓子快樂！",
+                                                                           "修復從 2.1.3.2 更新至 2.1.4.0 後看不到新主題的問題。",
+                                                                           "修復歌單區塊放大後拖曳卡住的問題。"
+                                                                       ]
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "新增七款动态歌词样式：Kinetic Type、Prism Cut、Lumen Drift、Ink Cascade、Silk Script、Verse Stack、Glyph Motion，提供不同的文字编排、入场与转场效果。",
+                                                   "summary":  "修复从 2.1.3.2 更新至 2.1.4.0 后看不到新主题的问题。 修复歌单区块放大后拖动卡住的问题。",
                                                    "highlights":  [
-                                                                      "改善歌词同步与多语言显示：修复 Vertical Verse 单区域显示偶尔混入横向歌词的问题，罗马拼音仅限 Basic Lyrics 使用。",
-                                                                      "卡片直接预览效果：歌单主题与动态歌词支持卡片内动画预览，并改善 Basic Lyrics 滚动与 Classic Karaoke 填色效果的展示。",
-                                                                      "改善布局操作：歌词区域可拖动、缩放至画布边缘之外，支持四角缩放，并改善歌单与动态歌词区域的标识。",
-                                                                      "新增五款歌单主题：Signal Veil、Signal Tide、Cue Line、Margin Set、Oblique Plate。两款 Signal 主题使用实际播放音频驱动声纹与光点；移除部分旧款主题，仅保留较通用的主题。完善主题自定义：Quiet Ledger 合并左右布局选项。",
-                                                                      "精简与修复现有主题：移除指定的多余主题，修复 Transparent v2 短歌名误触跑马灯、Transparent 自定义布局底图未延伸，以及部分主题默认位置与拖动异常。",
-                                                                      "其他显示修复与素材优化：改善伴奏播放按钮模糊、裁切问题。"
-                                                                  ]
+                                                                      "辣味维利炸酱面真的很好吃，熬夜工作的夜猫子快乐！",
+                                                                      "修复从 2.1.3.2 更新至 2.1.4.0 后看不到新主题的问题。",
+                                                                      "修复歌单区块放大后拖动卡住的问题。",
+                                                                      "YouTube 下载默认改为 MP3 320 kbps，格式只保留 MP3、WAV。已下载的音频可在本地转换格式，保留原始文件并避免覆盖同名文件。",
+                                                                      "歌曲统计行右侧新增“下载所有 YouTube 文件”入口；右键可选择格式、打开下载设置与下载文件夹。歌曲库更新消息改在主界面状态栏显示。",
+                                                                      "切回 BGM／聊天时，现有 Now Singing／Now Playing 标题改为 Now。聊天主题默认启用，保留用户已设置的关闭偏好。",
+                                                                      "Meter 点击其他位置后会清除旋钮高亮，并提交、结束百分比数值编辑。",
+                                                                      "本地 BGM 等待音频输出就绪后再播放，避免偶发的自动播放失败。",
+                                                                      "歌词样式卡片统一在名称下方显示清晰的样式说明。",
+                                                                      "新版启动器支持常规、建议与紧急修复更新，建议与紧急更新可在下次启动时提示。"
+                                                                  ],
+                                                   "emphasizedItems":  [
+                                                                           "辣味维利炸酱面真的很好吃，熬夜工作的夜猫子快乐！",
+                                                                           "修复从 2.1.3.2 更新至 2.1.4.0 后看不到新主题的问题。",
+                                                                           "修复歌单区块放大后拖动卡住的问题。"
+                                                                       ]
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "Kinetic Type、Prism Cut、Lumen Drift、Ink Cascade、Silk Script、Verse Stack、Glyph Motion の7種類の動く歌詞スタイルを追加し、文字の配置や登場・切り替えの演出を充実させました。",
+                                                   "summary":  "2.1.3.2 から 2.1.4.0 への更新後に新しいテーマが表示されない問題を修正します。 拡大した曲リストのブロックをドラッグすると動かなくなる問題を修正します。",
                                                    "highlights":  [
-                                                                      "歌詞の同期と多言語表示を改善しました。Vertical Verse の単一エリア表示に横書きの歌詞が混在することがある問題を修正し、ローマ字表示は Basic Lyrics のみに限定しました。",
-                                                                      "曲リストのテーマと動く歌詞をカード内でアニメーションプレビューできるようにし、Basic Lyrics のスクロールと Classic Karaoke の色塗りプレビューを改善しました。",
-                                                                      "レイアウト編集を改善しました。歌詞エリアをキャンバスの外まで移動・拡大縮小でき、四隅からサイズを変更できます。曲リストと動く歌詞エリアのラベルも改善しました。",
-                                                                      "Signal Veil、Signal Tide、Cue Line、Margin Set、Oblique Plate の5種類の曲リストテーマを追加しました。2つの Signal テーマは実際の再生音声に応じて波形と光点が動きます。一部の旧テーマを削除し、汎用性の高いテーマを残しました。Quiet Ledger の左右配置を1つのテーマ内の設定に統合しました。",
-                                                                      "既存テーマを整理・修正しました。指定された余分なテーマを削除し、Transparent v2 で短い曲名が不要にスクロールする問題、Transparent のカスタム配置で背景が伸びない問題、一部テーマの初期位置やドラッグの不具合を修正しました。",
-                                                                      "その他の表示修正と素材の改善：伴奏の再生ボタンがぼやけたり、一部が切れたりする問題を改善しました。"
-                                                                  ]
+                                                                      "辛口維力炸醤麺はとてもおいしく、夜更かしで働く夜型さんも幸せです！",
+                                                                      "2.1.3.2 から 2.1.4.0 への更新後に新しいテーマが表示されない問題を修正します。",
+                                                                      "拡大した曲リストのブロックをドラッグすると動かなくなる問題を修正します。",
+                                                                      "YouTube ダウンロードの既定形式を MP3 320 kbps に変更し、MP3 と WAV のみに整理します。ダウンロード済み音声はローカルで変換でき、元のファイルを保持して同名ファイルの上書きを防ぎます。",
+                                                                      "曲数表示の右側に「すべての YouTube ファイルをダウンロード」を追加します。右クリックで形式、ダウンロード設定、保存先フォルダーを選べます。ライブラリ更新はメイン画面のステータスバーに表示します。",
+                                                                      "BGM／雑談に戻ると Now Singing／Now Playing の見出しを Now に変更します。雑談テーマは既定で有効にし、無効に設定済みの場合は保持します。",
+                                                                      "別の場所をクリックすると Meter ノブの強調表示を解除し、パーセント値を確定して編集を終了します。",
+                                                                      "ローカル BGM は音声出力の準備完了を待ってから再生し、まれな自動再生失敗を防ぎます。",
+                                                                      "歌詞スタイルカードでは、名前の下に分かりやすいスタイル説明を統一して表示します。",
+                                                                      "新しいランチャーは通常・推奨・緊急修正の更新に対応し、推奨更新と緊急修正は次回起動時に通知できます。"
+                                                                  ],
+                                                   "emphasizedItems":  [
+                                                                           "辛口維力炸醤麺はとてもおいしく、夜更かしで働く夜型さんも幸せです！",
+                                                                           "2.1.3.2 から 2.1.4.0 への更新後に新しいテーマが表示されない問題を修正します。",
+                                                                           "拡大した曲リストのブロックをドラッグすると動かなくなる問題を修正します。"
+                                                                       ]
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade, Silk Script, Verse Stack, Glyph Motion 등 7가지 움직이는 가사 스타일을 추가하여 다양한 글자 배치, 등장 및 전환 효과를 제공합니다.",
+                                                   "summary":  "2.1.3.2에서 2.1.4.0으로 업데이트한 후 새 테마가 표시되지 않는 문제를 수정합니다. 재생목록 블록을 확대한 후 드래그할 때 멈추는 문제를 수정합니다.",
                                                    "highlights":  [
-                                                                      "가사 동기화와 다국어 표시를 개선했습니다. Vertical Verse의 단일 영역에 가로 가사가 간헐적으로 섞여 나타나는 문제를 수정하고, 로마자 표시는 Basic Lyrics에서만 지원하도록 했습니다.",
-                                                                      "곡 목록 테마와 움직이는 가사의 애니메이션을 카드 안에서 바로 미리 볼 수 있으며, Basic Lyrics의 스크롤 및 Classic Karaoke의 색 채우기 미리 보기를 개선했습니다.",
-                                                                      "레이아웃 편집을 개선했습니다. 가사 영역을 캔버스 가장자리 밖으로 이동하거나 크기를 조절할 수 있고, 네 모서리에서 크기를 변경할 수 있습니다. 곡 목록 및 움직이는 가사 영역의 표시도 개선했습니다.",
-                                                                      "Signal Veil, Signal Tide, Cue Line, Margin Set, Oblique Plate 등 5가지 곡 목록 테마를 추가했습니다. 두 Signal 테마는 실제 재생 오디오에 따라 파형과 빛점이 움직입니다. 일부 이전 테마를 제거하고 활용도가 높은 테마를 남겼습니다. Quiet Ledger의 왼쪽 및 오른쪽 배치를 하나의 테마 설정으로 통합했습니다.",
-                                                                      "기존 테마를 정리하고 수정했습니다. 지정된 불필요한 테마를 제거하고, Transparent v2의 짧은 곡명이 불필요하게 스크롤되는 문제, Transparent 사용자 지정 배치에서 배경이 늘어나지 않는 문제, 일부 테마의 기본 위치 및 드래그 오류를 수정했습니다.",
-                                                                      "기타 표시 수정 및 소재 개선: 반주 재생 버튼이 흐릿하거나 일부 잘려 보이는 문제를 개선했습니다."
-                                                                  ]
+                                                                      "매운 웨이리 짜장라면은 정말 맛있어요. 늦게까지 일하는 올빼미들에게 작은 행복입니다!",
+                                                                      "2.1.3.2에서 2.1.4.0으로 업데이트한 후 새 테마가 표시되지 않는 문제를 수정합니다.",
+                                                                      "재생목록 블록을 확대한 후 드래그할 때 멈추는 문제를 수정합니다.",
+                                                                      "YouTube 다운로드 기본 형식을 MP3 320 kbps로 변경하고 MP3와 WAV만 제공합니다. 다운로드한 오디오는 로컬에서 변환할 수 있으며 원본을 보존하고 같은 이름의 파일을 덮어쓰지 않습니다.",
+                                                                      "곡 통계 오른쪽에 모든 YouTube 파일 다운로드 기능을 추가합니다. 오른쪽 클릭으로 형식, 다운로드 설정, 저장 폴더를 선택할 수 있으며 라이브러리 업데이트 메시지는 메인 화면 상태 표시줄에 표시합니다.",
+                                                                      "BGM／대화로 돌아가면 Now Singing／Now Playing 제목을 Now로 바꿉니다. 대화 테마는 기본 활성화하며 기존의 끄기 설정은 유지합니다.",
+                                                                      "다른 곳을 클릭하면 Meter 노브 강조를 지우고 백분율 값을 적용한 뒤 편집을 종료합니다.",
+                                                                      "로컬 BGM은 오디오 출력 준비 후 재생하여 간헐적인 자동 재생 실패를 방지합니다.",
+                                                                      "가사 스타일 카드에 이름 아래 명확한 스타일 설명을 일관되게 표시합니다.",
+                                                                      "새 런처는 일반·권장·긴급 수정 업데이트를 지원하며 권장 및 긴급 업데이트는 다음 실행 시 알릴 수 있습니다."
+                                                                  ],
+                                                   "emphasizedItems":  [
+                                                                           "매운 웨이리 짜장라면은 정말 맛있어요. 늦게까지 일하는 올빼미들에게 작은 행복입니다!",
+                                                                           "2.1.3.2에서 2.1.4.0으로 업데이트한 후 새 테마가 표시되지 않는 문제를 수정합니다.",
+                                                                           "재생목록 블록을 확대한 후 드래그할 때 멈추는 문제를 수정합니다."
+                                                                       ]
                                                }
                                            ]
                      },
     "launcher":  {
-                     "version":  "1.2.0.5",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "cdf210542eaca2022537074db84accf45709412860d1eec14bcb39e8784eb3d8",
-                     "size":  820736
+                     "version":  "1.2.0.6",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "a938b88c18c51e42261b028195f59f36bd71b6739f32f5f2c60abace2ac8072c",
+                     "size":  830976
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior.exe",
-                      "sha256":  "13d5d70c032e286b1e4d4ab2302c4a7cead85c79a5718d80082c9841b2823f56",
-                      "size":  25841152
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior.exe",
+                      "sha256":  "5532ed65762c983597ff1abb764e602f849961484ae2b7a7f27a77471eaef7c3",
+                      "size":  25925632
                   }
               ],
     "runtimePack":  {
-                        "version":  "1.0.0.5",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "6ca0134f410ad49dba7b26a03410adcc31a0737936612a594858343a3341da9d",
-                        "size":  87186922
+                        "version":  "1.0.0.6",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "5406f7aaa87395ed81c4d668770d8a220c81295c17d1650297b2cab0d7846d4f",
+                        "size":  87191448
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
-                           "version":  "1.0.0.5",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "87a6b081a77fe20a3bb73a3a53018b888f98bb37a9a8e324767358fc8baad97f",
-                           "size":  87801997,
+                           "version":  "1.0.0.6",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "52d54c9f806a20b10db7c56ba306c7151ac9f87c0726602c87b75d6ddea5d1fd",
+                           "size":  87806524,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -444,12 +490,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "57882e25849c93b7c3f16c8c26b3791449428a1263002aa5d3c44f939e9205db"
+                                             "sha256":  "bd558f0e863c7f2343a5f35ff5f36f11f6b3c94e901304a2d5c5f4e132e396c0"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "ed909b6b7093218d9c3f11092554860ab50a81e5b435072ca7f3c43aeb55fa3e"
+                                             "sha256":  "6e3c1a33a683cebf6a03cc76c55a8f5a4fd3ccd9463ac368763ac8c637fe8384"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -479,7 +525,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "aab57c6a2ea35827295f848cf0d8fb485368fcc5965ecabed81904cbfe1815ba"
+                                             "sha256":  "1fbee3ab8dc813b7499a27576ff5cd9dd1893240582c8332e0f3e8c43a798779"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -513,8 +559,8 @@
                                          },
                                          {
                                              "path":  "Licenses/Distribution-Components-NOTICE.txt",
-                                             "size":  5830,
-                                             "sha256":  "2e68e9878753b6d9a47af9daee881a90f857df91423345dccf323b0b10e0d84f"
+                                             "size":  5822,
+                                             "sha256":  "25a925b5f5f0db8ceed968bb8da510d9be13649f84a823cfaa2238201834528c"
                                          },
                                          {
                                              "path":  "Licenses/Expat-2.7.3-COPYING.txt",
@@ -913,8 +959,8 @@
                                          },
                                          {
                                              "path":  "Licenses/YtDlp-Helper-Runtime-Inventory.json",
-                                             "size":  53222,
-                                             "sha256":  "76d5d279349588af7fa1719514def22af8e919db57d51a5cca8b0e178bd5ed08"
+                                             "size":  105824,
+                                             "sha256":  "08498da1ffa6a9215e49ec279e6bc2a5f494b75cd5c4f77c521ca2ab8fd1ed5c"
                                          },
                                          {
                                              "path":  "Licenses/zlib-1.3.1-LICENSE.txt",
@@ -923,52 +969,42 @@
                                          },
                                          {
                                              "path":  "yt-dlp/ytdlp_helper.exe",
-                                             "size":  16533939,
-                                             "sha256":  "0ebf5fb4ab121cc13a3caf813c79356af6f90c2643f1489829bed52f3c69ad5b"
+                                             "size":  16538176,
+                                             "sha256":  "8bf988e390cbc03ba6603345727497755891f51b07ce34bc3c0c31eae1681463"
                                          },
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  89600,
-                                             "sha256":  "7699a6b4b800719f12afd5bd2ea995b2fcd8495626b79de04e0eb396db210740"
+                                             "sha256":  "a4a57b658416708b47d7ae89d33ca3803ace65ae70f7d85d8782f0efe9e3611d"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "fb6320f2373a68cf8a55e7e18d7ec192d35eeef8ee43443417cb2ac53fcb3e7d"
+                                             "sha256":  "769b97d4f78af6869e841e4b5ded2dedcb594b682f6ffe24b980d0399f2af5be"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  839168,
-                                             "sha256":  "0963eaad2944be852c7e8242582927928fa7f2417420422e706057d05ac1e28e"
+                                             "sha256":  "41e4a52cf6e53a6f0c6ca76f89ced423c84c81bb6047923c0f258fcaa4f72c2c"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  602112,
-                                             "sha256":  "d9a81d6929adc896d66e27f715f2f4dd33a09e235cfdd31f6fc66ae9fb7afc31"
+                                             "sha256":  "73c46bdeb65340299d297ab0f4fe57b49d63d446e5f02a8f464a182a1bb3f572"
                                          }
                                      ],
                            "patch":  {
-                                         "baseVersion":  "1.0.0.4",
-                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Patch-application-runtime-1.0.0.4-to-1.0.0.5.s3spack",
-                                         "sha256":  "db280c569a0c3d4c8d585af3251417aa1ee5833e975fc1b183ba97afa706ee08",
-                                         "size":  8709278,
+                                         "baseVersion":  "1.0.0.5",
+                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Patch-application-runtime-1.0.0.5-to-1.0.0.6.s3spack",
+                                         "sha256":  "c4e9c891f1e048bb72b5969abacdfe53eedd3bd00c8d354a8649fdfaf9801f30",
+                                         "size":  17137118,
                                          "files":  [
-                                                       "SharedThemeAssets/fonts/864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f/NotoSansTC.ttf",
-                                                       "SharedThemeAssets/licenses/OFL-NotoSansTC.txt",
-                                                       "Themes/builtin-cue-line.s3stheme",
-                                                       "Themes/builtin-margin-set.s3stheme",
-                                                       "Themes/builtin-oblique-plate.s3stheme",
-                                                       "Themes/builtin-pocket-singer.s3stheme",
-                                                       "Themes/builtin-quiet-ledger.s3stheme",
-                                                       "Themes/builtin-signal-tide.s3stheme",
-                                                       "Themes/builtin-signal-veil.s3stheme",
-                                                       "Themes/TransparentBlack.s3stheme",
-                                                       "Themes/TransparentBlackV2.s3stheme",
-                                                       "Themes/TransparentWhite.s3stheme",
-                                                       "Themes/TransparentWhiteV2.s3stheme",
                                                        "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                                        "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                                        "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
+                                                       "Licenses/Distribution-Components-NOTICE.txt",
+                                                       "Licenses/YtDlp-Helper-Runtime-Inventory.json",
+                                                       "yt-dlp/ytdlp_helper.exe",
                                                        "S3SAsioBridge.exe",
                                                        "S3SAsioProbe.exe",
                                                        "S3SAudioDeviceScanner.exe",
@@ -979,8 +1015,8 @@
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "8fb433262c3999f56201eb919f1cd977e43d83d7ebc3e9900bf19c0bf9eba287",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "c35ae31638efd3bac202bb052b98a5ac23c83bd0660c11358b6e7b64e0640563",
                            "size":  213746646,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2215,8 +2251,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "6c086fae60558aed36e1c8be1243a8150b33084e5d94a6b8bd1b23895582f6d6",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.1/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "063ce131739e93bded31fcdb8eb4c303c496740ad6c2afc913548b6892a48b82",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
