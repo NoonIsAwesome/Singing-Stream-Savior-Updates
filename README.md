@@ -18,17 +18,23 @@ For setup instructions and the complete feature guide, visit the
 ## What you can do
 
 - **Dynamic synchronized lyrics:** Search or import lyrics, then choose from
-  seven animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
-  Silk Script, Verse Stack, and Glyph Motion. Each style card includes an
-  animation preview. The main preview and OBS share the display settings;
-  the independent Lyrics window keeps its own reading settings. Japanese and
-  Korean romanization in the OBS output is supported by **Basic Lyrics**.
+  nine animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
+  Silk Script, Verse Stack, Glyph Motion, Letter Spread, and Stagger Signal.
+  Each style card includes an animation preview. Word effects follow the
+  timing in the lyrics file; when complete word timings are unavailable,
+  timing is estimated and may not fully match the singing. The main preview
+  and OBS share the display settings; the independent Lyrics window keeps its
+  own reading settings. Japanese and Korean romanization in the OBS output is
+  supported by **Basic Lyrics**.
   [Read the lyrics guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-lyrics).
 - **Playlist Appearance with live preview:** Preview Now Singing, Set List,
   Next On, and Reserve while choosing a theme. Theme cards preview their
-  motion. Edit the playlist position and proportional size on the fixed
-  1920 x 1080 canvas; an existing OBS source using that output updates while
-  you drag. [Read the preview and OBS guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-preview).
+  motion. Oblique Stream adds a minimal transparent layout with left or right
+  placement, Now Playing above or below, timestamps, and curved scrolling.
+  In themes that support numbering, the numbering button cycles through Off,
+  1., 01, and ．. Edit the playlist position and proportional size on the
+  fixed 1920 x 1080 canvas; an existing OBS source using that output updates
+  while you drag. [Read the preview and OBS guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-preview).
 - **Improved YouTube downloads:** The default format is MP3 at 320 kbps, with
   MP3 and WAV available. **Download all YouTube files** processes the current
   project song list, not the entire global library. Downloaded audio can be
