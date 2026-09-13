@@ -1,131 +1,129 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.4.2",
+    "version":  "2.1.4.3",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "normal",
-    "publishedAt":  "2026-09-13T09:31:26.5706770+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.2",
+    "publishedAt":  "2026-09-13T22:51:31.3034886+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.3",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Fixes a persistent audio timing warning and adds a new theme, two lyric styles, and clearer one-way text motion.",
+                                                   "summary":  "Fixes brief audio artifacts when switching effects, adds synchronized YouTube video, and improves lyrics and song library performance.",
                                                    "highlights":  [
-                                                                      "Fixes an issue where audio routing could keep showing “Check audio timing”.",
-                                                                      "Adds the new “Oblique Stream” theme with a minimal transparent design. Place it on the left or right, show Now Playing above or below, and enable timestamps and curved scrolling.",
-                                                                      "Adds two animated lyrics styles: “Letter Spread” and “Stagger Signal”.",
-                                                                      "Long song titles now scroll to the end, pause briefly, then restart from the beginning. Set list scrolling follows the same one-way reading flow.",
-                                                                      "The former numbering button now cycles through “Off, 1., 01, ．” in themes that support numbering.",
-                                                                      "Fixes update progress jumping when the launcher switches between downloading, verification, and installation.",
-                                                                      "Had drinks with friends today! Happy!"
+                                                                      "I found a few small issues while testing my own singing livestream, and they are now fixed. No need to worry—these issues had little impact on livestreams.",
+                                                                      "Fixes brief bursts of earlier vocals or reverb that could occasionally occur when switching between chatting and singing effects.",
+                                                                      "Adds a “YouTube Video” window that follows accompaniment playback, pause, seeking, and speed changes.",
+                                                                      "Uses monochrome icon buttons for “Lyrics Window” and “YouTube Video” in Compact mode to save player space.",
+                                                                      "Improves Letter Spread transitions for smoother lyric changes and starts the letter spreading effect earlier.",
+                                                                      "Fixes a brief set list shake when songs are added to Set List in Oblique Stream.",
+                                                                      "Makes dragging lyrics smoother while reducing unnecessary processing.",
+                                                                      "Improves loading, searching, and scrolling performance for large song libraries to reduce stuttering."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "Fixes an issue where audio routing could keep showing “Check audio timing”."
+                                                                           "I found a few small issues while testing my own singing livestream, and they are now fixed. No need to worry—these issues had little impact on livestreams."
                                                                        ]
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修復持續顯示音訊時序警示的問題，並新增主題、兩款動態歌詞樣式與更清楚的單向文字捲動。",
+                                                   "summary":  "修復效果切換時的短促異音，新增同步 YouTube 畫面，並改善歌詞顯示與歌單操作效能。",
                                                    "highlights":  [
-                                                                      "修復音訊路由可能持續顯示「檢查音訊時序」的問題。",
-                                                                      "新增「Oblique Stream」主題，採用極簡透明設計。可選擇靠左或靠右、Now Playing 顯示於上方或下方，支援時間戳與弧線捲動。",
-                                                                      "新增「Letter Spread」與「Stagger Signal」兩款動態歌詞樣式。",
-                                                                      "長歌名跑馬燈統一改為捲動至尾端、稍作停頓後，再從開頭播放。歌單捲動同樣採單向閱讀。",
-                                                                      "原有編號按鈕改為循環切換「關閉、1.、01、．」，適用於原本支援編號的主題。",
-                                                                      "修復啟動器在下載、驗證與安裝階段切換時，更新進度顯示反覆跳動的問題。",
-                                                                      "今天和朋友去喝酒了！快樂！"
+                                                                      "自己做歌回直播測試的時候發現一點小問題，目前已經修正。大家也不用擔心，因為那些小問題對直播並不太影響。",
+                                                                      "修復聊天與唱歌效果切換時，偶爾出現極短先前人聲或殘響的問題。",
+                                                                      "新增「YouTube 畫面」視窗，可跟隨伴奏的播放、暫停、跳轉與變速，同步顯示影片。",
+                                                                      "精簡模式的「歌詞視窗」與「YouTube 畫面」採用單色圖示按鈕，節省播放器空間。",
+                                                                      "改善 Letter Spread 的歌詞轉場，讓句子銜接更自然，並提早開始文字伸展效果。",
+                                                                      "修復 Oblique Stream 在歌曲加入 Set List 時，歌單內容可能短暫抖動的問題。",
+                                                                      "改善拖曳歌詞位置時的畫面更新，讓移動更平順，並減少不必要的處理負擔。",
+                                                                      "改善大型歌單的載入、搜尋與捲動效能，減少操作時的卡頓。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "修復音訊路由可能持續顯示「檢查音訊時序」的問題。"
+                                                                           "自己做歌回直播測試的時候發現一點小問題，目前已經修正。大家也不用擔心，因為那些小問題對直播並不太影響。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修复持续显示音频时序警告的问题，并新增主题、两款动态歌词样式与更清晰的单向文字滚动。",
+                                                   "summary":  "修复效果切换时的短促异音，新增同步 YouTube 画面，并改善歌词显示与歌单操作性能。",
                                                    "highlights":  [
-                                                                      "修复音频路由可能持续显示“检查音频时序”的问题。",
-                                                                      "新增“Oblique Stream”主题，采用极简透明设计。可选择靠左或靠右、Now Playing 显示在上方或下方，并支持时间戳与弧线滚动。",
-                                                                      "新增“Letter Spread”和“Stagger Signal”两款动态歌词样式。",
-                                                                      "长歌名跑马灯统一改为滚动至末尾、稍作停顿后，再从开头播放。歌单滚动同样采用单向阅读。",
-                                                                      "原有编号按钮改为循环切换“关闭、1.、01、．”，适用于原本支持编号的主题。",
-                                                                      "修复启动器在下载、验证与安装阶段切换时，更新进度显示反复跳动的问题。",
-                                                                      "今天和朋友去喝酒了！开心！"
+                                                                      "自己做歌回直播测试的时候发现一点小问题，目前已经修正。大家也不用担心，因为那些小问题对直播并不太影响。",
+                                                                      "修复聊天与唱歌效果切换时，偶尔出现极短的先前人声或混响的问题。",
+                                                                      "新增“YouTube 画面”窗口，可跟随伴奏的播放、暂停、跳转与变速，同步显示视频。",
+                                                                      "精简模式的“歌词窗口”与“YouTube 画面”采用单色图标按钮，节省播放器空间。",
+                                                                      "改善 Letter Spread 的歌词转场，让句子衔接更自然，并提前开始文字伸展效果。",
+                                                                      "修复 Oblique Stream 在歌曲加入 Set List 时，歌单内容可能短暂抖动的问题。",
+                                                                      "改善拖动歌词位置时的画面更新，让移动更平顺，并减少不必要的处理负担。",
+                                                                      "改善大型歌单的加载、搜索与滚动性能，减少操作时的卡顿。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "修复音频路由可能持续显示“检查音频时序”的问题。"
+                                                                           "自己做歌回直播测试的时候发现一点小问题，目前已经修正。大家也不用担心，因为那些小问题对直播并不太影响。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "オーディオタイミング警告が表示され続ける問題を修正し、新しいテーマ、2 種類の歌詞スタイル、読みやすい一方向スクロールを追加します。",
+                                                   "summary":  "エフェクト切り替え時の短い異音を修正し、YouTube 映像の同期表示、歌詞表示と曲リストの操作性を改善しました。",
                                                    "highlights":  [
-                                                                      "オーディオルーティングで「オーディオタイミングを確認」が表示され続けることがある問題を修正します。",
-                                                                      "ミニマルで透明感のある新しい「Oblique Stream」テーマを追加します。左右配置、Now Playing の上下配置、タイムスタンプ、曲線に沿ったスクロールに対応します。",
-                                                                      "動く歌詞スタイル「Letter Spread」と「Stagger Signal」を追加します。",
-                                                                      "長い曲名のマーキーは末尾までスクロールして少し停止した後、先頭から再生する動きに統一します。曲リストも同じ一方向の読み進め方になります。",
-                                                                      "既存の番号ボタンは「オフ、1.、01、．」を順に切り替える方式になり、番号表示に対応するテーマで利用できます。",
-                                                                      "ランチャーがダウンロード、検証、インストールの各段階へ移る際に、更新の進捗表示が前後する問題を修正します。",
-                                                                      "今日は友達と飲みに行きました！楽しかった！"
+                                                                      "自分の歌配信でテストしていたときに小さな問題をいくつか見つけ、修正しました。配信への影響はわずかでしたので、ご心配なく。",
+                                                                      "雑談用と歌唱用のエフェクトを切り替えた際、以前の声や残響がごく短く聞こえることがある問題を修正しました。",
+                                                                      "伴奏の再生、一時停止、シーク、速度変更に同期して映像を表示する「YouTube 映像」ウィンドウを追加しました。",
+                                                                      "コンパクトモードの「歌詞ウィンドウ」と「YouTube 映像」を単色アイコンボタンにして、プレーヤーのスペースを節約しました。",
+                                                                      "Letter Spread の歌詞の切り替えを滑らかにし、文字が広がる演出の開始を早めました。",
+                                                                      "Oblique Stream で曲が Set List に追加された際、曲リストが一瞬揺れることがある問題を修正しました。",
+                                                                      "歌詞の位置をドラッグするときの画面更新を滑らかにし、不要な処理を減らしました。",
+                                                                      "大きな曲リストの読み込み、検索、スクロールを高速化し、操作時の引っ掛かりを減らしました。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "オーディオルーティングで「オーディオタイミングを確認」が表示され続けることがある問題を修正します。"
+                                                                           "自分の歌配信でテストしていたときに小さな問題をいくつか見つけ、修正しました。配信への影響はわずかでしたので、ご心配なく。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "오디오 타이밍 경고가 계속 표시되는 문제를 수정하고 새 테마, 두 가지 가사 스타일, 읽기 쉬운 단방향 스크롤을 추가합니다.",
+                                                   "summary":  "효과 전환 시 짧은 이상음을 수정하고 YouTube 영상 동기화를 추가했으며 가사 표시와 곡 목록 성능을 개선했습니다.",
                                                    "highlights":  [
-                                                                      "오디오 라우팅에서 “오디오 타이밍 확인”이 계속 표시될 수 있는 문제를 수정합니다.",
-                                                                      "미니멀한 투명 디자인의 새 “Oblique Stream” 테마를 추가합니다. 왼쪽 또는 오른쪽에 배치하고 Now Playing을 위나 아래에 표시할 수 있으며 타임스탬프와 곡선 스크롤을 지원합니다.",
-                                                                      "“Letter Spread”와 “Stagger Signal” 동적 가사 스타일을 추가합니다.",
-                                                                      "긴 곡 제목은 끝까지 스크롤한 뒤 잠시 멈추고 처음부터 다시 재생하도록 통일합니다. 곡 목록도 같은 단방향 읽기 흐름을 사용합니다.",
-                                                                      "기존 번호 버튼은 “끄기, 1., 01, ．” 순서로 전환되며 원래 번호 표시를 지원하는 테마에 적용됩니다.",
-                                                                      "런처가 다운로드, 검증, 설치 단계로 전환할 때 업데이트 진행률 표시가 불규칙하게 바뀌는 문제를 수정합니다.",
-                                                                      "오늘 친구들과 술 마시러 갔어요! 즐거웠어요!"
+                                                                      "직접 노래 방송을 테스트하다가 작은 문제 몇 가지를 발견해 수정했어요. 방송에 미치는 영향은 크지 않았으니 걱정하지 않으셔도 됩니다.",
+                                                                      "대화와 노래 효과를 전환할 때 이전 목소리나 잔향이 아주 짧게 들릴 수 있는 문제를 수정했습니다.",
+                                                                      "반주의 재생, 일시 정지, 탐색, 속도 변경에 맞춰 영상을 표시하는 “YouTube 영상” 창을 추가했습니다.",
+                                                                      "간소 모드의 “가사 창”과 “YouTube 영상”에 단색 아이콘 버튼을 적용해 플레이어 공간을 절약했습니다.",
+                                                                      "Letter Spread의 가사 전환을 더 자연스럽게 하고 글자가 펼쳐지는 효과를 더 일찍 시작하도록 개선했습니다.",
+                                                                      "Oblique Stream에서 곡이 Set List에 추가될 때 곡 목록이 잠깐 흔들릴 수 있는 문제를 수정했습니다.",
+                                                                      "가사 위치를 드래그할 때 화면 이동을 더 부드럽게 하고 불필요한 처리를 줄였습니다.",
+                                                                      "큰 곡 목록의 불러오기, 검색, 스크롤 성능을 개선해 조작 중 끊김을 줄였습니다."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "오디오 라우팅에서 “오디오 타이밍 확인”이 계속 표시될 수 있는 문제를 수정합니다."
+                                                                           "직접 노래 방송을 테스트하다가 작은 문제 몇 가지를 발견해 수정했어요. 방송에 미치는 영향은 크지 않았으니 걱정하지 않으셔도 됩니다."
                                                                        ]
                                                }
                                            ]
                      },
     "launcher":  {
                      "version":  "1.2.0.7",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "cba91ff9c23e1331d327d9b81940b51c78782e8b5655a22e08ad32ab23743699",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "bd4f7550acbb695f2755b3366d62f73c247fa3c8176a78ce7c365f696fd17325",
                      "size":  835584
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior.exe",
-                      "sha256":  "a589f53411d73dfacfc798591c8ef02cebca112932cc7370882b526e10a24bdc",
-                      "size":  26293248
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-oblique-stream.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/builtin-oblique-stream.s3stheme",
-                      "sha256":  "d1ce003c70c49b5b89d0c1d458bad8a4664f0bc5cb311a11f8bbb0dae8f0abbb",
-                      "size":  14031
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior.exe",
+                      "sha256":  "d122b0e3f623dcc698ee44f26352bac25338491dc7fdf61e6d88cb7ba737f435",
+                      "size":  27272192
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.6",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "fcdbf17d27b48e46708dbc054e97c0c21d830012cd2963589a19585610d57d1e",
-                        "size":  87205559
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "94612604909c8ac96e3c91570f22c1c66618c6bf4455732a794ca452d692f848",
+                        "size":  87205556
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.6",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "67662ab658510700220c7114f547aa393090d029a00db78d09cbf67cd3d50caf",
-                           "size":  87820581,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "2b79f7e150bc6429c2d91d7314a3384874d28c3463f61a4dd8418646180f7c7a",
+                           "size":  87820578,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -477,12 +475,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "daeeada3f6e607eb16ad26a8532e96eb9ae5308bb8dded377a4fc8e856c4ab77"
+                                             "sha256":  "3498767c5e6b2b6a8dfb1ce869a80cdeb9663db1826353d4c673d3262c253fbe"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "363f7f2c440f5c739de8fb22dc0945ba07c5855bb151b9b78daba58b8e142544"
+                                             "sha256":  "a0408135a1139355980dad1d6766531ec234ce5e84bf962a4b66f8d53b48cebc"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -512,7 +510,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "8c31d169a45ba611b2dd57b8612433adaef363557dbec253477afd5f0b85e2a1"
+                                             "sha256":  "c4a7b04bf6005f5948c31c427fe257bc2a1711934295367396472c73549dcb34"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -962,30 +960,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  89600,
-                                             "sha256":  "3b78d3c2f0c156196c719f8658d74ec039d933c4e864d86ac7a4814379efdc57"
+                                             "sha256":  "177aeb0980eab35ef31e52ea49f56811fac6e2c2a306ad3b6c364b5498bb30be"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "b26529570e917c9e7f8c425a6c3b12bebdd8e6f85198a9c4ed9dc74d476727f1"
+                                             "sha256":  "b5f039419d6ff7914c46e0001f847a4e7a22ed00825f6214bb205a87e9319fa1"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  839168,
-                                             "sha256":  "de56b208435232211b10072566f8f0452c924466c41fdddccc0449131a0d2a9d"
+                                             "sha256":  "71d1af3ee422d44f9d746978bf267e3392679bddcea07f367d771e4b1dbe4560"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  602112,
-                                             "sha256":  "2f56e3e1bcdc914180c430b8d341119283c97ba2ba82b215e09943dcacdf1f72"
+                                             "sha256":  "4edaf2b4d8f636b8f14393d4df886fd7546cd21bcaf2627d1921c558594df864"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "3e3dca9b203b196bfd900bf26705f6adc52aa89a38b7f56d031616a87fa4f53f",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "b92e2695a161b79bf91e5aa5e37630a91da6b6fe3bb75073f98775153cc43b97",
                            "size":  213746646,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2220,8 +2218,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "6f991129049eabca0ecefabd7445dd3b581a475333c22a9df9ab23fb8c55bea1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "7a7b3cd5e8410eaf5293a0265dfc1efd522c479a8fbd076887dfabe7f34c3a05",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
