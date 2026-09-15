@@ -7,7 +7,7 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.4.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.3).
+[Singing Stream Savior 2.1.5.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.0).
 The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
@@ -17,6 +17,15 @@ For setup instructions and the complete feature guide, visit the
 
 ## What you can do
 
+- **Lyrics editor:** Create LRC lyrics with line or word timing. Mark while
+  listening with Ctrl + Enter, merge or split words, preview the result, then
+  apply it to the selected song.
+  [Read the lyrics editor guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#lyrics-editor).
+- **Guide vocal monitoring:** Keep the Vocal track when separating audio in
+  UVR and import the accompaniment to link both tracks. Guide vocals follow
+  key, speed, seeking, and loops, with independent level control in Meter.
+  They are heard only through monitoring and never enter the OBS mix.
+  [Read the UVR guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#uvr-vocal-removal).
 - **Dynamic synchronized lyrics:** Search or import lyrics, then choose from
   nine animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
   Silk Script, Verse Stack, Glyph Motion, Letter Spread, and Stagger Signal.
@@ -45,9 +54,9 @@ For setup instructions and the complete feature guide, visit the
 - **Stream-ready playback:** Organize songs into playlists, prepare Reserve,
   play local files or YouTube links, and send playlist and lyric overlays to
   OBS with `Drag to OBS`. For YouTube accompaniment, the **YouTube Video**
-  window follows playback, pause, seeking, and speed changes. Compact mode
-  uses monochrome icon buttons for **Lyrics Window** and **YouTube Video** to
-  save player space.
+  window follows playback, pause, seeking, and speed changes and offers
+  available captions. **Lyrics Window** and **YouTube Video** icon buttons
+  stay in the accompaniment player in every workspace mode.
 
 ## Updating
 

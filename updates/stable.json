@@ -1,129 +1,134 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.4.3",
+    "version":  "2.1.5.0",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "normal",
-    "publishedAt":  "2026-09-13T22:51:31.3034886+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.4.3",
+    "publishedAt":  "2026-09-15T03:02:16.5397466+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.0",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Fixes brief audio artifacts when switching effects, adds synchronized YouTube video, and improves lyrics and song library performance.",
+                                                   "summary":  "Adds a built-in lyrics editor, guide vocal monitoring, dockable Meter controls, and lyrics improvements.",
                                                    "highlights":  [
-                                                                      "I found a few small issues while testing my own singing livestream, and they are now fixed. No need to worry—these issues had little impact on livestreams.",
-                                                                      "Fixes brief bursts of earlier vocals or reverb that could occasionally occur when switching between chatting and singing effects.",
-                                                                      "Adds a “YouTube Video” window that follows accompaniment playback, pause, seeking, and speed changes.",
-                                                                      "Uses monochrome icon buttons for “Lyrics Window” and “YouTube Video” in Compact mode to save player space.",
-                                                                      "Improves Letter Spread transitions for smoother lyric changes and starts the letter spreading effect earlier.",
-                                                                      "Fixes a brief set list shake when songs are added to Set List in Oblique Stream.",
-                                                                      "Makes dragging lyrics smoother while reducing unnecessary processing.",
-                                                                      "Improves loading, searching, and scrolling performance for large song libraries to reduce stuttering."
+                                                                      "I went out in the rain to buy a raincoat today, and the rain stopped as soon as I put it on...",
+                                                                      "Adds a lyrics editor for creating LRC files with detailed word-by-word timing.",
+                                                                      "Adds guide vocal monitoring from UVR-separated vocals. Guide vocals are heard only in monitoring, never in the OBS mix; their level can be adjusted in Meter and they follow key and speed changes.",
+                                                                      "Lyrics Window and YouTube Video buttons now stay in the accompaniment player, and the duplicate buttons on the Lyrics page have been removed. The YouTube window also offers caption selection when playing a YouTube link.",
+                                                                      "Lyrics timing offset can now be adjusted by up to ±20 seconds.",
+                                                                      "Makes small fixes to some animated lyrics.",
+                                                                      "The Meter window can now dock on the right of the main window or float again. Track order was also adjusted, with Master last.",
+                                                                      "UVR vocal separation adds a Keep Vocal track option. Kept accompaniment and vocal tracks can be linked together for guide vocal use."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "I found a few small issues while testing my own singing livestream, and they are now fixed. No need to worry—these issues had little impact on livestreams."
+                                                                           "Adds a lyrics editor for creating LRC files with detailed word-by-word timing.",
+                                                                           "Adds guide vocal monitoring from UVR-separated vocals. Guide vocals are heard only in monitoring, never in the OBS mix; their level can be adjusted in Meter and they follow key and speed changes."
                                                                        ]
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修復效果切換時的短促異音，新增同步 YouTube 畫面，並改善歌詞顯示與歌單操作效能。",
+                                                   "summary":  "新增逐字歌詞編輯、導唱監聽、可停靠 Meter 與歌詞改善。",
                                                    "highlights":  [
-                                                                      "自己做歌回直播測試的時候發現一點小問題，目前已經修正。大家也不用擔心，因為那些小問題對直播並不太影響。",
-                                                                      "修復聊天與唱歌效果切換時，偶爾出現極短先前人聲或殘響的問題。",
-                                                                      "新增「YouTube 畫面」視窗，可跟隨伴奏的播放、暫停、跳轉與變速，同步顯示影片。",
-                                                                      "精簡模式的「歌詞視窗」與「YouTube 畫面」採用單色圖示按鈕，節省播放器空間。",
-                                                                      "改善 Letter Spread 的歌詞轉場，讓句子銜接更自然，並提早開始文字伸展效果。",
-                                                                      "修復 Oblique Stream 在歌曲加入 Set List 時，歌單內容可能短暫抖動的問題。",
-                                                                      "改善拖曳歌詞位置時的畫面更新，讓移動更平順，並減少不必要的處理負擔。",
-                                                                      "改善大型歌單的載入、搜尋與捲動效能，減少操作時的卡頓。"
+                                                                      "我今天淋著雨去買了雨衣，結果穿上雨衣雨就停了...",
+                                                                      "新增了歌詞編輯器，現在可以自己做LRC歌詞檔，並且能夠精細到逐字時間標記。",
+                                                                      "新增了導唱功能（利用UVR消除人聲之後分離出來的人聲音軌），只有監聽會聽到導唱，送到OBS的混音不會包含導唱的聲音，並且可以透過Meter調整導唱音量，也支援轉調以及速度調整。",
+                                                                      "YouTube視窗與歌詞視窗的按鈕現在會常駐在伴奏播放器裡，並移除歌詞頁面上重複的兩顆按鈕。YouTube視窗也新增了字幕選擇功能（只有播放YouTube連結才有畫面）。",
+                                                                      "現在歌詞檔如果有太快或太慢，偏移量最多可以調整±20秒。",
+                                                                      "部分動態歌詞小小修正。",
+                                                                      "Meter視窗現在可以停靠在主視窗右側，也可以重新拆出來，並調整了音軌排列，將Master放在最後。",
+                                                                      "UVR人聲消除新增了「保留人聲音軌」選項，保留後可以將伴奏和人聲音軌一起連結，作為導唱使用。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "自己做歌回直播測試的時候發現一點小問題，目前已經修正。大家也不用擔心，因為那些小問題對直播並不太影響。"
+                                                                           "新增了歌詞編輯器，現在可以自己做LRC歌詞檔，並且能夠精細到逐字時間標記。",
+                                                                           "新增了導唱功能（利用UVR消除人聲之後分離出來的人聲音軌），只有監聽會聽到導唱，送到OBS的混音不會包含導唱的聲音，並且可以透過Meter調整導唱音量，也支援轉調以及速度調整。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修复效果切换时的短促异音，新增同步 YouTube 画面，并改善歌词显示与歌单操作性能。",
+                                                   "summary":  "新增逐字歌词编辑、导唱监听、可停靠 Meter 与歌词改善。",
                                                    "highlights":  [
-                                                                      "自己做歌回直播测试的时候发现一点小问题，目前已经修正。大家也不用担心，因为那些小问题对直播并不太影响。",
-                                                                      "修复聊天与唱歌效果切换时，偶尔出现极短的先前人声或混响的问题。",
-                                                                      "新增“YouTube 画面”窗口，可跟随伴奏的播放、暂停、跳转与变速，同步显示视频。",
-                                                                      "精简模式的“歌词窗口”与“YouTube 画面”采用单色图标按钮，节省播放器空间。",
-                                                                      "改善 Letter Spread 的歌词转场，让句子衔接更自然，并提前开始文字伸展效果。",
-                                                                      "修复 Oblique Stream 在歌曲加入 Set List 时，歌单内容可能短暂抖动的问题。",
-                                                                      "改善拖动歌词位置时的画面更新，让移动更平顺，并减少不必要的处理负担。",
-                                                                      "改善大型歌单的加载、搜索与滚动性能，减少操作时的卡顿。"
+                                                                      "今天冒雨去买雨衣，结果刚穿上雨就停了...",
+                                                                      "新增歌词编辑器，现在可以自己制作 LRC 歌词文件，并精细标记到逐字时间。",
+                                                                      "新增导唱功能（使用 UVR 分离出的人声音轨）。只有监听能听到导唱，发送到 OBS 的混音不包含导唱声音；可通过 Meter 调整导唱音量，也支持变调和速度调整。",
+                                                                      "YouTube 窗口和歌词窗口按钮现在常驻在伴奏播放器中，并移除了歌词页面上重复的两个按钮。YouTube 窗口也新增字幕选择功能（仅播放 YouTube 链接时有画面）。",
+                                                                      "歌词太快或太慢时，偏移量现在最多可调整 ±20 秒。",
+                                                                      "小幅修正部分动态歌词。",
+                                                                      "Meter 窗口现在可停靠在主窗口右侧，也可重新拆出；同时调整了音轨顺序，将 Master 放在最后。",
+                                                                      "UVR 人声消除新增“保留人声音轨”选项，保留后可将伴奏和人声音轨一起关联，用作导唱。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "自己做歌回直播测试的时候发现一点小问题，目前已经修正。大家也不用担心，因为那些小问题对直播并不太影响。"
+                                                                           "新增歌词编辑器，现在可以自己制作 LRC 歌词文件，并精细标记到逐字时间。",
+                                                                           "新增导唱功能（使用 UVR 分离出的人声音轨）。只有监听能听到导唱，发送到 OBS 的混音不包含导唱声音；可通过 Meter 调整导唱音量，也支持变调和速度调整。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "エフェクト切り替え時の短い異音を修正し、YouTube 映像の同期表示、歌詞表示と曲リストの操作性を改善しました。",
+                                                   "summary":  "歌詞エディター、ガイドボーカルのモニター、ドッキング可能な Meter、歌詞の改善を追加しました。",
                                                    "highlights":  [
-                                                                      "自分の歌配信でテストしていたときに小さな問題をいくつか見つけ、修正しました。配信への影響はわずかでしたので、ご心配なく。",
-                                                                      "雑談用と歌唱用のエフェクトを切り替えた際、以前の声や残響がごく短く聞こえることがある問題を修正しました。",
-                                                                      "伴奏の再生、一時停止、シーク、速度変更に同期して映像を表示する「YouTube 映像」ウィンドウを追加しました。",
-                                                                      "コンパクトモードの「歌詞ウィンドウ」と「YouTube 映像」を単色アイコンボタンにして、プレーヤーのスペースを節約しました。",
-                                                                      "Letter Spread の歌詞の切り替えを滑らかにし、文字が広がる演出の開始を早めました。",
-                                                                      "Oblique Stream で曲が Set List に追加された際、曲リストが一瞬揺れることがある問題を修正しました。",
-                                                                      "歌詞の位置をドラッグするときの画面更新を滑らかにし、不要な処理を減らしました。",
-                                                                      "大きな曲リストの読み込み、検索、スクロールを高速化し、操作時の引っ掛かりを減らしました。"
+                                                                      "雨の中でレインコートを買いに行ったら、着た途端に雨が止まりました...",
+                                                                      "LRC 歌詞ファイルを作成し、単語ごとの時刻まで細かく設定できる歌詞エディターを追加しました。",
+                                                                      "UVR で分離したボーカルを使うガイドボーカル機能を追加しました。ガイドボーカルはモニターだけで聞こえ、OBS のミックスには含まれません。Meter で音量を調整でき、キーと速度の変更にも対応します。",
+                                                                      "YouTube 映像と歌詞ウィンドウのボタンが伴奏プレーヤーに常駐し、歌詞ページ上の重複した二つのボタンを削除しました。YouTube 映像ウィンドウには字幕選択も追加しました（YouTube リンクの再生時のみ映像が表示されます）。",
+                                                                      "歌詞のずれは最大 ±20 秒まで調整できます。",
+                                                                      "一部の動く歌詞を小さく修正しました。",
+                                                                      "Meter ウィンドウはメインウィンドウ右側にドッキングでき、再び分離表示もできます。トラック順も調整し、Master を最後にしました。",
+                                                                      "UVR のボーカル分離に「ボーカルトラックを保持」オプションを追加しました。伴奏とボーカルを関連付けてガイドボーカルとして使えます。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "自分の歌配信でテストしていたときに小さな問題をいくつか見つけ、修正しました。配信への影響はわずかでしたので、ご心配なく。"
+                                                                           "LRC 歌詞ファイルを作成し、単語ごとの時刻まで細かく設定できる歌詞エディターを追加しました。",
+                                                                           "UVR で分離したボーカルを使うガイドボーカル機能を追加しました。ガイドボーカルはモニターだけで聞こえ、OBS のミックスには含まれません。Meter で音量を調整でき、キーと速度の変更にも対応します。"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "효과 전환 시 짧은 이상음을 수정하고 YouTube 영상 동기화를 추가했으며 가사 표시와 곡 목록 성능을 개선했습니다.",
+                                                   "summary":  "가사 편집기, 가이드 보컬 모니터링, 도킹 가능한 Meter와 가사 개선을 추가했습니다.",
                                                    "highlights":  [
-                                                                      "직접 노래 방송을 테스트하다가 작은 문제 몇 가지를 발견해 수정했어요. 방송에 미치는 영향은 크지 않았으니 걱정하지 않으셔도 됩니다.",
-                                                                      "대화와 노래 효과를 전환할 때 이전 목소리나 잔향이 아주 짧게 들릴 수 있는 문제를 수정했습니다.",
-                                                                      "반주의 재생, 일시 정지, 탐색, 속도 변경에 맞춰 영상을 표시하는 “YouTube 영상” 창을 추가했습니다.",
-                                                                      "간소 모드의 “가사 창”과 “YouTube 영상”에 단색 아이콘 버튼을 적용해 플레이어 공간을 절약했습니다.",
-                                                                      "Letter Spread의 가사 전환을 더 자연스럽게 하고 글자가 펼쳐지는 효과를 더 일찍 시작하도록 개선했습니다.",
-                                                                      "Oblique Stream에서 곡이 Set List에 추가될 때 곡 목록이 잠깐 흔들릴 수 있는 문제를 수정했습니다.",
-                                                                      "가사 위치를 드래그할 때 화면 이동을 더 부드럽게 하고 불필요한 처리를 줄였습니다.",
-                                                                      "큰 곡 목록의 불러오기, 검색, 스크롤 성능을 개선해 조작 중 끊김을 줄였습니다."
+                                                                      "비를 맞으며 우비를 사러 갔는데, 입자마자 비가 그쳤어요...",
+                                                                      "LRC 가사 파일을 직접 만들고 글자별 시간까지 세밀하게 표시할 수 있는 가사 편집기를 추가했습니다.",
+                                                                      "UVR로 분리한 보컬 트랙을 사용하는 가이드 보컬 기능을 추가했습니다. 가이드 보컬은 모니터링에서만 들리고 OBS 믹스에는 포함되지 않습니다. Meter에서 볼륨을 조절할 수 있으며 키와 속도 조절도 지원합니다.",
+                                                                      "YouTube 영상과 가사 창 버튼이 반주 플레이어에 항상 표시되며, 가사 페이지에 있던 중복 버튼 두 개를 제거했습니다. YouTube 영상 창에는 자막 선택도 추가했습니다(YouTube 링크 재생 시에만 영상이 표시됩니다).",
+                                                                      "가사가 너무 빠르거나 느릴 때 오프셋을 최대 ±20초까지 조절할 수 있습니다.",
+                                                                      "일부 동적 가사를 조금 수정했습니다.",
+                                                                      "Meter 창을 메인 창 오른쪽에 도킹하거나 다시 분리할 수 있습니다. 트랙 순서도 조정해 Master를 마지막에 배치했습니다.",
+                                                                      "UVR 보컬 분리에 보컬 트랙 유지 옵션을 추가했습니다. 반주와 보컬 트랙을 연결해 가이드 보컬로 사용할 수 있습니다."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "직접 노래 방송을 테스트하다가 작은 문제 몇 가지를 발견해 수정했어요. 방송에 미치는 영향은 크지 않았으니 걱정하지 않으셔도 됩니다."
+                                                                           "LRC 가사 파일을 직접 만들고 글자별 시간까지 세밀하게 표시할 수 있는 가사 편집기를 추가했습니다.",
+                                                                           "UVR로 분리한 보컬 트랙을 사용하는 가이드 보컬 기능을 추가했습니다. 가이드 보컬은 모니터링에서만 들리고 OBS 믹스에는 포함되지 않습니다. Meter에서 볼륨을 조절할 수 있으며 키와 속도 조절도 지원합니다."
                                                                        ]
                                                }
                                            ]
                      },
     "launcher":  {
                      "version":  "1.2.0.7",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "bd4f7550acbb695f2755b3366d62f73c247fa3c8176a78ce7c365f696fd17325",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "a2aabc21398d066b43f16079e3552e7202c775197cb53228054e21412c3fae3c",
                      "size":  835584
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior.exe",
-                      "sha256":  "d122b0e3f623dcc698ee44f26352bac25338491dc7fdf61e6d88cb7ba737f435",
-                      "size":  27272192
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior.exe",
+                      "sha256":  "fb2bf15604c969109b5307acd37bd3bcce9fd818e7541e2f8f4b30614f2723ee",
+                      "size":  29798912
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.6",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "94612604909c8ac96e3c91570f22c1c66618c6bf4455732a794ca452d692f848",
-                        "size":  87205556
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "48ef825ca22a83c0bccf8795c28987014e6d7266af119a3c7087a4d05c9938b0",
+                        "size":  87206234
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.6",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "2b79f7e150bc6429c2d91d7314a3384874d28c3463f61a4dd8418646180f7c7a",
-                           "size":  87820578,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "af067bbdda33dfebf7b60ae9f3e101280e9f0515bb4c17c953d522b43c93bc2b",
+                           "size":  87821253,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -475,12 +480,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "3498767c5e6b2b6a8dfb1ce869a80cdeb9663db1826353d4c673d3262c253fbe"
+                                             "sha256":  "d46482b0ae0fc9bb0beda8a7ce0f5c4985b0df1de9bdd15a5e56804ce9850f5d"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "a0408135a1139355980dad1d6766531ec234ce5e84bf962a4b66f8d53b48cebc"
+                                             "sha256":  "9e574e1f140a08582e4c4c60933537a7d4862ec9d7b50afcaa65a4d4506fda13"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -510,7 +515,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "c4a7b04bf6005f5948c31c427fe257bc2a1711934295367396472c73549dcb34"
+                                             "sha256":  "a5ac2d96f629ca23107c6c3939a64ea8f8fb8736d633930c28f92783d1513e99"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -899,8 +904,8 @@
                                          },
                                          {
                                              "path":  "Licenses/THIRD_PARTY_NOTICES.txt",
-                                             "size":  12308,
-                                             "sha256":  "bb6a9fee921177fbe20beef33cb28d26580a8e07cb7b34b676f5537bfdecda29"
+                                             "size":  13552,
+                                             "sha256":  "b2e8650c4a1e2af381cbefd9611b045b97bd2e3f684fa2ef8e0f178db82eaa32"
                                          },
                                          {
                                              "path":  "Licenses/Ultimate-Vocal-Remover-MIT.txt",
@@ -915,7 +920,7 @@
                                          {
                                              "path":  "Licenses/UVR-HP-Runtime-Inventory.json",
                                              "size":  44362,
-                                             "sha256":  "06f6c7a5b181280fd85cb87cd5481b1ef03802544b2d7a0d9ec71f397339b0cf"
+                                             "sha256":  "b03b7d43f85f779dec32c8acfbacd81d6f625fc79566a571868acde83887a24c"
                                          },
                                          {
                                              "path":  "Licenses/UVR-HP-Runtime-NOTICE.txt",
@@ -960,31 +965,31 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  89600,
-                                             "sha256":  "177aeb0980eab35ef31e52ea49f56811fac6e2c2a306ad3b6c364b5498bb30be"
+                                             "sha256":  "ea07c6173ea2bc96722cae1ad48b3a5cfa481a702a14f793c4e7938380ae7b80"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "b5f039419d6ff7914c46e0001f847a4e7a22ed00825f6214bb205a87e9319fa1"
+                                             "sha256":  "fdb59d9b720fde2c87e4fab4066b5b8cb2d1a8e11090598ffa07968392170c1d"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  839168,
-                                             "sha256":  "71d1af3ee422d44f9d746978bf267e3392679bddcea07f367d771e4b1dbe4560"
+                                             "sha256":  "38515a46a7fa733ea7cfc03e29fa96b9a4d19dc23ee88e053a5cadcb6ca0fe4b"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  602112,
-                                             "sha256":  "4edaf2b4d8f636b8f14393d4df886fd7546cd21bcaf2627d1921c558594df864"
+                                             "sha256":  "86761af1de54d86f820955f4824501f65d3a021b382e9072701da9ba87443d61"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
-                           "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "b92e2695a161b79bf91e5aa5e37630a91da6b6fe3bb75073f98775153cc43b97",
-                           "size":  213746646,
+                           "version":  "1.2.0.1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "496424785008673e2a9dc825d6c768e688b7a15ea4269e8da9fb09942e30c4ab",
+                           "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
                            "files":  [
@@ -1301,7 +1306,7 @@
                                          {
                                              "path":  "vr/_internal/base_library.zip",
                                              "size":  1284594,
-                                             "sha256":  "5f2a69436942696219795bcc1aa101249eb3c65208a7121ead1163f992cf2ee2"
+                                             "sha256":  "4bb68473a90ef0306e11e11825aabdc5aba7078384eb81be8ee18e859b8a7535"
                                          },
                                          {
                                              "path":  "vr/_internal/libcrypto-3.dll",
@@ -2070,8 +2075,8 @@
                                          },
                                          {
                                              "path":  "vr/S3SHpWorker.exe",
-                                             "size":  8313954,
-                                             "sha256":  "10ed08ca355df3d539b8f9a00ed4c0d729533d7c516e77a0190292d66ae8c119"
+                                             "size":  8314191,
+                                             "sha256":  "9698e30e50493373cecd82a4f3551dac50a4d50b428cf60b0d877002ccd4849c"
                                          },
                                          {
                                              "path":  "licenses/Apache-2.0.txt",
@@ -2126,7 +2131,7 @@
                                          {
                                              "path":  "licenses/UVR-HP-Runtime-Inventory.json",
                                              "size":  44362,
-                                             "sha256":  "06f6c7a5b181280fd85cb87cd5481b1ef03802544b2d7a0d9ec71f397339b0cf"
+                                             "sha256":  "b03b7d43f85f779dec32c8acfbacd81d6f625fc79566a571868acde83887a24c"
                                          },
                                          {
                                              "path":  "licenses/UVR-HP-Models-NOTICE.txt",
@@ -2217,9 +2222,9 @@
                        },
                        {
                            "id":  "uvr-hp-models",
-                           "version":  "1.2.0.0",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.4.3/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "7a7b3cd5e8410eaf5293a0265dfc1efd522c479a8fbd076887dfabe7f34c3a05",
+                           "version":  "1.2.0.1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "f0180ab3103b82d390f58c7eab7e300ed176e232239aa8fab9333766b1fa0dfe",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
