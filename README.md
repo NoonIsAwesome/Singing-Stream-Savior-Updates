@@ -7,7 +7,7 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.5.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.0).
+[Singing Stream Savior 2.1.5.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.1).
 The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
