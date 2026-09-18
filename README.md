@@ -7,7 +7,7 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.5.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.1).
+[Singing Stream Savior 2.1.5.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.2).
 The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
@@ -15,9 +15,20 @@ outermost folder.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
+## 2.1.5.2 update
+
+Several stability improvements across the app.
+
+1. Improves recovery when audio devices disconnect and reconnect.
+2. Improves VST3 editor stability.
+3. Standardizes the feature name as Lyrics Editor.
+4. Improves editing and saving of word-synced lyrics.
+5. Improves player behavior.
+6. Scrolled through lots of cat videos.
+
 ## What you can do
 
-- **Lyrics editor:** Create LRC lyrics with line or word timing. Mark while
+- **Lyrics editor:** Create and edit synchronized lyrics with line or word timing. Mark while
   listening with Ctrl + Enter, merge or split words, preview the result, then
   apply it to the selected song.
   [Read the lyrics editor guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#lyrics-editor).
