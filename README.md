@@ -7,7 +7,7 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.5.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.2).
+[Singing Stream Savior 2.1.5.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.3).
 The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
@@ -15,16 +15,17 @@ outermost folder.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
-## 2.1.5.2 update
+## 2.1.5.3 update
 
 Several stability improvements across the app.
 
-1. Improves recovery when audio devices disconnect and reconnect.
-2. Improves VST3 editor stability.
-3. Standardizes the feature name as Lyrics Editor.
-4. Improves editing and saving of word-synced lyrics.
-5. Improves player behavior.
-6. Scrolled through lots of cat videos.
+1. Improves data retention when linked audio or attachment files are temporarily unavailable.
+2. Improves recording stability when recordings finish, fail, or are interrupted.
+3. Improves stability for YouTube playback resolving, background downloads, and fallback playback.
+4. Improves Collect Project Media so custom cover art is collected as well.
+5. Improves OBS Timeline timestamp accuracy when OBS status queries time out.
+6. Improves UVR temporary-file cleanup during batch processing to reduce disk usage on large batches.
+7. Fixes several other small issues and improves overall stability.
 
 ## What you can do
 
