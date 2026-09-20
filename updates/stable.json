@@ -1,26 +1,30 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.5.3",
+    "version":  "2.1.5.4",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "normal",
-    "publishedAt":  "2026-09-18T22:39:20.0038435+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.3",
+    "publishedAt":  "2026-09-20T13:09:11.3197551+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.4",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Several stability improvements across the app.",
+                                                   "summary":  "Stability update",
                                                    "highlights":  [
-                                                                      "Improves data retention when linked audio or attachment files are temporarily unavailable.",
-                                                                      "Improves recording stability when recordings finish, fail, or are interrupted.",
-                                                                      "Improves stability for YouTube playback resolving, background downloads, and fallback playback.",
-                                                                      "Improves Collect Project Media so custom cover art is collected as well.",
-                                                                      "Improves OBS Timeline timestamp accuracy when OBS status queries time out.",
-                                                                      "Improves UVR temporary-file cleanup during batch processing to reduce disk usage on large batches.",
-                                                                      "Fixes several other small issues and improves overall stability.",
-                                                                      "I just finished reading Kaiju No. 8, and it was honestly way too good. Now that I’ve finished it, it feels like I’ve lost some purpose in life. I hope I can find another great manga soon…"
+                                                                      "Improves brief BGM dropouts.",
+                                                                      "Improves occasional delayed response when stopping accompaniment.",
+                                                                      "Fixes how Vocal Profiles are applied in player modes.",
+                                                                      "Improves VST3 stability.",
+                                                                      "Fixes an issue where preview could stop unexpectedly or Profile switching could fail after latency adjustments to some VST3 plug-ins.",
+                                                                      "Improves effect preloading performance and fixes an issue where a Profile containing disabled effects could open the wrong effect editor.",
+                                                                      "Fixes an issue where a failed VST3 replacement, removal, or enable operation could still save the wrong selection or checkbox state.",
+                                                                      "Improves project media collection.",
+                                                                      "Improves UVR vocal separation.",
+                                                                      "Improves recording save and finalization.",
+                                                                      "Improves YouTube feature stability.",
+                                                                      "I\u0027m going to see Hans Zimmer in concert today! Can\u0027t wait to soak up Guthrie Govan\u0027s solos!"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -28,16 +32,20 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "軟體多項穩定性更新",
+                                                   "summary":  "穩定性更新",
                                                    "highlights":  [
-                                                                      "改善專案中音檔或附件暫時找不到時的資料保留機制。",
-                                                                      "改善錄音完成、失敗與中斷時的穩定性。",
-                                                                      "改善 YouTube 播放解析、背景下載與備援流程的穩定性。",
-                                                                      "改善「收集專案媒體」功能，現在也會一併收集自訂封面。",
-                                                                      "改善 OBS Timeline 在連線逾時時的時間記錄準確度。",
-                                                                      "改善 UVR 批次處理時的暫存檔管理，減少大量歌曲處理時的磁碟空間占用。",
-                                                                      "修正一些其他小問題並提升整體穩定性。",
-                                                                      "最近剛看完《怪獸8號》，有點太好看了，看完彷彿人生失去了什麼目標，希望我可以趕快找到下一部好看的漫畫…"
+                                                                      "改善 BGM 短暫斷音問題。",
+                                                                      "改善偶發性伴奏停止反應問題。",
+                                                                      "修正播放器模式與人聲 Profile 套用機制。",
+                                                                      "改善 VST3 穩定性。",
+                                                                      "修正部分 VST3 調整延遲後，預聽意外停止或 Profile 切換失敗的問題。",
+                                                                      "改善效果器預載入的效能，修正 Profile 停用效果器時，可能開啟錯誤效果器介面的問題。",
+                                                                      "修正 VST3 更換、移除或啟用操作未成功時，仍儲存錯誤選擇或勾選狀態的問題。",
+                                                                      "改善專案媒體收集機制。",
+                                                                      "改善 UVR 人聲分離機制。",
+                                                                      "改善錄音保存與收尾機制。",
+                                                                      "改善 YouTube 功能穩定性。",
+                                                                      "我今天要去看Hans Zimmer音樂會！還要看爆Guthrie Govan的solo！"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -45,16 +53,20 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "软件多项稳定性更新",
+                                                   "summary":  "稳定性更新",
                                                    "highlights":  [
-                                                                      "改善项目中音频或附件暂时找不到时的数据保留机制。",
-                                                                      "改善录音完成、失败与中断时的稳定性。",
-                                                                      "改善 YouTube 播放解析、后台下载与备用流程的稳定性。",
-                                                                      "改善“收集项目媒体”功能，现在也会一并收集自定义封面。",
-                                                                      "改善 OBS Timeline 在连接超时时的时间记录准确度。",
-                                                                      "改善 UVR 批量处理时的临时文件管理，减少大量歌曲处理时的磁盘空间占用。",
-                                                                      "修复一些其他小问题并提升整体稳定性。",
-                                                                      "最近刚看完《怪兽8号》，有点太好看了，看完之后仿佛人生失去了什么目标，希望我可以赶快找到下一部好看的漫画…"
+                                                                      "改善 BGM 短暂断音问题。",
+                                                                      "改善偶发的伴奏停止响应问题。",
+                                                                      "修复播放器模式与人声 Profile 的应用机制。",
+                                                                      "改善 VST3 稳定性。",
+                                                                      "修复部分 VST3 调整延迟后，预听意外停止或 Profile 切换失败的问题。",
+                                                                      "改善效果器预加载性能，修复 Profile 停用效果器时可能打开错误效果器界面的问题。",
+                                                                      "修复 VST3 更换、移除或启用操作未成功时，仍保存错误选择或勾选状态的问题。",
+                                                                      "改善项目媒体收集机制。",
+                                                                      "改善 UVR 人声分离机制。",
+                                                                      "改善录音保存与收尾机制。",
+                                                                      "改善 YouTube 功能稳定性。",
+                                                                      "我今天要去看 Hans Zimmer 音乐会！还要看爆 Guthrie Govan 的 solo！"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -62,16 +74,20 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "アプリ全体の安定性を改善しました。",
+                                                   "summary":  "安定性アップデート",
                                                    "highlights":  [
-                                                                      "リンク先の音声ファイルや添付ファイルが一時的に見つからない場合も、曲やプロジェクトの設定を保持するよう改善しました。",
-                                                                      "録音の完了・失敗・中断時の安定性を改善しました。",
-                                                                      "YouTube の再生情報取得、バックグラウンドダウンロード、フォールバック再生の安定性を改善しました。",
-                                                                      "「プロジェクトメディアを収集」機能を改善し、カスタムカバー画像も一緒に収集できるようにしました。",
-                                                                      "OBS Timeline で OBS のステータス取得がタイムアウトした場合の時刻記録精度を改善しました。",
-                                                                      "UVR のバッチ処理中に一時ファイルを順次整理し、大量の曲を処理する際のディスク使用量を抑えるよう改善しました。",
-                                                                      "そのほか細かな問題を修正し、全体的な安定性を改善しました。",
-                                                                      "最近『怪獣８号』を読み終えたんですが、ちょっと面白すぎました。読み終わったら人生の目標を何か失ったような気分になってしまったので、早く次にハマれる面白い漫画を見つけたいです…"
+                                                                      "BGM の一時的な音切れを改善しました。",
+                                                                      "伴奏を停止したときに、まれに反応が遅れる問題を改善しました。",
+                                                                      "プレーヤーモードとボーカル Profile の適用処理を修正しました。",
+                                                                      "VST3 の安定性を改善しました。",
+                                                                      "一部の VST3 でレイテンシーを調整した後、プレビューが予期せず停止したり、Profile の切り替えに失敗したりする問題を修正しました。",
+                                                                      "エフェクトのプリロード性能を改善し、Profile でエフェクトを無効にした際に誤ったエフェクト画面が開くことがある問題を修正しました。",
+                                                                      "VST3 の交換、削除、または有効化に失敗しても、誤った選択やチェック状態が保存される問題を修正しました。",
+                                                                      "プロジェクトメディアの収集処理を改善しました。",
+                                                                      "UVR のボーカル分離処理を改善しました。",
+                                                                      "録音の保存と終了処理を改善しました。",
+                                                                      "YouTube 機能の安定性を改善しました。",
+                                                                      "今日は Hans Zimmer のコンサートに行きます！Guthrie Govan のソロも堪能します！"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -79,16 +95,20 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "앱 전반의 안정성을 개선했습니다.",
+                                                   "summary":  "안정성 업데이트",
                                                    "highlights":  [
-                                                                      "연결된 오디오 파일이나 첨부 파일을 일시적으로 찾을 수 없어도 곡과 프로젝트 설정을 유지하도록 개선했습니다.",
-                                                                      "녹음 완료, 실패 및 중단 시의 안정성을 개선했습니다.",
-                                                                      "YouTube 재생 정보 확인, 백그라운드 다운로드 및 대체 재생 과정의 안정성을 개선했습니다.",
-                                                                      "‘프로젝트 미디어 수집’ 기능을 개선해 사용자 지정 커버 이미지도 함께 수집하도록 했습니다.",
-                                                                      "OBS Timeline에서 OBS 상태 조회가 시간 초과될 때의 타임스탬프 정확도를 개선했습니다.",
-                                                                      "UVR 일괄 처리 중 임시 파일을 작업별로 정리해 많은 곡을 처리할 때의 디스크 사용량을 줄였습니다.",
-                                                                      "그 밖의 여러 작은 문제를 수정하고 전반적인 안정성을 개선했습니다.",
-                                                                      "최근에 《괴수 8호》를 다 봤는데, 너무 재미있었습니다. 다 보고 나니 인생에서 뭔가 목표 하나를 잃은 것 같은 기분이라, 빨리 다음 재미있는 만화를 찾고 싶어요…"
+                                                                      "BGM의 일시적인 끊김 문제를 개선했습니다.",
+                                                                      "간헐적으로 반주 정지에 대한 반응이 늦는 문제를 개선했습니다.",
+                                                                      "플레이어 모드와 보컬 Profile 적용 방식을 수정했습니다.",
+                                                                      "VST3 안정성을 개선했습니다.",
+                                                                      "일부 VST3의 지연 시간을 조정한 후 미리듣기가 갑자기 중지되거나 Profile 전환에 실패하는 문제를 수정했습니다.",
+                                                                      "이펙터 프리로딩 성능을 개선하고, Profile에서 이펙터를 비활성화할 때 잘못된 이펙터 편집기 화면이 열릴 수 있는 문제를 수정했습니다.",
+                                                                      "VST3 교체, 제거 또는 활성화 작업이 실패해도 잘못된 선택이나 체크 상태가 저장되는 문제를 수정했습니다.",
+                                                                      "프로젝트 미디어 수집 기능을 개선했습니다.",
+                                                                      "UVR 보컬 분리 기능을 개선했습니다.",
+                                                                      "녹음 저장 및 마무리 기능을 개선했습니다.",
+                                                                      "YouTube 기능 안정성을 개선했습니다.",
+                                                                      "오늘 Hans Zimmer 콘서트에 갑니다! Guthrie Govan의 솔로도 제대로 즐길 거예요!"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -98,158 +118,32 @@
                      },
     "launcher":  {
                      "version":  "1.2.0.7",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "9bb14981377a869d3712d169a3dc17daffde9753efa891a9fd8bb5850589dede",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "78078971b10eeb939e4302782ede3eb0a8d5aa5413390fe48dae265c375ded79",
                      "size":  835584
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior.exe",
-                      "sha256":  "d45d09cf9217cd27baf04aa6dcf8e8219b02a0a90f1721d19e949d5f884c89e2",
-                      "size":  30902784
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-cassette-now.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-cassette-now.s3stheme",
-                      "sha256":  "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53",
-                      "size":  1282317
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-cue-line.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-cue-line.s3stheme",
-                      "sha256":  "2e2d94a8c30b2088c7ebc9b1680c6538f39e7d1d05be37434a92096346598b09",
-                      "size":  28726
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-margin-set.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-margin-set.s3stheme",
-                      "sha256":  "eeffa75e97116a0933adf1d2bbc73b586a6967125fcd2f134b95bb9ab27495fc",
-                      "size":  24345
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-oblique-plate.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-oblique-plate.s3stheme",
-                      "sha256":  "8bf871b01f1f39baa3160e302c806bd76a2d0a349ee742df385bf32099220275",
-                      "size":  28100
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-oblique-stream.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-oblique-stream.s3stheme",
-                      "sha256":  "d1ce003c70c49b5b89d0c1d458bad8a4664f0bc5cb311a11f8bbb0dae8f0abbb",
-                      "size":  14031
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-pocket-singer.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-pocket-singer.s3stheme",
-                      "sha256":  "13f742f23587ac161c73359d12c439d275f2d743ccd4ffa3fdbfb5ad578e1d48",
-                      "size":  101805
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-pressed-garden.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-pressed-garden.s3stheme",
-                      "sha256":  "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e",
-                      "size":  3112438
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-quiet-ledger.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-quiet-ledger.s3stheme",
-                      "sha256":  "c65618be628dc2cfe843cb2818d0fd3b2e5b0d265f2045ff827dc4d9772e0779",
-                      "size":  21747
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-signal-line.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-signal-line.s3stheme",
-                      "sha256":  "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203",
-                      "size":  11539
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-signal-tide.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-signal-tide.s3stheme",
-                      "sha256":  "f0d50624161801d88fa6e3fe5fe29c227190a8db9126fec74115a96b543e553b",
-                      "size":  30768
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-signal-veil.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-signal-veil.s3stheme",
-                      "sha256":  "bd4c75b1dab77c84445abe92c729ab9f4a30ebddbfbe57c57308e672e439a742",
-                      "size":  43892
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/builtin-stage-caption.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/builtin-stage-caption.s3stheme",
-                      "sha256":  "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555",
-                      "size":  11386
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/Card.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Card.s3stheme",
-                      "sha256":  "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9",
-                      "size":  7315
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/CD.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/CD.s3stheme",
-                      "sha256":  "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f",
-                      "size":  32045
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/TransparentBlack.s3stheme",
-                      "sha256":  "eeb9adcc5ccb5936c40a908fded9ca449208107f49901c5f47949cadaf9fce74",
-                      "size":  7311
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/TransparentBlackV2.s3stheme",
-                      "sha256":  "6f4a0f7ddc6fb086270699153599b4accb234799090f7c5875e0f2ff6497594e",
-                      "size":  6865
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/TransparentWhite.s3stheme",
-                      "sha256":  "61da21f14357a97419bfb41e7e0ab2dbd75ed29be2cac805fc851ca391495188",
-                      "size":  6891
-                  },
-                  {
-                      "component":  "theme",
-                      "path":  "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/TransparentWhiteV2.s3stheme",
-                      "sha256":  "2b36af4e48580a5b0135102c94fa0b599f03bb1d107fcd1d1e725f42cffdd583",
-                      "size":  6450
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior.exe",
+                      "sha256":  "4ec817a054c4f6622ad1bf469a378c9696be5f833d7f857072db674df663ab9a",
+                      "size":  31840256
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.6",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "82cb7a295443dee8edb7405584b7e26ffda760419da3355b28531b6843bd36f8",
-                        "size":  87206230
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "21e6aaa8056632653f16e0b708e29b60eca159c1473b9a4d3e550b5f1338cf34",
+                        "size":  87206258
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.6",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "7226dcbb447f1550c40d21fd97cfa5be2624e2c89511ea3a993e2e6861d26afc",
-                           "size":  87882012,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "1f6a753f3aa53d117ea3c56c23bbd9662fbcc1088aa25801f0639b3138f081e1",
+                           "size":  88218734,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -600,13 +494,13 @@
                                          },
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                             "size":  406016,
-                                             "sha256":  "7f0bc06fbf8eef689f422776005af914ee464bfd9036223a8434915b41450510"
+                                             "size":  406528,
+                                             "sha256":  "e5bcab092ef063ba539762ed984f68b224cdc68e54cbef3527aa2e7c3b24fae0"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "afb5da14b6bef9bf5ec43a7ccf273952c5e327b12275562596ae3d8a882310b3"
+                                             "sha256":  "99c05bc312eeae0730e969a226cc22d21321969e6f342508047b1e87c25ce9ce"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -636,7 +530,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "8f0840324a41f060bebb57920986c441c202e2535013e94c63d92b6e00ecdfc1"
+                                             "sha256":  "946558b80ffc78f4a28d7e4308a7c7841c0e030a93c99fea8e203318b118400d"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -1025,8 +919,8 @@
                                          },
                                          {
                                              "path":  "Licenses/THIRD_PARTY_NOTICES.txt",
-                                             "size":  13552,
-                                             "sha256":  "b2e8650c4a1e2af381cbefd9611b045b97bd2e3f684fa2ef8e0f178db82eaa32"
+                                             "size":  13527,
+                                             "sha256":  "d62cbf6fac8bc1aa9a0d58e3292dd74a9722a6f026fcab9a8f814e6e3afa929c"
                                          },
                                          {
                                              "path":  "Licenses/Ultimate-Vocal-Remover-MIT.txt",
@@ -1086,30 +980,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  89600,
-                                             "sha256":  "78e76e678481ca2ec4b49721cd7c93641b06126fbd2d24f9ab80bae91cbdb4a6"
+                                             "sha256":  "1694c0644e0fa38d215673b2630d743025a77022432c1ae7f6ba0753bd74baca"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "862ee2d2697d48e9ecaee9c59b715ab43046e6c28b74422c5721f1889073dc4d"
+                                             "sha256":  "f6a2d4b26701a117c58da4704f96da8c55a776a6ee16663a8d3dca718c2a5f6c"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  839168,
-                                             "sha256":  "d4c9ca60f24f030a382f7f2f1b345d5b6348fd55c53d0917085ffeffbe1e1fac"
+                                             "sha256":  "21e93f6b81ba304ba19e89d77e44b373520b25a7b380ca4c7ab6e409d5f50ba0"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
-                                             "size":  754176,
-                                             "sha256":  "ddc53e860acf0da7667f85ffa9eccafd5366a79a9830bbb1347701abdd4348a4"
+                                             "size":  1595904,
+                                             "sha256":  "ee4c511f610b1fd113491b16031ffbab855acc061c85a8528d4d8e382c835165"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "d4ed2ebf4117fbf8aa0bdf8f61ac137a05bd61d19708a7ae0a3c355e1ee88859",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "e8a120c00678d3ee75e424d952943ce04646d72c3e521afd55c4c95a88ebf2b7",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2344,8 +2238,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.3/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "d1353cd8e4ca59d0f2298c1368a5ee8e4ad66c101d74daaeeb8a6cd3d09f7b29",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "3d879fe35f4e34166fd4e4c558e8bdec07d6bc264c497ead2c6beb9f12dee07a",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",

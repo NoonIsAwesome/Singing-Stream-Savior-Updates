@@ -7,7 +7,7 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.5.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.3).
+[Singing Stream Savior 2.1.5.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.4).
 The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
@@ -15,17 +15,22 @@ outermost folder.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
-## 2.1.5.3 update
+## 2.1.5.4 update
 
-Several stability improvements across the app.
+Stability update
 
-1. Improves data retention when linked audio or attachment files are temporarily unavailable.
-2. Improves recording stability when recordings finish, fail, or are interrupted.
-3. Improves stability for YouTube playback resolving, background downloads, and fallback playback.
-4. Improves Collect Project Media so custom cover art is collected as well.
-5. Improves OBS Timeline timestamp accuracy when OBS status queries time out.
-6. Improves UVR temporary-file cleanup during batch processing to reduce disk usage on large batches.
-7. Fixes several other small issues and improves overall stability.
+1. Improves brief BGM dropouts.
+2. Improves occasional delayed response when stopping accompaniment.
+3. Fixes how Vocal Profiles are applied in player modes.
+4. Improves VST3 stability.
+5. Fixes an issue where preview could stop unexpectedly or Profile switching could fail after latency adjustments to some VST3 plug-ins.
+6. Improves effect preloading performance and fixes an issue where a Profile containing disabled effects could open the wrong effect editor.
+7. Fixes an issue where a failed VST3 replacement, removal, or enable operation could still save the wrong selection or checkbox state.
+8. Improves project media collection.
+9. Improves UVR vocal separation.
+10. Improves recording save and finalization.
+11. Improves YouTube feature stability.
+12. I'm going to see Hans Zimmer in concert today! Can't wait to soak up Guthrie Govan's solos!
 
 ## What you can do
 
