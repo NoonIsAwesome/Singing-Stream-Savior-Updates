@@ -1,30 +1,26 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.5.4",
+    "version":  "2.1.6.0",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "normal",
-    "publishedAt":  "2026-09-20T13:09:11.3197551+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.4",
+    "publishedAt":  "2026-09-21T18:37:55.2244678+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.6.0",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Stability update",
+                                                   "summary":  "Local diagnostic export and theme customization",
                                                    "highlights":  [
-                                                                      "Improves brief BGM dropouts.",
-                                                                      "Improves occasional delayed response when stopping accompaniment.",
-                                                                      "Fixes how Vocal Profiles are applied in player modes.",
-                                                                      "Improves VST3 stability.",
-                                                                      "Fixes an issue where preview could stop unexpectedly or Profile switching could fail after latency adjustments to some VST3 plug-ins.",
-                                                                      "Improves effect preloading performance and fixes an issue where a Profile containing disabled effects could open the wrong effect editor.",
-                                                                      "Fixes an issue where a failed VST3 replacement, removal, or enable operation could still save the wrong selection or checkbox state.",
-                                                                      "Improves project media collection.",
-                                                                      "Improves UVR vocal separation.",
-                                                                      "Improves recording save and finalization.",
-                                                                      "Improves YouTube feature stability.",
-                                                                      "I\u0027m going to see Hans Zimmer in concert today! Can\u0027t wait to soak up Guthrie Govan\u0027s solos!"
+                                                                      "Adds Export diagnostic data for reporting software problems. Records stay on your computer and are manually exported as a ZIP, with no automatic upload or email.",
+                                                                      "Adds theme color and background opacity options to Transparent Black and Transparent White.",
+                                                                      "Fixes an issue where some custom font names could not be applied correctly to lyrics, improving handling of parentheses and other special characters.",
+                                                                      "Improves VST3 plug-in compatibility, audio configuration checks and audio bus handling.",
+                                                                      "Fixes hand cursors incorrectly appearing over some non-clickable areas.",
+                                                                      "Improves the display priority of status messages.",
+                                                                      "Improves lyric display in Classic Karaoke.",
+                                                                      "I didn\u0027t manage to get any Hans Zimmer merch 🥲"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -32,20 +28,16 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "穩定性更新",
+                                                   "summary":  "新增本機診斷匯出與主題自訂",
                                                    "highlights":  [
-                                                                      "改善 BGM 短暫斷音問題。",
-                                                                      "改善偶發性伴奏停止反應問題。",
-                                                                      "修正播放器模式與人聲 Profile 套用機制。",
-                                                                      "改善 VST3 穩定性。",
-                                                                      "修正部分 VST3 調整延遲後，預聽意外停止或 Profile 切換失敗的問題。",
-                                                                      "改善效果器預載入的效能，修正 Profile 停用效果器時，可能開啟錯誤效果器介面的問題。",
-                                                                      "修正 VST3 更換、移除或啟用操作未成功時，仍儲存錯誤選擇或勾選狀態的問題。",
-                                                                      "改善專案媒體收集機制。",
-                                                                      "改善 UVR 人聲分離機制。",
-                                                                      "改善錄音保存與收尾機制。",
-                                                                      "改善 YouTube 功能穩定性。",
-                                                                      "我今天要去看Hans Zimmer音樂會！還要看爆Guthrie Govan的solo！"
+                                                                      "新增「匯出診斷資料」功能，供軟體異常回報使用。紀錄僅保存在本機，由使用者手動匯出 ZIP，不會自動上傳或寄信。",
+                                                                      "Transparent Black／Transparent White 新增主題顏色及背景透明度選項。",
+                                                                      "修正部分自訂字型名稱無法正確套用到歌詞的問題，改善含括號等特殊符號的字型名稱處理。",
+                                                                      "改善 VST3 外掛相容性、音訊配置檢查與音訊 Bus 處理。",
+                                                                      "修正部分不可點擊區域誤顯示手形游標。",
+                                                                      "改善狀態提示的顯示優先順序。",
+                                                                      "改善 Classic Karaoke 的歌詞顯示。",
+                                                                      "沒有買到 Hans Zimmer 的周邊🥲"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -53,20 +45,16 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "稳定性更新",
+                                                   "summary":  "新增本地诊断导出与主题自定义",
                                                    "highlights":  [
-                                                                      "改善 BGM 短暂断音问题。",
-                                                                      "改善偶发的伴奏停止响应问题。",
-                                                                      "修复播放器模式与人声 Profile 的应用机制。",
-                                                                      "改善 VST3 稳定性。",
-                                                                      "修复部分 VST3 调整延迟后，预听意外停止或 Profile 切换失败的问题。",
-                                                                      "改善效果器预加载性能，修复 Profile 停用效果器时可能打开错误效果器界面的问题。",
-                                                                      "修复 VST3 更换、移除或启用操作未成功时，仍保存错误选择或勾选状态的问题。",
-                                                                      "改善项目媒体收集机制。",
-                                                                      "改善 UVR 人声分离机制。",
-                                                                      "改善录音保存与收尾机制。",
-                                                                      "改善 YouTube 功能稳定性。",
-                                                                      "我今天要去看 Hans Zimmer 音乐会！还要看爆 Guthrie Govan 的 solo！"
+                                                                      "新增“导出诊断数据”功能，用于反馈软件异常。记录仅保存在本机，由用户手动导出 ZIP，不会自动上传或发送邮件。",
+                                                                      "Transparent Black／Transparent White 新增主题颜色及背景不透明度选项。",
+                                                                      "修复部分自定义字体名称无法正确应用到歌词的问题，改善含括号等特殊符号的字体名称处理。",
+                                                                      "改善 VST3 插件兼容性、音频配置检查与音频总线处理。",
+                                                                      "修复部分不可点击区域误显示手形光标的问题。",
+                                                                      "改善状态提示的显示优先级。",
+                                                                      "改善 Classic Karaoke 的歌词显示。",
+                                                                      "没有买到 Hans Zimmer 的周边🥲"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -74,20 +62,16 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "安定性アップデート",
+                                                   "summary":  "ローカル診断データの出力とテーマのカスタマイズ",
                                                    "highlights":  [
-                                                                      "BGM の一時的な音切れを改善しました。",
-                                                                      "伴奏を停止したときに、まれに反応が遅れる問題を改善しました。",
-                                                                      "プレーヤーモードとボーカル Profile の適用処理を修正しました。",
-                                                                      "VST3 の安定性を改善しました。",
-                                                                      "一部の VST3 でレイテンシーを調整した後、プレビューが予期せず停止したり、Profile の切り替えに失敗したりする問題を修正しました。",
-                                                                      "エフェクトのプリロード性能を改善し、Profile でエフェクトを無効にした際に誤ったエフェクト画面が開くことがある問題を修正しました。",
-                                                                      "VST3 の交換、削除、または有効化に失敗しても、誤った選択やチェック状態が保存される問題を修正しました。",
-                                                                      "プロジェクトメディアの収集処理を改善しました。",
-                                                                      "UVR のボーカル分離処理を改善しました。",
-                                                                      "録音の保存と終了処理を改善しました。",
-                                                                      "YouTube 機能の安定性を改善しました。",
-                                                                      "今日は Hans Zimmer のコンサートに行きます！Guthrie Govan のソロも堪能します！"
+                                                                      "不具合報告用に診断データのエクスポート機能を追加しました。記録はローカルにのみ保存され、ZIP は手動で出力します。自動アップロードやメール送信は行いません。",
+                                                                      "Transparent Black と Transparent White に、テーマ色と背景の不透明度を調整する設定を追加しました。",
+                                                                      "一部のカスタムフォント名を歌詞に正しく適用できない問題を修正し、括弧などの特殊記号を含む名前の処理を改善しました。",
+                                                                      "VST3 プラグインの互換性、音声設定の検証、音声バスの処理を改善しました。",
+                                                                      "クリックできない一部の領域で、誤って手形カーソルが表示される問題を修正しました。",
+                                                                      "ステータスメッセージの表示優先順位を改善しました。",
+                                                                      "Classic Karaoke の歌詞表示を改善しました。",
+                                                                      "Hans Zimmer のグッズを買えませんでした🥲"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -95,20 +79,16 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "안정성 업데이트",
+                                                   "summary":  "로컬 진단 데이터 내보내기 및 테마 사용자 지정",
                                                    "highlights":  [
-                                                                      "BGM의 일시적인 끊김 문제를 개선했습니다.",
-                                                                      "간헐적으로 반주 정지에 대한 반응이 늦는 문제를 개선했습니다.",
-                                                                      "플레이어 모드와 보컬 Profile 적용 방식을 수정했습니다.",
-                                                                      "VST3 안정성을 개선했습니다.",
-                                                                      "일부 VST3의 지연 시간을 조정한 후 미리듣기가 갑자기 중지되거나 Profile 전환에 실패하는 문제를 수정했습니다.",
-                                                                      "이펙터 프리로딩 성능을 개선하고, Profile에서 이펙터를 비활성화할 때 잘못된 이펙터 편집기 화면이 열릴 수 있는 문제를 수정했습니다.",
-                                                                      "VST3 교체, 제거 또는 활성화 작업이 실패해도 잘못된 선택이나 체크 상태가 저장되는 문제를 수정했습니다.",
-                                                                      "프로젝트 미디어 수집 기능을 개선했습니다.",
-                                                                      "UVR 보컬 분리 기능을 개선했습니다.",
-                                                                      "녹음 저장 및 마무리 기능을 개선했습니다.",
-                                                                      "YouTube 기능 안정성을 개선했습니다.",
-                                                                      "오늘 Hans Zimmer 콘서트에 갑니다! Guthrie Govan의 솔로도 제대로 즐길 거예요!"
+                                                                      "소프트웨어 문제 제보를 위한 진단 데이터 내보내기 기능을 추가했습니다. 기록은 컴퓨터에만 저장되며 사용자가 직접 ZIP으로 내보냅니다. 자동 업로드나 이메일 전송은 하지 않습니다.",
+                                                                      "Transparent Black과 Transparent White에 테마 색상 및 배경 불투명도 옵션을 추가했습니다.",
+                                                                      "일부 사용자 글꼴 이름을 가사에 올바르게 적용하지 못하는 문제를 수정하고, 괄호 등 특수 문자가 포함된 이름의 처리를 개선했습니다.",
+                                                                      "VST3 플러그인 호환성, 오디오 구성 검사 및 오디오 버스 처리를 개선했습니다.",
+                                                                      "클릭할 수 없는 일부 영역에 손 모양 커서가 잘못 표시되는 문제를 수정했습니다.",
+                                                                      "상태 메시지의 표시 우선순위를 개선했습니다.",
+                                                                      "Classic Karaoke의 가사 표시를 개선했습니다.",
+                                                                      "Hans Zimmer 굿즈를 못 샀어요🥲"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -118,32 +98,32 @@
                      },
     "launcher":  {
                      "version":  "1.2.0.7",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "78078971b10eeb939e4302782ede3eb0a8d5aa5413390fe48dae265c375ded79",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "0a6486a4271c605f9a4765f6dc2d044ede1ca6a2ce75af5435c1925ecb47a365",
                      "size":  835584
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior.exe",
-                      "sha256":  "4ec817a054c4f6622ad1bf469a378c9696be5f833d7f857072db674df663ab9a",
-                      "size":  31840256
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior.exe",
+                      "sha256":  "cbdaf7207de68d29849cff0cb4ad19206bbf8edfee7f493542c223530447b96a",
+                      "size":  32442880
                   }
               ],
     "runtimePack":  {
-                        "version":  "1.0.0.6",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "21e6aaa8056632653f16e0b708e29b60eca159c1473b9a4d3e550b5f1338cf34",
-                        "size":  87206258
+                        "version":  "1.0.0.7",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "2c1a536f34540d6fa6dfb6e586711d566fb7747d466f994a511ccffb8dc8777d",
+                        "size":  87293404
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
-                           "version":  "1.0.0.6",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "1f6a753f3aa53d117ea3c56c23bbd9662fbcc1088aa25801f0639b3138f081e1",
-                           "size":  88218734,
+                           "version":  "1.0.0.7",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "b55f7fa60c92d03115b3a64df718d6dfc3bb733098efff56ed541bf93e31a42e",
+                           "size":  88332227,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -474,8 +454,8 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentBlack.s3stheme",
-                                             "size":  7311,
-                                             "sha256":  "eeb9adcc5ccb5936c40a908fded9ca449208107f49901c5f47949cadaf9fce74"
+                                             "size":  7204,
+                                             "sha256":  "44f21aa1b82df049406098847ec9e87884f24e8169b955113f0d7a2de3406a9d"
                                          },
                                          {
                                              "path":  "Themes/TransparentBlackV2.s3stheme",
@@ -484,8 +464,8 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentWhite.s3stheme",
-                                             "size":  6891,
-                                             "sha256":  "61da21f14357a97419bfb41e7e0ab2dbd75ed29be2cac805fc851ca391495188"
+                                             "size":  6788,
+                                             "sha256":  "94ffb6005ae17a860685446523e5e66ee1f76c069a8f2c87d98dced249819758"
                                          },
                                          {
                                              "path":  "Themes/TransparentWhiteV2.s3stheme",
@@ -495,12 +475,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406528,
-                                             "sha256":  "e5bcab092ef063ba539762ed984f68b224cdc68e54cbef3527aa2e7c3b24fae0"
+                                             "sha256":  "b987401c20805b6441ca92210b0e0b8011afe99fb6a7e28009e0995ea1288b40"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "99c05bc312eeae0730e969a226cc22d21321969e6f342508047b1e87c25ce9ce"
+                                             "sha256":  "da21087ffdeadb4d35495ec2208143fa77bf1df43b9e727d1030239f101ad500"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -530,7 +510,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "946558b80ffc78f4a28d7e4308a7c7841c0e030a93c99fea8e203318b118400d"
+                                             "sha256":  "f7612e0e867a844df679c0f8de48070d66179a36df39ba456c61a1fbb269c0eb"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -964,8 +944,8 @@
                                          },
                                          {
                                              "path":  "Licenses/YtDlp-Helper-Runtime-Inventory.json",
-                                             "size":  105824,
-                                             "sha256":  "08498da1ffa6a9215e49ec279e6bc2a5f494b75cd5c4f77c521ca2ab8fd1ed5c"
+                                             "size":  105568,
+                                             "sha256":  "0d45c9c636ba981e3d15236dad15f06469a29ed54942ac7d6a90996f05a14a97"
                                          },
                                          {
                                              "path":  "Licenses/zlib-1.3.1-LICENSE.txt",
@@ -974,36 +954,36 @@
                                          },
                                          {
                                              "path":  "yt-dlp/ytdlp_helper.exe",
-                                             "size":  16538176,
-                                             "sha256":  "8bf988e390cbc03ba6603345727497755891f51b07ce34bc3c0c31eae1681463"
+                                             "size":  16624272,
+                                             "sha256":  "006595ac9b0cfc3c63b203268d777a03241f765e9760dbafe371127d2af3f3a9"
                                          },
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  89600,
-                                             "sha256":  "1694c0644e0fa38d215673b2630d743025a77022432c1ae7f6ba0753bd74baca"
+                                             "sha256":  "246a3b3f5d3ac8c8710f03a641f5ce06906739613cfb15a914ed96bd3b5a1897"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  45056,
-                                             "sha256":  "f6a2d4b26701a117c58da4704f96da8c55a776a6ee16663a8d3dca718c2a5f6c"
+                                             "sha256":  "948b2bbb99196624dd214115b88e98066f85cec295d1e9408fd166b66e3919b0"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  839168,
-                                             "sha256":  "21e93f6b81ba304ba19e89d77e44b373520b25a7b380ca4c7ab6e409d5f50ba0"
+                                             "sha256":  "085f5d9fce48d05b3f4c2eea410a2b06efd089d6cf14be0d9c57e1160e53e2eb"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
-                                             "size":  1595904,
-                                             "sha256":  "ee4c511f610b1fd113491b16031ffbab855acc061c85a8528d4d8e382c835165"
+                                             "size":  1659904,
+                                             "sha256":  "a7444b8ee4ce7e2b4cd35d8bdd06f78149bd105e681a5328674c3b4e453d51c2"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "e8a120c00678d3ee75e424d952943ce04646d72c3e521afd55c4c95a88ebf2b7",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "5f7afcae7e75f7d4184e89a47724179908bf4d0523172bea5b11956dfa7cfac9",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2238,8 +2218,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.5.4/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "3d879fe35f4e34166fd4e4c558e8bdec07d6bc264c497ead2c6beb9f12dee07a",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "dbc0ca309d302e1da45d5b76a8d118b6209e48e5ec5b09e38f496774330dd493",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
