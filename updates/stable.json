@@ -97,10 +97,10 @@
                                            ]
                      },
     "launcher":  {
-                     "version":  "1.2.0.7",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.6.0/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "0a6486a4271c605f9a4765f6dc2d044ede1ca6a2ce75af5435c1925ecb47a365",
-                     "size":  835584
+                     "version":  "1.2.0.8",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/launcher-v1.2.0.8/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "162c2c5ee278c8ab65b3ae6a90eff09bfe6139c1288713533cc10203d2597ee9",
+                     "size":  952832
                  },
     "files":  [
                   {
