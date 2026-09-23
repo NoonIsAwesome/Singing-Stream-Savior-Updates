@@ -7,13 +7,18 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.5.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.5.4).
-The ZIP includes launcher **1.2.0.7** and runtime **1.0.0.6**. Extract the
+[Singing Stream Savior 2.1.6.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.6.1).
+The ZIP includes launcher **1.2.0.8** and runtime **1.0.0.8**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
 
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+
+## 2.1.6.1 hotfix
+
+1. Fixes an issue in advanced streaming mode where the Microphone Block's level meter on the Audio Routing page could remain still even though the microphone signal was working normally.
+2. Fixes issues that prevented downloading audio from YouTube links and converting downloaded files.
 
 ## 2.1.5.4 update
 
