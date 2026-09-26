@@ -7,13 +7,28 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.6.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.6.1).
+[Singing Stream Savior 2.1.7.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.0).
 The ZIP includes launcher **1.2.0.8** and runtime **1.0.0.8**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
 
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+
+## 2.1.7.0 update
+
+1. Import and export vocal Profiles to share or move your effects settings.
+2. Import OBS audio effects, with support for Gain, Noise Gate, Compressor, and Limiter.
+3. Back up and restore application settings, Profiles, the song library, selected projects, and related audio, lyrics, and artwork. Identical audio files are stored only once.
+4. Improve the responsiveness of Profile loading and saving.
+5. Improve YouTube batch downloads: a failed song no longer affects the others. Successful songs link to local audio files, and failed songs are listed when the batch finishes.
+6. Improve MP3/WAV conversion and playback afterward. The progress window now shows which song is being processed.
+7. Improve YouTube playback-range editing for some videos that can play but cannot be downloaded. Fix cases where playback had to start before a range could be adjusted.
+8. Add a missing-audio indicator to the song list. Click it or use the right-click menu to locate the file while keeping the song's settings.
+9. Improve playback stability when switching songs, pausing, and stopping.
+10. Long song titles now scroll in one direction and restart from the beginning. Refine several interface details.
+11. Stop automatically installing or repairing the OBS connector at startup, reducing unnecessary permission prompts.
+12. Happy Mid-Autumn Festival, everyone! ٩(˃̶͈̀௰˂̶͈́)و
 
 ## 2.1.6.1 hotfix
 
@@ -70,7 +85,8 @@ Stability update
   MP3 and WAV available. **Download all YouTube files** processes the current
   project song list, not the entire global library. Downloaded audio can be
   converted locally while the original is preserved and same-name files are
-  not overwritten; project links change only after all operations succeed.
+  not overwritten. Successful songs link to the local audio files even when
+  another song fails; failed songs are listed after the batch finishes.
   Right-click the button beside the song statistics row to choose a format,
   open download settings, or open the download folder. [Read the download guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-download).
 - **Stream-ready playback:** Organize songs into playlists, prepare Reserve,
