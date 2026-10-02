@@ -7,13 +7,28 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.7.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.0).
+[Singing Stream Savior 2.1.7.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.2).
 The ZIP includes launcher **1.2.0.8** and runtime **1.0.0.8**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
 
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+
+## 2.1.7.2 update
+
+Add three dynamic lyrics designs and four customizable playlist themes.
+
+1. Lyrics search tries Traditional/Simplified Chinese name variants in the background, cleans video titles, retries temporary service failures once and ranks version matches. Confirm a result before attaching it.
+2. Iris Stage, Echo Rig and Shard Stage follow the shared playback clock, with mask reveals, outline echoes and vertical slices. Choose off, gentle or full motion; hide outer decorations independently. Iris Stage starts without its outer ring.
+3. Bubble Notes defaults to Comic Outline. Choose Thought Cloud, Folded Note, Rounded Droplet or Double Line. Place the stack left/right and top/bottom; the top stack puts Set List above the current song.
+4. Corner Duet groups a larger current song with one rotating history row. Place it left or right, without Now Playing or Set List headings.
+5. Quiet Frame provides optional Next On / Reserve in a compact right column, with paging for longer queues. Quiet Verse places a prominent current song above six text-only rows, aligned left, center or right.
+6. All four new themes support theme colors, fonts, optional Index and history timestamps. Metadata stays fixed, disabled fields collapse and long song titles scroll within the available space.
+
+## 2.1.7.1 hotfix
+
+Fix a startup error after upgrading when older vocal Profile data remains on the computer. Preserve original saved data and custom effect parameters, bypass settings, and VST plug-in state.
 
 ## 2.1.7.0 update
 
@@ -64,8 +79,9 @@ Stability update
   They are heard only through monitoring and never enter the OBS mix.
   [Read the UVR guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#uvr-vocal-removal).
 - **Dynamic synchronized lyrics:** Search or import lyrics, then choose from
-  nine animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
-  Silk Script, Verse Stack, Glyph Motion, Letter Spread, and Stagger Signal.
+  twelve animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
+  Silk Script, Verse Stack, Glyph Motion, Letter Spread, Stagger Signal,
+  Iris Stage, Echo Rig, and Shard Stage.
   Each style card includes an animation preview. Word effects follow the
   timing in the lyrics file; when complete word timings are unavailable,
   timing is estimated and may not fully match the singing. The main preview
@@ -77,6 +93,8 @@ Stability update
   Next On, and Reserve while choosing a theme. Theme cards preview their
   motion. Oblique Stream adds a minimal transparent layout with left or right
   placement, Now Playing above or below, timestamps, and curved scrolling.
+  Bubble Notes, Corner Duet, Quiet Frame, and Quiet Verse add adjustable
+  colors and fonts, with optional Index and history timestamps.
   In themes that support numbering, the numbering button cycles through Off,
   1., 01, and ．. Edit the playlist position and proportional size on the
   fixed 1920 x 1080 canvas; an existing OBS source using that output updates
