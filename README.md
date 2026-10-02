@@ -12,6 +12,13 @@ The ZIP includes launcher **1.2.0.8** and runtime **1.0.0.8**. Extract the
 complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
 outermost folder.
 
+The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.2/Singing.Stream.Savior.2.1.7.2.zip).
+Its contents remain unchanged, including launcher 1.2.0.8.
+Existing installations can update to [launcher 1.2.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.0).
+The new launcher compares actual GitHub/R2 download speeds and switches when
+R2 offers a clear time saving. It also uses R2 after GitHub download errors.
+The update button now returns to its normal appearance after a mouse click.
+The application version remains 2.1.7.2.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
