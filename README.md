@@ -7,20 +7,24 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.7.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.2).
-The ZIP includes launcher **1.2.0.8** and runtime **1.0.0.8**. Extract the
-complete ZIP to a normal folder, then open `Singing Stream Savior.exe` in the
-outermost folder.
+[Singing Stream Savior 2.1.7.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.3).
+The ZIP includes the repaired launcher **1.2.1.0** and runtime **1.0.0.8**.
+Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
+in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.2/Singing.Stream.Savior.2.1.7.2.zip).
-Its contents remain unchanged, including launcher 1.2.0.8.
-Existing installations can update to [launcher 1.2.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.0).
-The new launcher compares actual GitHub/R2 download speeds and switches when
-R2 offers a clear time saving. It also uses R2 after GitHub download errors.
-The update button now returns to its normal appearance after a mouse click.
-The application version remains 2.1.7.2.
+The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.3/Singing.Stream.Savior.2.1.7.3.zip).
+Existing installations can also obtain the [reissued launcher 1.2.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.0).
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+
+## 2.1.7.3 update
+
+Improve dynamic lyrics readability and update downloads.
+
+1. Add a shared text outline toggle, color and width for 13 dynamic lyrics designs. Preview and OBS use the same settings; Basic Lyrics and Classic Karaoke remain unchanged.
+2. Outline settings stay with the project and are kept when switching designs. Small reading text uses a finer outline; existing projects keep outlines off by default.
+3. Before downloading, compare GitHub and Cloudflare R2 using a short, bounded sample; keep the selected source for subsequent update files and fall back if it fails.
+4. Launcher 1.2.1.0 is reissued with improved source selection. “Skip update and open app” cancels safely and starts the installed version; you can update next time. The app detects same-version launcher replacements by SHA-256.
 
 ## 2.1.7.2 update
 
