@@ -7,15 +7,29 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.7.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.3).
+[Singing Stream Savior 2.1.7.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.4).
 The ZIP includes the repaired launcher **1.2.1.0** and runtime **1.0.0.8**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.3/Singing.Stream.Savior.2.1.7.3.zip).
+The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.4/Singing.Stream.Savior.2.1.7.4.zip).
 Existing installations can also obtain the [reissued launcher 1.2.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.0).
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+
+## 2.1.7.4 update
+
+Improve the lyrics window, settings controls and ASIO error diagnostics.
+
+1. Redesign the lyrics window with a black and blue interface, consistent controls and easy-to-click minus/plus buttons for text size and timing offset.
+2. Use a wider and taller default lyrics window and remember its size after closing and reopening.
+3. Make playback following a clear toggle button. Turning it off stops highlighting and automatic scrolling; timing adjustments immediately update the current lyric.
+4. Widen the lyrics settings panel, add scroll gutters and collapsible sections, and keep field and button heights consistent.
+5. Scrolling over closed dropdowns, numeric fields or sliders scrolls the settings panel without changing parameters. Open dropdown lists retain normal scrolling.
+6. Add ASIO inspection and startup diagnostics: failure stage, original API error codes, requested rate and buffer, timeout and helper exit. Export safe technical details through Help > Export diagnostic data; vendor messages remain local.
+7. Fix ASIO inspection rejecting valid drivers with negative version identifiers, including the reported Scarlett 2i2 4th Gen data. Channel, sample rate and buffer validation remain in place.
+8. Correct the microphone-to-Stream software estimate for the active Formal path, including its queue and sample-rate conversion waiting without adding the inactive capture FIFO again.
+9. Add audio timing diagnostics for Formal queue depth, publication residence, Profile processing and source age, output service gaps, compensation and first faults. These are software observations, not physical latency measurements.
 
 ## 2.1.7.3 update
 
