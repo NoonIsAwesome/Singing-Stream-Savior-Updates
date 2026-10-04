@@ -13,7 +13,7 @@ Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.ex
 in the outermost folder.
 
 The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.4/Singing.Stream.Savior.2.1.7.4.zip).
-Existing installations can also obtain the [reissued launcher 1.2.1.0](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.0).
+Existing installations can also obtain [launcher 1.2.1.1](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.1), which fixes the obscured reconnect button in the update progress window. The existing full ZIP is unchanged.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
 
