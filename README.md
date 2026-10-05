@@ -7,15 +7,28 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.7.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.7.4).
-The ZIP includes the repaired launcher **1.2.1.0** and runtime **1.0.0.8**.
+[Singing Stream Savior 2.1.8.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.0).
+The ZIP includes launcher **1.2.1.1** and runtime **1.0.0.9**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.7.4/Singing.Stream.Savior.2.1.7.4.zip).
-Existing installations can also obtain [launcher 1.2.1.1](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/launcher-v1.2.1.1), which fixes the obscured reconnect button in the update progress window. The existing full ZIP is unchanged.
+The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.8.0/Singing.Stream.Savior.2.1.8.0.zip).
+Launcher 1.2.1.1 includes the reconnect-button layout fix. It is included in the current full ZIP.
 For setup instructions and the complete feature guide, visit the
-[Singing Stream Savior Manual](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/).
+[Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.0 update
+
+**An awesome update (probably), at least I think it's awesome (⁎⁍̴̛ᴗ⁍̴̛⁎)**
+
+1. Song metadata: assign multiple singers / performers, reuse names saved in the project, and optionally write tags to local audio files.
+2. Classification and search: new genre and language tags; search songs, performers, genres and languages, with keyword suggestions.
+3. Song settings: information, album artwork and lyrics are combined in three tabs. Their individual status icons remain visible, and source icons distinguish local files from YouTube links.
+4. New YouTube search page: search YouTube songs or backing tracks directly in the app, then add them to the song list or UVR queue. Adding to UVR only queues the item; start vocal removal from the UVR page.
+5. Appearance: switch between Dark, Light and Follow Windows. Dark is the default; the Full window now defaults to 1600×900.
+6. Removed the traditional song-list view because I think cards look better and are easier to use.
+7. Slightly improved application startup time.
+8. Sneaking in a random sentence. I wonder if anyone will notice.
 
 ## 2.1.7.4 update
 
@@ -97,12 +110,12 @@ Stability update
 - **Lyrics editor:** Create and edit synchronized lyrics with line or word timing. Mark while
   listening with Ctrl + Enter, merge or split words, preview the result, then
   apply it to the selected song.
-  [Read the lyrics editor guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#lyrics-editor).
+  [Read the lyrics editor guide](https://noonisawesome.dev/en/guide.html#lyrics-editor).
 - **Guide vocal monitoring:** Keep the Vocal track when separating audio in
   UVR and import the accompaniment to link both tracks. Guide vocals follow
   key, speed, seeking, and loops, with independent level control in Meter.
   They are heard only through monitoring and never enter the OBS mix.
-  [Read the UVR guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#uvr-vocal-removal).
+  [Read the UVR guide](https://noonisawesome.dev/en/guide.html#uvr-vocal-removal).
 - **Dynamic synchronized lyrics:** Search or import lyrics, then choose from
   twelve animated styles: Kinetic Type, Prism Cut, Lumen Drift, Ink Cascade,
   Silk Script, Verse Stack, Glyph Motion, Letter Spread, Stagger Signal,
@@ -113,7 +126,7 @@ Stability update
   and OBS share the display settings; the independent Lyrics window keeps its
   own reading settings. Japanese and Korean romanization in the OBS output is
   supported by **Basic Lyrics**.
-  [Read the lyrics guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-lyrics).
+  [Read the lyrics guide](https://noonisawesome.dev/en/guide.html#feature-lyrics).
 - **Playlist Appearance with live preview:** Preview Now Singing, Set List,
   Next On, and Reserve while choosing a theme. Theme cards preview their
   motion. Oblique Stream adds a minimal transparent layout with left or right
@@ -123,7 +136,7 @@ Stability update
   In themes that support numbering, the numbering button cycles through Off,
   1., 01, and ．. Edit the playlist position and proportional size on the
   fixed 1920 x 1080 canvas; an existing OBS source using that output updates
-  while you drag. [Read the preview and OBS guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-preview).
+  while you drag. [Read the preview and OBS guide](https://noonisawesome.dev/en/guide.html#feature-preview).
 - **Improved YouTube downloads:** The default format is MP3 at 320 kbps, with
   MP3 and WAV available. **Download all YouTube files** processes the current
   project song list, not the entire global library. Downloaded audio can be
@@ -131,7 +144,7 @@ Stability update
   not overwritten. Successful songs link to the local audio files even when
   another song fails; failed songs are listed after the batch finishes.
   Right-click the button beside the song statistics row to choose a format,
-  open download settings, or open the download folder. [Read the download guide](https://noonisawesome.github.io/Singing-Stream-Savior-Manual/en/guide.html#feature-download).
+  open download settings, or open the download folder. [Read the download guide](https://noonisawesome.dev/en/guide.html#feature-download).
 - **Stream-ready playback:** Organize songs into playlists, prepare Reserve,
   play local files or YouTube links, and send playlist and lyric overlays to
   OBS with `Drag to OBS`. For YouTube accompaniment, the **YouTube Video**
