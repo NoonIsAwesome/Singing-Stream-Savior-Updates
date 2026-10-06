@@ -7,15 +7,25 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.1).
-The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.11**.
+[Singing Stream Savior 2.1.8.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.2).
+The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.12**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.1/Singing.Stream.Savior.2.1.8.1-revision2.zip).
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.2/Singing.Stream.Savior.2.1.8.2.zip).
 Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.2 update
+
+Updated Harmony, with improvements to the interface and startup experience.
+
+- Harmony effect update: multiple harmony voices and improved pitch accuracy.
+- Improved the light-mode interface.
+- Fixed missing performer names in original-song YouTube search results.
+- Adjusted text sizes in parts of the interface.
+- Improved the startup loading screen.
 
 ## 2.1.8.1 update
 

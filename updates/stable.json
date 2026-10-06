@@ -1,124 +1,104 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.1.8.1",
+  "version": "2.1.8.2",
   "minimumLauncherVersion": "1.0.0.0",
-  "updatePriority": "hotfix",
-  "publishedAt": "2026-10-06T10:06:35.7265124+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.1",
+  "updatePriority": "normal",
+  "publishedAt": "2026-10-06T21:11:35.6945816+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.2",
   "releaseNotes": {
     "defaultLocale": "en",
     "localizations": [
       {
-        "locale": "zh-TW",
-        "summary": "修正更新復原問題，改善啟動提示、介面與 YouTube 搜尋。",
+        "locale": "en",
+        "summary": "Updated Harmony, with improvements to the interface and startup experience.",
         "highlights": [
-          "他很讚！嘟嘟嘟！這版改善了一些使用體驗和意外發現的問題👍🏻",
-          "啟動器更新為 1.2.1.2：改善中斷更新的復原機制，處理短暫檔案占用及唯讀備份；無法啟動時直接顯示可複製的錯誤資訊，並保留備份。",
-          "改善軟體啟動準備與專案載入。",
-          "修正淺色模式下，播放中歌曲的文字、播放符號與 YouTube 下載圖示不清楚的問題。",
-          "改善一些介面的hover、操作體驗。",
-          "改善YouTube搜尋機制。",
-          "放大歌曲搜尋建議的文字與每列高度，方便點選。"
+          "Harmony effect update: multiple harmony voices and improved pitch accuracy.",
+          "Improved the light-mode interface.",
+          "Fixed missing performer names in original-song YouTube search results.",
+          "Adjusted text sizes in parts of the interface.",
+          "Improved the startup loading screen."
         ],
-        "emphasizedItems": [
-          "他很讚！嘟嘟嘟！這版改善了一些使用體驗和意外發現的問題👍🏻"
-        ]
+        "emphasizedItems": []
       },
       {
-        "locale": "en",
-        "summary": "Fix update recovery and improve startup feedback, the interface, and YouTube search.",
+        "locale": "zh-TW",
+        "summary": "更新合音效果器，改善介面與啟動體驗。",
         "highlights": [
-          "It's awesome! Toot, toot, toot! This update improves the user experience and fixes a few unexpectedly discovered issues 👍🏻",
-          "Launcher 1.2.1.2 improves interrupted update recovery for transient file locks and read-only backups. Launch failures show copyable error details and preserve backups.",
-          "Improve application startup preparation and project loading.",
-          "Fix hard-to-see playing-song text, playback markers, and the YouTube download icon in Light mode.",
-          "Improve hover feedback and interaction across parts of the interface.",
-          "Improve the YouTube search mechanism.",
-          "Enlarge song search suggestion text and row height for easier selection."
+          "合音效果器更新：支援多聲部，改善合音音準。",
+          "改善淺色模式的 UI。",
+          "修正 YouTube 搜尋的原曲未顯示演出者的問題。",
+          "調整部分 UI 文字大小。",
+          "改善軟體 loading 畫面。"
         ],
-        "emphasizedItems": [
-          "It's awesome! Toot, toot, toot! This update improves the user experience and fixes a few unexpectedly discovered issues 👍🏻"
-        ]
+        "emphasizedItems": []
       },
       {
         "locale": "zh-CN",
-        "summary": "修复更新恢复问题，改善启动提示、界面与 YouTube 搜索。",
+        "summary": "更新和声效果器，改善界面与启动体验。",
         "highlights": [
-          "他很赞！嘟嘟嘟！这版改善了一些使用体验和意外发现的问题👍🏻",
-          "启动器更新为 1.2.1.2：改善中断更新的恢复机制，处理短暂文件占用及只读备份；无法启动时直接显示可复制的错误信息，并保留备份。",
-          "改善软件启动准备与项目加载。",
-          "修复浅色模式下，播放中歌曲的文字、播放符号与 YouTube 下载图标不清楚的问题。",
-          "改善部分界面的悬停反馈和操作体验。",
-          "改善YouTube搜索机制。",
-          "放大歌曲搜索建议的文字与每行高度，方便点选。"
+          "和声效果器更新：支持多声部，改善和声音准。",
+          "改善浅色模式的 UI。",
+          "修正 YouTube 搜索的原曲未显示演出者的问题。",
+          "调整部分 UI 文字大小。",
+          "改善软件加载画面。"
         ],
-        "emphasizedItems": [
-          "他很赞！嘟嘟嘟！这版改善了一些使用体验和意外发现的问题👍🏻"
-        ]
+        "emphasizedItems": []
       },
       {
         "locale": "ja",
-        "summary": "更新の復元を修正し、起動表示、画面、YouTube 検索を改善。",
+        "summary": "ハーモニーエフェクトを更新し、画面表示と起動時の使い勝手を改善しました。",
         "highlights": [
-          "とってもいい感じ！トゥートゥートゥー！今回は使い勝手と、思いがけず見つかった問題を改善しました👍🏻",
-          "ランチャー 1.2.1.2 では、一時的なファイルロックや読み取り専用バックアップからの中断更新の復元を改善。起動できない場合はコピー可能なエラー情報を表示し、バックアップを保持します。",
-          "アプリの起動準備とプロジェクトの読み込みを改善。",
-          "ライトモードで再生中の曲の文字、再生マーク、YouTube ダウンロードアイコンが見えにくい問題を修正。",
-          "画面の一部でホバー表示や操作性を改善。",
-          "YouTube の検索方法を改善。",
-          "曲の検索候補の文字と行の高さを大きくして、選択しやすくしました。"
+          "ハーモニーエフェクトを更新：複数のハーモニー音声に対応し、音程の精度を改善しました。",
+          "ライトモードの UI を改善しました。",
+          "YouTube の原曲検索でアーティスト名が表示されない問題を修正しました。",
+          "一部の UI の文字サイズを調整しました。",
+          "起動時の読み込み画面を改善しました。"
         ],
-        "emphasizedItems": [
-          "とってもいい感じ！トゥートゥートゥー！今回は使い勝手と、思いがけず見つかった問題を改善しました👍🏻"
-        ]
+        "emphasizedItems": []
       },
       {
         "locale": "ko",
-        "summary": "업데이트 복구를 수정하고 시작 안내, 인터페이스, YouTube 검색을 개선합니다.",
+        "summary": "화음 이펙트를 업데이트하고 화면 표시와 시작 경험을 개선했습니다.",
         "highlights": [
-          "아주 좋아요! 뚜뚜뚜! 이번 버전에서는 사용 경험과 예상치 못하게 발견한 문제들을 개선했어요👍🏻",
-          "런처 1.2.1.2에서 일시적인 파일 잠금과 읽기 전용 백업의 중단된 업데이트 복구를 개선합니다. 시작 실패 시 복사 가능한 오류 정보를 표시하고 백업을 보존합니다.",
-          "앱 시작 준비와 프로젝트 로딩을 개선합니다.",
-          "밝은 모드에서 재생 중인 곡의 글자, 재생 표시와 YouTube 다운로드 아이콘이 잘 보이지 않는 문제를 수정합니다.",
-          "일부 화면의 마우스 오버 표시와 조작 경험을 개선합니다.",
-          "YouTube 검색 방식을 개선합니다.",
-          "곡 검색 추천의 글자와 행 높이를 늘려 선택하기 쉽게 합니다."
+          "화음 이펙트 업데이트: 여러 화음 성부를 지원하고 음정 정확도를 개선했습니다.",
+          "라이트 모드 UI를 개선했습니다.",
+          "YouTube 원곡 검색에서 아티스트 이름이 표시되지 않는 문제를 수정했습니다.",
+          "일부 UI의 글자 크기를 조정했습니다.",
+          "시작 시 로딩 화면을 개선했습니다."
         ],
-        "emphasizedItems": [
-          "아주 좋아요! 뚜뚜뚜! 이번 버전에서는 사용 경험과 예상치 못하게 발견한 문제들을 개선했어요👍🏻"
-        ]
+        "emphasizedItems": []
       }
     ]
   },
   "launcher": {
     "version": "1.2.1.2",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "2fe476274d83ec4a5b88e378fad7e4c4781cc465a6c2707d51ecac06f01d4ff2",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Launcher.exe",
+    "sha256": "37d962826a51e154ab28b23f952f9e561f4fd8fe64a7c2656360183ff420ebbd",
     "size": 1043456
   },
   "files": [
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-revision2.exe",
-      "sha256": "d562e3e71ba9386ceac7ac71ce996de6f869856563b4c0a3b1fffa025aec4f73",
-      "size": 39687168
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior.exe",
+      "sha256": "a1dcace65d36072e706f74080da33aa2ecfef905b3b545e8b81cd13e2f04c031",
+      "size": 39845376
     }
   ],
   "runtimePack": {
-    "version": "1.0.0.11",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Runtime-revision2.s3spack",
-    "sha256": "0a426929f1db1d08692582137e99e90176ddb599e613ef2ed6971476728573d3",
-    "size": 87239623
+    "version": "1.0.0.12",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Runtime.s3spack",
+    "sha256": "b2923892a7c8b320a699df1839392ac40c545f6ea613ff5c13f4dad5292eb540",
+    "size": 87482693
   },
   "packagesV2": [
     {
       "id": "application-runtime",
-      "version": "1.0.0.11",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Application-Runtime-revision2.s3spack",
-      "sha256": "11c6f3d9d8068bd3ed73580138bde0c7a8ce3bcf9a0288d9548acdf70a42714d",
-      "size": 88292936,
+      "version": "1.0.0.12",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+      "sha256": "a23aaa7caa38ce8e3e9628554b8605410b5f8117e316582995c59f224704b37e",
+      "size": 88596801,
       "requiredForStartup": false,
       "capability": "application-runtime",
       "files": [
@@ -148,14 +128,14 @@
           "sha256": "49b4f15e9b161eb66b961a17a2105c7c57da12d85dd872037b827e09aa5ee4c3"
         },
         {
-          "path": "OpenCC/share/opencc/STPhrases.ocd2",
-          "size": 925258,
-          "sha256": "f28fca11a3813071a628e2c897e4462908c3e890d335ea247da1f1be8953fec8"
-        },
-        {
           "path": "OpenCC/share/opencc/STPhrases_GeneratedFromRegionalPhrases.ocd2",
           "size": 17861,
           "sha256": "4d4a6f369af0da758b63f4a0474f348fbcb4b00173574fca8f361cd603eddd3e"
+        },
+        {
+          "path": "OpenCC/share/opencc/STPhrases.ocd2",
+          "size": 925258,
+          "sha256": "f28fca11a3813071a628e2c897e4462908c3e890d335ea247da1f1be8953fec8"
         },
         {
           "path": "OpenCC/share/opencc/TSCharacters.ocd2",
@@ -228,11 +208,6 @@
           "sha256": "193ae0035fff6fe812b58d9ee730e7a7d7ee601d918481ce51075c58114f6cc9"
         },
         {
-          "path": "JapaneseReading/dict/tid.dat.gz",
-          "size": 1605820,
-          "sha256": "d43d831cb6fb0f0a411739cd287a6d5e998e121a8daca614df14a81a0dcac586"
-        },
-        {
           "path": "JapaneseReading/dict/tid_map.dat.gz",
           "size": 1485576,
           "sha256": "33efd5ffd87a70f669add093fa39dee44341d58f940844ef107c8fd98bb795b2"
@@ -243,9 +218,9 @@
           "sha256": "60dbfc99a6ab993f30c5dab648bec6ad7f9aaefa5c14e1843837d95e509f8895"
         },
         {
-          "path": "JapaneseReading/dict/unk.dat.gz",
-          "size": 10512,
-          "sha256": "f7f991cdeb9bfd3e9c0e4577cc50ee0815a11c508cccd444a9d3ab3c81521100"
+          "path": "JapaneseReading/dict/tid.dat.gz",
+          "size": 1605820,
+          "sha256": "d43d831cb6fb0f0a411739cd287a6d5e998e121a8daca614df14a81a0dcac586"
         },
         {
           "path": "JapaneseReading/dict/unk_char.dat.gz",
@@ -273,6 +248,11 @@
           "sha256": "5b183a29f281acc7e0542beca47b83f7985047c0a2d27e78a66f32276be5ad11"
         },
         {
+          "path": "JapaneseReading/dict/unk.dat.gz",
+          "size": 10512,
+          "sha256": "f7f991cdeb9bfd3e9c0e4577cc50ee0815a11c508cccd444a9d3ab3c81521100"
+        },
+        {
           "path": "JapaneseReading/Embedded-Dependencies-NOTICE.txt",
           "size": 15801,
           "sha256": "8221325fbf0219959479c45d137d894dc6628644e4a6ebda83eb46c94263bfcd"
@@ -283,14 +263,14 @@
           "sha256": "fab84e2471dada5afa7ea4226b629f3fda414f9b50b62b4f832f8b57fe9addd7"
         },
         {
-          "path": "JapaneseReading/kuroshiro.min.js",
-          "size": 33929,
-          "sha256": "e3e609355449b1ddb4f56253402aa7fc544743df3346028e56a121f03d0717e6"
-        },
-        {
           "path": "JapaneseReading/kuroshiro-analyzer-kuromoji.min.js",
           "size": 78021,
           "sha256": "bf894edfb6908a5598e6e7e8ff8c70c5ef95a63d1235c252736b5aa838cbfed1"
+        },
+        {
+          "path": "JapaneseReading/kuroshiro.min.js",
+          "size": 33929,
+          "sha256": "e3e609355449b1ddb4f56253402aa7fc544743df3346028e56a121f03d0717e6"
         },
         {
           "path": "JapaneseReading/LICENSE-aromanize.txt",
@@ -303,14 +283,14 @@
           "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
         },
         {
-          "path": "JapaneseReading/LICENSE-kuroshiro.txt",
-          "size": 1098,
-          "sha256": "3b4f6214d2e1e0c6e7b2906a1522552ad3968836d7191f76dd27867c6ac0ffbc"
-        },
-        {
           "path": "JapaneseReading/LICENSE-kuroshiro-analyzer-kuromoji.txt",
           "size": 1098,
           "sha256": "b7d558f1039acceefeb9656e5704f585e6b0efde36a740b8cb6f698f4cf61909"
+        },
+        {
+          "path": "JapaneseReading/LICENSE-kuroshiro.txt",
+          "size": 1098,
+          "sha256": "3b4f6214d2e1e0c6e7b2906a1522552ad3968836d7191f76dd27867c6ac0ffbc"
         },
         {
           "path": "JapaneseReading/lyrics-reading-engine.js",
@@ -490,12 +470,12 @@
         {
           "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "size": 406016,
-          "sha256": "54a726c61e6559a9c68f8c4bf3ffc39ea7a43408097c83de0b2b6cd34356a332"
+          "sha256": "2b4b8144896aa9d03623ce0d549be28de97ecf2d35d92e2beb8dcad0a48b9ab1"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
           "size": 48128,
-          "sha256": "32e04f238008d9db30b262feb3cc63fe3a353844199f58f1d652ace6995de6f5"
+          "sha256": "f9d4e24fb308c0e3235e7ef969068087d394b642cbbeefc187426db51421634a"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -525,7 +505,7 @@
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
           "size": 631,
-          "sha256": "508957be491d4a0fe6909407a38418d8c2e8280243c80673e0ae3fa87670e429"
+          "sha256": "6ac85adbc2c1e5d4fb7accbde428cf548253c1334241ba213532d19c88fca7dc"
         },
         {
           "path": "Licenses/Apache-2.0.txt",
@@ -959,8 +939,8 @@
         },
         {
           "path": "Licenses/YtDlp-Helper-Runtime-Inventory.json",
-          "size": 51630,
-          "sha256": "a653a9c36b02a1738c24b8c1a65a1adcca87ed9e7333b88fba8a55b2359d573e"
+          "size": 53222,
+          "sha256": "8767fe83cb6fc4a2b7b6efe314c039a67522076166d035ade1132ef0fe842bc1"
         },
         {
           "path": "Licenses/zlib-1.3.1-LICENSE.txt",
@@ -969,35 +949,35 @@
         },
         {
           "path": "yt-dlp/ytdlp_helper.exe",
-          "size": 16546300,
-          "sha256": "e36a763956063f9fb5587baa219e65c9ae2a763cfc28ade1e67d81bb2c5049d8"
+          "size": 16548569,
+          "sha256": "db5da2c7b9a49c8bc76ea11ce08e21d2f7482d8d200dd5782e621a4295cdbda1"
         },
         {
           "path": "S3SAsioBridge.exe",
           "size": 98816,
-          "sha256": "b04af4eecf4e48e1bdf61858849c4ae20983b1bc00e278d1581c044713d24131"
+          "sha256": "a30f4ea0101a8a1ef6f2b344c8fa041f6f9fcc098d40b871b4e3d4c9b82f1f13"
         },
         {
           "path": "S3SAsioProbe.exe",
           "size": 48128,
-          "sha256": "f7fb8080c49b7cccb277eef87ebc5c774d025b10c51937386473c641d1cee61f"
+          "sha256": "d09ea52ebd4d7309a475fe929da16e46bbe2ea0cb73e43c33b942f4d292fe58a"
         },
         {
           "path": "S3SAudioDeviceScanner.exe",
           "size": 865792,
-          "sha256": "bc7b57eadb845442d9cd801436a08765c59b45adbad0e9f0eab9902c10dcb4ac"
+          "sha256": "044d15a1ed5854c4d8b3c8bb0a88cb15751c77d23e6621694387a617182499ef"
         },
         {
           "path": "Vst3ScannerHelper.exe",
-          "size": 1660416,
-          "sha256": "2bb12b38e8c3fcf60f33fbca55f0e314e60c9e0d219e8424cb40b5426aef89c1"
+          "size": 1696768,
+          "sha256": "6e491452a4a0608f890b72a47b7d6f4609b7c30614b6c082216ea4abf550f21c"
         }
       ],
       "patch": {
-        "baseVersion": "1.0.0.9",
-        "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Patch-application-runtime-1.0.0.9-to-1.0.0.11.s3spack",
-        "sha256": "9a9ad4638395e53880715b3b0cf53740d6827c5c5a092e8bc2b856d6f7e6b168",
-        "size": 17579957,
+        "baseVersion": "1.0.0.11",
+        "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Patch-application-runtime-1.0.0.11-to-1.0.0.12.s3spack",
+        "sha256": "7f4778cc46c2e734f6b007c4eecdd585b85bc607f46fd80cacd6effa7bd767f7",
+        "size": 17657977,
         "files": [
           "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
@@ -1014,9 +994,9 @@
     {
       "id": "uvr-mdx",
       "version": "1.2.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-UVR-MDX-Runtime-revision2.s3spack",
-      "sha256": "811cdf3785c7f82386330209e91b2cf74196179b58a1a991691cd678fd771773",
-      "size": 213746603,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+      "sha256": "42ca93bc98647caadeb53d57be8aa9b35fe8fcd7470b05922946fb4ed6c9b4e3",
+      "size": 215829941,
       "requiredForStartup": false,
       "capability": "uvr-mdx",
       "files": [
@@ -2250,9 +2230,9 @@
     {
       "id": "uvr-hp-models",
       "version": "1.2.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-UVR-HP-Models-revision2.s3spack",
-      "sha256": "b2750661f588b76412dec592a9894f6c177292385f1c9f447f3ac977043f2519",
-      "size": 235235985,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+      "sha256": "e1fb69fed4386f8c5454c74a7610c1d3975fadd32879ed8060194f31d222f50c",
+      "size": 235020193,
       "requiredForStartup": false,
       "capability": "uvr-hp-models",
       "files": [
