@@ -7,31 +7,15 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.1).
-The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.10**.
+[Singing Stream Savior 2.1.8.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.0).
+The ZIP includes launcher **1.2.1.1** and runtime **1.0.0.9**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.1/Singing.Stream.Savior.2.1.8.1.zip).
-Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
+The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.8.0/Singing.Stream.Savior.2.1.8.0.zip).
+Launcher 1.2.1.1 includes the reconnect-button layout fix. It is included in the current full ZIP.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
-
-## 2.1.8.1 update
-
-Fix update recovery and improve startup feedback, UI, and YouTube search.
-
-1. Launcher 1.2.1.2 improves interrupted update recovery for transient file locks and read-only backups. Launch failures show copyable error details and preserve backups.
-2. Use three-dot startup and project-loading feedback with a uniform preparation background and no Cancel button. Prepare initial font caches and initialize resource monitoring in the background to reduce UI blocking.
-3. Improve light-mode playing-song text, playback markers, and the YouTube download icon contrast.
-4. Close Song Settings after lyrics or cover art is successfully attached. Keep it open on cancellation or failure, and preserve prompts for unsaved changes in other tabs.
-5. Prevent mouse clicks from leaving focus borders on lyrics, song information, and YouTube preview buttons while retaining keyboard operation.
-6. Instrumental search prioritizes multilingual keywords from the query, keeps explicit qualifiers, and expands when results are insufficient.
-7. Original searches prefer YouTube Music songs, falling back to YouTube when more results are needed or the service fails.
-8. Replace the expansion explanation beside YouTube filters with tooltips.
-9. Remove the appearance button border in the project chooser and main window.
-10. Add Metal and Blues to preset genres.
-11. Enlarge song search suggestion text and row height for easier selection.
 
 ## 2.1.8.0 update
 
