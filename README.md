@@ -7,15 +7,27 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.0 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.0).
-The ZIP includes launcher **1.2.1.1** and runtime **1.0.0.9**.
+[Singing Stream Savior 2.1.8.1 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.1).
+The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.11**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 backup](https://updates.noonisawesome.dev/releases/v2.1.8.0/Singing.Stream.Savior.2.1.8.0.zip).
-Launcher 1.2.1.1 includes the reconnect-button layout fix. It is included in the current full ZIP.
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.1/Singing.Stream.Savior.2.1.8.1.zip).
+Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.1 update
+
+Fix update recovery and improve startup feedback, the interface, and YouTube search.
+
+- **It's awesome! Toot, toot, toot! This update improves the user experience and fixes a few unexpectedly discovered issues 👍🏻**
+- Launcher 1.2.1.2 improves interrupted update recovery for transient file locks and read-only backups. Launch failures show copyable error details and preserve backups.
+- Improve application startup preparation and project loading.
+- Fix hard-to-see playing-song text, playback markers, and the YouTube download icon in Light mode.
+- Improve hover feedback and interaction across parts of the interface.
+- Improve the YouTube search mechanism.
+- Enlarge song search suggestion text and row height for easier selection.
 
 ## 2.1.8.0 update
 

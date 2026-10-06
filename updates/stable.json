@@ -1,129 +1,124 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.8.0",
+    "version":  "2.1.8.1",
     "minimumLauncherVersion":  "1.0.0.0",
-    "updatePriority":  "normal",
-    "publishedAt":  "2026-10-05T20:08:10.3730621+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.0",
+    "updatePriority":  "hotfix",
+    "publishedAt":  "2026-10-06T10:06:35.7265124+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.1",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
-                                                   "locale":  "en",
-                                                   "summary":  "An awesome update (probably), at least I think it\u0027s awesome (⁎⁍̴̛ᴗ⁍̴̛⁎)",
+                                                   "locale":  "zh-TW",
+                                                   "summary":  "修正更新復原問題，改善啟動提示、介面與 YouTube 搜尋。",
                                                    "highlights":  [
-                                                                      "Song metadata: assign multiple singers / performers, reuse names saved in the project, and optionally write tags to local audio files.",
-                                                                      "Classification and search: new genre and language tags; search songs, performers, genres and languages, with keyword suggestions.",
-                                                                      "Song settings: information, album artwork and lyrics are combined in three tabs. Their individual status icons remain visible, and source icons distinguish local files from YouTube links.",
-                                                                      "New YouTube search page: search YouTube songs or backing tracks directly in the app, then add them to the song list or UVR queue. Adding to UVR only queues the item; start vocal removal from the UVR page.",
-                                                                      "Appearance: switch between Dark, Light and Follow Windows. Dark is the default; the Full window now defaults to 1600×900.",
-                                                                      "Removed the traditional song-list view because I think cards look better and are easier to use.",
-                                                                      "Slightly improved application startup time.",
-                                                                      "Sneaking in a random sentence. I wonder if anyone will notice."
+                                                                      "他很讚！嘟嘟嘟！這版改善了一些使用體驗和意外發現的問題👍🏻",
+                                                                      "啟動器更新為 1.2.1.2：改善中斷更新的復原機制，處理短暫檔案占用及唯讀備份；無法啟動時直接顯示可複製的錯誤資訊，並保留備份。",
+                                                                      "改善軟體啟動準備與專案載入。",
+                                                                      "修正淺色模式下，播放中歌曲的文字、播放符號與 YouTube 下載圖示不清楚的問題。",
+                                                                      "改善一些介面的hover、操作體驗。",
+                                                                      "改善YouTube搜尋機制。",
+                                                                      "放大歌曲搜尋建議的文字與每列高度，方便點選。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "An awesome update (probably), at least I think it\u0027s awesome (⁎⁍̴̛ᴗ⁍̴̛⁎)"
+                                                                           "他很讚！嘟嘟嘟！這版改善了一些使用體驗和意外發現的問題👍🏻"
                                                                        ]
                                                },
                                                {
-                                                   "locale":  "zh-TW",
-                                                   "summary":  "很讚讚更新（應該），至少我覺得很讚讚(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+                                                   "locale":  "en",
+                                                   "summary":  "Fix update recovery and improve startup feedback, the interface, and YouTube search.",
                                                    "highlights":  [
-                                                                      "歌曲資料：支援多位歌手／演出者，重用專案中已設定的名稱，並可選擇寫入本機音訊檔標籤。",
-                                                                      "分類與搜尋：新增曲風、語言標籤；搜尋支援歌曲、演出者、曲風、語言，以及關鍵字建議。",
-                                                                      "歌曲設定介面：資訊、專輯封面、歌詞整合為三個分頁；保留各自的設定狀態圖示，並區分本機檔案與 YouTube 來源。",
-                                                                      "新增YouTube 搜尋頁面：現在可以直接在頁面裡搜尋YouTube來源的歌曲或伴奏，可直接加入歌曲列表或 UVR 佇列。加入 UVR 只排入佇列，需到 UVR 頁面開始消除人聲。",
-                                                                      "外觀切換：現在可以切換深色、淺色模式也跟隨 Windows設定，預設深色；完整模式預設調整為 1600×900。",
-                                                                      "移除歌曲列表的傳統列表顯示模式，因為我覺得卡片顯示好看又好用。",
-                                                                      "小幅改善軟體啟動的時間。",
-                                                                      "偷塞一句廢話，不知道有沒有人會發現。"
+                                                                      "It\u0027s awesome! Toot, toot, toot! This update improves the user experience and fixes a few unexpectedly discovered issues 👍🏻",
+                                                                      "Launcher 1.2.1.2 improves interrupted update recovery for transient file locks and read-only backups. Launch failures show copyable error details and preserve backups.",
+                                                                      "Improve application startup preparation and project loading.",
+                                                                      "Fix hard-to-see playing-song text, playback markers, and the YouTube download icon in Light mode.",
+                                                                      "Improve hover feedback and interaction across parts of the interface.",
+                                                                      "Improve the YouTube search mechanism.",
+                                                                      "Enlarge song search suggestion text and row height for easier selection."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "很讚讚更新（應該），至少我覺得很讚讚(⁎⁍̴̛ᴗ⁍̴̛⁎)"
+                                                                           "It\u0027s awesome! Toot, toot, toot! This update improves the user experience and fixes a few unexpectedly discovered issues 👍🏻"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "很赞赞更新（应该），至少我觉得很赞赞(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+                                                   "summary":  "修复更新恢复问题，改善启动提示、界面与 YouTube 搜索。",
                                                    "highlights":  [
-                                                                      "歌曲资料：支持多位歌手／演出者，复用项目中已设置的名称，并可选择写入本地音频文件标签。",
-                                                                      "分类与搜索：新增曲风、语言标签；搜索支持歌曲、演出者、曲风、语言，以及关键词建议。",
-                                                                      "歌曲设置界面：信息、专辑封面、歌词整合为三个标签页；保留各自的设置状态图标，并区分本地文件与 YouTube 来源。",
-                                                                      "新增YouTube 搜索页面：现在可以直接在页面里搜索YouTube来源的歌曲或伴奏，可直接加入歌曲列表或 UVR 队列。加入 UVR 只排入队列，需到 UVR 页面开始消除人声。",
-                                                                      "外观切换：现在可以切换深色、浅色模式以及跟随 Windows设置，默认深色；完整模式默认调整为 1600×900。",
-                                                                      "移除歌曲列表的传统列表显示模式，因为我觉得卡片显示好看又好用。",
-                                                                      "小幅改善软件启动的时间。",
-                                                                      "偷塞一句废话，不知道有没有人会发现。"
+                                                                      "他很赞！嘟嘟嘟！这版改善了一些使用体验和意外发现的问题👍🏻",
+                                                                      "启动器更新为 1.2.1.2：改善中断更新的恢复机制，处理短暂文件占用及只读备份；无法启动时直接显示可复制的错误信息，并保留备份。",
+                                                                      "改善软件启动准备与项目加载。",
+                                                                      "修复浅色模式下，播放中歌曲的文字、播放符号与 YouTube 下载图标不清楚的问题。",
+                                                                      "改善部分界面的悬停反馈和操作体验。",
+                                                                      "改善YouTube搜索机制。",
+                                                                      "放大歌曲搜索建议的文字与每行高度，方便点选。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "很赞赞更新（应该），至少我觉得很赞赞(⁎⁍̴̛ᴗ⁍̴̛⁎)"
+                                                                           "他很赞！嘟嘟嘟！这版改善了一些使用体验和意外发现的问题👍🏻"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "めっちゃいいアップデート（たぶん）、少なくとも私はめっちゃいいと思っています(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+                                                   "summary":  "更新の復元を修正し、起動表示、画面、YouTube 検索を改善。",
                                                    "highlights":  [
-                                                                      "曲情報：複数の歌手・演奏者を設定し、プロジェクトに保存した名前を再利用できます。任意でローカル音声ファイルにタグを書き込めます。",
-                                                                      "分類と検索：ジャンルと言語のタグを追加しました。曲、演奏者、ジャンル、言語を検索でき、キーワード候補も表示します。",
-                                                                      "曲設定：曲情報、アルバムアート、歌詞を三つのタブにまとめました。それぞれの設定状態アイコンを維持し、ローカルファイルと YouTube 音源を区別します。",
-                                                                      "YouTube 検索ページを追加：アプリ内で YouTube の曲や伴奏を検索し、曲リストや UVR キューに追加できます。UVR への追加はキュー登録のみです。UVR ページでボーカル除去を開始してください。",
-                                                                      "外観切り替え：ダーク、ライト、Windows に従う設定を選べます。既定はダークです。フルモードの既定サイズを 1600×900 に変更しました。",
-                                                                      "従来の曲リスト表示を削除しました。カード表示のほうが見た目も使い勝手もいいと思うので。",
-                                                                      "アプリの起動時間を少し改善しました。",
-                                                                      "こっそりどうでもいい一文を入れてみました。誰か気づくかな。"
+                                                                      "とってもいい感じ！トゥートゥートゥー！今回は使い勝手と、思いがけず見つかった問題を改善しました👍🏻",
+                                                                      "ランチャー 1.2.1.2 では、一時的なファイルロックや読み取り専用バックアップからの中断更新の復元を改善。起動できない場合はコピー可能なエラー情報を表示し、バックアップを保持します。",
+                                                                      "アプリの起動準備とプロジェクトの読み込みを改善。",
+                                                                      "ライトモードで再生中の曲の文字、再生マーク、YouTube ダウンロードアイコンが見えにくい問題を修正。",
+                                                                      "画面の一部でホバー表示や操作性を改善。",
+                                                                      "YouTube の検索方法を改善。",
+                                                                      "曲の検索候補の文字と行の高さを大きくして、選択しやすくしました。"
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "めっちゃいいアップデート（たぶん）、少なくとも私はめっちゃいいと思っています(⁎⁍̴̛ᴗ⁍̴̛⁎)"
+                                                                           "とってもいい感じ！トゥートゥートゥー！今回は使い勝手と、思いがけず見つかった問題を改善しました👍🏻"
                                                                        ]
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "아주 멋진 업데이트(아마도), 적어도 저는 아주 멋지다고 생각해요(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+                                                   "summary":  "업데이트 복구를 수정하고 시작 안내, 인터페이스, YouTube 검색을 개선합니다.",
                                                    "highlights":  [
-                                                                      "곡 정보: 여러 가수 / 연주자를 지정하고 프로젝트에 저장한 이름을 재사용할 수 있습니다. 선택한 경우 로컬 오디오 파일에 태그를 기록합니다.",
-                                                                      "분류와 검색: 장르와 언어 태그를 추가했습니다. 곡, 연주자, 장르 및 언어를 검색하고 검색어 제안을 볼 수 있습니다.",
-                                                                      "곡 설정: 정보, 앨범 표지 및 가사를 세 개의 탭으로 통합했습니다. 각 설정 상태 아이콘은 유지되며 로컬 파일과 YouTube 음원을 구분합니다.",
-                                                                      "YouTube 검색 페이지 추가: 앱에서 YouTube의 곡이나 반주를 검색하여 곡 목록이나 UVR 대기열에 바로 추가할 수 있습니다. UVR에 추가하면 대기열에만 등록됩니다. UVR 페이지에서 보컬 제거를 시작하세요.",
-                                                                      "외관 전환: 어둡게, 밝게 및 Windows 설정 따르기를 선택할 수 있습니다. 기본값은 어둡게이며 전체 모드의 기본 창 크기는 1600×900입니다.",
-                                                                      "카드가 더 보기 좋고 사용하기 편하다고 생각해서 기존 목록 표시 모드를 제거했습니다.",
-                                                                      "앱 시작 시간을 조금 개선했습니다.",
-                                                                      "쓸데없는 문장 하나를 몰래 넣어 봤어요. 누가 알아챌까요?"
+                                                                      "아주 좋아요! 뚜뚜뚜! 이번 버전에서는 사용 경험과 예상치 못하게 발견한 문제들을 개선했어요👍🏻",
+                                                                      "런처 1.2.1.2에서 일시적인 파일 잠금과 읽기 전용 백업의 중단된 업데이트 복구를 개선합니다. 시작 실패 시 복사 가능한 오류 정보를 표시하고 백업을 보존합니다.",
+                                                                      "앱 시작 준비와 프로젝트 로딩을 개선합니다.",
+                                                                      "밝은 모드에서 재생 중인 곡의 글자, 재생 표시와 YouTube 다운로드 아이콘이 잘 보이지 않는 문제를 수정합니다.",
+                                                                      "일부 화면의 마우스 오버 표시와 조작 경험을 개선합니다.",
+                                                                      "YouTube 검색 방식을 개선합니다.",
+                                                                      "곡 검색 추천의 글자와 행 높이를 늘려 선택하기 쉽게 합니다."
                                                                   ],
                                                    "emphasizedItems":  [
-                                                                           "아주 멋진 업데이트(아마도), 적어도 저는 아주 멋지다고 생각해요(⁎⁍̴̛ᴗ⁍̴̛⁎)"
+                                                                           "아주 좋아요! 뚜뚜뚜! 이번 버전에서는 사용 경험과 예상치 못하게 발견한 문제들을 개선했어요👍🏻"
                                                                        ]
                                                }
                                            ]
                      },
     "launcher":  {
-                     "version":  "1.2.1.1",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "296d2def608c5d40cf6bff58af675ceddd268506b8049eeafc7364926cd43ee8",
-                     "size":  1020416
+                     "version":  "1.2.1.2",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "2fe476274d83ec4a5b88e378fad7e4c4781cc465a6c2707d51ecac06f01d4ff2",
+                     "size":  1043456
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior.exe",
-                      "sha256":  "58a8d39ee37bb237b546fff536c58ce2365199bcb05048757b3bcec86b6c1f9f",
-                      "size":  39597568
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior.exe",
+                      "sha256":  "d562e3e71ba9386ceac7ac71ce996de6f869856563b4c0a3b1fffa025aec4f73",
+                      "size":  39687168
                   }
               ],
     "runtimePack":  {
-                        "version":  "1.0.0.9",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "4e64a207d9a4f5a5ac6477bd9c5271c7ff5a3979cdf8a234a35f142ddbebd475",
-                        "size":  87239033
+                        "version":  "1.0.0.11",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "0a426929f1db1d08692582137e99e90176ddb599e613ef2ed6971476728573d3",
+                        "size":  87239623
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
-                           "version":  "1.0.0.9",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "fccaf15bfe3760521fd4710f3a257b60136bcc525a00319af790c577e2229be9",
-                           "size":  88292336,
+                           "version":  "1.0.0.11",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "11c6f3d9d8068bd3ed73580138bde0c7a8ce3bcf9a0288d9548acdf70a42714d",
+                           "size":  88292936,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -495,12 +490,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "e8604072863200c4ea3490bc71d3515a43bbf1c73a2c7201ee6a76668ff20a12"
+                                             "sha256":  "54a726c61e6559a9c68f8c4bf3ffc39ea7a43408097c83de0b2b6cd34356a332"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "6ce111774a7ed5fedd2d4fc5951f04795ff13f50f92d24c9ee9a70e2d8ef6529"
+                                             "sha256":  "32e04f238008d9db30b262feb3cc63fe3a353844199f58f1d652ace6995de6f5"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -530,7 +525,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "0caece2c466bd6f6be9cbf2112af3332cf2d484303e1bef9ac5b6105a70e5ac5"
+                                             "sha256":  "508957be491d4a0fe6909407a38418d8c2e8280243c80673e0ae3fa87670e429"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -965,7 +960,7 @@
                                          {
                                              "path":  "Licenses/YtDlp-Helper-Runtime-Inventory.json",
                                              "size":  51630,
-                                             "sha256":  "dbeb3e70fff0255fe4cac95d25318ff1d551640be88e472d001fae18c95fc8c4"
+                                             "sha256":  "a653a9c36b02a1738c24b8c1a65a1adcca87ed9e7333b88fba8a55b2359d573e"
                                          },
                                          {
                                              "path":  "Licenses/zlib-1.3.1-LICENSE.txt",
@@ -974,35 +969,35 @@
                                          },
                                          {
                                              "path":  "yt-dlp/ytdlp_helper.exe",
-                                             "size":  16545441,
-                                             "sha256":  "857c6a880ad63fd2c5b9d527a7fe4cdbd97e14b06048342cf9084c523701fb62"
+                                             "size":  16546300,
+                                             "sha256":  "e36a763956063f9fb5587baa219e65c9ae2a763cfc28ade1e67d81bb2c5049d8"
                                          },
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "a5efab5f4b4b1f37a62d12e80657be21de025060832f7a06d51b0f430ca59ad8"
+                                             "sha256":  "b04af4eecf4e48e1bdf61858849c4ae20983b1bc00e278d1581c044713d24131"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "8e5981b7160c550be023744acec3cb5a7ccf4550692f8be5c4e42b43a81bb415"
+                                             "sha256":  "f7fb8080c49b7cccb277eef87ebc5c774d025b10c51937386473c641d1cee61f"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  865792,
-                                             "sha256":  "595ae4d025591a6a527b7d351f8cc9a89d4e6da70c26370ca36454e79ffb7a4d"
+                                             "sha256":  "bc7b57eadb845442d9cd801436a08765c59b45adbad0e9f0eab9902c10dcb4ac"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1660416,
-                                             "sha256":  "b6d58b4966d171a9e430dd4521e75e6c011f73f6be83ba3b2da60fc7565219fb"
+                                             "sha256":  "2bb12b38e8c3fcf60f33fbca55f0e314e60c9e0d219e8424cb40b5426aef89c1"
                                          }
                                      ],
                            "patch":  {
-                                         "baseVersion":  "1.0.0.8",
-                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Patch-application-runtime-1.0.0.8-to-1.0.0.9.s3spack",
-                                         "sha256":  "8050c5bfe2fea6c4c62985520abed682be2de0d8787d85dfc388198fe657b2ee",
-                                         "size":  17579357,
+                                         "baseVersion":  "1.0.0.9",
+                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Patch-application-runtime-1.0.0.9-to-1.0.0.11.s3spack",
+                                         "sha256":  "9a9ad4638395e53880715b3b0cf53740d6827c5c5a092e8bc2b856d6f7e6b168",
+                                         "size":  17579957,
                                          "files":  [
                                                        "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                                        "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
@@ -1019,8 +1014,8 @@
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "0f5d28f10d11d3784bb957e1b204b1916185541ecaf7955668a779ac641981eb",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "811cdf3785c7f82386330209e91b2cf74196179b58a1a991691cd678fd771773",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2255,8 +2250,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "c1e4d1b62552b0d48a7c55ed9875b1c7e84f4d34ccc93e506399c3405efd5d47",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.1/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "b2750661f588b76412dec592a9894f6c177292385f1c9f447f3ac977043f2519",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
