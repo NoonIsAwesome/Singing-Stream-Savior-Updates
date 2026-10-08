@@ -1,71 +1,96 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "2.1.8.2",
+  "version": "2.1.8.3",
   "minimumLauncherVersion": "1.0.0.0",
   "updatePriority": "normal",
-  "publishedAt": "2026-10-06T21:11:35.6945816+00:00",
-  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.2",
+  "publishedAt": "2026-10-08T22:44:19.3022924+00:00",
+  "releaseNotesUrl": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.3",
   "releaseNotes": {
     "defaultLocale": "en",
     "localizations": [
       {
         "locale": "en",
-        "summary": "Updated Harmony, with improvements to the interface and startup experience.",
+        "summary": "Improved lyrics search, optional performer names in the overlay, and easier operation.",
         "highlights": [
-          "Harmony effect update: multiple harmony voices and improved pitch accuracy.",
-          "Improved the light-mode interface.",
-          "Fixed missing performer names in original-song YouTube search results.",
-          "Adjusted text sizes in parts of the interface.",
-          "Improved the startup loading screen."
+          "Improved word-synced lyrics search.",
+          "Improved lyrics and cover searches.",
+          "Optionally show performers below song titles, with one project-wide switch for all themes.",
+          "Microphone tags and audio routing can now turn Profile effects off.",
+          "Fixed the word-timing line-end button and added Ctrl+Shift+Enter to mark a line ending.",
+          "Fixed translated confirmation buttons and improved parts of the light-mode interface.",
+          "Improved the explanations shown when a YouTube preview is unavailable.",
+          "Fixed the OBS output option occasionally disappearing.",
+          "Improved Iris Stage and Echo Rig lyrics animations.",
+          "Fixed song selection after reordering."
         ],
         "emphasizedItems": []
       },
       {
         "locale": "zh-TW",
-        "summary": "更新合音效果器，改善介面與啟動體驗。",
+        "summary": "強化歌詞搜尋，新增歌單演出者顯示，並改善操作體驗。",
         "highlights": [
-          "合音效果器更新：支援多聲部，改善合音音準。",
-          "改善淺色模式的 UI。",
-          "修正 YouTube 搜尋的原曲未顯示演出者的問題。",
-          "調整部分 UI 文字大小。",
-          "改善軟體 loading 畫面。"
+          "強化逐字歌詞搜尋。",
+          "改善歌詞與封面搜尋。",
+          "歌單可在歌名下方顯示演出者，所有主題共用開關。",
+          "麥克風標籤與音訊路由可選擇關閉 Profile 效果。",
+          "修正逐字歌詞的句尾標記按鈕，新增 Ctrl＋Shift＋Enter 快捷鍵。",
+          "修正确認視窗按鈕翻譯，改善部分淺色模式顯示。",
+          "改善 YouTube 無法預覽時的原因提示。",
+          "修正 OBS 輸出選項偶爾消失的問題。",
+          "改善 Iris Stage 與 Echo Rig 的歌詞動畫。",
+          "修正歌曲排序後的選取狀態。"
         ],
         "emphasizedItems": []
       },
       {
         "locale": "zh-CN",
-        "summary": "更新和声效果器，改善界面与启动体验。",
+        "summary": "强化歌词搜索，新增歌单演出者显示，并改善操作体验。",
         "highlights": [
-          "和声效果器更新：支持多声部，改善和声音准。",
-          "改善浅色模式的 UI。",
-          "修正 YouTube 搜索的原曲未显示演出者的问题。",
-          "调整部分 UI 文字大小。",
-          "改善软件加载画面。"
+          "强化逐字歌词搜索。",
+          "改善歌词与封面搜索。",
+          "歌单可在歌名下方显示演出者，所有主题共用开关。",
+          "麦克风标签与音频路由可选择关闭 Profile 效果。",
+          "修正逐字歌词的句尾标记按钮，新增 Ctrl＋Shift＋Enter 快捷键。",
+          "修正确认窗口按钮翻译，改善部分浅色模式显示。",
+          "改善 YouTube 无法预览时的原因提示。",
+          "修正 OBS 输出选项偶尔消失的问题。",
+          "改善 Iris Stage 与 Echo Rig 的歌词动画。",
+          "修正歌曲排序后的选中状态。"
         ],
         "emphasizedItems": []
       },
       {
         "locale": "ja",
-        "summary": "ハーモニーエフェクトを更新し、画面表示と起動時の使い勝手を改善しました。",
+        "summary": "歌詞検索を強化し、歌リストのアーティスト表示と操作性を改善しました。",
         "highlights": [
-          "ハーモニーエフェクトを更新：複数のハーモニー音声に対応し、音程の精度を改善しました。",
-          "ライトモードの UI を改善しました。",
-          "YouTube の原曲検索でアーティスト名が表示されない問題を修正しました。",
-          "一部の UI の文字サイズを調整しました。",
-          "起動時の読み込み画面を改善しました。"
+          "単語同期歌詞の検索を強化しました。",
+          "歌詞とカバー画像の検索を改善しました。",
+          "曲名の下にアーティストを表示できます。設定はプロジェクト内の全テーマで共通です。",
+          "マイクのタグと音声ルーティングで Profile エフェクトをオフにできます。",
+          "単語同期歌詞の行末マークボタンを修正し、Ctrl＋Shift＋Enter の行末マークショートカットを追加しました。",
+          "確認ダイアログのボタン翻訳を修正し、ライトモードの一部表示を改善しました。",
+          "YouTube をプレビューできない場合の理由表示を改善しました。",
+          "OBS 出力の選択肢が消えることがある問題を修正しました。",
+          "Iris Stage と Echo Rig の歌詞アニメーションを改善しました。",
+          "曲を並べ替えた後の選択状態を修正しました。"
         ],
         "emphasizedItems": []
       },
       {
         "locale": "ko",
-        "summary": "화음 이펙트를 업데이트하고 화면 표시와 시작 경험을 개선했습니다.",
+        "summary": "가사 검색을 강화하고 곡 목록의 아티스트 표시와 사용성을 개선했습니다.",
         "highlights": [
-          "화음 이펙트 업데이트: 여러 화음 성부를 지원하고 음정 정확도를 개선했습니다.",
-          "라이트 모드 UI를 개선했습니다.",
-          "YouTube 원곡 검색에서 아티스트 이름이 표시되지 않는 문제를 수정했습니다.",
-          "일부 UI의 글자 크기를 조정했습니다.",
-          "시작 시 로딩 화면을 개선했습니다."
+          "단어 동기화 가사 검색을 강화했습니다.",
+          "가사와 커버 검색을 개선했습니다.",
+          "곡명 아래에 아티스트를 표시할 수 있으며 프로젝트의 모든 테마가 같은 설정을 사용합니다.",
+          "마이크 태그와 오디오 라우팅에서 Profile 이펙트를 끌 수 있습니다.",
+          "단어별 가사의 줄 끝 표시 버튼을 수정하고 Ctrl＋Shift＋Enter 단축키를 추가했습니다.",
+          "확인 창 버튼의 번역을 수정하고 라이트 모드의 일부 표시를 개선했습니다.",
+          "YouTube 미리 보기가 불가능할 때 표시되는 이유 안내를 개선했습니다.",
+          "OBS 출력 옵션이 가끔 사라지는 문제를 수정했습니다.",
+          "Iris Stage와 Echo Rig의 가사 애니메이션을 개선했습니다.",
+          "곡 순서를 변경한 후의 선택 상태를 수정했습니다."
         ],
         "emphasizedItems": []
       }
@@ -73,32 +98,32 @@
   },
   "launcher": {
     "version": "1.2.1.2",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Launcher.exe",
-    "sha256": "37d962826a51e154ab28b23f952f9e561f4fd8fe64a7c2656360183ff420ebbd",
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior-Launcher.exe",
+    "sha256": "74724e2dd4240059798cce57c3d1a9813ef1e1e74f49e2dfa41ed0f1265c632f",
     "size": 1043456
   },
   "files": [
     {
       "component": "application",
       "path": "Singing Stream Savior/Singing Stream Savior.exe",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior.exe",
-      "sha256": "a1dcace65d36072e706f74080da33aa2ecfef905b3b545e8b81cd13e2f04c031",
-      "size": 39845376
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior.exe",
+      "sha256": "cdc61188da11896a2bd84961689684e2197267417708d4d75b4414861a02ce39",
+      "size": 40132096
     }
   ],
   "runtimePack": {
     "version": "1.0.0.12",
-    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Runtime.s3spack",
-    "sha256": "b2923892a7c8b320a699df1839392ac40c545f6ea613ff5c13f4dad5292eb540",
-    "size": 87482693
+    "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior-Runtime.s3spack",
+    "sha256": "693377cb704b6ebc96200997cd3534b0bc7cda825dbf56027f8eff4e30cdc1ac",
+    "size": 87482692
   },
   "packagesV2": [
     {
       "id": "application-runtime",
       "version": "1.0.0.12",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-Application-Runtime.s3spack",
-      "sha256": "a23aaa7caa38ce8e3e9628554b8605410b5f8117e316582995c59f224704b37e",
-      "size": 88596801,
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior-Application-Runtime.s3spack",
+      "sha256": "cdf1ee66e8332888b58bf9f0fe5a5589a491548b87e160b24e5ef5891a52f13d",
+      "size": 88597005,
       "requiredForStartup": false,
       "capability": "application-runtime",
       "files": [
@@ -470,12 +495,12 @@
         {
           "path": "ObsConnector/installer/S3SObsConnectorInstaller.exe",
           "size": 406016,
-          "sha256": "2b4b8144896aa9d03623ce0d549be28de97ecf2d35d92e2beb8dcad0a48b9ab1"
+          "sha256": "d2028b0220bf38c03e1bc0eec6453f0bb7b48eecc06f0f684988e96ef3d512ce"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
           "size": 48128,
-          "sha256": "f9d4e24fb308c0e3235e7ef969068087d394b642cbbeefc187426db51421634a"
+          "sha256": "5404f9c77b968b048dfc7082a06dc078aff60ddeefd0340857659c2d4a50b027"
         },
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -505,7 +530,7 @@
         {
           "path": "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
           "size": 631,
-          "sha256": "6ac85adbc2c1e5d4fb7accbde428cf548253c1334241ba213532d19c88fca7dc"
+          "sha256": "8ce063100e530b03c18df6ec5ab372b8aa7cf0bcb241b8452f7c4b3c4288c92f"
         },
         {
           "path": "Licenses/Apache-2.0.txt",
@@ -955,47 +980,30 @@
         {
           "path": "S3SAsioBridge.exe",
           "size": 98816,
-          "sha256": "a30f4ea0101a8a1ef6f2b344c8fa041f6f9fcc098d40b871b4e3d4c9b82f1f13"
+          "sha256": "4920f763958d0ce25314e54416c174d6152618610dc168475b5e21de9abe375f"
         },
         {
           "path": "S3SAsioProbe.exe",
           "size": 48128,
-          "sha256": "d09ea52ebd4d7309a475fe929da16e46bbe2ea0cb73e43c33b942f4d292fe58a"
+          "sha256": "93ac0a08f325f1a57ea7cc743433adbbb139789f95c2b31d09987ced0f0b8ca4"
         },
         {
           "path": "S3SAudioDeviceScanner.exe",
           "size": 865792,
-          "sha256": "044d15a1ed5854c4d8b3c8bb0a88cb15751c77d23e6621694387a617182499ef"
+          "sha256": "708e7a2cf23797c90be4e1a0c06f85f758a67da699551f0b7ba9968bff3cc071"
         },
         {
           "path": "Vst3ScannerHelper.exe",
           "size": 1696768,
-          "sha256": "6e491452a4a0608f890b72a47b7d6f4609b7c30614b6c082216ea4abf550f21c"
+          "sha256": "83ed03308295ae6dbab5f2386f606a665142715fe20fe63d0ed3fef70efab83c"
         }
-      ],
-      "patch": {
-        "baseVersion": "1.0.0.11",
-        "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Patch-application-runtime-1.0.0.11-to-1.0.0.12.s3spack",
-        "sha256": "7f4778cc46c2e734f6b007c4eecdd585b85bc607f46fd80cacd6effa7bd767f7",
-        "size": 17657977,
-        "files": [
-          "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-          "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
-          "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
-          "Licenses/YtDlp-Helper-Runtime-Inventory.json",
-          "yt-dlp/ytdlp_helper.exe",
-          "S3SAsioBridge.exe",
-          "S3SAsioProbe.exe",
-          "S3SAudioDeviceScanner.exe",
-          "Vst3ScannerHelper.exe"
-        ]
-      }
+      ]
     },
     {
       "id": "uvr-mdx",
       "version": "1.2.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-      "sha256": "42ca93bc98647caadeb53d57be8aa9b35fe8fcd7470b05922946fb4ed6c9b4e3",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+      "sha256": "f6634a763b1a51e280c552bd94baacb48d9cc1d428864ce8b704ddde2cc6b406",
       "size": 215829941,
       "requiredForStartup": false,
       "capability": "uvr-mdx",
@@ -2230,8 +2238,8 @@
     {
       "id": "uvr-hp-models",
       "version": "1.2.0.1",
-      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-      "sha256": "e1fb69fed4386f8c5454c74a7610c1d3975fadd32879ed8060194f31d222f50c",
+      "url": "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.3/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+      "sha256": "41df2e70dfdde59a4bba0ea4738193b817272a8040b60a096e03c4f444c4222e",
       "size": 235020193,
       "requiredForStartup": false,
       "capability": "uvr-hp-models",

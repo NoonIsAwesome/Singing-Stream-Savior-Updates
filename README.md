@@ -7,15 +7,30 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.2 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.2).
+[Singing Stream Savior 2.1.8.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.3).
 The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.12**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.2/Singing.Stream.Savior.2.1.8.2.zip).
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.3/Singing.Stream.Savior.2.1.8.3.zip).
 Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.3 update
+
+Improved lyrics search, optional performer names in the overlay, and easier operation.
+
+- Improved word-synced lyrics search.
+- Improved lyrics and cover searches.
+- Optionally show performers below song titles, with one project-wide switch for all themes.
+- Microphone tags and audio routing can now turn Profile effects off.
+- Fixed the word-timing line-end button and added Ctrl+Shift+Enter to mark a line ending.
+- Fixed translated confirmation buttons and improved parts of the light-mode interface.
+- Improved the explanations shown when a YouTube preview is unavailable.
+- Fixed the OBS output option occasionally disappearing.
+- Improved Iris Stage and Echo Rig lyrics animations.
+- Fixed song selection after reordering.
 
 ## 2.1.8.2 update
 
