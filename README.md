@@ -7,15 +7,25 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.3 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.3).
-The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.12**.
+[Singing Stream Savior 2.1.8.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.4).
+The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.13**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.3/Singing.Stream.Savior.2.1.8.3.zip).
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.4/Singing.Stream.Savior.2.1.8.4.zip).
 Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.4 update
+
+Improved song-list display, song tags, and Harmony.
+
+- Improved performer display and layouts in several song-list themes, including Default and Transparent V1.
+- Fixed the positions of Now, Now Singing, and Set List in Pressed Garden.
+- Removed Pocket Singer from the built-in themes.
+- Custom song tags can now be removed, and newly added tags wrap correctly.
+- Added voice combinations and presets to Harmony.
 
 ## 2.1.8.3 update
 
