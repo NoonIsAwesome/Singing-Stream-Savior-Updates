@@ -1,20 +1,22 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.8.5",
+    "version":  "2.1.8.6",
     "minimumLauncherVersion":  "1.0.0.0",
-    "updatePriority":  "hotfix",
-    "publishedAt":  "2026-10-09T21:23:33.6311816+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.5",
+    "updatePriority":  "normal",
+    "publishedAt":  "2026-10-10T23:14:12.4603895+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.6",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Fixed lyric motion settings and Chinese character conversion.",
+                                                   "summary":  "Added batch song tags, richer project previews, Modern Karaoke animated lyrics, and custom project tag deletion.",
                                                    "highlights":  [
-                                                                      "Fixed an issue where the Windows reduced-motion setting affected animated lyric effects.",
-                                                                      "Fixed unintended wording changes during automatic conversion between Simplified and Traditional Chinese lyrics."
+                                                                      "Select multiple songs at once to add performer, genre, or language tags.",
+                                                                      "Improved the project screen with details such as playlists, performers, and genres.",
+                                                                      "Added Modern Karaoke animated lyrics.",
+                                                                      "Delete custom tags from the current project. Confirm and save song settings to remove the tag from every song using it."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -22,10 +24,12 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修正歌詞動態設定與繁簡轉換。",
+                                                   "summary":  "新增歌曲標籤批次設定、專案內容預覽與 Modern Karaoke 動態鴿子，並支援刪除專案自訂標籤。",
                                                    "highlights":  [
-                                                                      "修正 Windows 系統的「減少動態」設定連帶影響動態歌詞效果的問題。",
-                                                                      "修正歌詞自動繁簡轉換造成部分字詞誤改的問題。"
+                                                                      "現在可一次選取多首歌曲，加入演出者、曲風或語言標籤。",
+                                                                      "改善專案畫面，可查看歌單、演出者、曲風等詳情。",
+                                                                      "新增 Modern Karaoke 動態鴿子。",
+                                                                      "可從本專案刪除自訂標籤；確認並儲存歌曲設定後，會從所有使用此標籤的歌曲移除。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -33,10 +37,12 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修复歌词动态设置与繁简转换。",
+                                                   "summary":  "新增歌曲标签批量设置、项目内容预览与 Modern Karaoke 动态歌词，并支持删除项目自定义标签。",
                                                    "highlights":  [
-                                                                      "修复 Windows 系统的“减少动态”设置影响动态歌词效果的问题。",
-                                                                      "修复歌词自动繁简转换造成部分字词误改的问题。"
+                                                                      "现在可一次选中多首歌曲，添加演出者、曲风或语言标签。",
+                                                                      "改善项目页面，可查看歌单、演出者、曲风等详情。",
+                                                                      "新增 Modern Karaoke 动态歌词。",
+                                                                      "可从当前项目删除自定义标签；确认并保存歌曲设置后，会从所有使用该标签的歌曲中移除。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -44,10 +50,12 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "歌詞の動きの設定と中国語の文字変換を修正しました。",
+                                                   "summary":  "曲タグの一括設定、プロジェクト内容のプレビュー、Modern Karaoke の歌詞アニメーション、カスタムタグの削除に対応しました。",
                                                    "highlights":  [
-                                                                      "Windows の「動きを減らす」設定が歌詞のアニメーションに影響する問題を修正しました。",
-                                                                      "歌詞の中国語の簡体字・繁体字自動変換で、一部の語句が誤って置き換わる問題を修正しました。"
+                                                                      "複数の曲をまとめて選択し、歌手・演奏者、ジャンル、言語のタグを追加できます。",
+                                                                      "プロジェクト画面を改善し、プレイリスト、アーティスト、ジャンルなどの詳細を確認できるようになりました。",
+                                                                      "Modern Karaoke の歌詞アニメーションを追加しました。",
+                                                                      "現在のプロジェクトからカスタムタグを削除できます。確認して曲設定を保存すると、そのタグを使うすべての曲から削除されます。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -55,10 +63,12 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "가사 움직임 설정과 중국어 문자 변환을 수정했습니다.",
+                                                   "summary":  "곡 태그 일괄 설정, 프로젝트 내용 미리보기, Modern Karaoke 가사 애니메이션과 사용자 지정 태그 삭제를 추가했습니다.",
                                                    "highlights":  [
-                                                                      "Windows의 ‘움직임 줄이기’ 설정이 가사 애니메이션 효과에 영향을 주는 문제를 수정했습니다.",
-                                                                      "가사의 중국어 간체·번체 자동 변환으로 일부 표현이 잘못 바뀌는 문제를 수정했습니다."
+                                                                      "여러 곡을 한 번에 선택하여 가수·연주자, 장르 또는 언어 태그를 추가할 수 있습니다.",
+                                                                      "프로젝트 화면을 개선하여 재생 목록, 아티스트, 장르 등의 세부 정보를 확인할 수 있습니다.",
+                                                                      "Modern Karaoke 가사 애니메이션을 추가했습니다.",
+                                                                      "현재 프로젝트의 사용자 지정 태그를 삭제할 수 있습니다. 확인 후 곡 설정을 저장하면 해당 태그를 사용하는 모든 곡에서 제거됩니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -68,32 +78,32 @@
                      },
     "launcher":  {
                      "version":  "1.2.1.2",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "22bffcf5efc3540c10ed47b16850ae04c787a10ca7cbaef7511d326a5dd0674c",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "bf66ff006e8c85c2063524b26bd506ec8c61006b789b5126854db2e17c3df4f2",
                      "size":  1043456
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior.exe",
-                      "sha256":  "a891cf53d33a137fb14512d58379d8a73b96642827dd5f13015782e188f21066",
-                      "size":  40270336
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior.exe",
+                      "sha256":  "c30990809aab189a6ee9327962afda3230ad0f63c79beaea63d47eef0aee4322",
+                      "size":  42632704
                   }
               ],
     "runtimePack":  {
-                        "version":  "1.0.0.14",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "c27c95b906122d523f4e9183474a99935292a50092d4050aa1c447971be9630f",
-                        "size":  87142499
+                        "version":  "1.0.0.15",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "40cbe5cdf357f0648fa6831aa40bbbb24e0513cd6413ebcb6c33b9746c9ee5f4",
+                        "size":  87142501
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
-                           "version":  "1.0.0.14",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "70742218c645e0c19a3100d2063520649dbbc4de3f4b49cb72b04138d4394933",
-                           "size":  88215388,
+                           "version":  "1.0.0.15",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "51002c29d037055a6cd986753d0dffb0520db5c59525ec27491598484f9aeae6",
+                           "size":  88215389,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -475,12 +485,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "af295627f78f4a05a3614ca25dfbe71fe12fde43ff10a3881a38ae53808949bb"
+                                             "sha256":  "4660ada383e16fbc1fba2cfde85252d8f4ccebfac1ca7c7aac36ac40fb3280e7"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "b1027b4bcce71f4fc1fd21d884b7402db324e0905d679dccca323c19ef53f3e5"
+                                             "sha256":  "9f8948827d43527a4bf60143b11b34ca0d587f406cc63078b0bed56089b8f831"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -510,7 +520,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "1f6cad0bdfe5425d2f26a6e03c7bf239f33657b3fe69db1d575a58c7b5aea30b"
+                                             "sha256":  "25f814d68fd3ef4ea54e115e9a39588ed65d9d58d43fc7eba0fe2297e7a58f02"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -960,34 +970,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "066ec3624592cd6ccdc9eaa7edff1bd01d34a5faa18174aede4aa0dde0ecab97"
+                                             "sha256":  "59a3e4c5b285659dc7ab8be0a37a0e9d057db794e54eb3565d3404164a65704d"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "e1449eda15393245607f5ea28a7244ece81770a048fe19ca5a483ec3af67f930"
+                                             "sha256":  "d0dcb1180f04ee10b58018245f5d9b05809d6614a6acb93e968bc05c39526ee1"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  865792,
-                                             "sha256":  "100894a72a7374e3f405c823e91cb82de702b57cd19275e391c0e7c5c15bf332"
+                                             "sha256":  "8fda5d3320f8300e36ece840e80007c9d8b6ca116655927c7bbac32f378b7176"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1699328,
-                                             "sha256":  "68b136de97b7f71af7f16a8b9332c8839ec6c38e0a6013570d6247c965182303"
+                                             "sha256":  "b6c50f7fb5784c025445550ac81498e1f6814a28fe92f087108144f4156052b1"
                                          }
                                      ],
                            "patch":  {
-                                         "baseVersion":  "1.0.0.13",
-                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Patch-application-runtime-1.0.0.13-to-1.0.0.14.s3spack",
-                                         "sha256":  "015b8e438d887a0c1952d559897d296803d878947b894f5f594418c5d116cdc8",
-                                         "size":  1262281,
+                                         "baseVersion":  "1.0.0.14",
+                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Patch-application-runtime-1.0.0.14-to-1.0.0.15.s3spack",
+                                         "sha256":  "373f96ca9143af6414bb679baf18e0affa024c2833b7b209c7a6b7b14643a2ec",
+                                         "size":  1257878,
                                          "files":  [
-                                                       "OpenCC/share/opencc/s2tw.json",
-                                                       "OpenCC/share/opencc/S3SLyricsPhrases.txt",
-                                                       "OpenCC/share/opencc/S3SLyricsTaiwanGlyphsRev.txt",
-                                                       "OpenCC/share/opencc/tw2s.json",
                                                        "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                                        "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                                        "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
@@ -1001,8 +1007,8 @@
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "7e1f7fceaaa12942d821165382c8260c6dcaa0e89b39681cd790c390966fc94b",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "af158a6af5e6309c1e70c03b954009870a8d1f7992a93058c74f629490859cf0",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2237,8 +2243,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.5/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "4b236396043930cde38dba8849d0383869d6a19068eb0ad61807ba1f62113abe",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.6/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "6662102f6469a25ec2f022d03c023091dda3de21f5cb3e0668300cd439d763b2",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",

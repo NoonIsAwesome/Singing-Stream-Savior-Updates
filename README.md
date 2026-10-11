@@ -7,15 +7,27 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.4 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.4).
-The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.13**.
+[Singing Stream Savior 2.1.8.6 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.6).
+The ZIP includes launcher **1.2.1.2** and runtime **1.0.0.15**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.4/Singing.Stream.Savior.2.1.8.4.zip).
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.6/Singing.Stream.Savior.2.1.8.6.zip).
 Launcher 1.2.1.2 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.6 update
+
+- Select multiple songs at once to add performer, genre, or language tags.
+- Improved the project screen with details such as playlists, performers, and genres.
+- Added Modern Karaoke animated lyrics.
+- Delete custom tags from the current project. Confirm and save song settings to remove the tag from every song using it.
+
+## 2.1.8.5 update
+
+- Fixed Windows reduced motion settings unexpectedly affecting animated lyrics.
+- Fixed automatic Chinese conversion changing some lyrics into incorrect words.
 
 ## 2.1.8.4 update
 
