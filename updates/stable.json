@@ -1,26 +1,21 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.1.8.7",
+    "version":  "2.1.8.8",
     "minimumLauncherVersion":  "1.0.0.0",
-    "updatePriority":  "normal",
-    "publishedAt":  "2026-10-13T03:29:55.3562491+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.7",
+    "updatePriority":  "hotfix",
+    "publishedAt":  "2026-10-14T20:58:22.2809894+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.8",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Fixed custom batch tags, improved project information, and added electronic Pitch Correction and the Simple Player theme.",
+                                                   "summary":  "Fixed automatic singing Profile transitions and YouTube playlist imports, and strengthened interrupted-session project recovery.",
                                                    "highlights":  [
-                                                                      "I slept well over the weekend and went to an Omoinotake concert. So happy! Can I sneak in a recommendation for my debut cover here? Never mind, go listen to my モラトリアム Cover (*/ω＼*)",
-                                                                      "Fixed typing and custom tag creation when batch editing performers, genres, or languages from the song list\u0027s right-click menu.",
-                                                                      "Improved project-screen language, tag information, and layout, and reduced repeated project-information loading.",
-                                                                      "Added the Pitch Correction vocal effect and the Electric Vocal Profile for a T-Pain-style electronic sound in hip-hop or EDM. Includes softer presets and a customizable live switch, Ctrl+Alt+T by default.",
-                                                                      "Added Simple Player, a compact phone-player-style theme with a water-blue default. Customize color, fonts, light/dark appearance, cover visibility, and Set List height from 4 to 12 rows. Completed songs appear in an automatically scrolling sheet that closes smoothly when the next accompaniment starts.",
-                                                                      "Launcher 1.2.2.0 adds clickable links, emoji and kaomoji, version-by-version update notes, independent announcements with images, and light/dark/system appearance. After future successful updates with this launcher, restore the immediately previous version from its retained, hash-checked local backup without downloading it again.",
-                                                                      "Complete downloads and runtime updates now include version-matched ASIO helper and OBS connector source packages, license texts, and build instructions.",
-                                                                      "Fixed a memory error when removing song lists or closing or resetting projects, reducing the risk of a crash. Fixed the Windows taskbar icon missing on first startup."
+                                                                      "When automatic Profile switching is enabled, a song without a Profile tag uses your configured singing Profile instead of keeping the previous song\u0027s tag. Your song-specific and fixed Profile choices are preserved.",
+                                                                      "Added validated last-good project backups and safer interrupted-session recovery. Known version-field format errors can be repaired into a new copy while preserving the original; newer or incomplete formats are not forcibly converted.",
+                                                                      "Dragging a YouTube playlist into a custom playlist now adds the imported songs to that playlist. When dropping into All Songs, you can also create custom playlists with the YouTube playlist names, or choose to add only to All Songs."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -28,16 +23,11 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修正批量新增標籤、改善專案資訊顯示，新增電子修音人聲效果器與 Simple Player 播放器主題。",
+                                                   "summary":  "修正唱歌 Profile 自動切換與 YouTube 播放清單匯入，並加強未正常關閉時的專案恢復。",
                                                    "highlights":  [
-                                                                      "週末好好地睡了一覺，然後去看了Omoinotake演唱會，非常快樂！（可不可以在這裡偷偷推薦我的出道Cover？不管，你們去聽一下我的モラトリアム Cover啦 (*/ω＼*) ）",
-                                                                      "修正歌曲列表右鍵批量修改演出者、曲風、語言時，新增自訂標籤的輸入與建立錯誤。",
-                                                                      "改善專案頁面的語言、標籤與資訊排列，並減少專案資訊的重複載入。",
-                                                                      "新增「電子修音」（Pitch Correction／Autotune）人聲效果器與「我的聲音電電的」Profile，可用於嘻哈、電音歌曲的 T-Pain 效果。另提供柔和修音預設與可自訂快捷鍵的演出開關，預設 Ctrl＋Alt＋T。",
-                                                                      "新增類似手機播放器的 Simple Player 主題，預設水藍色，可調整顏色、字型、深淺外觀、封面顯示與 4～12 列 Set List。已唱歌單會自動捲動，下一首伴奏開始時平滑收起。",
-                                                                      "啟動器 1.2.2.0 支援可點擊連結、emoji 與顏文字、依版本分區的更新日誌、附圖的獨立公告，以及淺色／深色／跟隨系統外觀。之後透過此啟動器成功更新，便會保留更新前一版的本機備份，可在檔案雜湊驗證後直接回復，無須重新下載。",
-                                                                      "完整下載包與 runtime 更新包現在均附上對應版本的 ASIO Helper、OBS connector 原始碼套件、授權全文與建置說明。",
-                                                                      "修正移除歌曲列表、關閉或重設專案時的記憶體處理錯誤，降低可能發生崩潰的風險。 修正首次啟動時 Windows 工作列圖示未顯示的問題。"
+                                                                      "開啟 Profile 自動切換時，沒有指定 Profile 的歌曲會使用你設定的唱歌 Profile，不再延續上一首的歌曲 Profile。保留各歌曲指定及手動固定的 Profile 設定。",
+                                                                      "新增完整驗證的上次有效專案備份，並加強未正常關閉時的專案恢復。已知的版本欄位格式錯誤可另存修復副本並保留原檔；不強制轉換較新的格式，也不猜測遺失內容。",
+                                                                      "將 YouTube 播放清單拖入自訂歌單時，匯入的歌曲會加入指定歌單。拖入「全部歌曲」時，可選擇以 YouTube 播放清單名稱建立自訂歌單，或只加入「全部歌曲」。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -45,16 +35,11 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修正批量新增标签、改善项目信息显示，新增电子修音人声效果器与 Simple Player 播放器主题。",
+                                                   "summary":  "修正唱歌 Profile 自动切换与 YouTube 播放列表导入，并加强异常退出后的项目恢复。",
                                                    "highlights":  [
-                                                                      "周末好好睡了一觉，然后去看了Omoinotake演唱会，非常开心！（能不能在这里偷偷推荐我的出道Cover？不管，你们去听一下我的モラトリアム Cover啦 (*/ω＼*) ）",
-                                                                      "修正歌曲列表右键批量修改演出者、曲风、语言时，新增自定义标签的输入与创建错误。",
-                                                                      "改善项目页面的语言、标签与信息排列，并减少项目信息的重复加载。",
-                                                                      "新增电子修音（Pitch Correction／Autotune）人声效果器与「我的声音电电的」Profile，可用于嘻哈、电音歌曲的 T-Pain 效果。另提供柔和修音预设与可自定义快捷键的演出开关，默认 Ctrl＋Alt＋T。",
-                                                                      "新增类似手机播放器的 Simple Player 主题，默认水蓝色，可调整颜色、字体、深浅外观、封面显示与 4～12 行 Set List。已唱歌单会自动滚动，下一首伴奏开始时平滑收起。",
-                                                                      "启动器 1.2.2.0 支持可点击链接、emoji 与颜文字、按版本分区的更新日志、带图片的独立公告，以及浅色／深色／跟随系统外观。之后通过此启动器成功更新，便会保留更新前一版的本地备份，可在文件哈希验证后直接恢复，无须重新下载。",
-                                                                      "完整下载包与 runtime 更新包现在均附上对应版本的 ASIO Helper、OBS connector 源代码包、许可证全文与构建说明。",
-                                                                      "修正移除歌曲列表、关闭或重置项目时的内存处理错误，降低可能发生崩溃的风险。 修正首次启动时 Windows 任务栏图标未显示的问题。"
+                                                                      "启用 Profile 自动切换时，没有指定 Profile 的歌曲会使用你设置的唱歌 Profile，不再沿用上一首的歌曲 Profile。保留每首歌曲指定及手动固定的 Profile 设置。",
+                                                                      "新增经过完整验证的上次有效项目备份，并加强异常退出后的项目恢复。已知的版本字段格式错误可另存修复副本并保留原文件；不强制转换较新的格式，也不猜测丢失内容。",
+                                                                      "将 YouTube 播放列表拖入自定义歌单时，导入的歌曲会加入指定歌单。拖入「全部歌曲」时，可选择以 YouTube 播放列表名称创建自定义歌单，或只加入「全部歌曲」。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -62,16 +47,11 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "一括編集のカスタムタグとプロジェクト情報表示を改善し、電子的なピッチ補正と Simple Player テーマを追加しました。",
+                                                   "summary":  "歌唱 Profile の自動切替と YouTube プレイリストの読み込みを修正し、異常終了後のプロジェクト復元を強化しました。",
                                                    "highlights":  [
-                                                                      "週末はよく眠って、Omoinotake のライブに行って、とても幸せでした！ここでデビュー Cover をこっそり紹介してもいいですか？やっぱり私のモラトリアム Coverを聴いてください (*/ω＼*)",
-                                                                      "曲一覧の右クリックメニューから歌手・演奏者、ジャンル、言語を一括編集する際、カスタムタグの入力と作成で発生する不具合を修正しました。",
-                                                                      "プロジェクト画面の言語、タグ情報、配置を改善し、同じプロジェクト情報の繰り返し読み込みを減らしました。",
-                                                                      "Pitch Correction ボーカルエフェクトと Electric Vocal Profile を追加しました。ヒップホップや EDM で T-Pain 風の電子的な歌声にできます。穏やかなプリセットと、変更可能な演奏中の切り替えショートカットも用意しました。初期設定は Ctrl＋Alt＋T です。",
-                                                                      "スマートフォンのプレーヤー風テーマ Simple Player を追加しました。初期色は水色で、色、フォント、明暗、カバー表示、4～12 行の Set List を調整できます。歌唱済みの一覧は自動スクロールし、次の伴奏が始まると滑らかに閉じます。",
-                                                                      "ランチャー 1.2.2.0 はクリックできるリンク、emoji・顔文字、バージョン別の更新履歴、画像付きの独立したお知らせ、ライト／ダーク／システム設定に合わせる外観に対応しました。今後このランチャーで更新に成功すると、更新直前のバージョンのローカルバックアップを保持し、ファイルのハッシュ確認後に再ダウンロードせず復元できます。",
-                                                                      "完全版のダウンロードと runtime 更新パッケージに、該当バージョンの ASIO Helper・OBS connector のソース、ライセンス全文、ビルド手順を同梱しました。",
-                                                                      "曲一覧の削除やプロジェクトを閉じる・リセットする際のメモリ管理の不具合を修正し、クラッシュのリスクを減らしました。 初回起動時に Windows のタスクバーアイコンが表示されない問題を修正しました。"
+                                                                      "Profile の自動切替が有効な場合、Profile が指定されていない曲には設定済みの歌唱 Profile を使用し、前の曲の指定を引き継がなくなりました。曲ごとの指定と手動で固定した Profile は維持されます。",
+                                                                      "検証済みの直前の正常なプロジェクトのバックアップを追加し、異常終了後の復元を強化しました。既知のバージョン項目の形式エラーは元ファイルを保持して新しいコピーに修復できます。新しい形式を強制変換したり、失われた内容を推測して補ったりはしません。",
+                                                                      "YouTube プレイリストをカスタムプレイリストにドロップすると、読み込んだ曲が指定先に追加されます。「すべての曲」にドロップした場合は、YouTube のプレイリスト名でカスタムプレイリストを作成するか、「すべての曲」だけに追加するかを選べます。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -79,16 +59,11 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "일괄 편집의 사용자 지정 태그와 프로젝트 정보 표시를 개선하고, 전자적인 피치 보정과 Simple Player 테마를 추가했습니다.",
+                                                   "summary":  "노래용 Profile 자동 전환과 YouTube 재생목록 가져오기를 수정하고 비정상 종료 후 프로젝트 복구를 강화했습니다.",
                                                    "highlights":  [
-                                                                      "주말에 푹 자고 Omoinotake 콘서트에 다녀와서 정말 행복했어요! 여기서 제 데뷔 Cover를 슬쩍 추천해도 될까요? 그냥 제 モラトリアム Cover를 들어주세요 (*/ω＼*)",
-                                                                      "곡 목록의 오른쪽 클릭 메뉴에서 가수·연주자, 장르, 언어를 일괄 편집할 때 사용자 지정 태그를 입력하거나 만드는 오류를 수정했습니다.",
-                                                                      "프로젝트 화면의 언어, 태그 정보와 배치를 개선하고, 같은 프로젝트 정보를 반복해서 읽는 작업을 줄였습니다.",
-                                                                      "Pitch Correction 보컬 효과와 Electric Vocal Profile을 추가했습니다. 힙합이나 EDM에서 T-Pain 스타일의 전자적인 보컬을 만들 수 있습니다. 부드러운 프리셋과 변경 가능한 공연 중 전환 단축키도 제공합니다. 기본값은 Ctrl＋Alt＋T입니다.",
-                                                                      "스마트폰 플레이어 스타일의 Simple Player 테마를 추가했습니다. 기본색은 하늘색이며 색상, 글꼴, 밝고 어두운 모양, 커버 표시와 4～12행의 Set List를 조절할 수 있습니다. 부른 곡 목록은 자동으로 스크롤되고 다음 반주가 시작되면 부드럽게 닫힙니다.",
-                                                                      "런처 1.2.2.0에서 클릭 가능한 링크, emoji와 이모티콘, 버전별 업데이트 내역, 이미지가 포함된 독립 공지, 라이트／다크／시스템 모드를 지원합니다. 앞으로 이 런처로 업데이트에 성공하면 업데이트 직전 버전의 로컬 백업을 보관하며, 파일 해시를 확인한 뒤 다시 다운로드하지 않고 복원할 수 있습니다.",
-                                                                      "전체 다운로드와 runtime 업데이트 패키지에 해당 버전의 ASIO Helper 및 OBS connector 소스 코드, 라이선스 전문과 빌드 안내를 함께 제공합니다.",
-                                                                      "곡 목록을 제거하거나 프로젝트를 닫거나 초기화할 때의 메모리 관리 오류를 수정해 충돌 위험을 줄였습니다. 처음 실행할 때 Windows 작업 표시줄 아이콘이 표시되지 않는 문제를 수정했습니다."
+                                                                      "Profile 자동 전환이 켜져 있을 때 Profile이 지정되지 않은 곡은 설정된 노래용 Profile을 사용하며 이전 곡의 지정을 이어받지 않습니다. 곡별 지정과 수동으로 고정한 Profile은 유지됩니다.",
+                                                                      "검증된 마지막 정상 프로젝트 백업을 추가하고 비정상 종료 후 복구를 강화했습니다. 알려진 버전 필드 형식 오류는 원본을 보존하면서 새 사본으로 복구할 수 있습니다. 더 새로운 형식을 강제로 변환하거나 손실된 내용을 추측해서 채우지 않습니다.",
+                                                                      "YouTube 재생목록을 사용자 지정 재생목록에 끌어 놓으면 가져온 곡이 지정한 목록에 추가됩니다. 「모든 노래」에 놓을 때는 YouTube 재생목록 이름으로 사용자 지정 목록을 만들거나 「모든 노래」에만 추가하도록 선택할 수 있습니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -98,186 +73,186 @@
                      },
     "launcher":  {
                      "version":  "1.2.2.0",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "ca0a8939b21d4b6cf6ca830c9c0fa96f7fbd4c8cc9a5fe70e251737a35865666",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "d74dfcc91aabfbdbe7f897584a3ffde1b0254205857157782865df34a67cc386",
                      "size":  2348544
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior.exe",
-                      "sha256":  "2ed529c03744e09e0ba050a381129437437379cfa1e3e5c8be0514c7accb69d1",
-                      "size":  43701248
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior.exe",
+                      "sha256":  "1ba1424959a9944fe7d118ec2e912d3be4aa76ab549b43ace9ef93bfe10b539c",
+                      "size":  43929600
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-cassette-now.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-cassette-now.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-cassette-now.s3stheme",
                       "sha256":  "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53",
                       "size":  1282317
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-corner-duet.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-corner-duet.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-corner-duet.s3stheme",
                       "sha256":  "d296ef642b55aa4fe6246f22a8bb52a28a2f49ec0a9e480410aed5ef05231625",
                       "size":  5193
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-cue-line.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-cue-line.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-cue-line.s3stheme",
                       "sha256":  "2e2d94a8c30b2088c7ebc9b1680c6538f39e7d1d05be37434a92096346598b09",
                       "size":  28726
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-margin-set.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-margin-set.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-margin-set.s3stheme",
                       "sha256":  "eeffa75e97116a0933adf1d2bbc73b586a6967125fcd2f134b95bb9ab27495fc",
                       "size":  24345
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-mono-capsules.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-mono-capsules.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-mono-capsules.s3stheme",
                       "sha256":  "830ca92660cfa7cad1578a60bdd1532be31d2783516125c8cec7faa91c1fde13",
                       "size":  9107
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-oblique-plate.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-oblique-plate.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-oblique-plate.s3stheme",
                       "sha256":  "8bf871b01f1f39baa3160e302c806bd76a2d0a349ee742df385bf32099220275",
                       "size":  28100
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-oblique-stream.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-oblique-stream.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-oblique-stream.s3stheme",
                       "sha256":  "d1ce003c70c49b5b89d0c1d458bad8a4664f0bc5cb311a11f8bbb0dae8f0abbb",
                       "size":  14031
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-pressed-garden.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-pressed-garden.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-pressed-garden.s3stheme",
                       "sha256":  "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e",
                       "size":  3112438
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-quiet-ledger.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-quiet-ledger.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-quiet-ledger.s3stheme",
                       "sha256":  "c65618be628dc2cfe843cb2818d0fd3b2e5b0d265f2045ff827dc4d9772e0779",
                       "size":  21747
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-quiet-verse.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-quiet-verse.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-quiet-verse.s3stheme",
                       "sha256":  "f182053f228cc5ecf45ca052f58c0b2c988161488fc8a1dbe2a72af99533b8a6",
                       "size":  5703
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-side-notes.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-side-notes.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-side-notes.s3stheme",
                       "sha256":  "6f5f763543ba265232b50e078a71a5d9825fd8fa966a342091b850d49178f6da",
                       "size":  6168
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-signal-line.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-signal-line.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-signal-line.s3stheme",
                       "sha256":  "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203",
                       "size":  11539
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-signal-tide.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-signal-tide.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-signal-tide.s3stheme",
                       "sha256":  "f0d50624161801d88fa6e3fe5fe29c227190a8db9126fec74115a96b543e553b",
                       "size":  30768
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-signal-veil.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-signal-veil.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-signal-veil.s3stheme",
                       "sha256":  "bd4c75b1dab77c84445abe92c729ab9f4a30ebddbfbe57c57308e672e439a742",
                       "size":  43892
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-simple-player.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-simple-player.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-simple-player.s3stheme",
                       "sha256":  "3e46494a40f4704ba5c3aa2dec5294d27a00ff2b183509d1c17d94a0744b1abf",
                       "size":  19761
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/builtin-stage-caption.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/builtin-stage-caption.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/builtin-stage-caption.s3stheme",
                       "sha256":  "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555",
                       "size":  11386
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/Card.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Card.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Card.s3stheme",
                       "sha256":  "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9",
                       "size":  7315
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/CD.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/CD.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/CD.s3stheme",
                       "sha256":  "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f",
                       "size":  32045
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentBlack.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/TransparentBlack.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/TransparentBlack.s3stheme",
                       "sha256":  "44f21aa1b82df049406098847ec9e87884f24e8169b955113f0d7a2de3406a9d",
                       "size":  7204
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentBlackV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/TransparentBlackV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/TransparentBlackV2.s3stheme",
                       "sha256":  "6f4a0f7ddc6fb086270699153599b4accb234799090f7c5875e0f2ff6497594e",
                       "size":  6865
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentWhite.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/TransparentWhite.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/TransparentWhite.s3stheme",
                       "sha256":  "94ffb6005ae17a860685446523e5e66ee1f76c069a8f2c87d98dced249819758",
                       "size":  6788
                   },
                   {
                       "component":  "theme",
                       "path":  "Singing Stream Savior/Themes/TransparentWhiteV2.s3stheme",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/TransparentWhiteV2.s3stheme",
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/TransparentWhiteV2.s3stheme",
                       "sha256":  "2b36af4e48580a5b0135102c94fa0b599f03bb1d107fcd1d1e725f42cffdd583",
                       "size":  6450
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.16",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "4d66358b503b7615e70207e7a968fdfa7da69db8fe2d2597eb1742bd290630d3",
-                        "size":  87568640
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "46150dd1e781f5c2f4583bb404ec4e9e09c2f7dd63124e5e8f4d467324f52b1c",
+                        "size":  87568660
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.16",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "9a9a21d451088abfaef7dd49d26e934ed9962148a2205055b2f1f39997ed3415",
-                           "size":  88662067,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "2ad13757e9d8646092909ec900da58b4c6aa4c4e3ef90ade05c7f1aad6ed56cc",
+                           "size":  88662097,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -663,13 +638,13 @@
                                          },
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                             "size":  406016,
-                                             "sha256":  "6bf8fa77067cb5324bf819f638234d5526f4b7ee4e24f29066b55865c2069b8c"
+                                             "size":  406528,
+                                             "sha256":  "e48982bbb969bddd185e1047ea910d7c5501a8b1e6747669e5ec2decdec48c9f"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "6eaca71166ccf5aefb4bd09a70cd12a2a9f36650e2f0acf8c5dcc115826d94be"
+                                             "sha256":  "38368a41b4ae3cd5f26081f3321f8c79c791f721e6c77bde75adb5de71fe8930"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -699,7 +674,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "772ad6caf1b3660e11788fb626ee18a9ba90861ab072ffdf77fb3a59614f872a"
+                                             "sha256":  "1b15bc1dcc8ed898e6df3d470b7cb5f5b2d3aa394ea8fc2e44172bf5b15b9909"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -713,8 +688,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66937,
-                                             "sha256":  "0931cd7f9be653a647319c5cd17abc9ec94a44184d992d933d4f632919ef5217"
+                                             "size":  66935,
+                                             "sha256":  "9f2f87a757b636b7c5179ebd2c5a6eadd6389831f1de7605f504e17aa258bf8c"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -794,7 +769,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "bf0444503c693b1f7599257d36888a738e655f6c5979a0e12390455ae06579d2"
+                                             "sha256":  "c278923d9454d82a3a84e9835a0bc9e62d63f8c66ba5aeb3d656ef7c654229df"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -918,8 +893,8 @@
                                          },
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
-                                             "size":  352853,
-                                             "sha256":  "009f8a0fe5ca21041d98dcf05aed3f6b4115fb67776e42ad407b3963686aa7ef"
+                                             "size":  352852,
+                                             "sha256":  "3563c0bf86591ff67a0456781d940989e9b19d174eec79fed99a7021f0becc46"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1169,53 +1144,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "ce171daa49b08bedf49544b87646f848382928dba2db16ced6b41440871a1900"
+                                             "sha256":  "12de1655ca6934ce7028e2f64a31cbeb0818ddd9b6139a1e010650dce1799281"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "f9d9266e2f410d73071e20a03a44dc4652783f415a17e5d2bf4db930244be6e8"
+                                             "sha256":  "a2f56edf1233e235395714a0997fd73d9ea960db40e2ab02a2ebbb8c66e9f0c8"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
-                                             "size":  865792,
-                                             "sha256":  "c9fdd85e38180125040b6e99b8535555be087eec5b40b5926ed895d5100262e6"
+                                             "size":  866304,
+                                             "sha256":  "9d9b840c051e2313c9a58183a9922941c32435e4c5fff697fcc6076d1091bb8b"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1745408,
-                                             "sha256":  "b18f7733a73deaa9b32ba5b9010f89e1522708a0983e5d9cd7daeb1c976de83b"
+                                             "sha256":  "0b7b9e914043b86d15a27c87694845d9c435e1ee66c57e2b841fb71c19049cf1"
                                          }
-                                     ],
-                           "patch":  {
-                                         "baseVersion":  "1.0.0.15",
-                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Patch-application-runtime-1.0.0.15-to-1.0.0.16.s3spack",
-                                         "sha256":  "7cc1987d5b3b7533ad8dffb9ed0860f5a36aa5efa0e3a6f843f8f44a6e455544",
-                                         "size":  1714725,
-                                         "files":  [
-                                                       "Themes/builtin-simple-player.s3stheme",
-                                                       "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                                       "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
-                                                       "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
-                                                       "Licenses/ASIO-Helper-Source.zip",
-                                                       "Licenses/Core-Embedded-Dependencies-NOTICE.txt",
-                                                       "Licenses/GPL-2.0.txt",
-                                                       "Licenses/GPL-Corresponding-Source.json",
-                                                       "Licenses/OBS-Audio-Connector-Source.zip",
-                                                       "Licenses/THIRD_PARTY_NOTICES.txt",
-                                                       "Licenses/YtDlp-Helper-Embedded-Dependencies-NOTICE.txt",
-                                                       "S3SAsioBridge.exe",
-                                                       "S3SAsioProbe.exe",
-                                                       "S3SAudioDeviceScanner.exe",
-                                                       "Vst3ScannerHelper.exe"
-                                                   ]
-                                     }
+                                     ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "83dc46c1a60b8048d3ef23f69d110d670773506dfced5ee8590263a1a2393d00",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "33e13ecd745d1af38403185b2f90eae2055ed22c9a0ba3305190bede042709e0",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2450,8 +2402,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.7/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "62b919fc357bbc3935fb562735f3944b9f5e67eafd2ebdec538b300e90e52e75",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.1.8.8/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "c6419b10c4e32f01b7a43da1af82e7d890efa3c8b0beea7e03c300082242b0f7",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
