@@ -7,15 +7,25 @@ OBS output into one workflow.
 ## Download
 
 Download the latest full installation ZIP from the official
-[Singing Stream Savior 2.1.8.8 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.8).
-The ZIP includes launcher **1.2.2.0** and runtime **1.0.0.16**.
+[Singing Stream Savior 2.1.8.9 release](https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.1.8.9).
+The ZIP includes launcher **1.2.2.0** and runtime **1.0.0.17**.
 Extract the complete ZIP to a normal folder, then open `Singing Stream Savior.exe`
 in the outermost folder.
 
-The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.8/Singing.Stream.Savior.2.1.8.8.zip).
+The same full ZIP is available from the [Cloudflare R2 download](https://updates.noonisawesome.dev/releases/v2.1.8.9/Singing.Stream.Savior.2.1.8.9.zip).
 Launcher 1.2.2.0 improves interrupted update recovery and shows copyable error details when startup cannot complete.
 For setup instructions and the complete feature guide, visit the
 [Singing Stream Savior Manual](https://noonisawesome.dev/).
+
+## 2.1.8.9 update
+
+New Vertical Notes theme for compact vertical song displays.
+
+- Current titles stay in one vertical track and scroll only when needed. Title and artist reading space grows with theme height, up to 1080px. History and upcoming songs fill measured columns; history uses up to 1–8 columns, collapses unused space and reverses column order with Left/Right layouts.
+- Adjust section fonts or restore the theme font, numbering, headings and history visibility. Background color and opacity are independent of black/white text; background starts fully transparent.
+- Simple Player opens Set List after a manual stop and includes every played song, including repeated titles and manually stopped songs.
+- An OBS song list already open when you start a newer app automatically refreshes to show updated content. Height adjustments keep the Vertical Notes preview steady.
+- Fixes long backup paths and preserves source aliases and foreign-project data when saving compatible copies.
 
 ## 2.1.8.8 update
 
