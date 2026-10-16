@@ -1,8 +1,52 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "revision":  20261016015054,
+    "revision":  20261016234648,
     "releases":  [
+                     {
+                         "version":  "2.1.8.10",
+                         "publishedAt":  "2026-10-16T23:46:48Z",
+                         "releaseNotes":  {
+                                              "defaultLocale":  "en",
+                                              "localizations":  [
+                                                                    {
+                                                                        "locale":  "en",
+                                                                        "summary":  "Uses the CPU more efficiently for dynamic lyrics, reducing the load on your computer.",
+                                                                        "highlights":  [
+                                                                                           "Uses the CPU more efficiently for dynamic lyrics, reducing the load on your computer."
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "zh-TW",
+                                                                        "summary":  "改善動態歌詞的 CPU 使用率，減少電腦效能負擔。",
+                                                                        "highlights":  [
+                                                                                           "改善動態歌詞的 CPU 使用率，減少電腦效能負擔。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "zh-CN",
+                                                                        "summary":  "改善动态歌词的 CPU 使用率，减少电脑性能负担。",
+                                                                        "highlights":  [
+                                                                                           "改善动态歌词的 CPU 使用率，减少电脑性能负担。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "ja",
+                                                                        "summary":  "動的な歌詞表示の CPU 使用を効率化し、パソコンの負荷を減らします。",
+                                                                        "highlights":  [
+                                                                                           "動的な歌詞表示の CPU 使用を効率化し、パソコンの負荷を減らします。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "ko",
+                                                                        "summary":  "동적 가사의 CPU 사용률을 개선해 컴퓨터의 부담을 줄입니다.",
+                                                                        "highlights":  [
+                                                                                           "동적 가사의 CPU 사용률을 개선해 컴퓨터의 부담을 줄입니다."
+                                                                                       ]
+                                                                    }
+                                                                ]
+                                          }
+                     },
                      {
                          "version":  "2.1.8.9",
                          "publishedAt":  "2026-10-16T01:50:54Z",
