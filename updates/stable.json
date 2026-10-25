@@ -1,27 +1,22 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.2.0.1",
+    "version":  "2.2.0.2",
     "minimumLauncherVersion":  "1.0.0.0",
-    "updatePriority":  "hotfix",
-    "publishedAt":  "2026-10-25T00:32:44.5707195+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.0.1",
+    "updatePriority":  "recommended",
+    "publishedAt":  "2026-10-25T19:15:51.8688610+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.0.2",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Reserve playback fixes and clearer connection and keyboard-focus states.",
+                                                   "summary":  "Improvements to Reserve, lyrics and streamer identity recovery.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "Join the S3S Discord community for questions, bug reports, feature requests, discussion and software update announcements: https://discord.gg/3ST7NyCSrT",
-                                                                      "Fix a missed natural-playback completion notification and prevent accepted audience requests from being duplicated when Reserve is reordered, removed or cleared.",
-                                                                      "Approved streamer accounts now show a connecting screen while reconnecting, instead of an application-pending screen.",
-                                                                      "Prevent pointer-opened tabs from retaining an unintended focus frame while keeping keyboard navigation and focus indicators.",
-                                                                      "Reduce repeated work when reordering or removing Reserve songs and stopping playback.",
-                                                                      "Center the song-search clear icon and add a clear button to YouTube search.",
-                                                                      "Preserve the paused position when cancelling Resume, reject stale or not-ready seek gestures, and guard shutdown status callbacks.",
-                                                                      "Improve responsiveness when opening projects with many songs or Reserve entries, while preserving song metadata and project summaries."
+                                                                      "Improve Reserve completion handling to keep newly added songs in the queue.",
+                                                                      "Improve lyrics handling to preserve your latest changes.",
+                                                                      "Restore your streamer identity backup directly on a new computer."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -29,17 +24,12 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "修正待播播放完成機制，改善連線狀態與分頁焦點顯示。",
+                                                   "summary":  "改善待播與歌詞處理，讓新電腦可直接還原主播身分。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "新增 S3S 使用者 Discord 群組，提供問答、問題回報、功能許願與交流討論，也會發布軟體更新通知：https://discord.gg/3ST7NyCSrT",
-                                                                      "修正歌曲自然播畢通知可能遺失的情況，並避免觀眾點歌在待播重排、移除或清空時重複補回。",
-                                                                      "已開通的主播帳號重新連線時，改為顯示連線中畫面，避免短暫顯示申請等待畫面。",
-                                                                      "修正滑鼠開啟分頁後可能殘留的焦點外框，保留鍵盤切換與焦點提示。",
-                                                                      "減少待播排序、刪除與停止播放時的重複更新，改善操作延遲。",
-                                                                      "調整歌曲搜尋清除圖示的置中位置，並為 YouTube 搜尋加入清除按鈕。",
-                                                                      "修正取消續播時可能失去暫停位置的問題，避免切歌或載入時誤用 Seek，並補強關閉程式時的訊息回呼防線。",
-                                                                      "改善歌曲較多或待播項目較多時的專案開啟效能，保留歌曲資料與專案摘要。"
+                                                                      "改善待播歌曲的完成判定，避免誤移除新加入的歌曲。",
+                                                                      "改善歌詞套用流程，保留使用者最新的歌詞設定。",
+                                                                      "新電腦可直接還原主播身分備份。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -47,17 +37,12 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "修复待播播放完成机制，改善连接状态与分页焦点显示。",
+                                                   "summary":  "改善待播与歌词处理，让新电脑可直接还原主播身份。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "新增 S3S 用户 Discord 群组，提供问答、问题反馈、功能许愿与交流讨论，也会发布软件更新通知：https://discord.gg/3ST7NyCSrT",
-                                                                      "修复歌曲自然播放结束通知可能丢失的情况，并避免观众点歌在待播重排、移除或清空时重复补回。",
-                                                                      "已开通的主播账号重新连接时，改为显示连接中画面，避免短暂显示申请等待画面。",
-                                                                      "修复鼠标打开分页后可能残留的焦点外框，保留键盘切换与焦点提示。",
-                                                                      "减少待播排序、删除与停止播放时的重复更新，改善操作延迟。",
-                                                                      "调整歌曲搜索清除图标的居中位置，并为 YouTube 搜索加入清除按钮。",
-                                                                      "修复取消续播时可能丢失暂停位置的问题，避免切歌或加载时误用 Seek，并加强关闭程序时的消息回调防护。",
-                                                                      "改善歌曲较多或待播项目较多时的项目打开性能，保留歌曲资料与项目摘要。"
+                                                                      "改善待播歌曲的完成判定，避免误移除新加入的歌曲。",
+                                                                      "改善歌词应用流程，保留用户最新的歌词设置。",
+                                                                      "新电脑可直接还原主播身份备份。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -65,17 +50,12 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "再生待ちリストの再生完了処理と、接続・フォーカス表示を修正しました。",
+                                                   "summary":  "再生待ち・歌詞・配信者IDの復元を改善しました。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "質問、不具合報告、機能リクエスト、交流、ソフトウェア更新のお知らせを共有する S3S Discord コミュニティを開設しました：https://discord.gg/3ST7NyCSrT",
-                                                                      "曲の自然終了通知が失われる場合を修正し、再生待ちリストの並べ替え・削除・全削除で視聴者リクエストが重複して復元される問題を防ぎました。",
-                                                                      "承認済みの配信者アカウントは、再接続中に申請待ち画面ではなく接続中の画面を表示します。",
-                                                                      "マウスでタブを開いた後に不要なフォーカス枠が残る問題を修正しました。キーボード操作とフォーカス表示は維持します。",
-                                                                      "待機リストの並べ替え・削除と再生停止時の重複処理を減らし、操作の応答性を改善しました。",
-                                                                      "楽曲検索のクリアアイコンを中央に揃え、YouTube 検索にもクリアボタンを追加しました。",
-                                                                      "再開のキャンセル時に一時停止位置を保持し、曲の切り替え・読み込み中の不正なシークと終了時の状態通知を防ぐ処理を追加しました。",
-                                                                      "曲数や再生待ちの項目が多いプロジェクトを開く際の応答性を改善し、楽曲情報とプロジェクトの概要を保持します。"
+                                                                      "再生待ちの完了判定を改善し、新しく追加した曲が誤って削除されないようにしました。",
+                                                                      "歌詞の適用処理を改善し、最新の設定が保持されるようにしました。",
+                                                                      "新しいパソコンで配信者IDのバックアップを直接復元できます。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -83,17 +63,12 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "대기열 재생 완료 처리와 연결 및 탭 포커스 표시를 수정했습니다.",
+                                                   "summary":  "재생 대기, 가사 처리 및 스트리머 ID 복원을 개선했습니다.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "질문, 오류 제보, 기능 요청, 토론 및 소프트웨어 업데이트 소식을 위한 S3S Discord 커뮤니티를 개설했습니다: https://discord.gg/3ST7NyCSrT",
-                                                                      "곡의 자연 종료 알림이 누락되는 경우를 수정하고, 대기열 순서 변경·삭제·전체 삭제 시 승인된 시청자 신청곡이 중복 복구되는 문제를 방지했습니다.",
-                                                                      "승인된 방송자 계정은 재연결 중에 신청 대기 화면 대신 연결 중 화면을 표시합니다.",
-                                                                      "마우스로 탭을 연 뒤 불필요한 포커스 테두리가 남는 문제를 수정하고 키보드 탐색 및 포커스 표시는 유지했습니다.",
-                                                                      "대기열 순서 변경·삭제 및 재생 중지 시 중복 처리를 줄여 조작 지연을 개선했습니다.",
-                                                                      "곡 검색 지우기 아이콘을 가운데 정렬하고 YouTube 검색에도 지우기 버튼을 추가했습니다.",
-                                                                      "재개 취소 시 일시 정지 위치를 유지하고, 곡 전환·로딩 중 잘못된 탐색 및 종료 중 상태 콜백을 방지했습니다.",
-                                                                      "곡이나 대기 항목이 많은 프로젝트를 열 때 응답성을 개선하고 곡 정보와 프로젝트 요약을 유지합니다."
+                                                                      "재생 대기 완료 처리를 개선해 새로 추가한 곡이 잘못 삭제되지 않도록 했습니다.",
+                                                                      "가사 적용 과정을 개선해 사용자의 최신 설정을 유지합니다.",
+                                                                      "새 컴퓨터에서 스트리머 ID 백업을 바로 복원할 수 있습니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -103,32 +78,32 @@
                      },
     "launcher":  {
                      "version":  "1.3.0.0",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "ef304b6da1aacd153b12a44d547b84d9fb2044876d90cf30104aab1a5af3c859",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "c0807812ce5ccc0665cd99cb23af32ce22d8775a0291ebd3c49c9871e407a3e8",
                      "size":  2406912
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior.exe",
-                      "sha256":  "30689da192e6b19289225babd9d366d3afd4af30c398f9774aab284d195fb56b",
-                      "size":  50888704
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior.exe",
+                      "sha256":  "88f42fdd22deb65d747590d6dfc17f2a61d1ec2878e5f82280d2e64fa3e8d82a",
+                      "size":  50918912
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.19",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "e553256034ebcb13e67306ac9f11564e0ed3f7d84d3fd6ddedf06cd9d8b9a06a",
-                        "size":  87570471
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "5567a4498158f4c9034a3d483c74bd74db847b2e622051a495bb492ff2a6a600",
+                        "size":  87570454
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.19",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "ccf4c5241340a842a7fef6c71c9afd60c11b12680632a835abd792d9a950ef45",
-                           "size":  88663863,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "6480ed0424636846753dd2cd5dbca25858aaa226a8b05e246e37ba13b06ef817",
+                           "size":  88663831,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -520,12 +495,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "9ad98374468be7206b60cf6bbdb718082f85d3492799bed01f2c74e2182ce571"
+                                             "sha256":  "15c56688823053b9cacb1a30ab3ff3ef540c765649b72c28fe5a43a55024c102"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "af2524a0329db72ea2301e1f1b828d218cf948db41046179ba254fcabc77cc72"
+                                             "sha256":  "edb1b85503a5be3bba1b8b0b4ea8f166f0935ce6571d59eca92f9e0c37ec68c8"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -555,7 +530,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "bd7fc396e4389b848185f741018c23f181c9e91145da1abaf13c732e73ea83cb"
+                                             "sha256":  "130c8d551c56aa6ddf89b12a707d30fe8680b5e4f2956ea437b3a191d0afcd37"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -569,8 +544,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66935,
-                                             "sha256":  "0a325c690a05289df492d9aeefbec87ebc894426830e1a5b63cd45971adbcc6f"
+                                             "size":  66938,
+                                             "sha256":  "8a41b2112b2ea70b98eb5a9ca84a3172e4f1fcedc53bf17b9b8fa7f951363aa6"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -650,7 +625,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "08d1f2caa9ce0a45ce0523c5215c4632f81fe136e03fc649eefc04e12cc09ef9"
+                                             "sha256":  "a481392580877c7076e52dd45c224f209234e07c129eefbe32160d039c24b58a"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -774,8 +749,8 @@
                                          },
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
-                                             "size":  352962,
-                                             "sha256":  "b5b6a690d15902f33bb40f92fee60d799b4a8205002d04f0187518a1a3cc2bd8"
+                                             "size":  352958,
+                                             "sha256":  "0af55a3d8812b5890c4f4d0c404049581350ad3675509edd5e63dfeeab3b043f"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1025,30 +1000,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "13b04b9acfddea5021342c8b5ffed68e0cc5a55b9d4684429c4448190cbc2a10"
+                                             "sha256":  "39102b4e5a29ba01e49ac82e5da58cfdcba75d2811799ea4bc5d48b56dd4fb7d"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "efb137af215e2d26d59bf087023238ad8e2fc0d208a1bad05247e17d9eb5569a"
+                                             "sha256":  "32bd182eff96aea5e0122517362b63f92da8df8345f7c665f852cf17c46ad488"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  866304,
-                                             "sha256":  "08b3ec9c1b6c9404f052acb7f0c5a8514fe4110909b1b2d6a1ca7a1f7c5239f0"
+                                             "sha256":  "42273897a18d4d3872c4fac6ee387fb528852459d0521af6ac45610d49455d6d"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1745408,
-                                             "sha256":  "effe93715c2152051609afa5dd5ca5a9f904a61075925648ac3383d3eaa457e2"
+                                             "sha256":  "07ead8c83ef72dccf09f3d46c543eed278359ee919c98a035a5ff45dac0b0247"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "7c4d1e36d6b9839d269afce943ed0a62adf0b78414e7961c65fc8556fd92d091",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "9f732fe95767067f0e02402493e68e4e111a1b49146dee64100f9ac8bafe7fd1",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2283,8 +2258,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.1/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "a11e04f32ae65654a09a00589cef1e89cd8b08c154e6b72ed7289be7a3c0f4d1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "7aab9311af4532b6553332eebe8fba40ccce6b91d421f144a9a54252435d0d88",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
