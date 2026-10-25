@@ -1,8 +1,62 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "revision":  20261025004949,
+    "revision":  20261025194241,
     "releases":  [
+                     {
+                         "version":  "2.2.0.2",
+                         "publishedAt":  "2026-10-25T19:42:41Z",
+                         "releaseNotes":  {
+                                              "defaultLocale":  "en",
+                                              "localizations":  [
+                                                                    {
+                                                                        "locale":  "en",
+                                                                        "summary":  "Improvements to Reserve, lyrics and streamer identity recovery.",
+                                                                        "highlights":  [
+                                                                                           "Improve Reserve completion handling to keep newly added songs in the queue.",
+                                                                                           "Improve lyrics handling to preserve your latest changes.",
+                                                                                           "Restore your streamer identity backup directly on a new computer."
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "zh-TW",
+                                                                        "summary":  "改善待播與歌詞處理，讓新電腦可直接還原主播身分。",
+                                                                        "highlights":  [
+                                                                                           "改善待播歌曲的完成判定，避免誤移除新加入的歌曲。",
+                                                                                           "改善歌詞套用流程，保留使用者最新的歌詞設定。",
+                                                                                           "新電腦可直接還原主播身分備份。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "zh-CN",
+                                                                        "summary":  "改善待播与歌词处理，让新电脑可直接还原主播身份。",
+                                                                        "highlights":  [
+                                                                                           "改善待播歌曲的完成判定，避免误移除新加入的歌曲。",
+                                                                                           "改善歌词应用流程，保留用户最新的歌词设置。",
+                                                                                           "新电脑可直接还原主播身份备份。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "ja",
+                                                                        "summary":  "再生待ち・歌詞・配信者IDの復元を改善しました。",
+                                                                        "highlights":  [
+                                                                                           "再生待ちの完了判定を改善し、新しく追加した曲が誤って削除されないようにしました。",
+                                                                                           "歌詞の適用処理を改善し、最新の設定が保持されるようにしました。",
+                                                                                           "新しいパソコンで配信者IDのバックアップを直接復元できます。"
+                                                                                       ]
+                                                                    },
+                                                                    {
+                                                                        "locale":  "ko",
+                                                                        "summary":  "재생 대기, 가사 처리 및 스트리머 ID 복원을 개선했습니다.",
+                                                                        "highlights":  [
+                                                                                           "재생 대기 완료 처리를 개선해 새로 추가한 곡이 잘못 삭제되지 않도록 했습니다.",
+                                                                                           "가사 적용 과정을 개선해 사용자의 최신 설정을 유지합니다.",
+                                                                                           "새 컴퓨터에서 스트리머 ID 백업을 바로 복원할 수 있습니다."
+                                                                                       ]
+                                                                    }
+                                                                ]
+                                          }
+                     },
                      {
                          "version":  "2.2.0.1",
                          "publishedAt":  "2026-10-25T00:49:49Z",
