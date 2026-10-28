@@ -1,26 +1,22 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.2.1.0",
+    "version":  "2.2.0.2",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "recommended",
-    "publishedAt":  "2026-10-28T09:41:36.7233967+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.0",
+    "publishedAt":  "2026-10-25T19:15:51.8688610+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.0.2",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Per-song volume control, video playback and easier lyric searching.",
+                                                   "summary":  "Improvements to Reserve, lyrics and streamer identity recovery.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "Join the S3S user Discord for questions, issue reports, feature wishes, discussion and update news: https://discord.gg/3ST7NyCSrT",
-                                                                      "Balance volume between songs with automatic compensation, or adjust each song’s gain manually and save it with your project.",
-                                                                      "Play MP4 and MOV duet videos. Save chroma key settings per video and capture supported transparent video in OBS; press Esc to leave clean capture.",
-                                                                      "Improve lyric searches with cleaner song titles, clearer source labels and accompaniment duration hints.",
-                                                                      "New White Orbit animated ring theme. Customize text and signal colors, fonts, and the glass panel’s opacity and blur. The circular panel shows the current song and performer, surrounded by a rotating waveform that responds to the audio signal.",
-                                                                      "Improve latency compensation for WASAPI audio.",
-                                                                      "Improve song request and lyric download stability, keeping queue status and completed-song records consistent when Reserve changes."
+                                                                      "Improve Reserve completion handling to keep newly added songs in the queue.",
+                                                                      "Improve lyrics handling to preserve your latest changes.",
+                                                                      "Restore your streamer identity backup directly on a new computer."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -28,16 +24,12 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "新增歌曲音量平衡與影片播放，讓歌回準備更方便。",
+                                                   "summary":  "改善待播與歌詞處理，讓新電腦可直接還原主播身分。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S 使用者 Discord 群組開放囉！ 歡迎加入發問、回報問題、許願功能與討論，也能收到更新通知。 https://discord.gg/3ST7NyCSrT",
-                                                                      "歌曲音量更容易平衡。 新增自動音量平衡，減少每首歌忽大忽小的差異；也能逐曲手動微調增益，並隨專案保存。",
-                                                                      "支援 MP4／MOV 合唱影片播放！ 可播放合唱夥伴預錄的影片，分別保存每支影片的色度鍵去背參數，也支援帶有透明背景的 MOV。影片畫面與主播放器同步，並提供 OBS 透明視窗擷取教學；乾淨擷取可按 Esc 返回。",
-                                                                      "歌詞搜尋更方便。 自動整理歌曲搜尋關鍵字，清楚顯示找到的歌詞來源與伴奏長度，方便挑選相符版本。",
-                                                                      "新增 White Orbit 動態圓環主題。 可自訂文字與訊號顏色、字型，以及玻璃底板的透明度與模糊程度；主題設計為圓形面板，顯示當下演唱歌曲及演出者，外圍會有隨訊號跳動的旋轉波型。",
-                                                                      "改善 WASAPI 音訊的延遲補償機制。",
-                                                                      "改善點歌與歌詞下載的穩定性，讓調整待播清單時的點歌狀態與已唱紀錄更一致。"
+                                                                      "改善待播歌曲的完成判定，避免誤移除新加入的歌曲。",
+                                                                      "改善歌詞套用流程，保留使用者最新的歌詞設定。",
+                                                                      "新電腦可直接還原主播身分備份。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -45,16 +37,12 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "新增歌曲音量平衡与视频播放，让歌回准备更方便。",
+                                                   "summary":  "改善待播与歌词处理，让新电脑可直接还原主播身份。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S 用户 Discord 群组开放啦！欢迎加入提问、反馈问题、许愿功能与讨论，也能收到更新通知：https://discord.gg/3ST7NyCSrT",
-                                                                      "新增自动音量平衡，减少歌曲之间忽大忽小的差异；也能逐曲手动微调增益，并随项目保存。",
-                                                                      "支持 MP4／MOV 合唱视频播放，可分别保存色度键参数，并在 OBS 采集支持的透明视频；干净采集可按 Esc 返回。",
-                                                                      "改善歌词搜索，自动整理歌曲关键词，并清楚显示来源与伴奏长度，方便挑选匹配版本。",
-                                                                      "新增 White Orbit 动态圆环主题。 可自定义文字与信号颜色、字体，以及玻璃底板的透明度与模糊程度；圆形面板显示当前演唱的歌曲及演出者，外圈旋转波形随声音信号跳动。",
-                                                                      "改善 WASAPI 音频的延迟补偿机制。",
-                                                                      "改善点歌与歌词下载的稳定性，让调整待播列表时的点歌状态与已唱记录更一致。"
+                                                                      "改善待播歌曲的完成判定，避免误移除新加入的歌曲。",
+                                                                      "改善歌词应用流程，保留用户最新的歌词设置。",
+                                                                      "新电脑可直接还原主播身份备份。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -62,16 +50,12 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "曲ごとの音量調整、動画再生、歌詞検索の改善。",
+                                                   "summary":  "再生待ち・歌詞・配信者IDの復元を改善しました。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S ユーザー Discord に参加しませんか？質問、不具合報告、機能リクエストや交流に利用でき、更新情報も届きます：https://discord.gg/3ST7NyCSrT",
-                                                                      "自動音量補正で曲ごとの音量差を抑えられます。曲別のゲインを手動で微調整し、プロジェクトに保存することもできます。",
-                                                                      "MP4／MOV のデュエット動画を再生し、動画ごとにクロマキー設定を保存できます。対応する透過動画を OBS でキャプチャでき、クリーンキャプチャは Esc で解除できます。",
-                                                                      "歌詞検索の曲名を整理し、提供元と伴奏の長さをわかりやすく表示して、合うバージョンを選びやすくしました。",
-                                                                      "White Orbit の動く円環テーマを追加。 文字と信号の色、フォント、ガラスパネルの不透明度とぼかしを調整できます。円形パネルに現在の曲とアーティストを表示し、周囲の回転する波形が音声信号に反応します。",
-                                                                      "WASAPI 音声の遅延補正を改善しました。",
-                                                                      "リクエストと歌詞ダウンロードの安定性を改善し、待機リスト変更時の状態と歌唱済み履歴の整合性を高めました。"
+                                                                      "再生待ちの完了判定を改善し、新しく追加した曲が誤って削除されないようにしました。",
+                                                                      "歌詞の適用処理を改善し、最新の設定が保持されるようにしました。",
+                                                                      "新しいパソコンで配信者IDのバックアップを直接復元できます。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -79,16 +63,12 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "곡별 음량 조절, 동영상 재생 및 가사 검색 개선.",
+                                                   "summary":  "재생 대기, 가사 처리 및 스트리머 ID 복원을 개선했습니다.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S 사용자 Discord에 참여하세요! 질문, 오류 제보, 기능 제안과 토론을 나누고 업데이트 소식도 받을 수 있습니다: https://discord.gg/3ST7NyCSrT",
-                                                                      "자동 음량 보정으로 곡 사이의 음량 차이를 줄입니다. 곡별 게인을 직접 조절하고 프로젝트에 저장할 수도 있습니다.",
-                                                                      "MP4／MOV 듀엣 영상을 재생하고 영상마다 크로마키 설정을 저장할 수 있습니다. 지원되는 투명 영상을 OBS에서 캡처하고 Esc로 클린 캡처를 종료할 수 있습니다.",
-                                                                      "가사 검색어를 정리하고 출처와 반주 길이를 명확하게 표시하여 알맞은 버전을 선택하기 쉽게 했습니다.",
-                                                                      "White Orbit 동적 원형 테마를 추가했습니다. 글자와 신호 색상, 글꼴, 유리 패널의 불투명도와 흐림을 조절할 수 있습니다. 원형 패널에는 현재 곡과 아티스트가 표시되고, 바깥쪽의 회전 파형은 오디오 신호에 반응합니다.",
-                                                                      "WASAPI 오디오의 지연 보정 기능을 개선했습니다.",
-                                                                      "신청곡과 가사 다운로드의 안정성을 개선하고, 대기 목록 변경 시 신청 상태와 완료 기록이 일치하도록 했습니다."
+                                                                      "재생 대기 완료 처리를 개선해 새로 추가한 곡이 잘못 삭제되지 않도록 했습니다.",
+                                                                      "가사 적용 과정을 개선해 사용자의 최신 설정을 유지합니다.",
+                                                                      "새 컴퓨터에서 스트리머 ID 백업을 바로 복원할 수 있습니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -98,32 +78,32 @@
                      },
     "launcher":  {
                      "version":  "1.3.0.0",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "c091531649cea89465cb371d2048ca8f36d2c678d8347f69a057e87d800d289e",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "c0807812ce5ccc0665cd99cb23af32ce22d8775a0291ebd3c49c9871e407a3e8",
                      "size":  2406912
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior.exe",
-                      "sha256":  "4d1dff7367151b35961c83a9887a0d4dfa5420165a059c0b8be0b994e325e468",
-                      "size":  51969024
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior.exe",
+                      "sha256":  "88f42fdd22deb65d747590d6dfc17f2a61d1ec2878e5f82280d2e64fa3e8d82a",
+                      "size":  50918912
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.19",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "07a198762e0667e2cc2137689742c94e92f06f80f72c1d14d6959b878d807b70",
-                        "size":  87588478
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "5567a4498158f4c9034a3d483c74bd74db847b2e622051a495bb492ff2a6a600",
+                        "size":  87570454
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.19",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "4ab3113c3e216b2cf9886ea209fff98f82b5ab8f91434541a3a823ee6f6e511f",
-                           "size":  88681824,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "6480ed0424636846753dd2cd5dbca25858aaa226a8b05e246e37ba13b06ef817",
+                           "size":  88663831,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -483,11 +463,6 @@
                                              "sha256":  "4dc218beb6e45edf17a6088dd89bbf0a35d124255ca4b190a0f1f64222de74ae"
                                          },
                                          {
-                                             "path":  "Themes/builtin-white-orbit.s3stheme",
-                                             "size":  17906,
-                                             "sha256":  "2db67bfe28ca1501826ebb322c1f727d18ec7f81e80a0a7c28069bc40b748661"
-                                         },
-                                         {
                                              "path":  "Themes/Card.s3stheme",
                                              "size":  7315,
                                              "sha256":  "549fb510c796cfa302370db644bb00227cc2cc36b4dd52c0e0941007340a6fe9"
@@ -520,12 +495,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "4fa41172e6e9ad5a55df006e199232af4213e2e2d2472aeecdfc3653bd9aa120"
+                                             "sha256":  "15c56688823053b9cacb1a30ab3ff3ef540c765649b72c28fe5a43a55024c102"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "fd5b4a97716f1646fe692cad6c493356fd2005bcab8e13e7a2e11139a2e35e8b"
+                                             "sha256":  "edb1b85503a5be3bba1b8b0b4ea8f166f0935ce6571d59eca92f9e0c37ec68c8"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -555,7 +530,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "ee9aa4afd2ca6e0d03545521ab9cdca8ac1ccf83ae85538a2e74fae652773b31"
+                                             "sha256":  "130c8d551c56aa6ddf89b12a707d30fe8680b5e4f2956ea437b3a191d0afcd37"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -569,8 +544,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66936,
-                                             "sha256":  "d76ba8aea788fc8c4399a816e3c33eda61975da27b3c275bdcf64405cde499f3"
+                                             "size":  66938,
+                                             "sha256":  "8a41b2112b2ea70b98eb5a9ca84a3172e4f1fcedc53bf17b9b8fa7f951363aa6"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -650,7 +625,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "5900edc4ee5785fe93954e489fb195f20a09b85c19e81a037c86be6f257caf2a"
+                                             "sha256":  "a481392580877c7076e52dd45c224f209234e07c129eefbe32160d039c24b58a"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -774,8 +749,8 @@
                                          },
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
-                                             "size":  352959,
-                                             "sha256":  "b40d1b2855a9b66ce67c31162fc1c13793f717963ed3c42d58eec2b5467aa0bd"
+                                             "size":  352958,
+                                             "sha256":  "0af55a3d8812b5890c4f4d0c404049581350ad3675509edd5e63dfeeab3b043f"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1025,30 +1000,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "a92c809c972b1316a24c3f0da0b442050aaf616f8fb356853acbf9142733e8ec"
+                                             "sha256":  "39102b4e5a29ba01e49ac82e5da58cfdcba75d2811799ea4bc5d48b56dd4fb7d"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "e9738f316fcf9dd8e2b3804c2f15fdd466a93b761cd7b898aba9fe556455bd5b"
+                                             "sha256":  "32bd182eff96aea5e0122517362b63f92da8df8345f7c665f852cf17c46ad488"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  866304,
-                                             "sha256":  "b8bfff330c5eb9bf18b3438d75e28902bb0dc1cf67a956c3bba8ed7a925740d9"
+                                             "sha256":  "42273897a18d4d3872c4fac6ee387fb528852459d0521af6ac45610d49455d6d"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1745408,
-                                             "sha256":  "936d0bcbbc2262d3421bcd5ed76815b1d616d00deefef655094c0187fb910fe6"
+                                             "sha256":  "07ead8c83ef72dccf09f3d46c543eed278359ee919c98a035a5ff45dac0b0247"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "aec9439b9f39bd9dc27a82f51678d106535be9c2be396d13ffc44e26be20bfbc",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "9f732fe95767067f0e02402493e68e4e111a1b49146dee64100f9ac8bafe7fd1",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2283,8 +2258,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "8e4529259680608eeacb33e3ad9d686cf33cdd712044465efc9134f5afb297b4",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "7aab9311af4532b6553332eebe8fba40ccce6b91d421f144a9a54252435d0d88",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
