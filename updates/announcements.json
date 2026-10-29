@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "revision": 1,
+  "announcements": [
+    {
+      "id": "white-orbit-cover-20261029",
+      "revision": 1,
+      "publishedAt": "2026-10-29T13:46:25Z",
+      "notificationPolicy": "once",
+      "releaseNotes": {
+        "defaultLocale": "en",
+        "localizations": [
+          {
+            "locale": "en",
+            "title": "White Orbit",
+            "summary": "Cover image display fix in progress",
+            "highlights": [
+              "The new White Orbit is cool, but 沐橙 found that songs with cover art can currently cause the cover image to appear unintentionally :( Please give me a little time to fix it O_Q"
+            ]
+          },
+          {
+            "locale": "zh-TW",
+            "title": "White Orbit",
+            "summary": "封面顯示問題修正中",
+            "highlights": [
+              "新的White Orbit很酷，但是沐橙發現如果歌曲有設定封面圖的話，目前有誤顯示封面圖的問題 :(，請等我修正一下O_Q"
+            ]
+          },
+          {
+            "locale": "zh-CN",
+            "title": "White Orbit",
+            "summary": "封面显示问题修正中",
+            "highlights": [
+              "新的White Orbit很酷，但是沐橙发现如果歌曲有设置封面图的话，目前有误显示封面图的问题 :(，请等我修正一下O_Q"
+            ]
+          },
+          {
+            "locale": "ja",
+            "title": "White Orbit",
+            "summary": "カバー画像の表示問題を修正中",
+            "highlights": [
+              "新しいWhite Orbitはクールですが、沐橙が、曲にカバー画像を設定していると意図せず表示される問題を見つけました :( 修正まで少しお待ちくださいO_Q"
+            ]
+          },
+          {
+            "locale": "ko",
+            "title": "White Orbit",
+            "summary": "커버 이미지 표시 문제 수정 중",
+            "highlights": [
+              "새로운White Orbit는 멋지지만, 沐橙이 커버 이미지가 설정된 곡에서 이미지가 의도치 않게 표시되는 문제를 발견했어요 :( 수정할 때까지 조금만 기다려 주세요O_Q"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
