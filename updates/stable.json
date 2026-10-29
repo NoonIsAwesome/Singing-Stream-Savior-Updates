@@ -1,22 +1,28 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.2.0.2",
+    "version":  "2.2.1.0",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "recommended",
-    "publishedAt":  "2026-10-25T19:15:51.8688610+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.0.2",
+    "publishedAt":  "2026-10-29T01:45:43.3722434+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.0",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Improvements to Reserve, lyrics and streamer identity recovery.",
+                                                   "summary":  "Per-song volume control, video playback and easier lyric searching.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "Improve Reserve completion handling to keep newly added songs in the queue.",
-                                                                      "Improve lyrics handling to preserve your latest changes.",
-                                                                      "Restore your streamer identity backup directly on a new computer."
+                                                                      "The S3S user Discord is open. Ask questions, report issues, request features, chat with other users and receive update news. https://discord.gg/3ST7NyCSrT",
+                                                                      "Improve OBS theme animations and song lists. Prevent Windows Reduce motion from interrupting stream animations, and keep the full song list accessible with reduced animations.",
+                                                                      "Add song volume balancing and per-song gain. Automatically reduce volume differences between songs, or fine-tune each song’s gain manually and save it with your project.",
+                                                                      "Support MP4 and MOV duet videos. Videos stay in sync with the main player. Save chroma key settings separately for each video, play transparent MOV files and follow the OBS transparent-window capture guide; press Esc to leave clean capture.",
+                                                                      "Unify lyric and cover searches. Improved keyword cleanup makes automatic searches smarter.",
+                                                                      "Add the White Orbit animated ring theme. Customize colors, fonts, and the glass panel’s opacity and blur. The theme displays the song and performer, with an outer waveform that responds to the audio signal.",
+                                                                      "Improve WASAPI audio latency compensation.",
+                                                                      "Improve song request and lyric download stability. Prevent incorrect request status and completed-song records when the upcoming queue is changed.",
+                                                                      "Improve vocal removal for YouTube songs. Automatically reacquire audio when the source cannot be read."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -24,12 +30,18 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "改善待播與歌詞處理，讓新電腦可直接還原主播身分。",
+                                                   "summary":  "新增歌曲音量平衡與影片播放，讓歌回準備更方便。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "改善待播歌曲的完成判定，避免誤移除新加入的歌曲。",
-                                                                      "改善歌詞套用流程，保留使用者最新的歌詞設定。",
-                                                                      "新電腦可直接還原主播身分備份。"
+                                                                      "開放 S3S 使用者 Discord 群組。 提供發問、問題回報、功能許願、交流與更新通知。https://discord.gg/3ST7NyCSrT",
+                                                                      "改善 OBS 主題動畫與歌單顯示。 避免 Windows「減少動態」設定中斷直播動畫，並讓減少動畫模式仍能完整瀏覽歌單。",
+                                                                      "新增歌曲音量平衡與逐曲增益。 自動減少歌曲間忽大忽小的差異，也能手動微調每首歌的增益，隨專案保存。",
+                                                                      "支援 MP4／MOV 合唱影片。 影片與主播放器同步，可分別保存色度鍵參數，支援透明背景 MOV，並提供 OBS 透明視窗擷取教學；乾淨擷取可按 Esc 返回。",
+                                                                      "統一歌詞與封面搜尋入口。 改善關鍵字整理機制，讓自動搜尋功能更聰明。",
+                                                                      "新增 White Orbit 動態圓環主題。 可自訂顏色、字型、玻璃底板透明度與模糊程度，顯示歌曲及演出者，外圍波形隨音訊訊號律動。",
+                                                                      "改善 WASAPI 音訊延遲補償。",
+                                                                      "改善點歌與歌詞下載穩定性。 避免調整待播清單時，點歌狀態與已唱紀錄出錯。",
+                                                                      "改善 YouTube 歌曲去人聲。 音訊來源無法讀取時可自動重新取得。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -37,12 +49,18 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "改善待播与歌词处理，让新电脑可直接还原主播身份。",
+                                                   "summary":  "新增歌曲音量平衡与视频播放，让歌回准备更方便。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "改善待播歌曲的完成判定，避免误移除新加入的歌曲。",
-                                                                      "改善歌词应用流程，保留用户最新的歌词设置。",
-                                                                      "新电脑可直接还原主播身份备份。"
+                                                                      "开放 S3S 用户 Discord 群组。 提供提问、问题反馈、功能许愿、交流与更新通知。https://discord.gg/3ST7NyCSrT",
+                                                                      "改善 OBS 主题动画与歌单显示。 避免 Windows“减少动态”设置中断直播动画，并让减少动画模式仍能完整浏览歌单。",
+                                                                      "新增歌曲音量平衡与逐曲增益。 自动减少歌曲间忽大忽小的差异，也能手动微调每首歌的增益，随项目保存。",
+                                                                      "支持 MP4／MOV 合唱视频。 视频与主播放器同步，可分别保存色度键参数，支持透明背景 MOV，并提供 OBS 透明窗口采集教程；干净采集可按 Esc 返回。",
+                                                                      "统一歌词与封面搜索入口。 改善关键词整理机制，让自动搜索功能更聪明。",
+                                                                      "新增 White Orbit 动态圆环主题。 可自定义颜色、字体、玻璃底板透明度与模糊程度，显示歌曲及演出者，外围波形随音频信号律动。",
+                                                                      "改善 WASAPI 音频延迟补偿。",
+                                                                      "改善点歌与歌词下载稳定性。 避免调整待播列表时，点歌状态与已唱记录出错。",
+                                                                      "改善 YouTube 歌曲去人声。 音频来源无法读取时可自动重新获取。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -50,12 +68,18 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "再生待ち・歌詞・配信者IDの復元を改善しました。",
+                                                   "summary":  "曲ごとの音量調整、動画再生、歌詞検索の改善。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "再生待ちの完了判定を改善し、新しく追加した曲が誤って削除されないようにしました。",
-                                                                      "歌詞の適用処理を改善し、最新の設定が保持されるようにしました。",
-                                                                      "新しいパソコンで配信者IDのバックアップを直接復元できます。"
+                                                                      "S3S ユーザー Discord を開設。 質問、不具合報告、機能リクエスト、交流、更新情報の確認に利用できます。https://discord.gg/3ST7NyCSrT",
+                                                                      "OBS テーマのアニメーションと曲一覧を改善。 Windows の「アニメーション効果を減らす」設定で配信アニメーションが止まることを防ぎ、動きを減らす場合も曲一覧をすべて確認できます。",
+                                                                      "曲の音量バランス調整と曲別ゲインを追加。 曲ごとの音量差を自動で抑えられます。各曲のゲインを手動で微調整し、プロジェクトに保存することもできます。",
+                                                                      "MP4／MOV のデュエット動画に対応。 動画はメインプレーヤーと同期します。動画ごとにクロマキー設定を保存でき、透過 MOV にも対応。OBS の透過ウィンドウキャプチャの手順を用意しました。クリーンキャプチャは Esc で解除できます。",
+                                                                      "歌詞・カバー画像の検索窓口を統一。 キーワードの整理を改善し、自動検索をより賢くしました。",
+                                                                      "White Orbit の動く円環テーマを追加。 色、フォント、ガラスパネルの不透明度とぼかしを調整できます。曲名とアーティストを表示し、外側の波形が音声信号に反応します。",
+                                                                      "WASAPI 音声の遅延補正を改善。",
+                                                                      "曲のリクエストと歌詞ダウンロードの安定性を改善。 待機中の曲一覧を変更した際に、リクエストの状態や歌唱済みの記録が誤ることを防ぎます。",
+                                                                      "YouTube の曲のボーカル除去を改善。 音声ソースを読み取れない場合は、自動で音声を再取得します。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -63,12 +87,18 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "재생 대기, 가사 처리 및 스트리머 ID 복원을 개선했습니다.",
+                                                   "summary":  "곡별 음량 조절, 동영상 재생 및 가사 검색 개선.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "재생 대기 완료 처리를 개선해 새로 추가한 곡이 잘못 삭제되지 않도록 했습니다.",
-                                                                      "가사 적용 과정을 개선해 사용자의 최신 설정을 유지합니다.",
-                                                                      "새 컴퓨터에서 스트리머 ID 백업을 바로 복원할 수 있습니다."
+                                                                      "S3S 사용자 Discord를 개설했습니다. 질문, 문제 제보, 기능 요청, 사용자 교류와 업데이트 소식을 확인할 수 있습니다. https://discord.gg/3ST7NyCSrT",
+                                                                      "OBS 테마 애니메이션과 곡 목록 표시를 개선했습니다. Windows의 동작 줄이기 설정으로 방송 애니메이션이 멈추는 문제를 방지하고, 애니메이션을 줄여도 전체 곡 목록을 볼 수 있습니다.",
+                                                                      "곡 음량 균형과 곡별 게인을 추가했습니다. 곡 사이의 음량 차이를 자동으로 줄이거나 각 곡의 게인을 직접 미세 조정해 프로젝트에 저장할 수 있습니다.",
+                                                                      "MP4／MOV 듀엣 동영상을 지원합니다. 동영상은 메인 플레이어와 동기화됩니다. 동영상별 크로마키 설정과 투명 배경 MOV를 지원하며 OBS 투명 창 캡처 안내도 제공합니다. 클린 캡처는 Esc로 해제할 수 있습니다.",
+                                                                      "가사와 커버 이미지 검색 창을 통합했습니다. 키워드 정리 방식을 개선해 자동 검색이 더 똑똑해졌습니다.",
+                                                                      "White Orbit 동적 원형 테마를 추가했습니다. 색상, 글꼴, 유리 패널의 불투명도와 흐림을 조절할 수 있습니다. 곡과 아티스트를 표시하고 바깥쪽 파형이 오디오 신호에 반응합니다.",
+                                                                      "WASAPI 오디오 지연 보정을 개선했습니다.",
+                                                                      "신청곡과 가사 다운로드의 안정성을 개선했습니다. 재생 대기 목록을 조정할 때 신청곡 상태와 부른 곡 기록에 오류가 생기지 않도록 개선했습니다.",
+                                                                      "YouTube 곡의 보컬 제거를 개선했습니다. 오디오 소스를 읽을 수 없으면 자동으로 다시 가져옵니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -78,32 +108,32 @@
                      },
     "launcher":  {
                      "version":  "1.3.0.0",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "c0807812ce5ccc0665cd99cb23af32ce22d8775a0291ebd3c49c9871e407a3e8",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Launcher-reissue-8afe0aea00826463.exe",
+                     "sha256":  "d32403617e294cd6cafa4c0b6350d40c0b20c8495b9dea7c59e52b4b65607399",
                      "size":  2406912
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior.exe",
-                      "sha256":  "88f42fdd22deb65d747590d6dfc17f2a61d1ec2878e5f82280d2e64fa3e8d82a",
-                      "size":  50918912
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-reissue-8afe0aea00826463.exe",
+                      "sha256":  "8afe0aea00826463454d20dae2acf6199fec5ee7f9958c1d3ea9c444adb5648b",
+                      "size":  52104704
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.19",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "5567a4498158f4c9034a3d483c74bd74db847b2e622051a495bb492ff2a6a600",
-                        "size":  87570454
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Runtime-reissue-8afe0aea00826463.s3spack",
+                        "sha256":  "dcc828df8cb612858687377fefe3afd3b59b716da389ef5517b81b75c1ac2143",
+                        "size":  87588892
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.19",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "6480ed0424636846753dd2cd5dbca25858aaa226a8b05e246e37ba13b06ef817",
-                           "size":  88663831,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-Application-Runtime-reissue-8afe0aea00826463.s3spack",
+                           "sha256":  "971682e13ed382aa457d6fdf965ed3f5b1c0826c32a4d083cb0c1335766762a4",
+                           "size":  88682176,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -379,88 +409,93 @@
                                          },
                                          {
                                              "path":  "Themes/builtin-cassette-now.s3stheme",
-                                             "size":  1282317,
-                                             "sha256":  "ab0d1eaea3cc55fa6cee1e77bbe675ac754882e539da879fe295bd1548725a53"
+                                             "size":  1282346,
+                                             "sha256":  "42c38dcaf77d07ecf2ab75c112134a0f2a198fc9bb05727e3172b0c652afbb5c"
                                          },
                                          {
                                              "path":  "Themes/builtin-corner-duet.s3stheme",
-                                             "size":  5193,
-                                             "sha256":  "d296ef642b55aa4fe6246f22a8bb52a28a2f49ec0a9e480410aed5ef05231625"
+                                             "size":  5205,
+                                             "sha256":  "ebe0828b33a8d8a65c1f6d02cc61532eea374278182162ddc85e2f859eeba815"
                                          },
                                          {
                                              "path":  "Themes/builtin-cue-line.s3stheme",
-                                             "size":  28726,
-                                             "sha256":  "2e2d94a8c30b2088c7ebc9b1680c6538f39e7d1d05be37434a92096346598b09"
+                                             "size":  28736,
+                                             "sha256":  "93627e8938edd8867880e09115c5988630baad21f25068db70d48b542dcd76d6"
                                          },
                                          {
                                              "path":  "Themes/builtin-margin-set.s3stheme",
-                                             "size":  11354,
-                                             "sha256":  "ffdf31284b4007c66da6f6bad1ce4bc62691732b5bc2d45909189449733d7a6e"
+                                             "size":  11370,
+                                             "sha256":  "03721e22833a40c32ddb06c423ddaa064139aca57614a67123f3f856ab8d45f8"
                                          },
                                          {
                                              "path":  "Themes/builtin-mono-capsules.s3stheme",
-                                             "size":  9107,
-                                             "sha256":  "830ca92660cfa7cad1578a60bdd1532be31d2783516125c8cec7faa91c1fde13"
+                                             "size":  9118,
+                                             "sha256":  "9809a4596270d6f9cb92f321fd10502c142acb3d9f7a92b0d5d5e0ab5e0410dc"
                                          },
                                          {
                                              "path":  "Themes/builtin-oblique-plate.s3stheme",
-                                             "size":  28100,
-                                             "sha256":  "8bf871b01f1f39baa3160e302c806bd76a2d0a349ee742df385bf32099220275"
+                                             "size":  28114,
+                                             "sha256":  "84db20ceea7decc15a190d79540b3dc817698de0618cbea3aad187edc7591e54"
                                          },
                                          {
                                              "path":  "Themes/builtin-oblique-stream.s3stheme",
-                                             "size":  14031,
-                                             "sha256":  "d1ce003c70c49b5b89d0c1d458bad8a4664f0bc5cb311a11f8bbb0dae8f0abbb"
+                                             "size":  14044,
+                                             "sha256":  "afc87593212f120f41cda5e32ea44d3f01689c3465fcd531cf5b28182dd35164"
                                          },
                                          {
                                              "path":  "Themes/builtin-pressed-garden.s3stheme",
-                                             "size":  3112438,
-                                             "sha256":  "696bcf0c231b13aac9dfd7ee05bc8f834dac72151f10e7aae42111b53af4786e"
+                                             "size":  3112467,
+                                             "sha256":  "2acab78b790ec982d4453bd7c224f9f67381046f0e55ff7fa0a6035e82a63e90"
                                          },
                                          {
                                              "path":  "Themes/builtin-quiet-ledger.s3stheme",
-                                             "size":  21747,
-                                             "sha256":  "c65618be628dc2cfe843cb2818d0fd3b2e5b0d265f2045ff827dc4d9772e0779"
+                                             "size":  21750,
+                                             "sha256":  "3a4e46285581a1905cc01d565843f88877d9060fb296aa8474625bedc81b0d60"
                                          },
                                          {
                                              "path":  "Themes/builtin-quiet-verse.s3stheme",
-                                             "size":  5703,
-                                             "sha256":  "f182053f228cc5ecf45ca052f58c0b2c988161488fc8a1dbe2a72af99533b8a6"
+                                             "size":  5718,
+                                             "sha256":  "3003062723c20ecc80e042529fec4e7baad0e65e7402c8e599135ee194122595"
                                          },
                                          {
                                              "path":  "Themes/builtin-side-notes.s3stheme",
-                                             "size":  6168,
-                                             "sha256":  "6f5f763543ba265232b50e078a71a5d9825fd8fa966a342091b850d49178f6da"
+                                             "size":  6173,
+                                             "sha256":  "5b9fb598ba903a1c8d99fcbe671e30053c67d96354d0167122107adf5e77bdc0"
                                          },
                                          {
                                              "path":  "Themes/builtin-signal-line.s3stheme",
-                                             "size":  11539,
-                                             "sha256":  "be976a8ecd70f93150e43b7531683188d1ea63fa95ecbc6639186caf1d98d203"
+                                             "size":  11565,
+                                             "sha256":  "9cbc5bd468851b42b91eaba1f5728a72098b6bfcdd51470fc0364498a9a5e621"
                                          },
                                          {
                                              "path":  "Themes/builtin-signal-tide.s3stheme",
-                                             "size":  30768,
-                                             "sha256":  "f0d50624161801d88fa6e3fe5fe29c227190a8db9126fec74115a96b543e553b"
+                                             "size":  30781,
+                                             "sha256":  "1206cb95b24e15bebd8a742054f1d82e0b309f047b9328be807d8eb1416e67bb"
                                          },
                                          {
                                              "path":  "Themes/builtin-signal-veil.s3stheme",
-                                             "size":  43892,
-                                             "sha256":  "bd4c75b1dab77c84445abe92c729ab9f4a30ebddbfbe57c57308e672e439a742"
+                                             "size":  43899,
+                                             "sha256":  "8284fb4bcb43f83f251199076a956700df8adb2648255a58b0ca05b0b9b2596a"
                                          },
                                          {
                                              "path":  "Themes/builtin-simple-player.s3stheme",
-                                             "size":  20029,
-                                             "sha256":  "8e23bd73a3e2ef5b03f17aefc29fd365fd6dd5d43ceefc3b1e47fa31fe5ebff1"
+                                             "size":  20049,
+                                             "sha256":  "49cd2db4bb8ac69cc6956b52a7645d6cfe6aeee0bbe79c929c6fc19dfda48919"
                                          },
                                          {
                                              "path":  "Themes/builtin-stage-caption.s3stheme",
-                                             "size":  11386,
-                                             "sha256":  "cce78e4fd9ce6968e2b5f4b9420faaeda202105457f2e28ff8f7cae645c9b555"
+                                             "size":  11411,
+                                             "sha256":  "82d17150b3dc93d669024f279ce274679cf9facd4597c242bec85d2dd5097872"
                                          },
                                          {
                                              "path":  "Themes/builtin-vertical-notes.s3stheme",
                                              "size":  12405,
                                              "sha256":  "4dc218beb6e45edf17a6088dd89bbf0a35d124255ca4b190a0f1f64222de74ae"
+                                         },
+                                         {
+                                             "path":  "Themes/builtin-white-orbit.s3stheme",
+                                             "size":  17928,
+                                             "sha256":  "04e939b56e4cb97e4acfc998201ca8a7641e72774bccbee349b28a00767bff4c"
                                          },
                                          {
                                              "path":  "Themes/Card.s3stheme",
@@ -469,8 +504,8 @@
                                          },
                                          {
                                              "path":  "Themes/CD.s3stheme",
-                                             "size":  32045,
-                                             "sha256":  "025ae329121627bdf574f23926c8eca0ba94265d33f002f766e3182eb1be792f"
+                                             "size":  32066,
+                                             "sha256":  "412a2a57ae26dd9cbc5a383cccf7513d727a01fad597b269c761efa2ae03e9e8"
                                          },
                                          {
                                              "path":  "Themes/TransparentBlack.s3stheme",
@@ -479,8 +514,8 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentBlackV2.s3stheme",
-                                             "size":  6867,
-                                             "sha256":  "a6473b00c7217feca3544e31fa044c82d831a31f6e2ec7de4c3bf7bfe6281ae1"
+                                             "size":  6890,
+                                             "sha256":  "37158369c8b6769427b0f6b0d9fc50c19044812f4737d74cd7e28c6e0724da3e"
                                          },
                                          {
                                              "path":  "Themes/TransparentWhite.s3stheme",
@@ -489,18 +524,18 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentWhiteV2.s3stheme",
-                                             "size":  6443,
-                                             "sha256":  "e28f6060422d24f420081ceb81fb030242baccd9260cbe39d808b19c99cfe8db"
+                                             "size":  6466,
+                                             "sha256":  "c76c0a4508afbb217d9133421218a119fc95b54e20378f88b620574a8ce48890"
                                          },
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406016,
-                                             "sha256":  "15c56688823053b9cacb1a30ab3ff3ef540c765649b72c28fe5a43a55024c102"
+                                             "sha256":  "6f358483452fa48f49b1ac7be237a0b9fbd0b9055494481e6fd26ca8286ed4a2"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "edb1b85503a5be3bba1b8b0b4ea8f166f0935ce6571d59eca92f9e0c37ec68c8"
+                                             "sha256":  "6c0b3fde8a2febca40f328f667d3d59191eb05fd439b4426c1a577296cc1f21a"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -530,7 +565,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "130c8d551c56aa6ddf89b12a707d30fe8680b5e4f2956ea437b3a191d0afcd37"
+                                             "sha256":  "07e2ebb709f921316d8fca91bf5fb11adeae796a9f73798ce6b5f251c83a2924"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -544,8 +579,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66938,
-                                             "sha256":  "8a41b2112b2ea70b98eb5a9ca84a3172e4f1fcedc53bf17b9b8fa7f951363aa6"
+                                             "size":  66935,
+                                             "sha256":  "d97ecc55175acc3523534a5b1c3db369167e40363fb93e5eb3b7b492d9872213"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -625,7 +660,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "a481392580877c7076e52dd45c224f209234e07c129eefbe32160d039c24b58a"
+                                             "sha256":  "9be40a6afe750f262bfb23708a9b0a7837d3250cb76175f36e116edcbf5878b3"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -749,8 +784,8 @@
                                          },
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
-                                             "size":  352958,
-                                             "sha256":  "0af55a3d8812b5890c4f4d0c404049581350ad3675509edd5e63dfeeab3b043f"
+                                             "size":  352962,
+                                             "sha256":  "9a2f78c332467a83721d4a599f689403b0a29177ec98870d0e6bd94c93754c9d"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1000,30 +1035,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "39102b4e5a29ba01e49ac82e5da58cfdcba75d2811799ea4bc5d48b56dd4fb7d"
+                                             "sha256":  "f83fdeb855b1e1a87cf6f77b84fe3b2dd5aa6dba82e41dc2ad6032dc3ad51c04"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "32bd182eff96aea5e0122517362b63f92da8df8345f7c665f852cf17c46ad488"
+                                             "sha256":  "dd8152c98e9e261c03f9ec3cf1d6acd8b38fb89f406a3e4d0f63445de024e2b8"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  866304,
-                                             "sha256":  "42273897a18d4d3872c4fac6ee387fb528852459d0521af6ac45610d49455d6d"
+                                             "sha256":  "9622d0e08b6a726af6e9198b191412e740ae4ada4fc0d334034a7d7273569283"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1745408,
-                                             "sha256":  "07ead8c83ef72dccf09f3d46c543eed278359ee919c98a035a5ff45dac0b0247"
+                                             "sha256":  "4629f52fe61b5b1f9eb21b9e8eb6d050d3cadd43df470a5e9eee9c579ffb7d53"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "9f732fe95767067f0e02402493e68e4e111a1b49146dee64100f9ac8bafe7fd1",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-UVR-MDX-Runtime-reissue-8afe0aea00826463.s3spack",
+                           "sha256":  "3afe1abec8c4fc6ee7b284747131133e9a2d706b0d5a3de126e8511804d753ee",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2258,8 +2293,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.0.2/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "7aab9311af4532b6553332eebe8fba40ccce6b91d421f144a9a54252435d0d88",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.0/Singing-Stream-Savior-UVR-HP-Models-reissue-8afe0aea00826463.s3spack",
+                           "sha256":  "f4d89716d82f579d8acde07897612d82749bdfc22108c3eaf37897811919f158",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
