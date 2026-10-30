@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "revision": 1,
+  "revision": 20261030033423,
   "announcements": [
     {
       "id": "white-orbit-cover-20261029",
@@ -52,7 +52,8 @@
             ]
           }
         ]
-      }
+      },
+      "expiresAt": "2026-10-30T03:34:23Z"
     }
   ]
 }
