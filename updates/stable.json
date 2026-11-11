@@ -1,27 +1,26 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.2.1.3",
+    "version":  "2.2.1.4",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "normal",
-    "publishedAt":  "2026-11-02T21:04:39.8204141+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.3",
+    "publishedAt":  "2026-11-11T19:00:55.4405222+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.4",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Clearer BGM visualization and theme settings, with Bubble Drift and audio-output fixes.",
+                                                   "summary":  "Lower memory use, clearer UVR processing status, and ASIO compatibility and monitoring fixes.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "The S3S user Discord is open. Ask questions, report issues, request features, chat with other users and receive update news. https://discord.gg/3ST7NyCSrT",
-                                                                      "Fix weak or missing BGM visualization in Signal Veil, Signal Tide and Frequency Orbit when the microphone is silent. Improve the display of quiet BGM without changing playback volume.",
-                                                                      "Fix Bubble Drift display-area bounds and keep ordinary English words such as Photograph together when they fit. Long titles can still use multiple rows or pages.",
-                                                                      "Unify theme and animated-lyrics color controls. Make supported Set List and queue numbering styles easier to select, and hide scrolling-speed controls where they do not apply.",
-                                                                      "Update Card and CD thumbnails to match their centered song titles. Card automatically manages Set List scrolling speed.",
-                                                                      "Prevent invalid audio samples from reaching direct audio output and allow normal audio to recover.",
-                                                                      "Keep the UVR queue at the current song when retrying, changing output settings, importing results or removing completed rows.",
-                                                                      "Improve batched YouTube metadata lookup: one timed-out song no longer fails untouched queued songs, and removing songs cancels lookups that are no longer needed."
+                                                                      "Reduce the application\u0027s memory use.",
+                                                                      "Fix UVR processing cards incorrectly reporting GPU processing on computers without a compatible GPU.",
+                                                                      "Add song-number display options to Transparent White V2 and Transparent Black V2.",
+                                                                      "Default theme: independently hide section headings and layout guides with adjacent options, keeping only song information and lists for a custom background.",
+                                                                      "Improve ASIO device-buffer compatibility.",
+                                                                      "Restore the monitoring output selector. Choose a stereo output pair provided by the active ASIO driver and save the selection.",
+                                                                      "Clearly report audio-routing startup failures. If advanced routing falls back to ordinary playback, show that the route is inactive and explain why."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -29,17 +28,16 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "改善 BGM 訊號與主題設定，修正泡泡排版及音訊輸出。",
+                                                   "summary":  "降低記憶體使用率，修正 UVR 處理狀態與 ASIO 相容性、監聽選單及啟動失敗提示。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "開放 S3S 使用者 Discord 群組。 提供發問、問題回報、功能許願、交流與更新通知。https://discord.gg/3ST7NyCSrT",
-                                                                      "修正麥克風安靜時，Signal Veil、Signal Tide 與 Frequency Orbit 的 BGM 動態不明顯或未顯示。改善低音量 BGM 的視覺訊號，不改變實際播放音量。",
-                                                                      "修正 Bubble Drift 的歌單顯示區域；像 Photograph 這類可容納的英文單字會盡量保持完整，長歌名仍可分行或分頁顯示。",
-                                                                      "統一主題與動態歌詞的色彩控制項；支援的已唱與待播清單可直接選擇編號樣式，並隱藏不適用的捲動速度選項。",
-                                                                      "更新 Card 與 CD 縮圖，對應置中的演唱歌名；Card 的 Set List 捲動速度由主題自動處理。",
-                                                                      "攔截直接音訊輸出中的異常取樣值，避免傳到輸出裝置，並讓後續正常音訊恢復。",
-                                                                      "UVR 重試、調整輸出設定、匯入結果或清除已完成歌曲時，保留目前瀏覽的歌曲與捲動位置。",
-                                                                      "改善批次加入 YouTube 歌曲的資訊解析：單首逾時不再連帶判定尚未解析的歌曲失敗；移除歌曲也會取消不再需要的解析工作。"
+                                                                      "降低軟體的記憶體使用率。",
+                                                                      "UVR 處理狀態修正：修正沒有 GPU 卻顯示 GPU 處理的問題。",
+                                                                      "Transparent White／Black V2：新增歌曲編號呈現方式的選擇。",
+                                                                      "Default 主題：新增與版面輔助線相鄰的區塊標題開關，可隱藏標題與虛線，只保留歌曲資訊和清單，方便搭配自訂底圖。",
+                                                                      "改善 ASIO 裝置 buffer 相容性。",
+                                                                      "補回監聽輸出選單。可以選擇目前 ASIO 驅動提供的立體聲輸出通道，並保存設定。",
+                                                                      "啟動失敗時清楚提示。如果進階路由沒有成功啟動、退回一般播放，會顯示路由未啟用與失敗原因。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -47,17 +45,16 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "改善 BGM 信号与主题设置，修复气泡排版及音频输出。",
+                                                   "summary":  "降低内存使用率，修复 UVR 处理状态与 ASIO 兼容性、监听菜单及启动失败提示。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "开放 S3S 用户 Discord 群组。 提供提问、问题反馈、功能许愿、交流与更新通知。https://discord.gg/3ST7NyCSrT",
-                                                                      "修复麦克风安静时，Signal Veil、Signal Tide 与 Frequency Orbit 的 BGM 动态不明显或未显示。改善低音量 BGM 的视觉信号，不改变实际播放音量。",
-                                                                      "修复 Bubble Drift 的歌单显示区域；像 Photograph 这类可容纳的英文单词会尽量保持完整，长歌名仍可分行或分页显示。",
-                                                                      "统一主题与动态歌词的颜色控件；支持的已唱与待播列表可直接选择编号样式，并隐藏不适用的滚动速度选项。",
-                                                                      "更新 Card 与 CD 缩略图，对应居中的演唱歌名；Card 的 Set List 滚动速度由主题自动处理。",
-                                                                      "拦截直接音频输出中的异常采样值，避免传到输出设备，并让后续正常音频恢复。",
-                                                                      "UVR 重试、调整输出设置、导入结果或清除已完成歌曲时，保留当前浏览的歌曲与滚动位置。",
-                                                                      "改善批量添加 YouTube 歌曲的信息解析：单首超时不再连带判定尚未解析的歌曲失败；移除歌曲也会取消不再需要的解析任务。"
+                                                                      "降低软件的内存使用率。",
+                                                                      "修复 UVR 在没有 GPU 的电脑上仍显示 GPU 处理的问题。",
+                                                                      "Transparent White／Black V2：新增歌曲编号显示方式的选择。",
+                                                                      "Default 主题：新增与布局辅助线相邻的区块标题开关，可隐藏标题与虚线，只保留歌曲信息和列表，方便搭配自定义底图。",
+                                                                      "改善 ASIO 设备 buffer 兼容性。",
+                                                                      "恢复监听输出菜单。可以选择当前 ASIO 驱动提供的立体声输出通道，并保存设置。",
+                                                                      "启动失败时清楚提示。如果进阶路由没有成功启动、退回普通播放，会显示路由未启用与失败原因。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -65,17 +62,16 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "BGM の可視化とテーマ設定を改善し、バブル配置と音声出力を修正。",
+                                                   "summary":  "メモリ使用量を削減し、UVR の処理状況表示、ASIO の互換性とモニター出力を改善しました。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S ユーザー Discord を開設。 質問、不具合報告、機能リクエスト、交流、更新情報の確認に利用できます。https://discord.gg/3ST7NyCSrT",
-                                                                      "マイクが無音のとき、Signal Veil、Signal Tide、Frequency Orbit の BGM 表示が弱くなる、または消える問題を修正。実際の再生音量を変えず、小音量の BGM を見やすくします。",
-                                                                      "Bubble Drift の表示領域を修正。Photograph など、収まる英単語はできるだけ分割せず表示します。長い曲名は引き続き改行やページ切り替えに対応します。",
-                                                                      "テーマと動的歌詞の色設定を統一。対応する Set List と待機リストの番号スタイルを直接選択でき、非対応のスクロール速度設定は非表示になります。",
-                                                                      "Card と CD のサムネイルを中央揃えの曲名に合わせて更新。Card の Set List スクロール速度はテーマが自動管理します。",
-                                                                      "直接音声出力の異常なサンプル値を遮断し、後続の正常な音声が復帰できるようにします。",
-                                                                      "UVR の再試行、出力設定の変更、結果のインポート、完了曲の削除でも、表示中の曲とスクロール位置を保ちます。",
-                                                                      "YouTube 曲の一括追加時の情報取得を改善。1 曲のタイムアウトで未処理の曲まで失敗にならず、削除した曲の不要な取得処理も取り消します。"
+                                                                      "アプリのメモリ使用量を削減しました。",
+                                                                      "対応 GPU のない PC でも UVR が GPU 処理中と表示される問題を修正しました。",
+                                                                      "Transparent White V2／Transparent Black V2 に曲番号の表示方法を追加しました。",
+                                                                      "Default テーマに見出しの表示切り替えを追加。レイアウトガイドと並べて調整し、曲情報とリストだけを独自の背景に重ねられます。",
+                                                                      "ASIO デバイスのバッファー互換性を改善しました。",
+                                                                      "モニター出力の選択メニューを復元しました。現在の ASIO ドライバーが提供するステレオ出力ペアを選び、設定を保存できます。",
+                                                                      "音声ルーティングの起動失敗を明確に表示します。高度なルーティングが通常再生へ戻った場合、ルートが無効であることと失敗理由を表示します。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -83,17 +79,16 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "BGM 시각화와 테마 설정을 개선하고 버블 배치 및 오디오 출력을 수정했습니다.",
+                                                   "summary":  "메모리 사용량을 줄이고 UVR 처리 상태, ASIO 호환성 및 모니터링 출력을 개선했습니다.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S 사용자 Discord를 개설했습니다. 질문, 문제 제보, 기능 요청, 사용자 교류와 업데이트 소식을 확인할 수 있습니다. https://discord.gg/3ST7NyCSrT",
-                                                                      "마이크가 조용할 때 Signal Veil, Signal Tide, Frequency Orbit의 BGM 움직임이 약해지거나 표시되지 않는 문제를 수정했습니다. 실제 재생 음량을 바꾸지 않고 작은 음량의 BGM을 더 잘 표시합니다.",
-                                                                      "Bubble Drift의 표시 영역을 수정했습니다. Photograph처럼 공간에 들어가는 영어 단어는 가능한 한 나누지 않으며, 긴 곡명은 여러 줄이나 페이지로 표시할 수 있습니다.",
-                                                                      "테마와 동적 가사의 색상 설정을 통일했습니다. 지원되는 Set List와 대기 목록의 번호 스타일을 직접 선택할 수 있으며, 적용되지 않는 스크롤 속도 설정은 숨깁니다.",
-                                                                      "Card와 CD의 썸네일을 가운데 정렬된 곡명에 맞게 갱신했습니다. Card의 Set List 스크롤 속도는 테마가 자동으로 관리합니다.",
-                                                                      "직접 오디오 출력의 비정상 샘플 값을 차단하고 이후 정상 오디오가 복구되도록 했습니다.",
-                                                                      "UVR 재시도, 출력 설정 변경, 결과 가져오기 또는 완료된 곡 삭제 시 현재 보고 있는 곡과 스크롤 위치를 유지합니다.",
-                                                                      "YouTube 곡 일괄 추가 시 정보 조회를 개선했습니다. 한 곡이 시간 초과되어도 아직 조회하지 않은 곡까지 실패 처리하지 않으며, 곡을 삭제하면 불필요해진 조회도 취소합니다."
+                                                                      "프로그램의 메모리 사용량을 줄였습니다.",
+                                                                      "호환 GPU가 없는 PC에서도 UVR이 GPU 처리 중으로 표시되는 문제를 수정했습니다.",
+                                                                      "Transparent White V2／Transparent Black V2에 곡 번호 표시 방식 선택을 추가했습니다.",
+                                                                      "Default 테마에 구역 제목 표시 옵션을 추가했습니다. 안내선 옵션과 함께 조정해 곡 정보와 목록만 사용자 배경 위에 표시할 수 있습니다.",
+                                                                      "ASIO 장치 버퍼 호환성을 개선했습니다.",
+                                                                      "모니터링 출력 선택 메뉴를 복원했습니다. 현재 ASIO 드라이버가 제공하는 스테레오 출력 채널을 선택하고 설정을 저장할 수 있습니다.",
+                                                                      "오디오 라우팅 시작 실패를 명확히 표시합니다. 고급 라우팅이 일반 재생으로 돌아가면 라우트가 비활성 상태임을 알리고 실패 원인을 표시합니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -103,32 +98,32 @@
                      },
     "launcher":  {
                      "version":  "1.3.0.1",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "ff802f3bd2e278cd957ec4dc6c86ca0b3f77e0d36ac8504fc110d78da2c609fd",
-                     "size":  2426368
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "07ef4273e213ca044181edb89918941fdbccc157ba45101b745e4b728c93254e",
+                     "size":  2435072
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior.exe",
-                      "sha256":  "9e3155ac7fd7f0f533d7f1422bcd6e79135fd3cd04c655b3b7c63a5e53dd9edd",
-                      "size":  65106944
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior.exe",
+                      "sha256":  "a3a22027010975a3ad2d2fe916e49823fcd14e3940aa1adddb1782f9bc6b3fda",
+                      "size":  66500096
                   }
               ],
     "runtimePack":  {
-                        "version":  "1.0.0.21",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "663921ba5c9765f59ba8ce3f84854302f4d810a1fb9ab86b13388681bf97899d",
-                        "size":  112386837
+                        "version":  "1.0.0.22",
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "54863987e3f735cf400a63e660302f4bddffc38de89988396a8483b7017bd75a",
+                        "size":  112392202
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
-                           "version":  "1.0.0.21",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "cd9991087df731d00fbed05ca16007de57de2f7386beb56c6ae52b42fc719e2b",
-                           "size":  113512134,
+                           "version":  "1.0.0.22",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "f572181e142d43435a4635286b22d5da1b945eca8c664470b14717397beb1fda",
+                           "size":  113578584,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -559,8 +554,8 @@
                                          },
                                          {
                                              "path":  "Themes/builtin-simple-player.s3stheme",
-                                             "size":  20049,
-                                             "sha256":  "49cd2db4bb8ac69cc6956b52a7645d6cfe6aeee0bbe79c929c6fc19dfda48919"
+                                             "size":  22795,
+                                             "sha256":  "ab69d6e2fd3f7f51a94bb03e37372bf5e5671282cd9d9c1c92d1171a84c8c9ee"
                                          },
                                          {
                                              "path":  "Themes/builtin-stage-caption.s3stheme",
@@ -594,8 +589,8 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentBlackV2.s3stheme",
-                                             "size":  6890,
-                                             "sha256":  "37158369c8b6769427b0f6b0d9fc50c19044812f4737d74cd7e28c6e0724da3e"
+                                             "size":  8391,
+                                             "sha256":  "77de46b821c779997d913c5ed10d88b74fff0d1227a4e455009b0d1b22d83c99"
                                          },
                                          {
                                              "path":  "Themes/TransparentWhite.s3stheme",
@@ -604,18 +599,18 @@
                                          },
                                          {
                                              "path":  "Themes/TransparentWhiteV2.s3stheme",
-                                             "size":  6466,
-                                             "sha256":  "c76c0a4508afbb217d9133421218a119fc95b54e20378f88b620574a8ce48890"
+                                             "size":  7972,
+                                             "sha256":  "d4e793778999b803fecd2ba3c9b5deb5ec3c2dd8213be32fdf5090ebf3047c0f"
                                          },
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                             "size":  406016,
-                                             "sha256":  "9d7c7cb9d1824510a1bb9d9635ba803b80397d73b5a77d9d970779ac79b323fe"
+                                             "size":  406528,
+                                             "sha256":  "7c078ba03407f0d19bd2c0272a1e60a9904265e3752c7895c03687f90045fe8e"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "44447e99a993adb18c667d058ff165d6447d93d1dafd1f42a6f437360645dee2"
+                                             "sha256":  "741fb5a08e7f02d2db9ee847e51fa3d2744d6461ff7ff4dd8a102eb475795784"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -645,7 +640,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "926b45222f4cf6bc081b5e1d1ed1331a8791b8990c66d6191eacc0019c8cffa7"
+                                             "sha256":  "8a6ca3b7d3a070351fdfdf893998c68282568dbe9fd7a035ddd4c5c8fa46f8d5"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -659,8 +654,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66941,
-                                             "sha256":  "e12d7a1ab89b4c7ccaf86c4c2927903a69b5c22513f671495afbf89deb8ed0e7"
+                                             "size":  66934,
+                                             "sha256":  "9f4b9f4112ac64d631561461a11d6ddc91e2dc22d45a87030eb21b19486a63de"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -740,7 +735,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "5715636aff0b982d4491f20c7bc424fea0cf2a19e48a1f7c235425299a85e9eb"
+                                             "sha256":  "5e5cc7d544a3df6a522c989fb00c93fc8fae1d99b2213138425cd2f57d217ae4"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -864,8 +859,8 @@
                                          },
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
-                                             "size":  352959,
-                                             "sha256":  "55ed88eb78845974bc62891b8759835c698757e4c5fb44afdc0320153cd089d8"
+                                             "size":  352962,
+                                             "sha256":  "5fd84de98d8dfcbf79fb9f6037f3c3db76025ace55c1a861319e2655b83c7b3a"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1115,50 +1110,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "9c8786c79d9fba97e290c9d900da28cf45243ab7811c28b3f43fe258dda0b994"
+                                             "sha256":  "bf17a3bb6bd59128d771bb5f6fb686113e12cfc12cd5ed16f5b1f0cfc005c697"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "10f130f92ab313d76732bd4013197db8e3f726e824fe46d7453c1a55fea07ecf"
+                                             "sha256":  "4e6e64ebef9e30002a8111face5359a394c31822e4359007fe3c4ebe2d6dd79a"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
                                              "size":  866304,
-                                             "sha256":  "3b23884256f5366db32249b77757723b8ace72a3ec0eac9aca2551b87f3b19a4"
+                                             "sha256":  "d02687c44db412e6947ee52301a989c5687057303abfdc8c37b7ea5718b32777"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
-                                             "size":  1833472,
-                                             "sha256":  "8352e3944846c4d60801dcc2129d2eca2ba67cb8b408ff71ed85fa7300938bf6"
+                                             "size":  1972736,
+                                             "sha256":  "f3f6bb31191ac150cc1e2f1c526aeb9c03e088077e0f15510e8c32aec67b10c9"
                                          }
-                                     ],
-                           "patch":  {
-                                         "baseVersion":  "1.0.0.20",
-                                         "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Patch-application-runtime-1.0.0.20-to-1.0.0.21.s3spack",
-                                         "sha256":  "bd5c7f31c671a7ae1a9943becc98b4faf8b9b53d96f1a7544224f9c115b541e5",
-                                         "size":  1795678,
-                                         "files":  [
-                                                       "Themes/Card.s3stheme",
-                                                       "Themes/CD.s3stheme",
-                                                       "ObsConnector/installer/S3SObsConnectorInstaller.exe",
-                                                       "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
-                                                       "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
-                                                       "Licenses/ASIO-Helper-Source.zip",
-                                                       "Licenses/GPL-Corresponding-Source.json",
-                                                       "Licenses/OBS-Audio-Connector-Source.zip",
-                                                       "S3SAsioBridge.exe",
-                                                       "S3SAsioProbe.exe",
-                                                       "S3SAudioDeviceScanner.exe",
-                                                       "Vst3ScannerHelper.exe"
-                                                   ]
-                                     }
+                                     ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "cd989783812ba2d47b0bd17791ce61b84fb3d15bb0b3a2039be1719fc580ef57",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "326db2f23fe298aa9724f8e5f1042a2cbbc3ff74065ab4de9d5eb247a4060b03",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2393,8 +2368,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.3/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "b2b85c6449d811d2ed21bb44c3b851fdff9494355b89f14cbd944b2802097fce",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.4/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "fee0e21edaa8649d8903f665e94b476b1798057d5a756c1123141c957e3fca9b",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
