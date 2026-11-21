@@ -1,26 +1,22 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "version":  "2.2.1.5",
+    "version":  "2.2.1.6",
     "minimumLauncherVersion":  "1.0.0.0",
     "updatePriority":  "hotfix",
-    "publishedAt":  "2026-11-16T15:06:52.2572177+00:00",
-    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.5",
+    "publishedAt":  "2026-11-21T02:25:07.6125936+00:00",
+    "releaseNotesUrl":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/tag/v2.2.1.6",
     "releaseNotes":  {
                          "defaultLocale":  "en",
                          "localizations":  [
                                                {
                                                    "locale":  "en",
-                                                   "summary":  "Restore OBS song-list motion, preserve GPU preferences between UVR batches, and keep Monitor errors visible.",
+                                                   "summary":  "Restore a backed-up streamer identity and get more detail when a Monitor device switch fails.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
                                                                       "The S3S user Discord is open. Ask questions, report issues, request features, chat with other users and receive update news. https://discord.gg/3ST7NyCSrT",
-                                                                      "Resume song-list scrolling and pagination when an OBS source becomes visible again, including unchanged content and playback-position-only updates.",
-                                                                      "Keep your UVR GPU preference when a batch falls back to CPU or output settings change, and try GPU again on the next batch when available.",
-                                                                      "Keep a rejected Monitor output selection\u0027s error visible through settings and health refreshes until a new apply request.",
-                                                                      "Allow switching back to standard mode even when dormant ASIO settings are unavailable.",
-                                                                      "Report the negotiated ASIO hardware period separately from the DSP processing block size.",
-                                                                      "Include before/result recovery snapshots and distinct incident chains in manual diagnostic exports; no automatic upload."
+                                                                      "Audience requests: After reinstalling or moving to a new computer, users who backed up their streamer identity can select Restore Streamer Identity on the audience requests home screen.",
+                                                                      "Audio diagnostics: When a Monitor device switch fails, the manually exported diagnostic report records more detail about the cause."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -28,16 +24,12 @@
                                                },
                                                {
                                                    "locale":  "zh-TW",
-                                                   "summary":  "恢復 OBS 歌單動態、保留 UVR 跨批次 GPU 偏好，並避免 Monitor 錯誤提示被刷新覆蓋。",
+                                                   "summary":  "從備份還原主播身分，並在手動音訊診斷中查看監聽裝置切換失敗的詳細原因。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "開放 S3S 使用者 Discord 群組。 提供發問、問題回報、功能許願、交流與更新通知。https://discord.gg/3ST7NyCSrT",
-                                                                      "OBS 來源重新顯示後，歌單捲動與分頁可正常恢復，即使內容相同或只有播放位置變化。",
-                                                                      "UVR 暫時退回 CPU 或修改輸出設定時，保留使用者的 GPU 偏好；下一批可用時會再次嘗試 GPU。",
-                                                                      "Monitor 輸出選擇失敗後，設定與健康狀態刷新會保留具體錯誤，直到下一次套用請求。",
-                                                                      "ASIO 閒置設定尚未就緒時，也能切回一般模式。",
-                                                                      "ASIO 硬體週期依實際協商結果顯示，不再與 DSP 處理區塊大小混記。",
-                                                                      "手動診斷匯出加入恢復前後狀態與獨立事故分組，不自動上傳。"
+                                                                      "開放 S3S 使用者 Discord 群組。提供發問、問題回報、功能許願、交流與更新通知。 https://discord.gg/3ST7NyCSrT",
+                                                                      "觀眾點歌：重灌或換電腦後，已備份主播身分的使用者，可以在觀眾點歌首頁選擇「還原主播身分」。",
+                                                                      "音訊診斷：監聽裝置切換失敗時，手動匯出的診斷報告會記錄更詳細的失敗原因。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -45,16 +37,12 @@
                                                },
                                                {
                                                    "locale":  "zh-CN",
-                                                   "summary":  "恢复 OBS 歌单动态、保留 UVR 跨批次 GPU 偏好，并避免 Monitor 错误提示被刷新覆盖。",
+                                                   "summary":  "从备份恢复主播身份，并在手动音频诊断中查看监听设备切换失败的详细原因。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "开放 S3S 用户 Discord 群组。 提供提问、问题反馈、功能许愿、交流与更新通知。https://discord.gg/3ST7NyCSrT",
-                                                                      "OBS 来源重新显示后，歌单滚动与分页可正常恢复，即使内容相同或只有播放位置变化。",
-                                                                      "UVR 暂时回退 CPU 或修改输出设置时，保留用户的 GPU 偏好；下一批可用时会再次尝试 GPU。",
-                                                                      "Monitor 输出选择失败后，设置与健康状态刷新会保留具体错误，直到下一次应用请求。",
-                                                                      "ASIO 闲置设置尚未就绪时，也能切回一般模式。",
-                                                                      "ASIO 硬件周期按实际协商结果显示，不再与 DSP 处理块大小混记。",
-                                                                      "手动诊断导出加入恢复前后状态与独立故障分组，不自动上传。"
+                                                                      "开放 S3S 用户 Discord 群组。提供提问、问题反馈、功能建议、交流与更新通知。 https://discord.gg/3ST7NyCSrT",
+                                                                      "观众点歌：重装系统或更换电脑后，已备份主播身份的用户可以在观众点歌首页选择「恢复主播身份」。",
+                                                                      "音频诊断：监听设备切换失败时，手动导出的诊断报告会记录更详细的失败原因。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -62,16 +50,12 @@
                                                },
                                                {
                                                    "locale":  "ja",
-                                                   "summary":  "OBS 曲リストの動作、UVR の GPU 設定の保持、Monitor エラー表示を修正。",
+                                                   "summary":  "配信者 ID をバックアップから復元でき、モニターデバイスの切り替え失敗の詳細を確認できます。",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
-                                                                      "S3S ユーザー Discord を開設。 質問、不具合報告、機能リクエスト、交流、更新情報の確認に利用できます。https://discord.gg/3ST7NyCSrT",
-                                                                      "OBS ソースを再表示した際、内容が同じ場合や再生位置だけが変わった場合も、曲リストのスクロールとページ切り替えを再開します。",
-                                                                      "UVR が一時的に CPU に切り替わった場合や出力設定を変更した場合も GPU の設定を保持し、次のバッチで利用可能なら GPU を再度使用します。",
-                                                                      "Monitor 出力の選択に失敗した際、次の適用操作まで設定や状態の更新でエラー表示が消えないようにしました。",
-                                                                      "未使用の ASIO 設定が準備できていなくても、通常モードに戻せるようにしました。",
-                                                                      "ASIO のハードウェア周期と DSP の処理ブロックサイズを区別して記録します。",
-                                                                      "手動の診断エクスポートに復旧前後の状態と障害ごとの記録を追加しました。自動アップロードは行いません。"
+                                                                      "S3S ユーザー Discord を開設。質問、不具合報告、機能リクエスト、交流、更新情報の確認に利用できます。 https://discord.gg/3ST7NyCSrT",
+                                                                      "視聴者リクエスト：再インストールや PC の買い替え後、配信者 ID をバックアップした方は、視聴者リクエストのホーム画面で「配信者 ID を復元」を選べます。",
+                                                                      "音声診断：モニターデバイスの切り替えに失敗した場合、手動で出力する診断レポートに、より詳しい原因が記録されます。"
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -79,16 +63,12 @@
                                                },
                                                {
                                                    "locale":  "ko",
-                                                   "summary":  "OBS 곡 목록 동작, UVR GPU 설정 유지 및 Monitor 오류 표시를 수정했습니다.",
+                                                   "summary":  "백업한 스트리머 신원을 복원하고 모니터 장치 전환 실패의 자세한 원인을 확인할 수 있습니다.",
                                                    "upgradeSummary":  "",
                                                    "highlights":  [
                                                                       "S3S 사용자 Discord를 개설했습니다. 질문, 문제 제보, 기능 요청, 사용자 교류와 업데이트 소식을 확인할 수 있습니다. https://discord.gg/3ST7NyCSrT",
-                                                                      "OBS 소스를 다시 표시하면 내용이 같거나 재생 위치만 변경된 경우에도 곡 목록 스크롤과 페이지 전환이 재개됩니다.",
-                                                                      "UVR이 일시적으로 CPU로 전환되거나 출력 설정을 변경해도 GPU 선호 설정을 유지하며, 다음 작업에서 사용 가능하면 GPU를 다시 사용합니다.",
-                                                                      "Monitor 출력 선택에 실패한 경우, 다음 적용 요청까지 설정 및 상태 새로 고침으로 오류 메시지가 사라지지 않도록 했습니다.",
-                                                                      "사용하지 않는 ASIO 설정이 준비되지 않아도 일반 모드로 돌아갈 수 있습니다.",
-                                                                      "ASIO 하드웨어 주기와 DSP 처리 블록 크기를 구분하여 기록합니다.",
-                                                                      "수동 진단 내보내기에 복구 전후 상태와 장애별 기록을 추가했습니다. 자동 업로드는 하지 않습니다."
+                                                                      "시청자 신청곡: 재설치하거나 새 PC로 옮긴 뒤, 스트리머 신원을 백업한 사용자는 시청자 신청곡 홈 화면에서 ‘스트리머 신원 복원’을 선택할 수 있습니다.",
+                                                                      "오디오 진단: 모니터 장치 전환이 실패하면 수동으로 내보낸 진단 보고서에 더 자세한 실패 원인이 기록됩니다."
                                                                   ],
                                                    "emphasizedItems":  [
 
@@ -98,32 +78,32 @@
                      },
     "launcher":  {
                      "version":  "1.3.0.1",
-                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior-Launcher.exe",
-                     "sha256":  "23f3854e4dc570fd85d15e153e1592217e57292a4638f1375b94dfa8fef9cbbf",
+                     "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior-Launcher.exe",
+                     "sha256":  "aa853b1a0216ba4142d18822ea12daaf14dd0982171bd4c635af92f6dbcafb1c",
                      "size":  2435072
                  },
     "files":  [
                   {
                       "component":  "application",
                       "path":  "Singing Stream Savior/Singing Stream Savior.exe",
-                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior.exe",
-                      "sha256":  "d72a29edb32001532c4ade1d6527012e1c430ea586b323549b5cba34de0f000f",
-                      "size":  66623488
+                      "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior.exe",
+                      "sha256":  "238cbf24ea0555a0d32123c6a1619edf8f6f43de0e06d4f5975bf89f458536fe",
+                      "size":  66848256
                   }
               ],
     "runtimePack":  {
                         "version":  "1.0.0.22",
-                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior-Runtime.s3spack",
-                        "sha256":  "c48ba6df27f0543066b91061be370c38b1929283e551d9836c5b0f5ec6788722",
-                        "size":  112392234
+                        "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior-Runtime.s3spack",
+                        "sha256":  "9f80eb7f6ba14b676240ce267ac63f1dfb19f380e40dde9160dbf36eee513094",
+                        "size":  112392247
                     },
     "packagesV2":  [
                        {
                            "id":  "application-runtime",
                            "version":  "1.0.0.22",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior-Application-Runtime.s3spack",
-                           "sha256":  "7251984f9a196001823725a19019172935cd1fa8b7c68dcdc44273b9a0e9f4e3",
-                           "size":  113578687,
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior-Application-Runtime.s3spack",
+                           "sha256":  "6c9b0dc88d5b467fa15cb95e3725eeab8013da17d9cf72521d34ebf837eb67b4",
+                           "size":  113578888,
                            "requiredForStartup":  false,
                            "capability":  "application-runtime",
                            "files":  [
@@ -605,12 +585,12 @@
                                          {
                                              "path":  "ObsConnector/installer/S3SObsConnectorInstaller.exe",
                                              "size":  406528,
-                                             "sha256":  "d60f154f77312cc4f9e418ee2f8666fc64b1b9812179c6e97a41c222bbdd216e"
+                                             "sha256":  "d5faee68699a5ebc17307c53d7d79bfff98e24fd6cf5473421e274b41e54e0f0"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/bin/64bit/s3s-obs-audio.dll",
                                              "size":  48128,
-                                             "sha256":  "7dab3c4d69fc1eeaecdd3fe01ae19be69f130fc57b217ebd2d024931d514d2e3"
+                                             "sha256":  "8242af87aebe5df76aa8f1d45aac6b8dceb609e618b20b4520014a6d79b2669b"
                                          },
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/data/locale/en-US.ini",
@@ -640,7 +620,7 @@
                                          {
                                              "path":  "ObsConnector/plugin/s3s-obs-audio/manifest.sha256",
                                              "size":  631,
-                                             "sha256":  "f5fafb680ab55f1ef928ae7ed80530843399c9968eecdaa1420bd6c594802d77"
+                                             "sha256":  "6cf9edfeef78350604fb83f0adc3a658c87d271ea4b3979c6ba751c795097d87"
                                          },
                                          {
                                              "path":  "Licenses/Apache-2.0.txt",
@@ -654,8 +634,8 @@
                                          },
                                          {
                                              "path":  "Licenses/ASIO-Helper-Source.zip",
-                                             "size":  66939,
-                                             "sha256":  "b1002977e1059ac4b17c19bb77a000fd72b1fba071cd080054b8050b4e4a5984"
+                                             "size":  66937,
+                                             "sha256":  "047660d8dadc3d47645139c4fd236b9098bbf0d273803a4d773b375df2dcb699"
                                          },
                                          {
                                              "path":  "Licenses/Bodoni-Moda-OFL-1.1.txt",
@@ -735,7 +715,7 @@
                                          {
                                              "path":  "Licenses/GPL-Corresponding-Source.json",
                                              "size":  2158,
-                                             "sha256":  "cf802fd510cb4c940afbe52faaf6cb9828ecd368540e13df7cdcb482c70aee70"
+                                             "sha256":  "9be25ff3bc8933468b744249729095f29ce1a508ce718408a18493adf2fab093"
                                          },
                                          {
                                              "path":  "Licenses/HP-DirectML-1.15.4-CODE-MIT.txt",
@@ -860,7 +840,7 @@
                                          {
                                              "path":  "Licenses/OBS-Audio-Connector-Source.zip",
                                              "size":  352960,
-                                             "sha256":  "e092f4cc81e58841f9bcea3dc630660162c48e094efb43c77ea09a63ce93dee6"
+                                             "sha256":  "eb47cbbf80f2a75453ec1a3385ef75e747aa43fc3b445082c94fd773fb93211e"
                                          },
                                          {
                                              "path":  "Licenses/ONNX-Runtime-MIT.txt",
@@ -1110,30 +1090,30 @@
                                          {
                                              "path":  "S3SAsioBridge.exe",
                                              "size":  98816,
-                                             "sha256":  "c686494fe9dc4112e5185415fb4c0f2c618feb84338b66d378ff651449b048dc"
+                                             "sha256":  "dafb663ca2515bd70979392c267882ae11da1edde731b3af5b45f4fdc06cdd75"
                                          },
                                          {
                                              "path":  "S3SAsioProbe.exe",
                                              "size":  48128,
-                                             "sha256":  "4eb64cb2e95f75bdd0f809ba127a08f9a2ef6728d3cb851f1b30032bb1b5f6e6"
+                                             "sha256":  "54b16f95efd694face1c8c5cf62b1273f29101d548d68b54d54560a67fc85cfe"
                                          },
                                          {
                                              "path":  "S3SAudioDeviceScanner.exe",
-                                             "size":  866304,
-                                             "sha256":  "4da84f7b94d4de863ea779125894ca096b8f5278ce4002cf787d378a9af6d7ae"
+                                             "size":  866816,
+                                             "sha256":  "f1bd00b375fa64c29b0cc5098dfcf1410ee073a1e60d654afb0e51693b7e44f5"
                                          },
                                          {
                                              "path":  "Vst3ScannerHelper.exe",
                                              "size":  1972736,
-                                             "sha256":  "d048e8880c04b089a25920a5b1216b19ade7bb8aa5ad7d77ec05298e3eed9105"
+                                             "sha256":  "333fae065576c131a12b1eb78b4ba0938a676bc74bd84c46ab75388e37a74f1c"
                                          }
                                      ]
                        },
                        {
                            "id":  "uvr-mdx",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
-                           "sha256":  "632164105f585bcb0a8c7b64aaedc4653268dc306ea011309f2f809220ded5ca",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior-UVR-MDX-Runtime.s3spack",
+                           "sha256":  "cdce84010e54adc5611b1e7d1ea99c2509cbd878f890cea83920aef46583e164",
                            "size":  213746603,
                            "requiredForStartup":  false,
                            "capability":  "uvr-mdx",
@@ -2368,8 +2348,8 @@
                        {
                            "id":  "uvr-hp-models",
                            "version":  "1.2.0.1",
-                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.5/Singing-Stream-Savior-UVR-HP-Models.s3spack",
-                           "sha256":  "5050789d2c71c2fe25c73e3868d3f3c883794a6c28b2a05c041ea8e8dd940b4e",
+                           "url":  "https://github.com/NoonIsAwesome/Singing-Stream-Savior-Updates/releases/download/v2.2.1.6/Singing-Stream-Savior-UVR-HP-Models.s3spack",
+                           "sha256":  "e19c0b299db2f696f60c16122c16b6c88344e36b92c8e161ba7b2da14e8e50e1",
                            "size":  235235985,
                            "requiredForStartup":  false,
                            "capability":  "uvr-hp-models",
